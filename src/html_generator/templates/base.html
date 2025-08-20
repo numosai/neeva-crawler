@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ site_title }} - Website Analysis{% endblock %}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Inline CSS for better GitHub Pages compatibility */
+        {{ css_content }}
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-chart-line"></i> {{ site_title }} Analysis</h1>
+            <p>{% block header_description %}Comprehensive website analysis dashboard with SEO, accessibility, and performance insights{% endblock %}</p>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab{% if current_page == 'dashboard' %} active{% endif %}">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="seo-analysis.html" class="nav-tab{% if current_page == 'seo' %} active{% endif %}">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="accessibility.html" class="nav-tab{% if current_page == 'accessibility' %} active{% endif %}">
+                <i class="fas fa-universal-access"></i> Accessibility
+            </a>
+            <a href="qa-tests.html" class="nav-tab{% if current_page == 'qa' %} active{% endif %}">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="ux-analysis.html" class="nav-tab{% if current_page == 'ux' %} active{% endif %}">
+                <i class="fas fa-user-check"></i> UX Analysis
+            </a>
+            <a href="screenshots.html" class="nav-tab{% if current_page == 'screenshots' %} active{% endif %}">
+                <i class="fas fa-images"></i> Screenshots
+            </a>
+        </div>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    {% block extra_js %}{% endblock %}
+    
+    <script>
+        // Basic JavaScript for interactivity
+        function showTab(tabName, element) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            if (element) {
+                element.classList.add('active');
+            }
+        }
+
+        // Lightbox functionality for screenshots
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+            if (lightbox && lightboxImage) {
+                lightboxImage.src = imageSrc;
+                lightbox.classList.add('active');
+            }
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.classList.remove('active');
+            }
+        }
+
+        // Toggle collapsible sections
+        function toggleSection(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.toggle-icon');
+            
+            if (content.style.display === 'none' || !content.style.display) {
+                content.style.display = 'block';
+                if (icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+            } else {
+                content.style.display = 'none';
+                if (icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close lightbox on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                }
+            });
+
+            // Close lightbox on click outside image
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.addEventListener('click', function(e) {
+                    if (e.target === lightbox) {
+                        closeLightbox();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

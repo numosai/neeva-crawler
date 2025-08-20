@@ -1,0 +1,34 @@
+{
+  "issues": [
+    "AtoB is not a bank, but it maintains wallet accounts with an FDIC insured bank."
+  ],
+  "recommendations": [
+    {
+      "text": "Consider expanding the fraud prevention guarantee to cover more scenarios or increasing the coverage limit for larger fleets.",
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": "AtoB offers a variety of instant transfer methods for fleet managers to send funds to drivers with 24/7/365 availability, for a 1% fee.",
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": "Managers can select between Venmo, PayPal, push to debit, as well as a new Pay by email or text feature, where funds can be sent by email or phone number and the recipient can select the destination of funds.",
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": "Consider using AtoB for managing fleet payments and transfers.",
+      "priority": "Low",
+      "category": "User Experience"
+    }
+  ],
+  "summary": {
+    "total_issues": 1,
+    "total_recommendations": 4,
+    "high_priority": 1,
+    "medium_priority": 1,
+    "low_priority": 2
+  }
+}

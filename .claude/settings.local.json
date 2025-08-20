@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip install:*)",
+      "Bash(/opt/homebrew/bin/uv pip install:*)",
+      "Bash(uv run:*)",
+      "Bash(/opt/homebrew/bin/uv run:*)",
+      "Bash(mkdir:*)",
+      "Bash(git init:*)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "url": "Homepage",
+      "title": "Trucking Fuel Cards, Fleet Gas Cards & Fleet Card Management | AtoB",
+      "description": "Manage your fleet's finances with the AtoB trucking fuel & fleet cards. Access discounts, set spending limits, track transactions, & more. Get started now!",
+      "h1": "More money for your miles",
+      "h2_count": 27,
+      "h2_elements": [
+        "Products",
+        "Discounts",
+        "Who we serve",
+        "Partner with AtoB",
+        "Electric Vehicles",
+        "Blog",
+        "About",
+        "Better cash flow starts here",
+        "One place to manage your fleet\u2019s financial health",
+        "For owner-operators, global fleets and everyone in between",
+        "More profit from each brokered or factored load",
+        "Serving prime movers across the world",
+        "40\u00a2+",
+        "$100k",
+        "2->75",
+        "$10k",
+        "$32+",
+        "37\u00a2",
+        "80",
+        "10%",
+        "$3k",
+        "$40k",
+        "$45",
+        "40\u00a2+",
+        "Industry-leading customer service",
+        "Frequently asked questions",
+        "Let's get you up andrunning with AtoB"
+      ],
+      "issues": [
+        "Title too long (67 chars)"
+      ],
+      "recommendations": [
+        "Shorten title to under 60 characters"
+      ],
+      "score": 75
+    }
+  ],
+  "summary": {
+    "total_pages": 1,
+    "total_issues": 1,
+    "avg_title_length": 67,
+    "avg_desc_length": 155,
+    "pages_with_h1": 1,
+    "total_h2_elements": 27
+  }
+}

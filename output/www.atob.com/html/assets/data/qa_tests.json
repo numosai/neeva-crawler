@@ -1,0 +1,817 @@
+{
+  "summary": {
+    "total_test_files": 7,
+    "total_phases": 58,
+    "total_assertions": 79,
+    "avg_phases_per_file": 8.3,
+    "avg_assertions_per_file": 11.3
+  },
+  "test_files": [
+    {
+      "filename": "atob_website_qa_test_5.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Functionality and Content Verification",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the AtoB homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to view the availability of instant transfer methods",
+          "assertions": [
+            {
+              "id": "instant_transfer_methods_displayed",
+              "description": "Verify that instant transfer methods like Venmo, PayPal, push to debit, and Pay by email or text are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to the section containing AtoB's banking status",
+          "assertions": [
+            {
+              "id": "atob_not_a_bank",
+              "description": "Verify that AtoB is not a bank but maintains wallet accounts with an FDIC insured bank",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to view the availability of customer support contact information",
+          "assertions": [
+            {
+              "id": "customer_support_contact_info_displayed",
+              "description": "Verify that customer support phone number and email are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to the section containing the presence of product links",
+          "assertions": [
+            {
+              "id": "product_links_displayed",
+              "description": "Verify that links to Fuel Card, Driver Pay, and AtoB Perks are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Navigate to view the presence of social media links",
+          "assertions": [
+            {
+              "id": "social_media_links_displayed",
+              "description": "Verify that links to Facebook, Instagram, and LinkedIn are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Navigate to the section containing the fuel discount information",
+          "assertions": [
+            {
+              "id": "fuel_discount_information_displayed",
+              "description": "Verify that the average and maximum fuel discount information is displayed",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 7,
+      "assertion_count": 7
+    },
+    {
+      "filename": "atob_website_qa_test_4.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Verification Plan",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll to the the Products section",
+          "assertions": [
+            {
+              "id": "fuel_cards_displayed",
+              "description": "Verify that 'Fuel cards' with competitive discounts and security controls are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "driver_pay_displayed",
+              "description": "Verify that 'Driver Pay' for instant payments is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Scroll to the the Discounts section",
+          "assertions": [
+            {
+              "id": "truck_stop_discount_network_displayed",
+              "description": "Verify that 'AtoB Truck Stop Discount Network' is displayed",
+              "status": "pending"
+            },
+            {
+              "id": "gas_station_discount_network_displayed",
+              "description": "Verify that 'AtoB Gas Station Discount Network' is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll to the the 'Who we serve' section",
+          "assertions": [
+            {
+              "id": "local_businesses_displayed",
+              "description": "Verify that 'Local businesses' for short-journey fleets are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "over_the_road_fleets_displayed",
+              "description": "Verify that 'Over the road fleets' for nationwide reach are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Scroll to the the Partner with AtoB section",
+          "assertions": [
+            {
+              "id": "factoring_partners_displayed",
+              "description": "Verify that 'Factoring partners' for cobranded card solutions are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "broker_partners_displayed",
+              "description": "Verify that 'Broker partners' for fuel card programs are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "merchant_partners_displayed",
+              "description": "Verify that 'Merchant partners' for the AtoB Discount Network are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Scroll to the the Electric Vehicles section",
+          "assertions": [
+            {
+              "id": "electric_vehicles_section_displayed",
+              "description": "Verify that the 'Electric Vehicles' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Scroll to the the Blog section",
+          "assertions": [
+            {
+              "id": "blog_section_displayed",
+              "description": "Verify that the 'Blog' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 8,
+          "objective": "Scroll to the the About section",
+          "assertions": [
+            {
+              "id": "about_section_displayed",
+              "description": "Verify that the 'About' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 9,
+          "objective": "Scroll to the the Contact Us section",
+          "assertions": [
+            {
+              "id": "contact_us_section_displayed",
+              "description": "Verify that the 'Contact Us' section is displayed",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 9,
+      "assertion_count": 14
+    },
+    {
+      "filename": "atob_website_qa_test_3.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Verification Plan",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll to the the Products section",
+          "assertions": [
+            {
+              "id": "fuel_cards_displayed",
+              "description": "Verify that 'Fuel cards' with competitive discounts and security controls are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "driver_pay_displayed",
+              "description": "Verify that 'Driver Pay' for instant payments is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Scroll to the the Discounts section",
+          "assertions": [
+            {
+              "id": "truck_stop_discount_network_displayed",
+              "description": "Verify that 'AtoB Truck Stop Discount Network' is displayed",
+              "status": "pending"
+            },
+            {
+              "id": "gas_station_discount_network_displayed",
+              "description": "Verify that 'AtoB Gas Station Discount Network' is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll to the the 'Who we serve' section",
+          "assertions": [
+            {
+              "id": "local_businesses_displayed",
+              "description": "Verify that 'Local businesses' for short-journey fleets are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "over_the_road_fleets_displayed",
+              "description": "Verify that 'Over the road fleets' for nationwide reach are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Scroll to the the 'Partner with AtoB' section",
+          "assertions": [
+            {
+              "id": "factoring_partners_displayed",
+              "description": "Verify that 'Factoring partners' for cobranded card solutions are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "broker_partners_displayed",
+              "description": "Verify that 'Broker partners' for fuel card programs are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "merchant_partners_displayed",
+              "description": "Verify that 'Merchant partners' for joining the AtoB Discount Network are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Scroll to the the Electric Vehicles section",
+          "assertions": [
+            {
+              "id": "electric_vehicles_section_displayed",
+              "description": "Verify that the 'Electric Vehicles' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Scroll to the the Blog section",
+          "assertions": [
+            {
+              "id": "blog_section_displayed",
+              "description": "Verify that the 'Blog' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 8,
+          "objective": "Scroll to the the About section",
+          "assertions": [
+            {
+              "id": "about_section_displayed",
+              "description": "Verify that the 'About' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 9,
+          "objective": "Scroll to the the Contact Us section",
+          "assertions": [
+            {
+              "id": "contact_us_section_displayed",
+              "description": "Verify that the 'Contact Us' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 10,
+          "objective": "Navigate to view the customer testimonials and logos",
+          "assertions": [
+            {
+              "id": "customer_logos_displayed",
+              "description": "Verify that customer logos are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "customer_testimonials_displayed",
+              "description": "Verify that customer testimonials are displayed",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 10,
+      "assertion_count": 16
+    },
+    {
+      "filename": "atob_website_qa_test_2.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Verification Plan",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll to the the Products section",
+          "assertions": [
+            {
+              "id": "fuel_cards_displayed",
+              "description": "Verify that 'Fuel cards' with competitive discounts and security controls are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "driver_pay_displayed",
+              "description": "Verify that 'Driver Pay' for instant payments is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Scroll to the the Discounts section",
+          "assertions": [
+            {
+              "id": "truck_stop_discount_network_displayed",
+              "description": "Verify that 'AtoB Truck Stop Discount Network' is displayed",
+              "status": "pending"
+            },
+            {
+              "id": "gas_station_discount_network_displayed",
+              "description": "Verify that 'AtoB Gas Station Discount Network' is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll to the the 'Who we serve' section",
+          "assertions": [
+            {
+              "id": "local_businesses_displayed",
+              "description": "Verify that 'Local businesses' for short-journey fleets are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "over_the_road_fleets_displayed",
+              "description": "Verify that 'Over the road fleets' for nationwide reach are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Scroll to the the 'Partner with AtoB' section",
+          "assertions": [
+            {
+              "id": "factoring_partners_displayed",
+              "description": "Verify that 'Factoring partners' for cobranded card solutions are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "broker_partners_displayed",
+              "description": "Verify that 'Broker partners' for fuel card programs are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "merchant_partners_displayed",
+              "description": "Verify that 'Merchant partners' for the AtoB Discount Network are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Scroll to the the Electric Vehicles section",
+          "assertions": [
+            {
+              "id": "electric_vehicles_section_displayed",
+              "description": "Verify that the 'Electric Vehicles' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Scroll to the the Blog section",
+          "assertions": [
+            {
+              "id": "blog_section_displayed",
+              "description": "Verify that the 'Blog' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 8,
+          "objective": "Scroll to the the About section",
+          "assertions": [
+            {
+              "id": "about_section_displayed",
+              "description": "Verify that the 'About' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 9,
+          "objective": "Scroll to the the Contact Us section",
+          "assertions": [
+            {
+              "id": "contact_us_section_displayed",
+              "description": "Verify that the 'Contact Us' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 10,
+          "objective": "Navigate to view the login functionality",
+          "assertions": [
+            {
+              "id": "login_page_accessible",
+              "description": "Verify that the login page is accessible",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 11,
+          "objective": "Navigate to view the Get Started functionality",
+          "assertions": [
+            {
+              "id": "get_started_page_accessible",
+              "description": "Verify that the 'Get Started' page is accessible",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 11,
+      "assertion_count": 16
+    },
+    {
+      "filename": "atob_website_qa_test_1.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Functionality and Content Verification",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the AtoB homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to view the availability of instant transfer methods",
+          "assertions": [
+            {
+              "id": "instant_transfer_methods_displayed",
+              "description": "Verify that instant transfer methods like Venmo, PayPal, push to debit, and Pay by email or text are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to the section containing AtoB's banking status",
+          "assertions": [
+            {
+              "id": "atob_not_a_bank",
+              "description": "Verify that AtoB is not a bank but maintains wallet accounts with an FDIC insured bank",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to view the availability of the 'Get Started' button",
+          "assertions": [
+            {
+              "id": "get_started_button_functionality",
+              "description": "Verify that the 'Get Started' button is functional and leads to the correct page",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to the section containing customer support contact information",
+          "assertions": [
+            {
+              "id": "customer_support_contact_info",
+              "description": "Verify that customer support phone number and email are displayed correctly",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Navigate to view the fuel card discount information",
+          "assertions": [
+            {
+              "id": "fuel_discount_information",
+              "description": "Verify that the fuel card discount information is displayed, including average and maximum savings",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 6,
+      "assertion_count": 6
+    },
+    {
+      "filename": "atob_website_qa_test_7.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Verification Plan",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll to the the Products section",
+          "assertions": [
+            {
+              "id": "fuel_cards_displayed",
+              "description": "Verify that 'Fuel cards' with competitive discounts and security controls are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "driver_pay_displayed",
+              "description": "Verify that 'Driver Pay' for instant payments is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Scroll to the the Discounts section",
+          "assertions": [
+            {
+              "id": "truck_stop_discount_network_displayed",
+              "description": "Verify that 'AtoB Truck Stop Discount Network' is displayed",
+              "status": "pending"
+            },
+            {
+              "id": "gas_station_discount_network_displayed",
+              "description": "Verify that 'AtoB Gas Station Discount Network' is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll to the the 'Who we serve' section",
+          "assertions": [
+            {
+              "id": "local_businesses_displayed",
+              "description": "Verify that 'Local businesses' for short-journey fleets are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "over_the_road_fleets_displayed",
+              "description": "Verify that 'Over the road fleets' for nationwide reach are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Scroll to the the 'Partner with AtoB' section",
+          "assertions": [
+            {
+              "id": "factoring_partners_displayed",
+              "description": "Verify that 'Factoring partners' for cobranded card solutions are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "broker_partners_displayed",
+              "description": "Verify that 'Broker partners' for fuel card programs are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "merchant_partners_displayed",
+              "description": "Verify that 'Merchant partners' for the AtoB Discount Network are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Scroll to the the Electric Vehicles section",
+          "assertions": [
+            {
+              "id": "electric_vehicles_section_displayed",
+              "description": "Verify that the 'Electric Vehicles' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Scroll to the the Blog section",
+          "assertions": [
+            {
+              "id": "blog_section_displayed",
+              "description": "Verify that the 'Blog' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 8,
+          "objective": "Scroll to the the About section",
+          "assertions": [
+            {
+              "id": "about_section_displayed",
+              "description": "Verify that the 'About' section is displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 9,
+          "objective": "Scroll to the the Contact Us section",
+          "assertions": [
+            {
+              "id": "contact_us_section_displayed",
+              "description": "Verify that the 'Contact Us' section is displayed",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 9,
+      "assertion_count": 14
+    },
+    {
+      "filename": "atob_website_qa_test_6.yaml",
+      "name": "AtoB Website QA Test",
+      "title": "AtoB Website Functionality and Content Verification",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to the AtoB homepage",
+          "assertions": [
+            {
+              "id": "homepage_loads",
+              "description": "Verify that the AtoB homepage loads successfully",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to view the availability of instant transfer methods",
+          "assertions": [
+            {
+              "id": "instant_transfer_methods_displayed",
+              "description": "Verify that instant transfer methods such as Venmo, PayPal, push to debit, and Pay by email or text are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to the section containing AtoB's banking status",
+          "assertions": [
+            {
+              "id": "atob_not_a_bank",
+              "description": "Verify that AtoB is not a bank but maintains wallet accounts with an FDIC insured bank",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to view the availability of customer support contact information",
+          "assertions": [
+            {
+              "id": "customer_support_contact_info",
+              "description": "Verify that customer support phone number and email are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to the section containing the presence of product links",
+          "assertions": [
+            {
+              "id": "product_links_displayed",
+              "description": "Verify that links to Fuel Card, Driver Pay, and AtoB Perks are displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Navigate to view the fuel discount information",
+          "assertions": [
+            {
+              "id": "fuel_discount_information",
+              "description": "Verify that the average discount and maximum realized savings per gallon are displayed",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 6,
+      "assertion_count": 6
+    }
+  ]
+}

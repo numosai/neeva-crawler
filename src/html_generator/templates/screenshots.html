@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}Screenshots Gallery - {{ site_title }}{% endblock %}
+
+{% block header_description %}Visual gallery of all website pages captured during analysis{% endblock %}
+
+{% block content %}
+<!-- Screenshots Summary -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.screenshots|length or 0 }}</div>
+                <div class="stat-label">Screenshots</div>
+                <div class="card-description">Total page screenshots captured</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-images"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.overview.total_pages or 0 }}</div>
+                <div class="stat-label">Pages Analyzed</div>
+                <div class="card-description">Total pages crawled and captured</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-globe"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ ((data.screenshots | map(attribute='size') | sum / 1024 / 1024) | round(1)) if data.screenshots else 0 }}MB</div>
+                <div class="stat-label">Total Size</div>
+                <div class="card-description">Combined size of all screenshots</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-hdd"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">JPEG</div>
+                <div class="stat-label">Format</div>
+                <div class="card-description">Optimized format for web viewing</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-file-image"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Screenshots Gallery -->
+{% if data.screenshots %}
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-images"></i>
+        Page Screenshots Gallery
+    </h2>
+    <div class="section-description">
+        Visual representations of all pages captured during the website analysis. Click on any screenshot to view it in full size.
+    </div>
+    
+    <div class="screenshot-grid">
+        {% for screenshot in data.screenshots %}
+        <div class="screenshot-item">
+            <img src="{{ screenshot.path }}" 
+                 alt="Screenshot of {{ screenshot.title }}" 
+                 class="screenshot-image"
+                 onclick="openLightbox('{{ screenshot.path }}')">
+            <div class="screenshot-info">
+                <div class="screenshot-title">{{ screenshot.title }}</div>
+                <div class="screenshot-meta">
+                    <i class="fas fa-file"></i> {{ screenshot.filename }}<br>
+                    <i class="fas fa-weight"></i> {{ (screenshot.size / 1024) | round(1) }}KB
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% else %}
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-images"></i>
+        No Screenshots Available
+    </h2>
+    <div class="section-description">
+        No screenshots were found in the analysis data. Screenshots are typically captured during the website crawling process.
+    </div>
+    
+    <div style="text-align: center; padding: 2rem; background: #f7fafc; border-radius: 12px; margin-top: 1rem;">
+        <i class="fas fa-camera" style="font-size: 3rem; color: #cbd5e0; margin-bottom: 1rem;"></i>
+        <p style="color: #4a5568; margin-bottom: 1rem;">Screenshots will appear here after running a full website analysis.</p>
+        <p style="color: #718096; font-size: 0.9rem;">Run the crawler with screenshot capture enabled to populate this gallery.</p>
+    </div>
+</div>
+{% endif %}
+
+<!-- Technical Details -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-cog"></i>
+        Screenshot Technical Details
+    </h2>
+    <div class="section-description">
+        Information about screenshot capture settings and optimization.
+    </div>
+    
+    <div class="metrics-grid">
+        <div class="metric-item">
+            <div class="metric-value">1920px</div>
+            <div class="metric-label">Viewport Width</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">Full</div>
+            <div class="metric-label">Page Height</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">85%</div>
+            <div class="metric-label">JPEG Quality</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">~97%</div>
+            <div class="metric-label">Size Reduction</div>
+        </div>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+        <h3 style="color: #2d3748; margin-bottom: 1rem;">Optimization Details</h3>
+        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+            <li><strong>Format Conversion:</strong> Original PNG screenshots are converted to JPEG for better compression</li>
+            <li><strong>Quality Optimization:</strong> 85% JPEG quality provides excellent visual fidelity with smaller file sizes</li>
+            <li><strong>RGB Conversion:</strong> Transparency layers are converted to RGB for JPEG compatibility</li>
+            <li><strong>File Size:</strong> Typical reduction from ~33MB PNG to ~907KB JPEG (97% smaller)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Usage Guide -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-info-circle"></i>
+        Using Screenshots for Analysis
+    </h2>
+    <div class="section-description">
+        How to effectively use screenshots for website analysis and improvement.
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-eye"></i> Visual Design Review
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Key Areas to Examine:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Overall layout consistency across pages</li>
+                <li>Visual hierarchy and content organization</li>
+                <li>Color scheme and branding consistency</li>
+                <li>Navigation placement and visibility</li>
+                <li>Call-to-action button prominence</li>
+                <li>Footer and header consistency</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-mobile-alt"></i> Responsive Design Check
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Mobile Analysis Points:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Content readability on smaller screens</li>
+                <li>Button sizes and touch target adequacy</li>
+                <li>Navigation menu behavior and accessibility</li>
+                <li>Image scaling and aspect ratio maintenance</li>
+                <li>Text size and line spacing optimization</li>
+                <li>Horizontal scrolling issues</li>
+            </ul>
+            <div style="margin-top: 1rem; padding: 1rem; background: #e6fffa; border-radius: 8px; border-left: 4px solid #38b2ac;">
+                <strong>Note:</strong> Current screenshots are captured at desktop resolution. Consider capturing mobile screenshots for comprehensive responsive analysis.
+            </div>
+        </div>
+    </div>
+
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-users"></i> User Experience Evaluation
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">UX Review Criteria:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>First impression and visual appeal</li>
+                <li>Information architecture clarity</li>
+                <li>Content density and white space usage</li>
+                <li>Loading state and error message handling</li>
+                <li>Form design and input field clarity</li>
+                <li>Trust signals and credibility indicators</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-bug"></i> Issue Documentation
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Documentation Best Practices:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Annotate screenshots with issue locations</li>
+                <li>Compare before/after states for improvements</li>
+                <li>Create issue reports with visual evidence</li>
+                <li>Share screenshots with development team</li>
+                <li>Track design inconsistencies across pages</li>
+                <li>Document accessibility violations visually</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<!-- Lightbox for full-size screenshot viewing -->
+<div id="lightbox" class="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">
+        <i class="fas fa-times"></i>
+    </button>
+    <img id="lightbox-image" class="lightbox-content" alt="Full size screenshot">
+</div>
+{% endblock %}

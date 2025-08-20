@@ -1,0 +1,358 @@
+{% extends "base.html" %}
+
+{% block title %}UX Analysis - {{ site_title }}{% endblock %}
+
+{% block header_description %}User experience analysis with actionable recommendations for improved usability{% endblock %}
+
+{% block content %}
+<!-- UX Summary Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.ux.summary.total_issues or 0 }}</div>
+                <div class="stat-label">UX Issues</div>
+                <div class="card-description">User experience issues identified</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.ux.summary.total_recommendations or 0 }}</div>
+                <div class="stat-label">Recommendations</div>
+                <div class="card-description">Actionable improvement suggestions</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.ux.summary.high_priority or 0 }}</div>
+                <div class="stat-label">High Priority</div>
+                <div class="card-description">Critical improvements for immediate attention</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-flag"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">{{ data.ux.summary.medium_priority + data.ux.summary.low_priority or 0 }}</div>
+                <div class="stat-label">Lower Priority</div>
+                <div class="card-description">Medium and low priority enhancements</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-list"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Priority Breakdown -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-chart-pie"></i>
+        Recommendation Priority Breakdown
+    </h2>
+    <div class="metrics-grid">
+        <div class="metric-item">
+            <div class="metric-value" style="color: #e53e3e;">{{ data.ux.summary.high_priority or 0 }}</div>
+            <div class="metric-label">High Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value" style="color: #dd6b20;">{{ data.ux.summary.medium_priority or 0 }}</div>
+            <div class="metric-label">Medium Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value" style="color: #38a169;">{{ data.ux.summary.low_priority or 0 }}</div>
+            <div class="metric-label">Low Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">{{ (((data.ux.summary.high_priority or 0) / ([data.ux.summary.total_recommendations, 1] | max) * 100)|round) if data.ux.summary.total_recommendations else 0 }}%</div>
+            <div class="metric-label">Critical Focus</div>
+        </div>
+    </div>
+</div>
+
+<!-- UX Issues -->
+{% if data.ux.issues %}
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-bug"></i>
+        User Experience Issues
+    </h2>
+    <div class="section-description">
+        Issues that may negatively impact user experience and require attention.
+    </div>
+    
+    {% for issue in data.ux.issues %}
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">{{ issue }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<!-- UX Recommendations -->
+{% if data.ux.recommendations %}
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-lightbulb"></i>
+        UX Improvement Recommendations
+    </h2>
+    <div class="section-description">
+        Prioritized recommendations to enhance user experience and increase engagement.
+    </div>
+    
+    <!-- High Priority Recommendations -->
+    {% set high_priority = data.ux.recommendations | selectattr("priority", "equalto", "High") | list %}
+    {% if high_priority %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #e53e3e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-flag"></i> High Priority Recommendations
+        </h3>
+        {% for recommendation in high_priority %}
+        <div class="issue-item priority-high">
+            <i class="fas fa-arrow-up issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>{{ recommendation.category }}</h4>
+                <div class="issue-description">{{ recommendation.text }}</div>
+                <div style="margin-top: 0.5rem;">
+                    <span class="status-badge priority-high">{{ recommendation.priority }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <!-- Medium Priority Recommendations -->
+    {% set medium_priority = data.ux.recommendations | selectattr("priority", "equalto", "Medium") | list %}
+    {% if medium_priority %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-equals"></i> Medium Priority Recommendations
+        </h3>
+        {% for recommendation in medium_priority %}
+        <div class="issue-item priority-medium">
+            <i class="fas fa-arrow-right issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>{{ recommendation.category }}</h4>
+                <div class="issue-description">{{ recommendation.text }}</div>
+                <div style="margin-top: 0.5rem;">
+                    <span class="status-badge priority-medium">{{ recommendation.priority }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <!-- Low Priority Recommendations -->
+    {% set low_priority = data.ux.recommendations | selectattr("priority", "equalto", "Low") | list %}
+    {% if low_priority %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #38a169; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-arrow-down"></i> Low Priority Recommendations
+        </h3>
+        {% for recommendation in low_priority %}
+        <div class="issue-item priority-low">
+            <i class="fas fa-arrow-down issue-icon" style="color: #38a169;"></i>
+            <div class="issue-content">
+                <h4>{{ recommendation.category }}</h4>
+                <div class="issue-description">{{ recommendation.text }}</div>
+                <div style="margin-top: 0.5rem;">
+                    <span class="status-badge priority-low">{{ recommendation.priority }}</span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
+<!-- UX Design Principles -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-compass"></i>
+        UX Design Principles
+    </h2>
+    <div class="section-description">
+        Fundamental principles to guide user experience improvements and design decisions.
+    </div>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-header">
+                <div>
+                    <div class="stat-value"><i class="fas fa-eye"></i></div>
+                    <div class="stat-label">Visibility</div>
+                    <div class="card-description">Make important elements clearly visible and accessible to users</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-header">
+                <div>
+                    <div class="stat-value"><i class="fas fa-comments"></i></div>
+                    <div class="stat-label">Feedback</div>
+                    <div class="card-description">Provide clear feedback for user actions and system status</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-header">
+                <div>
+                    <div class="stat-value"><i class="fas fa-sync"></i></div>
+                    <div class="stat-label">Consistency</div>
+                    <div class="card-description">Maintain consistent patterns and conventions throughout</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-header">
+                <div>
+                    <div class="stat-value"><i class="fas fa-shield-alt"></i></div>
+                    <div class="stat-label">Error Prevention</div>
+                    <div class="card-description">Design to prevent errors and provide recovery options</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Implementation Guide -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-tools"></i>
+        UX Implementation Guide
+    </h2>
+    <div class="section-description">
+        Step-by-step approach to implementing UX improvements effectively.
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-flag"></i> Phase 1: Critical Issues (Week 1-2)
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Address all high-priority recommendations immediately</li>
+                <li>Fix any blocking issues that prevent task completion</li>
+                <li>Ensure core user journeys function properly</li>
+                <li>Test on mobile devices and fix critical responsive issues</li>
+            </ul>
+            <div style="margin-top: 1rem; padding: 1rem; background: #fed7d7; border-radius: 8px; border-left: 4px solid #e53e3e;">
+                <strong>Success Metric:</strong> Users can complete primary tasks without major frustration
+            </div>
+        </div>
+    </div>
+
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-chart-line"></i> Phase 2: Experience Enhancements (Week 3-4)
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Implement medium-priority recommendations</li>
+                <li>Improve page loading performance and perceived speed</li>
+                <li>Enhance visual hierarchy and content scannability</li>
+                <li>Optimize form interactions and validation messaging</li>
+            </ul>
+            <div style="margin-top: 1rem; padding: 1rem; background: #feebc8; border-radius: 8px; border-left: 4px solid #dd6b20;">
+                <strong>Success Metric:</strong> Improved task completion rates and reduced time-to-completion
+            </div>
+        </div>
+    </div>
+
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                <i class="fas fa-star"></i> Phase 3: Delight & Optimization (Week 5-6)
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content" style="display: none;">
+            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
+            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
+                <li>Address low-priority recommendations for polish</li>
+                <li>Add micro-interactions and delightful animations</li>
+                <li>Optimize content and messaging for clarity</li>
+                <li>Implement advanced personalization features</li>
+            </ul>
+            <div style="margin-top: 1rem; padding: 1rem; background: #c6f6d5; border-radius: 8px; border-left: 4px solid #38a169;">
+                <strong>Success Metric:</strong> Increased user satisfaction and engagement metrics
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- UX Measurement -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-chart-bar"></i>
+        Measuring UX Success
+    </h2>
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #2d3748; margin-bottom: 1rem;">Key Metrics to Track</h3>
+        <div class="metrics-grid">
+            <div class="metric-item">
+                <div class="metric-value">⏱️</div>
+                <div class="metric-label">Task Completion Time</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">✅</div>
+                <div class="metric-label">Success Rate</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">😊</div>
+                <div class="metric-label">User Satisfaction</div>
+            </div>
+            <div class="metric-item">
+                <div class="metric-value">🔄</div>
+                <div class="metric-label">Return Rate</div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <h3 style="color: #2d3748; margin-bottom: 1rem;">Testing Methods</h3>
+        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.8;">
+            <li><strong>Usability Testing:</strong> Observe users completing real tasks</li>
+            <li><strong>A/B Testing:</strong> Compare different design variations</li>
+            <li><strong>Heat Maps:</strong> Understand user attention and interaction patterns</li>
+            <li><strong>User Surveys:</strong> Gather qualitative feedback on experience</li>
+            <li><strong>Analytics Review:</strong> Monitor behavioral data and conversion funnels</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
