@@ -1,0 +1,514 @@
+{
+  "issues": [
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "3 out of 19 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 3,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/contact-us.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "#"
+      ],
+      "page_url": "https://www.servicenow.com/contact-us.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/contact-us.html"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "7 out of 17 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 7,
+      "details": [
+        ".../demo-product-screenshot.png",
+        ".../cs-dai-ichi-life-logo-440x220.png",
+        ".../sn-lloyds-banking-group-logo-440x220.png",
+        ".../cs-ccep2-logo-440x220.png",
+        ".../sn-tsystems-logo-440x220.png"
+      ],
+      "page_url": "https://www.servicenow.com/lpdem/demonow-all.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/lpdem/demonow-all.html"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/br"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/br"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 13 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/fr-ca"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/fr-ca"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 13 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/latam"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/latam"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/jp"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/jp"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/kr"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/kr"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 16 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+      ],
+      "page_url": "https://www.servicenow.com/au"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.servicenow.com/au"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.servicenow.com",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 236,
+      "total_buttons": 45
+    },
+    {
+      "url": "https://www.servicenow.com/",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 238,
+      "total_buttons": 46
+    },
+    {
+      "url": "https://www.servicenow.com/contact-us.html",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "3 out of 19 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 3,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/contact-us.html"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "#"
+          ],
+          "page_url": "https://www.servicenow.com/contact-us.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/contact-us.html"
+        }
+      ],
+      "score": 60,
+      "total_images": 19,
+      "total_links": 265,
+      "total_buttons": 50
+    },
+    {
+      "url": "https://www.servicenow.com/lpdem/demonow-all.html",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "7 out of 17 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 7,
+          "details": [
+            ".../demo-product-screenshot.png",
+            ".../cs-dai-ichi-life-logo-440x220.png",
+            ".../sn-lloyds-banking-group-logo-440x220.png",
+            ".../cs-ccep2-logo-440x220.png",
+            ".../sn-tsystems-logo-440x220.png"
+          ],
+          "page_url": "https://www.servicenow.com/lpdem/demonow-all.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/lpdem/demonow-all.html"
+        }
+      ],
+      "score": 70,
+      "total_images": 17,
+      "total_links": 62,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://www.servicenow.com/br",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/br"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/br"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 232,
+      "total_buttons": 45
+    },
+    {
+      "url": "https://www.servicenow.com/fr-ca",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 13 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/fr-ca"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/fr-ca"
+        }
+      ],
+      "score": 70,
+      "total_images": 13,
+      "total_links": 234,
+      "total_buttons": 46
+    },
+    {
+      "url": "https://www.servicenow.com/latam",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 13 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/latam"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/latam"
+        }
+      ],
+      "score": 70,
+      "total_images": 13,
+      "total_links": 232,
+      "total_buttons": 45
+    },
+    {
+      "url": "https://www.servicenow.com/jp",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/jp"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/jp"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 232,
+      "total_buttons": 45
+    },
+    {
+      "url": "https://www.servicenow.com/kr",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/kr"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/kr"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 232,
+      "total_buttons": 45
+    },
+    {
+      "url": "https://www.servicenow.com/au",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 16 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../pixel_6583a2b6?a=dD1kN2IwM2ExZDMyNDhkYmJiYjc2YTg5OTI3MzQ1ZDc0OGQ4YTAzNWJlJmpzPW9mZg=="
+          ],
+          "page_url": "https://www.servicenow.com/au"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.servicenow.com/au"
+        }
+      ],
+      "score": 70,
+      "total_images": 16,
+      "total_links": 232,
+      "total_buttons": 45
+    }
+  ],
+  "summary": {
+    "total_issues": 21,
+    "score": 69.0,
+    "total_images": 158,
+    "total_links": 2195,
+    "total_buttons": 415,
+    "total_pages": 10
+  }
+}

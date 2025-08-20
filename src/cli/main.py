@@ -28,6 +28,8 @@ Three analysis stages:
                        help="Generate HTML site from existing analysis data only (stage 3)")
     parser.add_argument("--qa-only", action="store_true",
                        help="Run QA analysis only from existing crawl data")
+    parser.add_argument("--git-push", action="store_true",
+                       help="Automatically git add, commit, and push results after analysis")
     return parser
 
 
@@ -47,7 +49,7 @@ async def main():
     elif args.qa_only:
         await engine.analyze_qa_only(args.url, model=args.model)
     else:
-        await engine.full_crawl_and_analyze(args.url, model=args.model)
+        await engine.full_crawl_and_analyze(args.url, model=args.model, git_push=args.git_push)
 
 
 if __name__ == "__main__":

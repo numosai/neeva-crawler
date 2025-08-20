@@ -1,6 +1,7 @@
 """
 Main orchestrator for Neeva-Crawler operations
 """
+import subprocess
 from pathlib import Path
 from urllib.parse import urlparse
 from .utils import WebCrawler
@@ -27,7 +28,49 @@ class CrawlerEngine:
         domain = parsed.netloc.replace(":", "_")
         return Path("output") / domain
     
-    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
+    def _run_git_workflow(self, url: str) -> bool:
+        """Run git add, commit, and push workflow"""
+        try:
+            parsed = urlparse(url)
+            domain = parsed.netloc.replace("www.", "").replace(":", "_")
+            
+            print(f"🔄 Running git workflow for {domain}...")
+            
+            # Git add
+            result = subprocess.run(["git", "add", "."], capture_output=True, text=True)
+            if result.returncode != 0:
+                print(f"❌ Git add failed: {result.stderr}")
+                return False
+            
+            # Git commit
+            commit_message = f"Updated analysis for {domain}"
+            result = subprocess.run(["git", "commit", "-m", commit_message], 
+                                  capture_output=True, text=True)
+            if result.returncode != 0:
+                # Check if it's just "nothing to commit" 
+                if "nothing to commit" in result.stdout:
+                    print("ℹ️ No changes to commit")
+                else:
+                    print(f"❌ Git commit failed: {result.stderr}")
+                    return False
+            else:
+                print(f"✅ Committed: {commit_message}")
+            
+            # Git push
+            result = subprocess.run(["git", "push", "origin", "main"], 
+                                  capture_output=True, text=True)
+            if result.returncode != 0:
+                print(f"❌ Git push failed: {result.stderr}")
+                return False
+            
+            print("✅ Successfully pushed to origin/main")
+            return True
+            
+        except Exception as e:
+            print(f"❌ Git workflow error: {e}")
+            return False
+    
+    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash", git_push: bool = False) -> bool:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
@@ -45,6 +88,10 @@ class CrawlerEngine:
         success_count = sum(results)
         total_analyses = len(results)
         print(f"📊 Completed {success_count}/{total_analyses} analyses successfully")
+        
+        # Run git workflow if requested and analysis was successful
+        if git_push and success_count > 0:
+            self._run_git_workflow(url)
         
         return success_count > 0
     
