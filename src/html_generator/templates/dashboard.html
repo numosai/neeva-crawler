@@ -33,7 +33,7 @@
             <div>
                 <div class="stat-value">{{ data.qa_tests.summary.total_assertions or 0 }}</div>
                 <div class="stat-label">QA Test Cases</div>
-                <div class="card-description">{{ data.qa_tests.summary.total_phases or 0 }} test phases across {{ data.qa_tests.summary.total_test_files or 0 }} test files</div>
+                <div class="card-description">{{ data.qa_tests.summary.total_assertions or 0 }} test assertions across {{ data.qa_tests.summary.total_test_files or 0 }} test files</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                 <i class="fas fa-tasks"></i>
@@ -81,96 +81,19 @@
     </div>
 </div>
 
-<!-- Quick Overview Section -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-chart-bar"></i>
-        Analysis Overview
-    </h2>
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value">{{ data.seo.summary.avg_title_length or 0 }}</div>
-            <div class="metric-label">Avg Title Length</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">{{ data.seo.summary.avg_desc_length or 0 }}</div>
-            <div class="metric-label">Avg Description Length</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">{{ data.accessibility.summary.total_images or 0 }}</div>
-            <div class="metric-label">Total Images</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">{{ data.accessibility.summary.total_links or 0 }}</div>
-            <div class="metric-label">Total Links</div>
-        </div>
-    </div>
-</div>
 
 <!-- Site Structure Section -->
-{% if data.sitemap.has_visual %}
 <div class="content-section">
     <h2 class="section-title">
         <i class="fas fa-sitemap"></i>
         Website Structure & Site Map
     </h2>
     <div class="section-description">
-        Visual representation of the website structure showing {{ data.sitemap.nodes }} pages and {{ data.sitemap.edges }} internal links.
+        Visual representation of the website structure showing page relationships and internal linking structure.
     </div>
     <div class="sitemap-container">
-        <img src="{{ data.sitemap.visual_path }}" alt="Website Sitemap - Visual representation showing page relationships and internal linking structure" class="sitemap-image">
+        <img src="assets/sitemap.png" alt="Website Sitemap - Visual representation showing page relationships and internal linking structure" class="sitemap-image">
     </div>
 </div>
-{% endif %}
 
-<!-- Recent Issues Summary -->
-{% if data.accessibility.issues or data.seo.pages %}
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-exclamation-triangle"></i>
-        Critical Issues Summary
-    </h2>
-    
-    {% if data.accessibility.issues %}
-    <div style="margin-bottom: 1.5rem;">
-        <h3 style="color: #2d3748; margin-bottom: 0.5rem;">Accessibility Issues</h3>
-        {% for issue in data.accessibility.issues[:3] %}
-        <div class="issue-item severity-{{ issue.severity|lower }}">
-            <i class="fas fa-exclamation-circle issue-icon"></i>
-            <div class="issue-content">
-                <h4>{{ issue.type }}</h4>
-                <div class="issue-description">{{ issue.description }}</div>
-                <div class="issue-guideline">{{ issue.wcag_guideline }}</div>
-            </div>
-        </div>
-        {% endfor %}
-        {% if data.accessibility.issues|length > 3 %}
-        <p style="color: #718096; font-size: 0.9rem; margin-top: 0.5rem;">
-            <a href="accessibility.html">View {{ data.accessibility.issues|length - 3 }} more accessibility issues</a>
-        </p>
-        {% endif %}
-    </div>
-    {% endif %}
-    
-    {% if data.seo.pages and data.seo.pages[0].issues %}
-    <div>
-        <h3 style="color: #2d3748; margin-bottom: 0.5rem;">SEO Issues</h3>
-        {% for issue in data.seo.pages[0].issues[:3] %}
-        <div class="issue-item">
-            <i class="fas fa-search issue-icon"></i>
-            <div class="issue-content">
-                <h4>SEO Issue</h4>
-                <div class="issue-description">{{ issue }}</div>
-            </div>
-        </div>
-        {% endfor %}
-        {% if data.seo.pages[0].issues|length > 3 %}
-        <p style="color: #718096; font-size: 0.9rem; margin-top: 0.5rem;">
-            <a href="seo-analysis.html">View {{ data.seo.pages[0].issues|length - 3 }} more SEO issues</a>
-        </p>
-        {% endif %}
-    </div>
-    {% endif %}
-</div>
-{% endif %}
 {% endblock %}
