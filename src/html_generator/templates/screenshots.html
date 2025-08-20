@@ -32,32 +32,6 @@
             </div>
         </div>
     </div>
-
-    <div class="stat-card">
-        <div class="stat-header">
-            <div>
-                <div class="stat-value">{{ ((data.screenshots | map(attribute='size') | sum / 1024 / 1024) | round(1)) if data.screenshots else 0 }}MB</div>
-                <div class="stat-label">Total Size</div>
-                <div class="card-description">Combined size of all screenshots</div>
-            </div>
-            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                <i class="fas fa-hdd"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="stat-card">
-        <div class="stat-header">
-            <div>
-                <div class="stat-value">JPEG</div>
-                <div class="stat-label">Format</div>
-                <div class="card-description">Optimized format for web viewing</div>
-            </div>
-            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                <i class="fas fa-file-image"></i>
-            </div>
-        </div>
-    </div>
 </div>
 
 <!-- Screenshots Gallery -->
@@ -71,20 +45,18 @@
         Visual representations of all pages captured during the website analysis. Click on any screenshot to view it in full size.
     </div>
     
-    <div class="screenshot-grid">
+    <div class="screenshots-grid">
         {% for screenshot in data.screenshots %}
-        <div class="screenshot-item">
+        <div class="screenshot-card">
+            <div class="screenshot-title">
+                <i class="fas fa-file-alt"></i>
+                {{ screenshot.title }}
+            </div>
+            <div class="screenshot-url">{{ screenshot.url or screenshot.filename }}</div>
             <img src="{{ screenshot.path }}" 
                  alt="Screenshot of {{ screenshot.title }}" 
                  class="screenshot-image"
-                 onclick="openLightbox('{{ screenshot.path }}')">
-            <div class="screenshot-info">
-                <div class="screenshot-title">{{ screenshot.title }}</div>
-                <div class="screenshot-meta">
-                    <i class="fas fa-file"></i> {{ screenshot.filename }}<br>
-                    <i class="fas fa-weight"></i> {{ (screenshot.size / 1024) | round(1) }}KB
-                </div>
-            </div>
+                 onclick="openLightbox('{{ screenshot.path }}', '{{ screenshot.title }}')">
         </div>
         {% endfor %}
     </div>
@@ -106,148 +78,142 @@
     </div>
 </div>
 {% endif %}
+{% endblock %}
 
-<!-- Technical Details -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-cog"></i>
-        Screenshot Technical Details
-    </h2>
-    <div class="section-description">
-        Information about screenshot capture settings and optimization.
-    </div>
-    
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value">1920px</div>
-            <div class="metric-label">Viewport Width</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">Full</div>
-            <div class="metric-label">Page Height</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">85%</div>
-            <div class="metric-label">JPEG Quality</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">~97%</div>
-            <div class="metric-label">Size Reduction</div>
-        </div>
-    </div>
-    
-    <div style="margin-top: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Optimization Details</h3>
-        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-            <li><strong>Format Conversion:</strong> Original PNG screenshots are converted to JPEG for better compression</li>
-            <li><strong>Quality Optimization:</strong> 85% JPEG quality provides excellent visual fidelity with smaller file sizes</li>
-            <li><strong>RGB Conversion:</strong> Transparency layers are converted to RGB for JPEG compatibility</li>
-            <li><strong>File Size:</strong> Typical reduction from ~33MB PNG to ~907KB JPEG (97% smaller)</li>
-        </ul>
-    </div>
-</div>
+{% block extra_head %}
+<style>
+/* Screenshots-specific styles */
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
 
-<!-- Usage Guide -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-info-circle"></i>
-        Using Screenshots for Analysis
-    </h2>
-    <div class="section-description">
-        How to effectively use screenshots for website analysis and improvement.
-    </div>
-    
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-eye"></i> Visual Design Review
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Key Areas to Examine:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Overall layout consistency across pages</li>
-                <li>Visual hierarchy and content organization</li>
-                <li>Color scheme and branding consistency</li>
-                <li>Navigation placement and visibility</li>
-                <li>Call-to-action button prominence</li>
-                <li>Footer and header consistency</li>
-            </ul>
-        </div>
-    </div>
+.screenshot-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-mobile-alt"></i> Responsive Design Check
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Mobile Analysis Points:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Content readability on smaller screens</li>
-                <li>Button sizes and touch target adequacy</li>
-                <li>Navigation menu behavior and accessibility</li>
-                <li>Image scaling and aspect ratio maintenance</li>
-                <li>Text size and line spacing optimization</li>
-                <li>Horizontal scrolling issues</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #e6fffa; border-radius: 8px; border-left: 4px solid #38b2ac;">
-                <strong>Note:</strong> Current screenshots are captured at desktop resolution. Consider capturing mobile screenshots for comprehensive responsive analysis.
-            </div>
-        </div>
-    </div>
+.screenshot-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 48px rgba(0,0,0,0.15);
+}
 
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-users"></i> User Experience Evaluation
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">UX Review Criteria:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>First impression and visual appeal</li>
-                <li>Information architecture clarity</li>
-                <li>Content density and white space usage</li>
-                <li>Loading state and error message handling</li>
-                <li>Form design and input field clarity</li>
-                <li>Trust signals and credibility indicators</li>
-            </ul>
-        </div>
-    </div>
+.screenshot-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-bug"></i> Issue Documentation
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Documentation Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Annotate screenshots with issue locations</li>
-                <li>Compare before/after states for improvements</li>
-                <li>Create issue reports with visual evidence</li>
-                <li>Share screenshots with development team</li>
-                <li>Track design inconsistencies across pages</li>
-                <li>Document accessibility violations visually</li>
-            </ul>
-        </div>
-    </div>
-</div>
+.screenshot-url {
+    font-size: 0.9rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+    word-break: break-all;
+}
+
+.screenshot-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.screenshot-image:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
 {% endblock %}
 
 {% block extra_js %}
-<!-- Lightbox for full-size screenshot viewing -->
+<!-- Enhanced Lightbox for full-size screenshot viewing -->
 <div id="lightbox" class="lightbox">
     <button class="lightbox-close" onclick="closeLightbox()">
         <i class="fas fa-times"></i>
     </button>
     <img id="lightbox-image" class="lightbox-content" alt="Full size screenshot">
+    <div id="lightbox-title" class="lightbox-title"></div>
 </div>
+
+<script>
+// Enhanced lightbox functionality
+function openLightbox(imageSrc, title) {
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImage = document.getElementById('lightbox-image');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    
+    lightboxImage.src = imageSrc;
+    lightboxTitle.textContent = title || '';
+    lightbox.classList.add('active');
+    
+    // Prevent body scroll when lightbox is open
+    document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+    const lightbox = document.getElementById('lightbox');
+    lightbox.classList.remove('active');
+    
+    // Restore body scroll
+    document.body.style.overflow = 'auto';
+}
+
+// Close lightbox on Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeLightbox();
+    }
+});
+
+// Prevent lightbox from closing when clicking on the image
+document.addEventListener('DOMContentLoaded', function() {
+    const lightboxImage = document.getElementById('lightbox-image');
+    if (lightboxImage) {
+        lightboxImage.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+    }
+});
+</script>
+
+<style>
+/* Enhanced lightbox styles */
+.lightbox-title {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0,0,0,0.7);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .lightbox-title {
+        bottom: 20px;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+</style>
 {% endblock %}
