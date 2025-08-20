@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "url": "https://neeva.ai/",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/pricing",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/blog",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/story",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/text-to-test",
+      "title": "Sign in",
+      "description": "",
+      "h1": "Welcome to Neeva",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (7 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/contact",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/docs",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/careers",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/terms-of-use",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://neeva.ai/privacy-policy",
+      "title": "Neeva",
+      "description": "",
+      "h1": "Agents for End-to-End TestingSmarter Regression Testing. Faster Releases. Lower Costs.",
+      "h2_elements": [
+        "Footer"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (5 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    }
+  ],
+  "summary": {
+    "total_pages": 10,
+    "total_issues": 21,
+    "avg_title_length": 5,
+    "avg_desc_length": 0,
+    "avg_score": 65.0
+  }
+}

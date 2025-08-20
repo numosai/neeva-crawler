@@ -1,0 +1,264 @@
+{
+  "issues": [
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/pricing"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/blog"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/story"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/text-to-test"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/contact"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/docs"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/careers"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/terms-of-use"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://neeva.ai/privacy-policy"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://neeva.ai/",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/pricing",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/pricing"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/blog",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/blog"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/story",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/story"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/text-to-test",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/text-to-test"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://neeva.ai/contact",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/contact"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/docs",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/docs"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/careers",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/careers"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/terms-of-use",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/terms-of-use"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    },
+    {
+      "url": "https://neeva.ai/privacy-policy",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://neeva.ai/privacy-policy"
+        }
+      ],
+      "score": 90,
+      "total_images": 2,
+      "total_links": 16,
+      "total_buttons": 3
+    }
+  ],
+  "summary": {
+    "total_issues": 10,
+    "score": 90.0,
+    "total_images": 18,
+    "total_links": 144,
+    "total_buttons": 28,
+    "total_pages": 10
+  }
+}

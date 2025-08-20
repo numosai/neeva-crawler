@@ -1,0 +1,179 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 10
+Total Unique URLs: 11
+Total Links: 99
+
+PAGE DETAILS
+------------------------------
+
+1. Neeva
+   URL: https://neeva.ai/
+   Page ID: page_1
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← No text: https://neeva.ai/pricing
+     ← No text: https://neeva.ai/blog
+     ← No text: https://neeva.ai/story
+     ... and 5 more
+
+2. Neeva
+   URL: https://neeva.ai/pricing
+   Page ID: page_2
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Pricing: https://neeva.ai/
+     ← Pricing: https://neeva.ai/blog
+     ← Pricing: https://neeva.ai/story
+     ... and 5 more
+
+3. Neeva
+   URL: https://neeva.ai/blog
+   Page ID: page_3
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Blog: https://neeva.ai/
+     ← Blog: https://neeva.ai/pricing
+     ← Blog: https://neeva.ai/story
+     ... and 5 more
+
+4. Neeva
+   URL: https://neeva.ai/story
+   Page ID: page_4
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Story: https://neeva.ai/
+     ← Story: https://neeva.ai/pricing
+     ← Story: https://neeva.ai/blog
+     ... and 5 more
+
+5. Sign in
+   URL: https://neeva.ai/text-to-test
+   Page ID: page_5
+   Incoming Links (9):
+     ← Log in: https://neeva.ai/
+     ← Log in: https://neeva.ai/pricing
+     ← Log in: https://neeva.ai/blog
+     ... and 6 more
+
+6. Neeva
+   URL: https://neeva.ai/contact
+   Page ID: page_6
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Contact: https://neeva.ai/
+     ← Contact: https://neeva.ai/pricing
+     ← Contact: https://neeva.ai/blog
+     ... and 5 more
+
+7. Neeva
+   URL: https://neeva.ai/docs
+   Page ID: page_7
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Docs: https://neeva.ai/
+     ← Docs: https://neeva.ai/pricing
+     ← Docs: https://neeva.ai/blog
+     ... and 5 more
+
+8. Neeva
+   URL: https://neeva.ai/careers
+   Page ID: page_8
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Careers: https://neeva.ai/
+     ← Careers: https://neeva.ai/pricing
+     ← Careers: https://neeva.ai/blog
+     ... and 5 more
+
+9. Neeva
+   URL: https://neeva.ai/terms-of-use
+   Page ID: page_9
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Terms of Use: https://neeva.ai/
+     ← Terms of Use: https://neeva.ai/pricing
+     ← Terms of Use: https://neeva.ai/blog
+     ... and 5 more
+
+10. Neeva
+   URL: https://neeva.ai/privacy-policy
+   Page ID: page_10
+   Outgoing Links (11):
+     → No text: https://neeva.ai/
+     → Pricing: https://neeva.ai/pricing
+     → Blog: https://neeva.ai/blog
+     → Story: https://neeva.ai/story
+     → Log in: https://neeva.ai/text-to-test
+     ... and 6 more
+   Incoming Links (8):
+     ← Privacy Policy: https://neeva.ai/
+     ← Privacy Policy: https://neeva.ai/pricing
+     ← Privacy Policy: https://neeva.ai/blog
+     ... and 5 more
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  homepage: 11 outgoing links
+  pricing: 11 outgoing links
+  blog: 11 outgoing links
+  story: 11 outgoing links
+  contact: 11 outgoing links
+
+Most Referenced Pages (most incoming links):
+  homepage: 9 incoming links
+  pricing: 9 incoming links
+  blog: 9 incoming links
+  story: 9 incoming links
+  text-to-test: 9 incoming links
