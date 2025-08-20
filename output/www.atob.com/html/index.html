@@ -28,6 +28,56 @@ body {
     padding: 20px;
 }
 
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 8px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 4px;
+    color: #667eea;
+    font-weight: 500;
+}
+
 /* Header Styles */
 .header {
     text-align: center;
@@ -447,6 +497,16 @@ body {
     .metrics-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
 }
 
 /* Lightbox for screenshots */
@@ -495,6 +555,16 @@ body {
 </head>
 <body>
     <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+            </div>
+        </div>
+
         <div class="header">
             <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
             <p>Comprehensive website analysis dashboard with SEO, accessibility, and performance insights</p>
@@ -527,7 +597,7 @@ body {
     <a href="seo-analysis.html" class="stat-card clickable-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">2</div>
+                <div class="stat-value">7</div>
                 <div class="stat-label">SEO Issues Found</div>
                 <div class="card-description">Search engine optimization analysis with title tags, meta descriptions, and content structure</div>
             </div>
@@ -540,9 +610,9 @@ body {
     <a href="accessibility.html" class="stat-card clickable-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">100%</div>
+                <div class="stat-value">71.0%</div>
                 <div class="stat-label">Accessibility Score</div>
-                <div class="card-description">WCAG 2.1 AA compliance analysis with 0 issues identified</div>
+                <div class="card-description">WCAG 2.1 AA compliance analysis with 20 issues identified</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
                 <i class="fas fa-universal-access"></i>
@@ -553,9 +623,9 @@ body {
     <a href="qa-tests.html" class="stat-card clickable-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">79</div>
+                <div class="stat-value">23</div>
                 <div class="stat-label">QA Test Cases</div>
-                <div class="card-description">79 test assertions across 7 test files</div>
+                <div class="card-description">23 test assertions across 2 test files</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                 <i class="fas fa-tasks"></i>
@@ -566,9 +636,9 @@ body {
     <a href="ux-analysis.html" class="stat-card clickable-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">4</div>
+                <div class="stat-value">25</div>
                 <div class="stat-label">UX Recommendations</div>
-                <div class="card-description">User experience analysis with 1 high-priority improvements</div>
+                <div class="card-description">User experience analysis with 8 high-priority improvements</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
                 <i class="fas fa-user-check"></i>

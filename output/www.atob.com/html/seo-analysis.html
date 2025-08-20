@@ -28,6 +28,56 @@ body {
     padding: 20px;
 }
 
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 8px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 4px;
+    color: #667eea;
+    font-weight: 500;
+}
+
 /* Header Styles */
 .header {
     text-align: center;
@@ -447,6 +497,16 @@ body {
     .metrics-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
 }
 
 /* Lightbox for screenshots */
@@ -495,6 +555,16 @@ body {
 </head>
 <body>
     <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+            </div>
+        </div>
+
         <div class="header">
             <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
             <p>Search engine optimization analysis with detailed insights and recommendations</p>
@@ -528,7 +598,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">1</div>
+                <div class="stat-value">10</div>
                 <div class="stat-label">Pages Analyzed</div>
                 <div class="card-description">Total pages included in SEO analysis</div>
             </div>
@@ -541,7 +611,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">2</div>
+                <div class="stat-value">7</div>
                 <div class="stat-label">Issues Found</div>
                 <div class="card-description">SEO issues requiring attention</div>
             </div>
@@ -554,7 +624,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">67</div>
+                <div class="stat-value">33</div>
                 <div class="stat-label">Avg Title Length</div>
                 <div class="card-description">Characters in title tags (optimal: 30-60)</div>
             </div>
@@ -567,7 +637,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">155</div>
+                <div class="stat-value">147</div>
                 <div class="stat-label">Avg Description Length</div>
                 <div class="card-description">Characters in meta descriptions (optimal: 120-160)</div>
             </div>
@@ -590,11 +660,11 @@ body {
     <div class="test-phase">
         <div class="phase-header" onclick="toggleSection(this)">
             <div class="phase-title">
-                https://www.atob.com - Score: 70%
+                https://www.atob.com - Score: 90%
             </div>
             <i class="fas fa-chevron-down toggle-icon"></i>
         </div>
-        <div class="phase-content" style="display: none;">
+        <div class="phase-content">
             <!-- Page Details -->
             <div style="margin-bottom: 1.5rem;">
                 <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
@@ -631,14 +701,7 @@ body {
                     <li class="issue-item">
                         <i class="fas fa-exclamation-circle issue-icon"></i>
                         <div class="issue-content">
-                            <div class="issue-description">Title too long (67 chars)</div>
-                        </div>
-                    </li>
-                    
-                    <li class="issue-item">
-                        <i class="fas fa-exclamation-circle issue-icon"></i>
-                        <div class="issue-content">
-                            <div class="issue-description">Too many H2 tags (27) - consider consolidating content</div>
+                            <div class="issue-description">Title too long (67 chars) - should be 30-60 characters</div>
                         </div>
                     </li>
                     
@@ -648,8 +711,1280 @@ body {
 
             <!-- Recommendations -->
             
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten title tag to under 60 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
 
             <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (27 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Better cash flow starts here
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        One place to manage your fleet’s financial health
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        For owner-operators, global fleets and everyone in between
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        More profit from each brokered or factored load
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Serving prime movers across the world
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        40¢+
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $100k
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        2-&gt;75
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $10k
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $32+
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        37¢
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        80
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        10%
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $3k
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $40k
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        $45
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        40¢+
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Industry-leading customer service
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Frequently asked questions
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up andrunning with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/get-started - Score: 80%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Get started 
+                            (11 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Get started with AtoB fuel cards. Sign up now and streamline your fuel management with our user-friendly platform. 
+                            (114 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Let’s get your application started!</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>30 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (11 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too short (114 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand meta description to 120-160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (30 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Average discounts of 45¢ and up to $2.00 off per gallon
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Run payroll 7 days per week, 365 days per year
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        One card for all fleet expenses
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Process payments to your drivers instantly
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Accepted everywhere Mastercard is accepted
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Automate 1099 taxes
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Prevent card misuse with full control
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Simple, affordable pricing
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Around the clock support
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        No limits on transfers or payments
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Business credit bureau reporting
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Simplify payroll with custom calculations
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Exclusive discounts on fuel
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        One card for all fleet expenses
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Accepted everywhere
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Prevent card misuse with full control
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Around the clock support
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Business credit bureau reporting
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Exclusive discounts on fuel
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Run payroll 7 days per week, 365 days per year
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        One card for all fleet expenses
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Process payments to your drivers instantly
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Accepted everywhere
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Automate 1099 taxes
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Prevent card misuse with full control
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Simple, affordable pricing
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Around the clock support
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        No limits on transfers or payments
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Business credit bureau reporting
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Simplify payroll with custom calculations
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/product-fuel-cards - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Mastercard &amp; Prepaid Fleet Fuel Card | AtoB 
+                            (43 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Discover reliable &amp; cost-effective gas cards for businesses at AtoB. We offer flexible &amp; efficient card programs to fuel your business needs. Learn more today! 
+                            (159 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>A fuel card designed to make an impact</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>17 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (17 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts of45¢ on average and up to $2.00 per gallon*at the stations you fuel at most
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Make a real impact on your fuel costs
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Here’s how it works
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        A platform built for fleets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        The full circle solution
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Choose your smart fuel card
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Making fleets more successful
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Experience our easy-to-use dashboard
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        FAQs
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/product-payrolls - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Fleet Driver Payroll Made Easy | AtoB 
+                            (37 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Pay professional fleet drivers faster with just one click. Sign up for an AtoB fleet management card today to enjoy Driver Pay. 
+                            (127 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Smarter, faster driver payroll</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>11 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (11 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Process payments instantly
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        …With admin-friendly controls
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Have a question?
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/truck-stop-discount-network - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>AtoB Truck Stop Discount Network 
+                            (32 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Save on your fleet&#39;s truck diesel expenses with AtoB discounts – available exclusively to AtoB Customers.  Apply today to access average discounts of 42¢ off per gallon of truck diesel. 
+                            (185 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Discounts on truck diesel that make an impact</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>9 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too long (185 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten meta description to under 160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (9 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Fuel and non-fuel discounts, just for AtoB customers
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/gas-station-discount-network - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>AtoB Gas Station Discount Network 
+                            (33 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Save on fuel for your local fleet with benefits exclusively offered for AtoB customers Apply for the AtoB Fuel Card today to access discounts on fuel and non-fuel purchases. 
+                            (173 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>The AtoB Fuel Card is accepted at any station that accepts Mastercard across the US. With nationwide coverage, you’ll never have to worry about out of network fees or per transaction fees again.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>9 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too long (173 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten meta description to under 160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (9 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Fuel and non-fuel discounts, just for AtoB customers
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/local - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Small Business Fuel Card | AtoB 
+                            (31 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Our AtoB small business fuel card helps fuel local services such as student transport, neighborhood deliveries, and more. Learn more and apply today. 
+                            (149 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Fuel cards for small fleets</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>11 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (11 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        AtoB in action
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        A smart fleet fuel card built for you
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts on more than just fuel
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/overtheroad - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Mastercard and OTR Fuel Card for Fleets  | AtoB 
+                            (47 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Looking for an OTR fuel card? AtoB helps interstate fleets save with fuel discounts, expense tracking, and smarter over-the-road management. 
+                            (140 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>OTR Fuel Cards</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>20 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (20 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        AtoB and OTR Fleets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Supply chain
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Delivery fleets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Trucking
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Interstate transport
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Supply chain
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Delivery fleets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Trucking
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Interstate transport
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        A system built for over the road fleets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        AtoB in action
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts on more than just fuel
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/become-a-factoring-partner - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Factoring - Atob 
+                            (16 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Partner with AtoB as a factoring partner and provide seamless fuel financing solutions. Enhance your service offerings and grow together. 
+                            (137 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Pioneering the Future of Fuel Card Programs</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>11 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (16 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (11 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Now Introducing the AtoB Carrier Wallet
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        AtoB’s white-labeled solution ready in weeks
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Grow your factoring business with a next-gen fuel card program
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.atob.com/become-a-broker-partner - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Broker - Atob 
+                            (13 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Join AtoB as a broker partner and offer top-notch fuel card solutions to your clients. Unlock new business opportunities today. 
+                            (127 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Join the nation&#39;s leadingfreight brokerages...</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>10 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (13 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (10 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Products
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Discounts
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Who we serve
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Partner with AtoB
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electric Vehicles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Blog
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        About
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        With AtoB you’ll get:
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Key partnership features
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Let&#39;s get you up and running with AtoB
+                    </div>
+                    
+                </div>
+            </div>
             
         </div>
     </div>

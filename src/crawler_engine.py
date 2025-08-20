@@ -5,6 +5,9 @@ from pathlib import Path
 from urllib.parse import urlparse
 from .utils import WebCrawler
 from .analyzers import AccessibilityAnalyzer, SEOAnalyzer, QAAnalyzer, UXAnalyzer, SitemapAnalyzer, HTMLGeneratorAnalyzer
+from .analyzers.seo_optimized import OptimizedSEOAnalyzer
+from .analyzers.accessibility_optimized import OptimizedAccessibilityAnalyzer
+from .analyzers.ux_optimized import OptimizedUXAnalyzer
 
 
 class CrawlerEngine:
@@ -12,10 +15,12 @@ class CrawlerEngine:
     
     def __init__(self, max_depth: int = 2, max_pages: int = 10):
         self.web_crawler = WebCrawler(max_depth, max_pages)
-        self.accessibility_analyzer = AccessibilityAnalyzer()
-        self.seo_analyzer = SEOAnalyzer()
+        # Use optimized analyzers that work with cached HTML
+        self.accessibility_analyzer = OptimizedAccessibilityAnalyzer()
+        self.seo_analyzer = OptimizedSEOAnalyzer()
+        self.ux_analyzer = OptimizedUXAnalyzer()
+        # Keep existing analyzers for other functionality
         self.qa_analyzer = QAAnalyzer()
-        self.ux_analyzer = UXAnalyzer()
         self.sitemap_analyzer = SitemapAnalyzer()
         self.html_generator = HTMLGeneratorAnalyzer()
     
@@ -25,7 +30,7 @@ class CrawlerEngine:
         domain = parsed.netloc.replace(":", "_")
         return Path("output") / domain
     
-    async def full_crawl_and_analyze(self, url: str, model: str = "openai/gpt-4o-mini") -> bool:
+    async def full_crawl_and_analyze(self, url: str, model: str = "google/gemini-flash-2.5") -> bool:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
@@ -46,18 +51,74 @@ class CrawlerEngine:
         
         return success_count > 0
     
-    async def analyze_accessibility_only(self, url: str) -> bool:
-        """Run accessibility analysis only"""
-        return await self.accessibility_analyzer.analyze(url)
     
-    async def analyze_seo_only(self, url: str) -> bool:
-        """Run SEO analysis only"""
-        return await self.seo_analyzer.analyze(url)
-    
-    async def analyze_qa_only(self, url: str, model: str = "openai/gpt-4o-mini") -> bool:
-        """Regenerate QA test plan from existing crawl data"""
-        return await self.qa_analyzer.analyze_from_existing_data(url, model)
-    
+    async def analyze_and_html(self, url: str, model: str = "google/gemini-flash-2.5") -> bool:
+        """Run all analyses and generate HTML from existing crawl data"""
+        output_dir = self._get_output_dir(url)
+        raw_dir = output_dir / "raw"
+        flows_file = raw_dir / "flows.json"
+        
+        if not flows_file.exists():
+            print(f"❌ No crawl data found for {url}")
+            print(f"Expected flows.json at: {flows_file}")
+            print("Run a full crawl first to generate crawl data")
+            return False
+        
+        print(f"🔍 Running analyses and HTML generation for {url}")
+        
+        # Load flows data
+        import json
+        with open(flows_file, 'r') as f:
+            flows_data = json.load(f)
+        
+        # Run all analyses (except QA which needs special handling)
+        results = []
+        
+        # Accessibility Analysis (using cached HTML)
+        a11y_success = await self.accessibility_analyzer.analyze_cached_pages(url, output_dir)
+        results.append(a11y_success)
+        
+        # SEO Analysis (using cached HTML)
+        seo_success = await self.seo_analyzer.analyze_cached_pages(url, output_dir)
+        results.append(seo_success)
+        
+        # UX Analysis (using cached HTML)
+        ux_success = await self.ux_analyzer.analyze_cached_pages_with_model(url, model, output_dir)
+        results.append(ux_success)
+        
+        # QA Analysis (if crawl data exists)
+        crawled_pages_file = raw_dir / "crawled_pages.json"
+        if crawled_pages_file.exists():
+            with open(crawled_pages_file, 'r') as f:
+                crawled_pages = json.load(f)
+            
+            flows = flows_data.get('edges', [])
+            qa_success = await self.qa_analyzer.analyze_from_crawl_data(
+                url, crawled_pages, flows, model, output_dir
+            )
+            results.append(qa_success)
+        
+        # Sitemap Analysis
+        sitemap_success = self.sitemap_analyzer.generate_sitemap(
+            [], flows_data, raw_dir
+        )
+        results.append(sitemap_success)
+        
+        # HTML Site Generation
+        html_success = self.html_generator.generate_site(url, raw_dir, output_dir / "html")
+        results.append(html_success)
+        
+        success_count = sum(results)
+        total_analyses = len(results)
+        print(f"📊 Completed {success_count}/{total_analyses} analyses and HTML generation successfully")
+        
+        if html_success:
+            print(f"✅ HTML site generated successfully!")
+            print(f"📁 Output directory: {output_dir / 'html'}")
+            print(f"🚀 Ready for deployment to GitHub Pages")
+        
+        return success_count > 0
+
     async def generate_html_only(self, url: str) -> bool:
         """Generate HTML site from existing analysis data"""
         output_dir = self._get_output_dir(url)
@@ -100,16 +161,16 @@ class CrawlerEngine:
         )
         results.append(qa_success)
         
-        # Accessibility Analysis
-        a11y_success = await self.accessibility_analyzer.analyze(url, output_dir)
+        # Accessibility Analysis (using cached HTML)
+        a11y_success = await self.accessibility_analyzer.analyze_cached_pages(url, output_dir)
         results.append(a11y_success)
         
-        # SEO Analysis
-        seo_success = await self.seo_analyzer.analyze(url, output_dir)
+        # SEO Analysis (using cached HTML)
+        seo_success = await self.seo_analyzer.analyze_cached_pages(url, output_dir)
         results.append(seo_success)
         
-        # UX Analysis
-        ux_success = await self.ux_analyzer.analyze(url, model, output_dir)
+        # UX Analysis (using cached HTML)
+        ux_success = await self.ux_analyzer.analyze_cached_pages_with_model(url, model, output_dir)
         results.append(ux_success)
         
         # Sitemap Analysis

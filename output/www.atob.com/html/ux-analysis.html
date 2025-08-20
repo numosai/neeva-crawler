@@ -28,6 +28,56 @@ body {
     padding: 20px;
 }
 
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 8px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 4px;
+    color: #667eea;
+    font-weight: 500;
+}
+
 /* Header Styles */
 .header {
     text-align: center;
@@ -447,6 +497,16 @@ body {
     .metrics-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
 }
 
 /* Lightbox for screenshots */
@@ -495,6 +555,16 @@ body {
 </head>
 <body>
     <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+            </div>
+        </div>
+
         <div class="header">
             <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
             <p>User experience analysis with actionable recommendations for improved usability</p>
@@ -528,7 +598,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">1</div>
+                <div class="stat-value">24</div>
                 <div class="stat-label">UX Issues</div>
                 <div class="card-description">User experience issues identified</div>
             </div>
@@ -541,7 +611,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">4</div>
+                <div class="stat-value">25</div>
                 <div class="stat-label">Recommendations</div>
                 <div class="card-description">Actionable improvement suggestions</div>
             </div>
@@ -554,7 +624,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">1</div>
+                <div class="stat-value">8</div>
                 <div class="stat-label">High Priority</div>
                 <div class="card-description">Critical improvements for immediate attention</div>
             </div>
@@ -567,7 +637,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">3</div>
+                <div class="stat-value">17</div>
                 <div class="stat-label">Lower Priority</div>
                 <div class="card-description">Medium and low priority enhancements</div>
             </div>
@@ -586,19 +656,19 @@ body {
     </h2>
     <div class="metrics-grid">
         <div class="metric-item">
-            <div class="metric-value" style="color: #e53e3e;">1</div>
+            <div class="metric-value" style="color: #e53e3e;">8</div>
             <div class="metric-label">High Priority</div>
         </div>
         <div class="metric-item">
-            <div class="metric-value" style="color: #dd6b20;">1</div>
+            <div class="metric-value" style="color: #dd6b20;">8</div>
             <div class="metric-label">Medium Priority</div>
         </div>
         <div class="metric-item">
-            <div class="metric-value" style="color: #38a169;">2</div>
+            <div class="metric-value" style="color: #38a169;">9</div>
             <div class="metric-label">Low Priority</div>
         </div>
         <div class="metric-item">
-            <div class="metric-value">25.0%</div>
+            <div class="metric-value">32.0%</div>
             <div class="metric-label">Critical Focus</div>
         </div>
     </div>
@@ -620,7 +690,335 @@ body {
         <i class="fas fa-times-circle issue-icon"></i>
         <div class="issue-content">
             <h4>UX Issue</h4>
-            <div class="issue-description">AtoB is not a bank, but it maintains wallet accounts with an FDIC insured bank.</div>
+            <div class="issue-description">The website content is cluttered with repeated links and images, making it difficult to navigate.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">There are multiple instances of broken or incomplete links, such as &#39;[](/)&#39; and &#39;[Get started Get started](#)&#39;.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The form submission process seems to have errors, as indicated by &#39;Oops! Something went wrong while submitting the form.&#39;</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The content is heavily reliant on images for logos and icons, which may not load properly for all users.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">AtoB is not a bank, which might cause confusion for users expecting traditional banking services.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">There is a 1% fee for instant transfer methods, which could be a concern for cost-sensitive users.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The form submission process seems to have errors, as indicated by the message &#39;Oops! Something went wrong while submitting the form.&#39;</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Fuel card misuse for personal expenses.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Confusing invoices and random card shutdowns with previous providers.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Difficulty in reaching customer support with previous providers.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The AtoB platform does not currently support W2 payroll, which may be a limitation for businesses that require this feature.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-payrolls</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">string</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/truck-stop-discount-network</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Form error, please try again!</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/truck-stop-discount-network</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Oops! Something went wrong while submitting the form.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/truck-stop-discount-network</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Potential confusion due to repetitive content and links.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/gas-station-discount-network</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Lack of detailed information on specific discount terms and conditions.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/gas-station-discount-network</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The content contains repetitive information and redundant links, which can confuse users. Additionally, there are multiple instances of broken or incomplete image links, which can affect the visual appeal and user experience.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/overtheroad</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Fuel card misuse</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-factoring-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Confusing invoices with previous providers</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-factoring-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Random card shutdowns with previous providers</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-factoring-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Long wait times for customer support with previous providers</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-factoring-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Fuel card misuse for personal expenses.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-broker-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Confusing invoices and random card shutdowns with previous providers.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-broker-partner</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Difficulty in reaching customer support with previous providers.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-broker-partner</code>
+            </div>
+            
         </div>
     </div>
     
@@ -632,258 +1030,26 @@ body {
 <div class="content-section">
     <h2 class="section-title">
         <i class="fas fa-lightbulb"></i>
-        UX Improvement Recommendations
+        UX Recommendations
     </h2>
     <div class="section-description">
-        Prioritized recommendations to enhance user experience and increase engagement.
+        Actionable recommendations to improve user experience.
     </div>
     
     <!-- High Priority Recommendations -->
     
     
-    <div style="margin-bottom: 2rem;">
-        <h3 style="color: #e53e3e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-            <i class="fas fa-flag"></i> High Priority Recommendations
-        </h3>
-        
-        <div class="issue-item priority-high">
-            <i class="fas fa-arrow-up issue-icon" style="color: #e53e3e;"></i>
-            <div class="issue-content">
-                <h4>User Experience</h4>
-                <div class="issue-description">Consider expanding the fraud prevention guarantee to cover more scenarios or increasing the coverage limit for larger fleets.</div>
-                <div style="margin-top: 0.5rem;">
-                    <span class="status-badge priority-high">High</span>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
     
     <!-- Medium Priority Recommendations -->
     
-    
-    <div style="margin-bottom: 2rem;">
-        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-            <i class="fas fa-equals"></i> Medium Priority Recommendations
-        </h3>
-        
-        <div class="issue-item priority-medium">
-            <i class="fas fa-arrow-right issue-icon" style="color: #dd6b20;"></i>
-            <div class="issue-content">
-                <h4>User Experience</h4>
-                <div class="issue-description">AtoB offers a variety of instant transfer methods for fleet managers to send funds to drivers with 24/7/365 availability, for a 1% fee.</div>
-                <div style="margin-top: 0.5rem;">
-                    <span class="status-badge priority-medium">Medium</span>
-                </div>
-            </div>
-        </div>
-        
-    </div>
     
     
     <!-- Low Priority Recommendations -->
     
     
-    <div style="margin-bottom: 2rem;">
-        <h3 style="color: #38a169; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-            <i class="fas fa-arrow-down"></i> Low Priority Recommendations
-        </h3>
-        
-        <div class="issue-item priority-low">
-            <i class="fas fa-arrow-down issue-icon" style="color: #38a169;"></i>
-            <div class="issue-content">
-                <h4>User Experience</h4>
-                <div class="issue-description">Managers can select between Venmo, PayPal, push to debit, as well as a new Pay by email or text feature, where funds can be sent by email or phone number and the recipient can select the destination of funds.</div>
-                <div style="margin-top: 0.5rem;">
-                    <span class="status-badge priority-low">Low</span>
-                </div>
-            </div>
-        </div>
-        
-        <div class="issue-item priority-low">
-            <i class="fas fa-arrow-down issue-icon" style="color: #38a169;"></i>
-            <div class="issue-content">
-                <h4>User Experience</h4>
-                <div class="issue-description">Consider using AtoB for managing fleet payments and transfers.</div>
-                <div style="margin-top: 0.5rem;">
-                    <span class="status-badge priority-low">Low</span>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
 </div>
 
 
-<!-- UX Design Principles -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-compass"></i>
-        UX Design Principles
-    </h2>
-    <div class="section-description">
-        Fundamental principles to guide user experience improvements and design decisions.
-    </div>
-    
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-eye"></i></div>
-                    <div class="stat-label">Visibility</div>
-                    <div class="card-description">Make important elements clearly visible and accessible to users</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-comments"></i></div>
-                    <div class="stat-label">Feedback</div>
-                    <div class="card-description">Provide clear feedback for user actions and system status</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-sync"></i></div>
-                    <div class="stat-label">Consistency</div>
-                    <div class="card-description">Maintain consistent patterns and conventions throughout</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-shield-alt"></i></div>
-                    <div class="stat-label">Error Prevention</div>
-                    <div class="card-description">Design to prevent errors and provide recovery options</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Implementation Guide -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-tools"></i>
-        UX Implementation Guide
-    </h2>
-    <div class="section-description">
-        Step-by-step approach to implementing UX improvements effectively.
-    </div>
-    
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-flag"></i> Phase 1: Critical Issues (Week 1-2)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Address all high-priority recommendations immediately</li>
-                <li>Fix any blocking issues that prevent task completion</li>
-                <li>Ensure core user journeys function properly</li>
-                <li>Test on mobile devices and fix critical responsive issues</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #fed7d7; border-radius: 8px; border-left: 4px solid #e53e3e;">
-                <strong>Success Metric:</strong> Users can complete primary tasks without major frustration
-            </div>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-chart-line"></i> Phase 2: Experience Enhancements (Week 3-4)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Implement medium-priority recommendations</li>
-                <li>Improve page loading performance and perceived speed</li>
-                <li>Enhance visual hierarchy and content scannability</li>
-                <li>Optimize form interactions and validation messaging</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #feebc8; border-radius: 8px; border-left: 4px solid #dd6b20;">
-                <strong>Success Metric:</strong> Improved task completion rates and reduced time-to-completion
-            </div>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-star"></i> Phase 3: Delight & Optimization (Week 5-6)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Focus Areas:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Address low-priority recommendations for polish</li>
-                <li>Add micro-interactions and delightful animations</li>
-                <li>Optimize content and messaging for clarity</li>
-                <li>Implement advanced personalization features</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #c6f6d5; border-radius: 8px; border-left: 4px solid #38a169;">
-                <strong>Success Metric:</strong> Increased user satisfaction and engagement metrics
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- UX Measurement -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-chart-bar"></i>
-        Measuring UX Success
-    </h2>
-    
-    <div style="margin-bottom: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Key Metrics to Track</h3>
-        <div class="metrics-grid">
-            <div class="metric-item">
-                <div class="metric-value">⏱️</div>
-                <div class="metric-label">Task Completion Time</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">✅</div>
-                <div class="metric-label">Success Rate</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">😊</div>
-                <div class="metric-label">User Satisfaction</div>
-            </div>
-            <div class="metric-item">
-                <div class="metric-value">🔄</div>
-                <div class="metric-label">Return Rate</div>
-            </div>
-        </div>
-    </div>
-    
-    <div>
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Testing Methods</h3>
-        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.8;">
-            <li><strong>Usability Testing:</strong> Observe users completing real tasks</li>
-            <li><strong>A/B Testing:</strong> Compare different design variations</li>
-            <li><strong>Heat Maps:</strong> Understand user attention and interaction patterns</li>
-            <li><strong>User Surveys:</strong> Gather qualitative feedback on experience</li>
-            <li><strong>Analytics Review:</strong> Monitor behavioral data and conversion funnels</li>
-        </ul>
-    </div>
-</div>
 
         </main>
     </div>

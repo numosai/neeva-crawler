@@ -18,7 +18,7 @@ class QAAnalyzer:
         self.prompt = QA_PROMPT
     
     async def analyze_from_crawl_data(self, url: str, crawled_pages: list, flows: list, 
-                                    model: str = "openai/gpt-4o-mini", output_dir: Path = None) -> bool:
+                                    model: str = "google/gemini-flash-2.5", output_dir: Path = None) -> bool:
         """Generate QA test plans from crawled data"""
         if not output_dir:
             parsed = urlparse(url)
@@ -52,7 +52,7 @@ class QAAnalyzer:
                 print("❌ Failed to generate QA plan")
                 return False
     
-    async def analyze_from_existing_data(self, url: str, model: str = "openai/gpt-4o-mini", 
+    async def analyze_from_existing_data(self, url: str, model: str = "google/gemini-flash-2.5", 
                                        output_dir: Path = None) -> bool:
         """Regenerate QA test plan using existing crawled data"""
         if not output_dir:

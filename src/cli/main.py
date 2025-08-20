@@ -9,18 +9,23 @@ from ..crawler_engine import CrawlerEngine
 
 def create_parser():
     """Create and configure argument parser"""
-    parser = argparse.ArgumentParser(description="Neeva-Crawler: Website analysis tool")
+    parser = argparse.ArgumentParser(
+        description="Neeva-Crawler: Website analysis tool",
+        epilog="""
+Three analysis stages:
+1. Full run (default): crawl website + run all analyzers + generate HTML
+2. --analyze-and-html: run all analyzers + generate HTML (requires existing crawl data)
+3. --html-only: generate HTML only (requires existing analysis data)
+        """,
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("url", help="URL to analyze")
-    parser.add_argument("--model", default="openai/gpt-4o-mini", 
-                       help="LLM model to use (default: openai/gpt-4o-mini, also supports: openai/gpt-4o, google/gemini-flash-1.5, google/gemini-flash-2.5)")
-    parser.add_argument("--accessibility-only", action="store_true", 
-                       help="Run accessibility analysis only (skip crawling)")
-    parser.add_argument("--seo-only", action="store_true", 
-                       help="Run SEO analysis only (skip crawling)")
-    parser.add_argument("--qa-only", action="store_true",
-                       help="Regenerate QA test plan from existing crawl data")
+    parser.add_argument("--model", default="google/gemini-flash-2.5", 
+                       help="LLM model to use (default: google/gemini-flash-2.5, also supports: openai/gpt-4o-mini, openai/gpt-4o, google/gemini-flash-1.5)")
+    parser.add_argument("--analyze-and-html", action="store_true",
+                       help="Run all analyses and generate HTML from existing crawl data (stage 2)")
     parser.add_argument("--html-only", action="store_true",
-                       help="Generate HTML site from existing analysis data (skip crawling)")
+                       help="Generate HTML site from existing analysis data only (stage 3)")
     return parser
 
 
@@ -33,12 +38,8 @@ async def main():
     
     engine = CrawlerEngine()
     
-    if args.accessibility_only:
-        await engine.analyze_accessibility_only(args.url)
-    elif args.seo_only:
-        await engine.analyze_seo_only(args.url)
-    elif args.qa_only:
-        await engine.analyze_qa_only(args.url, model=args.model)
+    if args.analyze_and_html:
+        await engine.analyze_and_html(args.url, model=args.model)
     elif args.html_only:
         await engine.generate_html_only(args.url)
     else:

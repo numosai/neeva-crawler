@@ -123,68 +123,6 @@ class DataProcessor:
             return {'pages': [], 'summary': {}}
         except Exception:
             return {'pages': [], 'summary': {}}
-            description = seo_data.get('meta_description', '')
-            h1 = seo_data.get('h1', '')
-            h2_elements = seo_data.get('h2', [])
-            
-            issues = []
-            recommendations = []
-            
-            # Title analysis
-            if not title:
-                issues.append("Missing page title")
-            elif len(title) < 30:
-                issues.append(f"Title too short ({len(title)} chars)")
-                recommendations.append("Expand title to 30-60 characters")
-            elif len(title) > 60:
-                issues.append(f"Title too long ({len(title)} chars)")
-                recommendations.append("Shorten title to under 60 characters")
-            
-            # Description analysis  
-            if not description:
-                issues.append("Missing meta description")
-                recommendations.append("Add meta description of 120-160 characters")
-            elif len(description) < 120:
-                issues.append(f"Meta description too short ({len(description)} chars)")
-                recommendations.append("Expand meta description to 120-160 characters")
-            elif len(description) > 160:
-                issues.append(f"Meta description too long ({len(description)} chars)")
-                recommendations.append("Shorten meta description to under 160 characters")
-            
-            # H1 analysis
-            if not h1:
-                issues.append("Missing H1 tag")
-                recommendations.append("Add a descriptive H1 tag to the page")
-            
-            page_data = {
-                'url': 'Homepage',  # We don't have URL in current data structure
-                'title': title,
-                'description': description,
-                'h1': h1,
-                'h2_count': len(h2_elements),
-                'h2_elements': [h.get('text', '') for h in h2_elements],
-                'issues': issues,
-                'recommendations': recommendations,
-                'score': max(0, 100 - len(issues) * 25)  # Simple scoring
-            }
-            
-            summary = {
-                'total_pages': 1,
-                'total_issues': len(issues),
-                'avg_title_length': len(title) if title else 0,
-                'avg_desc_length': len(description) if description else 0,
-                'pages_with_h1': 1 if h1 else 0,
-                'total_h2_elements': len(h2_elements)
-            }
-            
-            return {
-                'pages': [page_data],
-                'summary': summary
-            }
-            
-        except Exception as e:
-            print(f"Error processing SEO data: {e}")
-            return {'pages': [], 'summary': {}}
     
     def process_accessibility_data(self) -> Dict[str, Any]:
         """Process accessibility analysis data"""

@@ -91,171 +91,139 @@
 <div class="content-section">
     <h2 class="section-title">
         <i class="fas fa-exclamation-triangle"></i>
-        Accessibility Issues
+        Accessibility Issues by Severity
     </h2>
     <div class="section-description">
-        Issues found during WCAG 2.1 AA compliance analysis. Address high-severity issues first for maximum impact.
+        Issues found during WCAG 2.1 AA compliance analysis, grouped by severity level. Address high-severity issues first for maximum impact.
     </div>
     
-    {% for issue in data.accessibility.issues %}
-    <div class="issue-item severity-{{ issue.severity|lower }}">
-        <i class="fas fa-{% if issue.severity == 'High' %}exclamation-circle{% elif issue.severity == 'Medium' %}exclamation-triangle{% else %}info-circle{% endif %} issue-icon"></i>
-        <div class="issue-content">
-            <h4>{{ issue.type }} <span class="status-badge priority-{{ issue.severity|lower }}">{{ issue.severity }}</span></h4>
-            <div class="issue-description">{{ issue.description }}</div>
-            <div class="issue-guideline">{{ issue.wcag_guideline }}</div>
-            {% if issue.count > 1 %}
-            <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
-                <i class="fas fa-layer-group"></i> {{ issue.count }} instances found
+    <!-- High Severity Issues -->
+    {% set high_issues = data.accessibility.issues | selectattr("severity", "equalto", "high") | list %}
+    {% if high_issues %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #e53e3e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-circle"></i> High Severity Issues ({{ high_issues|length }})
+        </h3>
+        {% for issue in high_issues %}
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>{{ issue.type }} <span class="status-badge priority-high">{{ issue.severity|title }}</span></h4>
+                <div class="issue-description">{{ issue.description }}</div>
+                <div class="issue-guideline">{{ issue.wcag_guideline }}</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">{{ issue.page_url }}</code>
+                </div>
+                {% if issue.count > 1 %}
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> {{ issue.count }} instances found on this page
+                </div>
+                {% endif %}
+                {% if issue.details %}
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        {% for detail in issue.details %}
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">{{ detail }}</code></li>
+                        {% endfor %}
+                        {% if issue.count > issue.details|length %}
+                        <li style="font-style: italic; color: #718096;">...and {{ issue.count - issue.details|length }} more</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+    {% endif %}
+    
+    <!-- Medium Severity Issues -->
+    {% set medium_issues = data.accessibility.issues | selectattr("severity", "equalto", "medium") | list %}
+    {% if medium_issues %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-triangle"></i> Medium Severity Issues ({{ medium_issues|length }})
+        </h3>
+        {% for issue in medium_issues %}
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>{{ issue.type }} <span class="status-badge priority-medium">{{ issue.severity|title }}</span></h4>
+                <div class="issue-description">{{ issue.description }}</div>
+                <div class="issue-guideline">{{ issue.wcag_guideline }}</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">{{ issue.page_url }}</code>
+                </div>
+                {% if issue.count > 1 %}
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> {{ issue.count }} instances found on this page
+                </div>
+                {% endif %}
+                {% if issue.details %}
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        {% for detail in issue.details %}
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">{{ detail }}</code></li>
+                        {% endfor %}
+                        {% if issue.count > issue.details|length %}
+                        <li style="font-style: italic; color: #718096;">...and {{ issue.count - issue.details|length }} more</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+    
+    <!-- Low Severity Issues -->
+    {% set low_issues = data.accessibility.issues | selectattr("severity", "equalto", "low") | list %}
+    {% if low_issues %}
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #38a169; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-info-circle"></i> Low Severity Issues ({{ low_issues|length }})
+        </h3>
+        {% for issue in low_issues %}
+        <div class="issue-item severity-low">
+            <i class="fas fa-info-circle issue-icon" style="color: #38a169;"></i>
+            <div class="issue-content">
+                <h4>{{ issue.type }} <span class="status-badge priority-low">{{ issue.severity|title }}</span></h4>
+                <div class="issue-description">{{ issue.description }}</div>
+                <div class="issue-guideline">{{ issue.wcag_guideline }}</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #c6f6d5; border-radius: 6px; border-left: 3px solid #38a169;">
+                    <strong style="color: #22543d;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">{{ issue.page_url }}</code>
+                </div>
+                {% if issue.count > 1 %}
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> {{ issue.count }} instances found on this page
+                </div>
+                {% endif %}
+                {% if issue.details %}
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        {% for detail in issue.details %}
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">{{ detail }}</code></li>
+                        {% endfor %}
+                        {% if issue.count > issue.details|length %}
+                        <li style="font-style: italic; color: #718096;">...and {{ issue.count - issue.details|length }} more</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
 </div>
 {% endif %}
 
-<!-- Remediation Guide -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-tools"></i>
-        Remediation Guide
-    </h2>
-    <div class="section-description">
-        Step-by-step guidance to address common accessibility issues and improve WCAG compliance.
-    </div>
-    
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-image"></i> Images and Alternative Text
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Add meaningful alt text to all informative images</li>
-                <li>Use alt="" for decorative images that don't convey information</li>
-                <li>Keep alt text concise but descriptive (under 125 characters)</li>
-                <li>Avoid phrases like "image of" or "picture of" in alt text</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;img src="chart.png" alt="Sales increased 25% from Q1 to Q2 2024"&gt;</code>
-            </div>
-        </div>
-    </div>
 
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-mouse-pointer"></i> Interactive Elements
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Ensure all buttons have accessible labels or text content</li>
-                <li>Use descriptive link text instead of "click here" or "read more"</li>
-                <li>Add aria-label for icon-only buttons</li>
-                <li>Make sure all interactive elements are keyboard accessible</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;button aria-label="Close dialog"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/button&gt;</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-heading"></i> Heading Structure
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Use headings to create a logical page structure</li>
-                <li>Start with H1 and don't skip heading levels</li>
-                <li>Use only one H1 per page</li>
-                <li>Make headings descriptive of the content that follows</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example Structure:</strong><br>
-                <code>H1: Page Title</code><br>
-                <code>&nbsp;&nbsp;H2: Main Section</code><br>
-                <code>&nbsp;&nbsp;&nbsp;&nbsp;H3: Subsection</code><br>
-                <code>&nbsp;&nbsp;H2: Another Main Section</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-globe"></i> Language and Internationalization
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Add lang attribute to the html element</li>
-                <li>Use appropriate language codes (e.g., "en" for English)</li>
-                <li>Mark changes in language within content using lang attribute</li>
-                <li>Ensure content is readable and understandable</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;html lang="en"&gt;</code><br>
-                <code>&lt;span lang="es"&gt;Hola mundo&lt;/span&gt;</code>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- WCAG Guidelines Reference -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-book"></i>
-        WCAG 2.1 Guidelines Reference
-    </h2>
-    <div class="section-description">
-        Key Web Content Accessibility Guidelines principles and success criteria.
-    </div>
-    
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value">P</div>
-            <div class="metric-label">Perceivable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">O</div>
-            <div class="metric-label">Operable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">U</div>
-            <div class="metric-label">Understandable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">R</div>
-            <div class="metric-label">Robust</div>
-        </div>
-    </div>
-    
-    <div style="margin-top: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Priority Actions</h3>
-        <ol style="padding-left: 1.5rem; color: #4a5568; line-height: 1.8;">
-            <li><strong>Address High-Severity Issues:</strong> Focus on issues that completely block access for users with disabilities</li>
-            <li><strong>Test with Screen Readers:</strong> Use tools like NVDA or VoiceOver to test your site</li>
-            <li><strong>Check Keyboard Navigation:</strong> Ensure all functionality is accessible via keyboard</li>
-            <li><strong>Validate Color Contrast:</strong> Ensure sufficient contrast ratios for text and backgrounds</li>
-            <li><strong>Test with Real Users:</strong> Include users with disabilities in your testing process</li>
-        </ol>
-    </div>
-</div>
 {% endblock %}

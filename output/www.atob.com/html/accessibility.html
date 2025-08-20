@@ -28,6 +28,56 @@ body {
     padding: 20px;
 }
 
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4a5568;
+    font-size: 0.9rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 8px;
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 4px;
+    color: #667eea;
+    font-weight: 500;
+}
+
 /* Header Styles */
 .header {
     text-align: center;
@@ -447,6 +497,16 @@ body {
     .metrics-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
 }
 
 /* Lightbox for screenshots */
@@ -495,6 +555,16 @@ body {
 </head>
 <body>
     <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+            </div>
+        </div>
+
         <div class="header">
             <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
             <p>WCAG 2.1 AA compliance analysis with detailed accessibility insights</p>
@@ -528,7 +598,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">100%</div>
+                <div class="stat-value">71.0%</div>
                 <div class="stat-label">Accessibility Score</div>
                 <div class="card-description">Overall accessibility compliance rating</div>
             </div>
@@ -541,7 +611,7 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value">0</div>
+                <div class="stat-value">20</div>
                 <div class="stat-label">Issues Found</div>
                 <div class="card-description">Accessibility violations requiring attention</div>
             </div>
@@ -586,11 +656,11 @@ body {
     </h2>
     <div class="metrics-grid">
         <div class="metric-item">
-            <div class="metric-value">0</div>
+            <div class="metric-value">588</div>
             <div class="metric-label">Total Images</div>
         </div>
         <div class="metric-item">
-            <div class="metric-value">0</div>
+            <div class="metric-value">738</div>
             <div class="metric-label">Total Links</div>
         </div>
         <div class="metric-item">
@@ -606,150 +676,488 @@ body {
 
 <!-- Issues Analysis -->
 
-
-<!-- Remediation Guide -->
 <div class="content-section">
     <h2 class="section-title">
-        <i class="fas fa-tools"></i>
-        Remediation Guide
+        <i class="fas fa-exclamation-triangle"></i>
+        Accessibility Issues by Severity
     </h2>
     <div class="section-description">
-        Step-by-step guidance to address common accessibility issues and improve WCAG compliance.
+        Issues found during WCAG 2.1 AA compliance analysis, grouped by severity level. Address high-severity issues first for maximum impact.
     </div>
     
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-image"></i> Images and Alternative Text
+    <!-- High Severity Issues -->
+    
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #e53e3e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-circle"></i> High Severity Issues (9)
+        </h3>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 53 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
             </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
         </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Add meaningful alt text to all informative images</li>
-                <li>Use alt="" for decorative images that don't convey information</li>
-                <li>Keep alt text concise but descriptive (under 125 characters)</li>
-                <li>Avoid phrases like "image of" or "picture of" in alt text</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;img src="chart.png" alt="Sales increased 25% from Q1 to Q2 2024"&gt;</code>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 35 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/get-started</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
             </div>
         </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 105 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 38 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-payrolls</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 87 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/truck-stop-discount-network</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 128 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/gas-station-discount-network</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 39 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/local</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 47 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/overtheroad</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">2 out of 31 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-broker-partner</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=353940347453199&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../tr?id=389195278716091&amp;ev=PageView&amp;noscript=1</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
     </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-mouse-pointer"></i> Interactive Elements
+    
+    
+    <!-- Medium Severity Issues -->
+    
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-triangle"></i> Medium Severity Issues (11)
+        </h3>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com</code>
+                </div>
+                
+                
             </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
         </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Ensure all buttons have accessible labels or text content</li>
-                <li>Use descriptive link text instead of "click here" or "read more"</li>
-                <li>Add aria-label for icon-only buttons</li>
-                <li>Make sure all interactive elements are keyboard accessible</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;button aria-label="Close dialog"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/button&gt;</code>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/get-started</code>
+                </div>
+                
+                
             </div>
         </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-fuel-cards</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/product-payrolls</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/truck-stop-discount-network</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/gas-station-discount-network</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/local</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/overtheroad</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-factoring-partner</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.atob.com/become-a-broker-partner</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
     </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-heading"></i> Heading Structure
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Use headings to create a logical page structure</li>
-                <li>Start with H1 and don't skip heading levels</li>
-                <li>Use only one H1 per page</li>
-                <li>Make headings descriptive of the content that follows</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example Structure:</strong><br>
-                <code>H1: Page Title</code><br>
-                <code>&nbsp;&nbsp;H2: Main Section</code><br>
-                <code>&nbsp;&nbsp;&nbsp;&nbsp;H3: Subsection</code><br>
-                <code>&nbsp;&nbsp;H2: Another Main Section</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-globe"></i> Language and Internationalization
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <h4 style="margin-bottom: 0.5rem;">Best Practices:</h4>
-            <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-                <li>Add lang attribute to the html element</li>
-                <li>Use appropriate language codes (e.g., "en" for English)</li>
-                <li>Mark changes in language within content using lang attribute</li>
-                <li>Ensure content is readable and understandable</li>
-            </ul>
-            <div style="margin-top: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <strong>Example:</strong><br>
-                <code>&lt;html lang="en"&gt;</code><br>
-                <code>&lt;span lang="es"&gt;Hola mundo&lt;/span&gt;</code>
-            </div>
-        </div>
-    </div>
+    
+    
+    <!-- Low Severity Issues -->
+    
+    
 </div>
 
-<!-- WCAG Guidelines Reference -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-book"></i>
-        WCAG 2.1 Guidelines Reference
-    </h2>
-    <div class="section-description">
-        Key Web Content Accessibility Guidelines principles and success criteria.
-    </div>
-    
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value">P</div>
-            <div class="metric-label">Perceivable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">O</div>
-            <div class="metric-label">Operable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">U</div>
-            <div class="metric-label">Understandable</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">R</div>
-            <div class="metric-label">Robust</div>
-        </div>
-    </div>
-    
-    <div style="margin-top: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Priority Actions</h3>
-        <ol style="padding-left: 1.5rem; color: #4a5568; line-height: 1.8;">
-            <li><strong>Address High-Severity Issues:</strong> Focus on issues that completely block access for users with disabilities</li>
-            <li><strong>Test with Screen Readers:</strong> Use tools like NVDA or VoiceOver to test your site</li>
-            <li><strong>Check Keyboard Navigation:</strong> Ensure all functionality is accessible via keyboard</li>
-            <li><strong>Validate Color Contrast:</strong> Ensure sufficient contrast ratios for text and backgrounds</li>
-            <li><strong>Test with Real Users:</strong> Include users with disabilities in your testing process</li>
-        </ol>
-    </div>
-</div>
+
+
 
         </main>
     </div>

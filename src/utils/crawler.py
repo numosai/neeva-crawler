@@ -62,13 +62,20 @@ class WebCrawler:
                         result.screenshot, screenshot_path
                     )
                 
+                # Store raw HTML content for analyzers
+                page_html_file = raw_dir / f"page_{page_idx}_content.html"
+                if hasattr(result, 'html') and result.html:
+                    with open(page_html_file, 'w', encoding='utf-8') as f:
+                        f.write(result.html)
+                
                 # Add page data
                 page_node = f"page_{page_idx}"
                 crawled_pages.append({
                     "id": page_node,
                     "url": current_url,
                     "title": result.metadata.get("title") if result.metadata else "",
-                    "markdown": result.markdown if hasattr(result, 'markdown') else ""
+                    "markdown": result.markdown if hasattr(result, 'markdown') else "",
+                    "html_file": f"page_{page_idx}_content.html"  # Reference to stored HTML
                 })
                 
                 # Add to graph
