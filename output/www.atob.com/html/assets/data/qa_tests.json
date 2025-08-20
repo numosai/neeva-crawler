@@ -1,252 +1,343 @@
 {
   "summary": {
-    "total_test_files": 2,
-    "total_phases": 18,
-    "total_assertions": 23,
-    "avg_phases_per_file": 9.0,
-    "avg_assertions_per_file": 11.5
+    "total_test_files": 5,
+    "total_phases": 29,
+    "total_assertions": 24,
+    "avg_phases_per_file": 5.8,
+    "avg_assertions_per_file": 4.8
   },
   "test_files": [
     {
-      "filename": "atob_website_qa_test_1.yaml",
-      "name": "AtoB Website QA Test",
-      "title": "AtoB Website Functionality Verification",
+      "filename": "returning_visitor_to_convert_test.yaml",
+      "name": "Returning Visitor to Convert Test",
+      "title": "Returning Visitor to Convert",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Navigate to homepage",
+          "objective": "Navigate directly to https://www.atob.com (potentially via a bookmark or recent history)",
           "assertions": [
             {
-              "id": "homepage_loads",
-              "description": "Verify that the homepage loads successfully",
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely without errors",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Scroll to the Products Section",
-          "assertions": [
-            {
-              "id": "fuel_cards_displayed",
-              "description": "Verify that 'Fuel cards' product is displayed with description",
-              "status": "pending"
-            },
-            {
-              "id": "driver_pay_displayed",
-              "description": "Verify that 'Driver Pay' product is displayed with description",
-              "status": "pending"
-            }
-          ]
+          "objective": "Navigate to Quickly re-scan the homepage for any new information or direct calls to action",
+          "assertions": []
         },
         {
           "phase_number": 3,
-          "objective": "Scroll to the Discounts Section",
+          "objective": "Navigate to Immediately locate and click the prominent 'Get Started' or 'Apply Now' button, bypassing detailed browsing",
           "assertions": [
             {
-              "id": "truck_stop_discount_network_displayed",
-              "description": "Verify that 'AtoB Truck Stop Discount Network' is displayed",
-              "status": "pending"
-            },
-            {
-              "id": "gas_station_discount_network_displayed",
-              "description": "Verify that 'AtoB Gas Station Discount Network' is displayed",
+              "id": "redirected_to_signup_page",
+              "description": "Verify that verify user is successfully redirected to the signup page (https://www.atob.com/get-started)",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 4,
-          "objective": "Scroll to the Who We Serve Section",
+          "objective": "Navigate to Arrive at the 'Sign up form' on https://www.atob.com/get-started",
           "assertions": [
             {
-              "id": "local_businesses_displayed",
-              "description": "Verify that 'Local businesses' service is displayed with description",
-              "status": "pending"
-            },
-            {
-              "id": "over_the_road_fleets_displayed",
-              "description": "Verify that 'Over the road fleets' service is displayed with description",
+              "id": "signup_form_loaded",
+              "description": "Verify that verify the signup form is fully loaded and visible on the page",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 5,
-          "objective": "Scroll to the Partner with AtoB Section",
-          "assertions": [
-            {
-              "id": "factoring_partners_displayed",
-              "description": "Verify that 'Factoring partners' option is displayed with description",
-              "status": "pending"
-            },
-            {
-              "id": "broker_partners_displayed",
-              "description": "Verify that 'Broker partners' option is displayed with description",
-              "status": "pending"
-            },
-            {
-              "id": "merchant_partners_displayed",
-              "description": "Verify that 'Merchant partners' option is displayed with description",
-              "status": "pending"
-            }
-          ]
+          "objective": "Navigate to Proceed to fill in or complete the signup form with full intent to submit",
+          "assertions": []
         },
         {
           "phase_number": 6,
-          "objective": "Scroll to the Electric Vehicles Section",
+          "objective": "Click 'Submit Application' to finalize",
           "assertions": [
             {
-              "id": "electric_vehicles_section_displayed",
-              "description": "Verify that the 'Electric Vehicles' section is displayed",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 7,
-          "objective": "Scroll to the Blog Section",
-          "assertions": [
-            {
-              "id": "blog_section_displayed",
-              "description": "Verify that the 'Blog' section is displayed",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 8,
-          "objective": "Scroll to the About Section",
-          "assertions": [
-            {
-              "id": "about_section_displayed",
-              "description": "Verify that the 'About' section is displayed",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 9,
-          "objective": "Scroll to the Contact Us Section",
-          "assertions": [
-            {
-              "id": "contact_us_section_displayed",
-              "description": "Verify that the 'Contact Us' section is displayed",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 10,
-          "objective": "Navigate to view Login Functionality",
-          "assertions": [
-            {
-              "id": "login_page_accessible",
-              "description": "Verify that the login page is accessible",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 11,
-          "objective": "Navigate to view Get Started Functionality",
-          "assertions": [
-            {
-              "id": "get_started_page_accessible",
-              "description": "Verify that the 'Get Started' page is accessible",
+              "id": "form_submission_success",
+              "description": "Verify that verify the application form submits successfully and displays a confirmation or proceeds to the next step",
               "status": "pending"
             }
           ]
         }
       ],
-      "phase_count": 11,
-      "assertion_count": 16
+      "phase_count": 6,
+      "assertion_count": 4
     },
     {
-      "filename": "atob_website_qa_test.yaml",
-      "name": "AtoB Website QA Test",
-      "title": "AtoB Website Functionality and Content Verification",
+      "filename": "cost_focused_price_comparer_test.yaml",
+      "name": "Cost-Focused Price Comparer Test",
+      "title": "Cost-Focused Price Comparer",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Navigate to the AtoB homepage",
+          "objective": "Navigate to https://www.atob.com",
           "assertions": [
             {
-              "id": "homepage_loads",
-              "description": "Verify that the AtoB homepage loads successfully",
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely without errors",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Navigate to view the availability of instant transfer methods",
-          "assertions": [
-            {
-              "id": "instant_transfer_methods_displayed",
-              "description": "Verify that instant transfer methods like Venmo, PayPal, push to debit, and Pay by email or text are displayed",
-              "status": "pending"
-            }
-          ]
+          "objective": "Navigate to Scan the homepage for any direct links to 'Pricing' or 'Fees' sections",
+          "assertions": []
         },
         {
           "phase_number": 3,
-          "objective": "Navigate to the section containing AtoB's banking status",
+          "objective": "Navigate to If not found, click on a link leading to detailed product information, such as 'Learn More' or 'Fuel Card Details' to reach https://www.atob.com/product-fuel-cards",
           "assertions": [
             {
-              "id": "atob_not_a_bank",
-              "description": "Verify that AtoB is not a bank but maintains wallet accounts with an FDIC insured bank",
+              "id": "navigated_to_product_page",
+              "description": "Verify that verify navigation to the product details page (https://www.atob.com/product-fuel-cards)",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 4,
-          "objective": "Navigate to view the availability of AtoB products",
+          "objective": "Navigate to On the 'Fuel card details' page, specifically search for sections related to transaction fees, fuel discounts, monthly costs, or account setup fees",
           "assertions": [
             {
-              "id": "products_listed",
-              "description": "Verify that products like Fuel Card, Driver Pay, and AtoB Perks are listed",
+              "id": "pricing_details_found",
+              "description": "Verify that verify the presence of sections detailing transaction fees, fuel discounts, or other costs",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 5,
-          "objective": "Navigate to the section containing customer support contact information",
+          "objective": "Navigate to Carefully read and make note of any relevant cost-related details to compare externally",
+          "assertions": []
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 3
+    },
+    {
+      "filename": "in_depth_product_researcher_test.yaml",
+      "name": "In-Depth Product Researcher Test",
+      "title": "In-Depth Product Researcher",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com",
           "assertions": [
             {
-              "id": "customer_support_contact",
-              "description": "Verify that customer support phone number and email are displayed",
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely without errors",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Look for a navigation link or button explicitly stating 'Fuel Cards' or 'Our Product'",
+          "assertions": []
+        },
+        {
+          "phase_number": 3,
+          "objective": "Click on the link to navigate to https://www.atob.com/product-fuel-cards",
+          "assertions": [
+            {
+              "id": "navigated_to_product_page",
+              "description": "Verify that verify navigation to the correct product details page (https://www.atob.com/product-fuel-cards)",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll through the 'Fuel card details' page, reading about features, advantages, and potential savings",
+          "assertions": [
+            {
+              "id": "product_features_visible",
+              "description": "Verify that verify key sections like features, advantages, and savings are present and readable",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Review any FAQs or detailed specifications presented on the product page",
+          "assertions": [
+            {
+              "id": "faq_section_present",
+              "description": "Verify that verify the FAQ or detailed specifications section is present and accessible",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 6,
-          "objective": "Navigate to view the social media links",
+          "objective": "Navigate to Consider if the product meets their trucking business needs",
+          "assertions": []
+        }
+      ],
+      "phase_count": 6,
+      "assertion_count": 4
+    },
+    {
+      "filename": "mobile_user_quick_scan__action_test.yaml",
+      "name": "Mobile User Quick Scan & Action Test",
+      "title": "Mobile User Quick Scan & Action",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to Access https://www.atob.com on a mobile browser",
           "assertions": [
             {
-              "id": "social_media_links",
-              "description": "Verify that social media links to Facebook, Instagram, and LinkedIn are present",
+              "id": "mobile_homepage_loads",
+              "description": "Verify that verify the homepage loads successfully and is rendered for a mobile device",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Observe the mobile-optimized layout and prominent CTAs",
+          "assertions": [
+            {
+              "id": "mobile_layout_optimized",
+              "description": "Verify that verify the page displays a responsive, mobile-optimized layout",
+              "status": "pending"
+            },
+            {
+              "id": "mobile_cta_prominent",
+              "description": "Verify that verify key Call-to-Actions (CTAs) are prominent and easily tappable on mobile",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to Vertically scroll down the homepage to quickly scan main benefits and services",
+          "assertions": [
+            {
+              "id": "main_benefits_visible",
+              "description": "Verify that verify main benefits and services sections are visible and readable after scrolling",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Tap on a 'Learn More' or 'Product Details' link to briefly view https://www.atob.com/product-fuel-cards",
+          "assertions": [
+            {
+              "id": "navigated_to_product_page",
+              "description": "Verify that verify navigation to the product details page (https://www.atob.com/product-fuel-cards)",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Quickly scroll the product page to identify a key feature or benefit on mobile",
+          "assertions": [
+            {
+              "id": "key_feature_visible_on_mobile",
+              "description": "Verify that verify key features or benefits are visible and scannable on the mobile product page",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Tap the 'Apply Now' or 'Get Started' button (likely sticky or prominent on mobile) to navigate to https://www.atob.com/get-started",
+          "assertions": [
+            {
+              "id": "redirected_to_signup_page",
+              "description": "Verify that verify user is successfully redirected to the signup page (https://www.atob.com/get-started)",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 7,
-          "objective": "Navigate to the section containing fuel discount information",
+          "objective": "Navigate to Begin filling out the signup form on their mobile device",
           "assertions": [
             {
-              "id": "fuel_discount_information",
-              "description": "Verify that the average and maximum fuel discount information is displayed",
+              "id": "signup_form_mobile_usable",
+              "description": "Verify that verify the signup form is accessible and fields are usable on a mobile device",
               "status": "pending"
             }
           ]
         }
       ],
       "phase_count": 7,
-      "assertion_count": 7
+      "assertion_count": 8
+    },
+    {
+      "filename": "quick_decision_maker_signup_test.yaml",
+      "name": "Quick Decision Maker Signup Test",
+      "title": "Quick Decision Maker Signup",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com and quickly scan the main value proposition",
+          "assertions": [
+            {
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads without errors",
+              "status": "pending"
+            },
+            {
+              "id": "main_value_proposition_visible",
+              "description": "Verify that verify the main value proposition is prominently displayed",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Locate and click the prominent 'Get Started' or 'Apply Now' button on the homepage",
+          "assertions": [
+            {
+              "id": "redirected_to_signup_page",
+              "description": "Verify that verify user is successfully redirected to the signup page (https://www.atob.com/get-started)",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to Arrive at the 'Sign up form' on https://www.atob.com/get-started",
+          "assertions": [
+            {
+              "id": "signup_form_loaded",
+              "description": "Verify that verify the signup form is fully loaded and visible on the page",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Fill in required fields in the signup form",
+          "assertions": []
+        },
+        {
+          "phase_number": 5,
+          "objective": "Click 'Submit Application' to proceed with the signup process",
+          "assertions": [
+            {
+              "id": "form_submission_success",
+              "description": "Verify that verify the application form submits successfully and displays a confirmation or proceeds to the next step",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 5
     }
   ]
 }

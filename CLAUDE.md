@@ -11,12 +11,10 @@ Neeva-Crawler is a local-first website analysis tool that performs comprehensive
 ### Environment Setup
 ```bash
 # Set API keys (required for LLM-based analysis)
-export OPENAI_API_KEY="your-openai-api-key-here"
 export GOOGLE_API_KEY="your-google-api-key-here"
 
 # Or create a .env file
-echo 'OPENAI_API_KEY=your-openai-api-key-here' > .env
-echo 'GOOGLE_API_KEY=your-google-api-key-here' >> .env
+echo 'GOOGLE_API_KEY=your-google-api-key-here' > .env
 ```
 
 ### Setup and Execution
@@ -29,18 +27,18 @@ echo 'GOOGLE_API_KEY=your-google-api-key-here' >> .env
 # Example: /opt/homebrew/bin/uv run python main.py https://www.example.com
 
 # Use different LLM models
-/opt/homebrew/bin/uv run python main.py <url> --model openai/gpt-4o
-/opt/homebrew/bin/uv run python main.py <url> --model google/gemini-flash-1.5
-/opt/homebrew/bin/uv run python main.py <url> --model google/gemini-flash-2.5
+/opt/homebrew/bin/uv run python main.py <url> --model gemini/gemini-1.5-pro
+/opt/homebrew/bin/uv run python main.py <url> --model gemini/gemini-1.5-flash
+/opt/homebrew/bin/uv run python main.py <url> --model gemini/gemini-2.5-flash
 
 # Run individual analysis modes (skips crawling)
 /opt/homebrew/bin/uv run python main.py <url> --accessibility-only
 /opt/homebrew/bin/uv run python main.py <url> --seo-only
 
 # Regenerate QA tests with different models
-/opt/homebrew/bin/uv run python main.py <url> --qa-only --model openai/gpt-4o
-/opt/homebrew/bin/uv run python main.py <url> --qa-only --model google/gemini-flash-1.5
-/opt/homebrew/bin/uv run python main.py <url> --qa-only --model google/gemini-flash-2.5
+/opt/homebrew/bin/uv run python main.py <url> --qa-only --model gemini/gemini-1.5-pro
+/opt/homebrew/bin/uv run python main.py <url> --qa-only --model gemini/gemini-1.5-flash
+/opt/homebrew/bin/uv run python main.py <url> --qa-only --model gemini/gemini-2.5-flash
 ```
 
 ## Architecture
@@ -53,7 +51,7 @@ echo 'GOOGLE_API_KEY=your-google-api-key-here' >> .env
 ### Key Dependencies
 - **Crawl4AI**: Web crawling and content extraction
 - **NetworkX**: Graph-based site navigation analysis
-- **OpenAI GPT-4o-mini**: LLM-powered test generation and UX analysis
+- **Google Gemini**: LLM-powered test generation and UX analysis
 
 ### Data Flow
 1. Crawls website recursively (configurable depth/page limits)

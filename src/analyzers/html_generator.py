@@ -25,6 +25,12 @@ class HTMLGeneratorAnalyzer:
             bool: True if successful, False otherwise
         """
         try:
+            # Clean up existing HTML directory for fresh generation
+            if html_dir.exists():
+                import shutil
+                shutil.rmtree(html_dir)
+                print("🗑️ Cleared existing HTML files")
+            
             generator = HTMLGenerator(raw_dir, html_dir)
             
             # Extract site title from URL as fallback

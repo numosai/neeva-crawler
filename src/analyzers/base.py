@@ -126,7 +126,7 @@ class BaseAnalyzer:
             # Clean up temp file
             os.unlink(temp_file)
     
-    async def _extract_with_llm_strategy(self, html_content: str, url: str, prompt: str, schema: dict, model: str = "google/gemini-flash-2.5") -> dict:
+    async def _extract_with_llm_strategy(self, html_content: str, url: str, prompt: str, schema: dict, model: str = "gemini/gemini-2.5-flash") -> dict:
         """Helper method to extract data using LLM on cached HTML"""
         import tempfile
         import os

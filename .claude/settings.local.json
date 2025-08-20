@@ -17,7 +17,10 @@
       "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages -X POST -F source[branch]=main -F source[path]=/)",
       "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages)",
       "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages/builds --paginate)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(rm:*)",
+      "Bash(mv:*)"
     ],
     "defaultMode": "acceptEdits"
   }

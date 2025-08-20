@@ -20,12 +20,14 @@ Three analysis stages:
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     parser.add_argument("url", help="URL to analyze")
-    parser.add_argument("--model", default="google/gemini-flash-2.5", 
-                       help="LLM model to use (default: google/gemini-flash-2.5, also supports: openai/gpt-4o-mini, openai/gpt-4o, google/gemini-flash-1.5)")
+    parser.add_argument("--model", default="gemini/gemini-2.5-flash", 
+                       help="LLM model to use (default: gemini/gemini-2.5-flash, also supports: gemini/gemini-1.5-flash, gemini/gemini-1.5-pro)")
     parser.add_argument("--analyze-and-html", action="store_true",
                        help="Run all analyses and generate HTML from existing crawl data (stage 2)")
     parser.add_argument("--html-only", action="store_true",
                        help="Generate HTML site from existing analysis data only (stage 3)")
+    parser.add_argument("--qa-only", action="store_true",
+                       help="Run QA analysis only from existing crawl data")
     return parser
 
 
@@ -42,6 +44,8 @@ async def main():
         await engine.analyze_and_html(args.url, model=args.model)
     elif args.html_only:
         await engine.generate_html_only(args.url)
+    elif args.qa_only:
+        await engine.analyze_qa_only(args.url, model=args.model)
     else:
         await engine.full_crawl_and_analyze(args.url, model=args.model)
 

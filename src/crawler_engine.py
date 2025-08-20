@@ -5,9 +5,6 @@ from pathlib import Path
 from urllib.parse import urlparse
 from .utils import WebCrawler
 from .analyzers import AccessibilityAnalyzer, SEOAnalyzer, QAAnalyzer, UXAnalyzer, SitemapAnalyzer, HTMLGeneratorAnalyzer
-from .analyzers.seo_optimized import OptimizedSEOAnalyzer
-from .analyzers.accessibility_optimized import OptimizedAccessibilityAnalyzer
-from .analyzers.ux_optimized import OptimizedUXAnalyzer
 
 
 class CrawlerEngine:
@@ -15,11 +12,11 @@ class CrawlerEngine:
     
     def __init__(self, max_depth: int = 2, max_pages: int = 10):
         self.web_crawler = WebCrawler(max_depth, max_pages)
-        # Use optimized analyzers that work with cached HTML
-        self.accessibility_analyzer = OptimizedAccessibilityAnalyzer()
-        self.seo_analyzer = OptimizedSEOAnalyzer()
-        self.ux_analyzer = OptimizedUXAnalyzer()
-        # Keep existing analyzers for other functionality
+        # Use analyzers that work with cached HTML
+        self.accessibility_analyzer = AccessibilityAnalyzer()
+        self.seo_analyzer = SEOAnalyzer()
+        self.ux_analyzer = UXAnalyzer()
+        # Use enhanced multi-page QA analyzer
         self.qa_analyzer = QAAnalyzer()
         self.sitemap_analyzer = SitemapAnalyzer()
         self.html_generator = HTMLGeneratorAnalyzer()
@@ -30,20 +27,20 @@ class CrawlerEngine:
         domain = parsed.netloc.replace(":", "_")
         return Path("output") / domain
     
-    async def full_crawl_and_analyze(self, url: str, model: str = "google/gemini-flash-2.5") -> bool:
+    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
         # Crawl the website
         print(f"🚀 Starting full analysis of {url}")
-        crawled_pages, flows = await self.web_crawler.crawl_site(url, output_dir)
+        crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir)
         
         if not crawled_pages:
             print("❌ No pages were successfully crawled")
             return False
         
         # Run all analyses in parallel
-        results = await self._run_all_analyses(url, model, output_dir, crawled_pages, flows)
+        results = await self._run_all_analyses(url, model, output_dir, crawled_pages)
         
         success_count = sum(results)
         total_analyses = len(results)
@@ -52,7 +49,7 @@ class CrawlerEngine:
         return success_count > 0
     
     
-    async def analyze_and_html(self, url: str, model: str = "google/gemini-flash-2.5") -> bool:
+    async def analyze_and_html(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
         """Run all analyses and generate HTML from existing crawl data"""
         output_dir = self._get_output_dir(url)
         raw_dir = output_dir / "raw"
@@ -141,8 +138,33 @@ class CrawlerEngine:
         
         return success
     
+    async def analyze_qa_only(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
+        """Run QA analysis only from existing crawl data"""
+        output_dir = self._get_output_dir(url)
+        raw_dir = output_dir / "raw"
+        
+        if not raw_dir.exists():
+            print(f"❌ No crawl data found for {url}")
+            print(f"Expected data at: {raw_dir}")
+            print("Run a full crawl first to generate data")
+            return False
+        
+        print(f"🧪 Running QA analysis only for {url} using {model}")
+        
+        # QA Analysis using the same pattern as UX analyzer
+        qa_success = await self.qa_analyzer.analyze_cached_pages_with_model(url, model, output_dir)
+        
+        if qa_success:
+            print(f"✅ QA analysis completed successfully!")
+            print(f"📁 Output directory: {output_dir / 'raw'}")
+            print(f"🧪 QA tests: {output_dir / 'raw' / 'tests'}")
+        else:
+            print(f"❌ QA analysis failed")
+        
+        return qa_success
+    
     async def _run_all_analyses(self, url: str, model: str, output_dir: Path, 
-                               crawled_pages: list, flows: list) -> list[bool]:
+                               crawled_pages: list) -> list[bool]:
         """Run all analyses and return success status for each"""
         results = []
         raw_dir = output_dir / "raw"
@@ -155,10 +177,8 @@ class CrawlerEngine:
             with open(flows_file, 'r') as f:
                 flows_data = json.load(f)
         
-        # QA Analysis
-        qa_success = await self.qa_analyzer.analyze_from_crawl_data(
-            url, crawled_pages, flows, model, output_dir
-        )
+        # QA Analysis using cached pages pattern
+        qa_success = await self.qa_analyzer.analyze_cached_pages_with_model(url, model, output_dir)
         results.append(qa_success)
         
         # Accessibility Analysis (using cached HTML)
