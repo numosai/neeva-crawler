@@ -1,3 +1,9 @@
 crawl4ai
 pydantic
 networkx
+matplotlib
+pillow
+pyyaml
+python-dotenv
+jinja2
+markupsafe
