@@ -23,38 +23,12 @@
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value" id="total-phases">0</div>
-                <div class="stat-label">Test Phases</div>
-                <div class="card-description">Individual testing phases across all files</div>
-            </div>
-            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
-                <i class="fas fa-list-ol"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="stat-card">
-        <div class="stat-header">
-            <div>
                 <div class="stat-value" id="total-assertions">0</div>
                 <div class="stat-label">Test Assertions</div>
                 <div class="card-description">Total verification points across all tests</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
                 <i class="fas fa-check-circle"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="stat-card">
-        <div class="stat-header">
-            <div>
-                <div class="stat-value" id="avg-phases-per-file">0</div>
-                <div class="stat-label">Avg Phases/File</div>
-                <div class="card-description">Average complexity per test file</div>
-            </div>
-            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
-                <i class="fas fa-chart-line"></i>
             </div>
         </div>
     </div>
@@ -91,186 +65,6 @@
     <p style="color: #718096; font-size: 0.9rem;">Run the crawler with QA analysis enabled to generate test data.</p>
 </div>
 
-<!-- Testing Categories -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-clipboard-list"></i>
-        Test Categories Overview
-    </h2>
-    <div class="section-description">
-        Our QA test suite covers multiple categories to ensure comprehensive website quality assessment.
-    </div>
-    
-    <div class="stats-grid">
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-mouse-pointer"></i></div>
-                    <div class="stat-label">Navigation & Links</div>
-                    <div class="card-description">Link functionality, menu behavior, and user flow testing</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-edit"></i></div>
-                    <div class="stat-label">Forms & Interactions</div>
-                    <div class="card-description">Form validation, input handling, and submission processes</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-eye"></i></div>
-                    <div class="stat-label">Content Verification</div>
-                    <div class="card-description">Text accuracy, image loading, and dynamic content</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="stat-card">
-            <div class="stat-header">
-                <div>
-                    <div class="stat-value"><i class="fas fa-tachometer-alt"></i></div>
-                    <div class="stat-label">Performance & UX</div>
-                    <div class="card-description">Page load times, responsiveness, and user experience</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Test Execution Guide -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-play-circle"></i>
-        Test Execution Guide
-    </h2>
-    <div class="section-description">
-        Instructions for running these QA tests using popular automation frameworks.
-    </div>
-    
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fab fa-js-square"></i> Playwright Implementation
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <div style="margin-bottom: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px; font-family: monospace; font-size: 0.9rem;">
-const { test, expect } = require('@playwright/test');<br><br>
-test('Website QA Test', async ({ page }) => {<br>
-&nbsp;&nbsp;// Navigate to homepage<br>
-&nbsp;&nbsp;await page.goto('{{ site_title }}');<br>
-&nbsp;&nbsp;<br>
-&nbsp;&nbsp;// Verify page elements<br>
-&nbsp;&nbsp;await expect(page).toHaveTitle(/{{ site_title }}/);<br>
-&nbsp;&nbsp;<br>
-&nbsp;&nbsp;// Additional test steps...<br>
-});
-            </div>
-            <p style="color: #4a5568; font-size: 0.9rem;">
-                Each test phase can be implemented as separate test functions or combined into comprehensive test flows.
-            </p>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fab fa-python"></i> Selenium WebDriver (Python)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <div style="margin-bottom: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px; font-family: monospace; font-size: 0.9rem;">
-from selenium import webdriver<br>
-from selenium.webdriver.common.by import By<br>
-import pytest<br><br>
-def test_website_qa():<br>
-&nbsp;&nbsp;&nbsp;&nbsp;driver = webdriver.Chrome()<br>
-&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;driver.get('{{ site_title }}')<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assert "{{ site_title }}" in driver.title<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Additional assertions...<br>
-&nbsp;&nbsp;&nbsp;&nbsp;finally:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;driver.quit()
-            </div>
-            <p style="color: #4a5568; font-size: 0.9rem;">
-                Use WebDriverWait for dynamic content and implement page object models for maintainable tests.
-            </p>
-        </div>
-    </div>
-
-    <div class="test-phase">
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-robot"></i> Cypress Implementation
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <div style="margin-bottom: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px; font-family: monospace; font-size: 0.9rem;">
-describe('Website QA Tests', () => {<br>
-&nbsp;&nbsp;it('should complete full user journey', () => {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;cy.visit('/');<br>
-&nbsp;&nbsp;&nbsp;&nbsp;cy.title().should('contain', '{{ site_title }}');<br>
-&nbsp;&nbsp;&nbsp;&nbsp;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;// Test phases implementation<br>
-&nbsp;&nbsp;&nbsp;&nbsp;cy.get('[data-cy=navigation]').should('be.visible');<br>
-&nbsp;&nbsp;})<br>
-});
-            </div>
-            <p style="color: #4a5568; font-size: 0.9rem;">
-                Cypress provides excellent debugging capabilities and real-time test execution viewing.
-            </p>
-        </div>
-    </div>
-</div>
-
-<!-- Test Best Practices -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-star"></i>
-        QA Testing Best Practices
-    </h2>
-    
-    <div style="margin-bottom: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Key Principles</h3>
-        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.8;">
-            <li><strong>Test Early and Often:</strong> Implement tests during development, not after</li>
-            <li><strong>Maintain Test Data:</strong> Use consistent, reliable test data across environments</li>
-            <li><strong>Page Object Pattern:</strong> Create maintainable tests with reusable page objects</li>
-            <li><strong>Wait Strategies:</strong> Use explicit waits for dynamic content instead of hard delays</li>
-            <li><strong>Cross-Browser Testing:</strong> Verify functionality across different browsers and devices</li>
-            <li><strong>Continuous Integration:</strong> Integrate tests into CI/CD pipelines for automated validation</li>
-        </ul>
-    </div>
-    
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value" id="test-coverage">0%</div>
-            <div class="metric-label">Test Coverage</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value" id="avg-assertions-per-file">0</div>
-            <div class="metric-label">Avg Assertions/File</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">5-15</div>
-            <div class="metric-label">Optimal Phases</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">2-5</div>
-            <div class="metric-label">Assertions/Phase</div>
-        </div>
-    </div>
-</div>
 {% endblock %}
 
 {% block extra_js %}
@@ -309,16 +103,7 @@ function displayQAData(qaData) {
 function updateSummaryStats(summary) {
     // Update main summary stats
     document.getElementById('total-test-files').textContent = summary.total_test_files || 0;
-    document.getElementById('total-phases').textContent = summary.total_phases || 0;
     document.getElementById('total-assertions').textContent = summary.total_assertions || 0;
-    document.getElementById('avg-phases-per-file').textContent = summary.avg_phases_per_file || 0;
-    
-    // Update dynamic stats that might change
-    const testCoverage = summary.total_phases > 0 ? 
-        Math.round((summary.total_assertions / summary.total_phases) * 100) : 0;
-    
-    document.getElementById('test-coverage').textContent = testCoverage + '%';
-    document.getElementById('avg-assertions-per-file').textContent = summary.avg_assertions_per_file || 0;
 }
 
 function renderTestFiles(testFiles) {
@@ -338,23 +123,11 @@ function createTestFileElement(testFile, index) {
         <div class="phase-header" onclick="toggleSection(this)">
             <div class="phase-title">
                 <i class="fas fa-file-code"></i> 
-                ${testFile.name}
-                <span style="font-size: 0.9rem; color: #718096; margin-left: 1rem;">
-                    ${testFile.phase_count} phases, ${testFile.assertion_count} assertions
-                </span>
+                ${testFile.assertion_count} assertions
             </div>
             <i class="fas fa-chevron-down toggle-icon"></i>
         </div>
         <div class="phase-content" style="display: none;">
-            <div style="margin-bottom: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px;">
-                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">${testFile.title}</h4>
-                <div style="color: #4a5568; font-size: 0.9rem;">
-                    <strong>File:</strong> ${testFile.filename}<br>
-                    <strong>Test Phases:</strong> ${testFile.phase_count}<br>
-                    <strong>Total Assertions:</strong> ${testFile.assertion_count}
-                </div>
-            </div>
-            
             <div id="phases-${index}">
                 <!-- Phases will be populated here -->
             </div>
@@ -375,39 +148,25 @@ function createTestFileElement(testFile, index) {
 
 function createPhaseElement(phase) {
     const div = document.createElement('div');
-    div.style.cssText = 'border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 1rem; overflow: hidden;';
+    div.style.cssText = 'margin-bottom: 1.5rem;';
     
     const hasAssertions = phase.assertions && phase.assertions.length > 0;
     
     div.innerHTML = `
-        <div style="background: #f7fafc; padding: 1rem; border-bottom: 1px solid #e2e8f0;">
-            <h4 style="color: #2d3748; margin-bottom: 0.5rem;">
-                Phase ${phase.phase_number}: ${phase.objective}
+        <div style="margin-bottom: 0.5rem;">
+            <h4 style="color: #2d3748; font-weight: 600; margin-bottom: 0.75rem;">
+                ${phase.objective}
             </h4>
             ${hasAssertions ? `
-                <div style="font-size: 0.9rem; color: #718096;">
-                    ${phase.assertions.length} verification${phase.assertions.length !== 1 ? 's' : ''}
+                <div style="padding-left: 1.5rem;">
+                    ${phase.assertions.map(assertion => `
+                        <div style="color: #4a5568; margin-bottom: 0.5rem; line-height: 1.5;">
+                            ${assertion.description}
+                        </div>
+                    `).join('')}
                 </div>
             ` : ''}
         </div>
-        
-        ${hasAssertions ? `
-            <div style="padding: 1rem;">
-                <ul class="assertion-list">
-                    ${phase.assertions.map(assertion => `
-                        <li class="assertion-item">
-                            <div class="assertion-id">${assertion.id}</div>
-                            <div class="assertion-description">${assertion.description}</div>
-                            <span class="status-badge status-${assertion.status}">${assertion.status}</span>
-                        </li>
-                    `).join('')}
-                </ul>
-            </div>
-        ` : `
-            <div style="padding: 1rem; color: #718096; font-style: italic;">
-                No specific verifications for this phase - action-only step
-            </div>
-        `}
     `;
     
     return div;
