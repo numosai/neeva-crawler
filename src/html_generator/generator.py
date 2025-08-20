@@ -6,6 +6,10 @@ from pathlib import Path
 from typing import Dict, Any
 from urllib.parse import urlparse
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+try:
+    from jinja2 import Markup
+except ImportError:
+    from markupsafe import Markup
 from .data_processor import DataProcessor
 
 
@@ -26,7 +30,9 @@ class HTMLGenerator:
         
         # Load CSS content for inline embedding
         css_file = Path(__file__).parent / "static" / "css" / "styles.css"
-        self.css_content = css_file.read_text() if css_file.exists() else ""
+        css_text = css_file.read_text() if css_file.exists() else ""
+        # Mark CSS as safe to prevent HTML escaping
+        self.css_content = Markup(css_text)
     
     def generate_site(self, site_title: str = "Website Analysis") -> bool:
         """

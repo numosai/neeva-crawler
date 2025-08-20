@@ -6,7 +6,18 @@
       "Bash(uv run:*)",
       "Bash(/opt/homebrew/bin/uv run:*)",
       "Bash(mkdir:*)",
-      "Bash(git init:*)"
+      "Bash(git init:*)",
+      "Bash(git commit:*)",
+      "Bash(/opt/homebrew/bin/gh repo create numosai/neeva-crawler --public --description \"Local-first website analysis tool for comprehensive QA testing, accessibility audits, SEO analysis, and UX recommendations\" --push)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages -X POST -F source.branch=main -F source.path=/output)",
+      "Bash(git add:*)",
+      "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages -X POST -f source='{\"\"branch\"\":\"\"main\"\",\"\"path\"\":\"\"/\"\"}')",
+      "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages -X POST -F source[branch]=main -F source[path]=/)",
+      "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages)",
+      "Bash(/opt/homebrew/bin/gh api repos/numosai/neeva-crawler/pages/builds --paginate)",
+      "Bash(grep:*)"
     ],
     "defaultMode": "acceptEdits"
   }
