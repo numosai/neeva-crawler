@@ -20,7 +20,8 @@
       "Bash(grep:*)",
       "Bash(find:*)",
       "Bash(rm:*)",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "WebFetch(domain:goodbill.com)"
     ],
     "defaultMode": "acceptEdits"
   }

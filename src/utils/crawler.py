@@ -12,7 +12,7 @@ from .screenshot import ScreenshotProcessor
 class WebCrawler:
     """Handles web crawling and site mapping"""
     
-    def __init__(self, max_depth: int = 2, max_pages: int = 10):
+    def __init__(self, max_depth: int = 2, max_pages: int = 20):
         self.max_depth = max_depth
         self.max_pages = max_pages
         self.screenshot_processor = ScreenshotProcessor()
@@ -92,7 +92,13 @@ class WebCrawler:
                     if not href:
                         continue
                     full_url = urljoin(current_url, href)
-                    if urlparse(full_url).netloc in ["", parsed.netloc]:
+                    link_netloc = urlparse(full_url).netloc
+                    
+                    # Check if domains match (handle www subdomain differences)
+                    base_domain = parsed.netloc.replace("www.", "")
+                    link_domain = link_netloc.replace("www.", "")
+                    
+                    if link_netloc in ["", parsed.netloc] or link_domain == base_domain:
                         graph.add_edge(page_node, full_url, label=link.get("text", "").strip())
                         if full_url not in seen:
                             to_visit.append((full_url, depth + 1))
