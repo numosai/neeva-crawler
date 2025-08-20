@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "url": "https://stage.bluebirds.com",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "AI Agents that sequence the best leads for your reps",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "AI Agents that sequence the best leads for your reps",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/blog",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "Blog",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "Trusted by outbound teams",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/terms",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "Inspo Labs Inc. Terms of Service",
+      "h2_elements": [
+        "Cover Page"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/privacy-policy",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "Privacy Policy",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers/intersystems",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "How InterSystems Transformed Their Technical Buyer Outreach with Bluebirds",
+      "h2_elements": [
+        "Setting the Stage: InterSystems' Go-to-Market Strategy",
+        "The Goal: Proactive Selling and Larger Pipeline Generation",
+        "The Solution: Bluebirds",
+        "Conclusion"
+      ],
+      "h2_count": 4,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers/redpanda",
+      "title": "Bluebirds",
+      "description": "",
+      "h1": "How Redpanda Seamlessly Generates Pipeline with Bluebirds",
+      "h2_elements": [
+        "Setting the Stage: Redpanda's GTM Motion",
+        "The Challenge: Inefficient and Inaccurate Targeting",
+        "The Goal: Scalably find the \u201cright person at the right place at the right time\u201d",
+        "The Solution: Bluebirds' Comprehensive Data Intelligence",
+        "Key Results",
+        "Conclusion"
+      ],
+      "h2_count": 6,
+      "issues": [
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    }
+  ],
+  "summary": {
+    "total_pages": 8,
+    "total_issues": 21,
+    "avg_title_length": 9,
+    "avg_desc_length": 0,
+    "avg_score": 65.0
+  }
+}

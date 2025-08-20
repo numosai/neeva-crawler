@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Tests - Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</title>
+    <title>Accessibility Analysis - Bluebirds</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         /* Inline CSS for better GitHub Pages compatibility */
@@ -561,13 +561,13 @@ body {
                 <i class="fas fa-home"></i> All Reports
             </a>
             <div class="breadcrumb">
-                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+                <span class="breadcrumb-item">Bluebirds</span>
             </div>
         </div>
 
         <div class="header">
-            <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
-            <p>Comprehensive QA test suite with automated browser testing scenarios</p>
+            <h1><i class="fas fa-chart-line"></i> Bluebirds Analysis</h1>
+            <p>WCAG 2.1 AA compliance analysis with detailed accessibility insights</p>
         </div>
 
         <div class="nav-tabs">
@@ -577,10 +577,10 @@ body {
             <a href="seo-analysis.html" class="nav-tab">
                 <i class="fas fa-search"></i> SEO Analysis
             </a>
-            <a href="accessibility.html" class="nav-tab">
+            <a href="accessibility.html" class="nav-tab active">
                 <i class="fas fa-universal-access"></i> Accessibility
             </a>
-            <a href="qa-tests.html" class="nav-tab active">
+            <a href="qa-tests.html" class="nav-tab">
                 <i class="fas fa-tasks"></i> QA Tests
             </a>
             <a href="ux-analysis.html" class="nav-tab">
@@ -593,17 +593,17 @@ body {
 
         <main>
             
-<!-- QA Summary Cards -->
+<!-- Accessibility Summary Cards -->
 <div class="stats-grid">
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value" id="total-test-files">0</div>
-                <div class="stat-label">Test Files</div>
-                <div class="card-description">Total QA test files generated</div>
+                <div class="stat-value">90.0%</div>
+                <div class="stat-label">Accessibility Score</div>
+                <div class="card-description">Overall accessibility compliance rating</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                <i class="fas fa-file-alt"></i>
+                <i class="fas fa-universal-access"></i>
             </div>
         </div>
     </div>
@@ -611,168 +611,227 @@ body {
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value" id="total-assertions">0</div>
-                <div class="stat-label">Test Assertions</div>
-                <div class="card-description">Total verification points across all tests</div>
+                <div class="stat-value">8</div>
+                <div class="stat-label">Issues Found</div>
+                <div class="card-description">Accessibility violations requiring attention</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">Unknown</div>
+                <div class="stat-label">WCAG Level</div>
+                <div class="card-description">Current compliance level achieved</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-award"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">0</div>
+                <div class="stat-label">Heading Elements</div>
+                <div class="card-description">Total heading elements found on page</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-heading"></i>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Loading State -->
-<div id="loading-state" class="content-section" style="text-align: center; padding: 2rem;">
-    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: #667eea; margin-bottom: 1rem;"></i>
-    <p style="color: #4a5568;">Loading QA test data...</p>
-</div>
-
-<!-- Test Files Container (populated by JavaScript) -->
-<div id="qa-tests-container" style="display: none;">
-    <div class="content-section">
-        <h2 class="section-title">
-            <i class="fas fa-tasks"></i>
-            QA Test Cases
-        </h2>
-        <div class="section-description">
-            Detailed test scenarios for comprehensive website quality assurance. Each test file contains multiple phases with specific verification points.
+<!-- Element Analysis -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-chart-bar"></i>
+        Element Analysis Summary
+    </h2>
+    <div class="metrics-grid">
+        <div class="metric-item">
+            <div class="metric-value">140</div>
+            <div class="metric-label">Total Images</div>
         </div>
-        
-        <div id="test-files-list">
-            <!-- Test files will be populated here by JavaScript -->
+        <div class="metric-item">
+            <div class="metric-value">86</div>
+            <div class="metric-label">Total Links</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">10</div>
+            <div class="metric-label">Total Buttons</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">0</div>
+            <div class="metric-label">Heading Elements</div>
         </div>
     </div>
 </div>
 
-<!-- Error State -->
-<div id="error-state" class="content-section" style="display: none; text-align: center; padding: 2rem;">
-    <i class="fas fa-exclamation-triangle" style="font-size: 2rem; color: #e53e3e; margin-bottom: 1rem;"></i>
-    <h3 style="color: #2d3748; margin-bottom: 1rem;">No QA Test Data Available</h3>
-    <p style="color: #4a5568; margin-bottom: 1rem;">QA test data could not be loaded or no tests were found.</p>
-    <p style="color: #718096; font-size: 0.9rem;">Run the crawler with QA analysis enabled to generate test data.</p>
+<!-- Issues Analysis -->
+
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-exclamation-triangle"></i>
+        Accessibility Issues by Severity
+    </h2>
+    <div class="section-description">
+        Issues found during WCAG 2.1 AA compliance analysis, grouped by severity level. Address high-severity issues first for maximum impact.
+    </div>
+    
+    <!-- High Severity Issues -->
+    
+    
+    
+    <!-- Medium Severity Issues -->
+    
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-triangle"></i> Medium Severity Issues (8)
+        </h3>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/blog</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/customers</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/terms</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/privacy-policy</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/customers/intersystems</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://stage.bluebirds.com/customers/redpanda</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- Low Severity Issues -->
+    
+    
 </div>
+
+
 
 
         </main>
     </div>
 
     
-<script>
-// Load QA test data dynamically
-async function loadQAData() {
-    try {
-        const response = await fetch('assets/data/qa_tests.json');
-        if (!response.ok) {
-            throw new Error('QA test data not found');
-        }
-        
-        const qaData = await response.json();
-        displayQAData(qaData);
-        
-    } catch (error) {
-        console.error('Error loading QA data:', error);
-        showErrorState();
-    }
-}
-
-function displayQAData(qaData) {
-    // Hide loading state
-    document.getElementById('loading-state').style.display = 'none';
-    
-    // Show QA tests container
-    document.getElementById('qa-tests-container').style.display = 'block';
-    
-    // Update summary statistics
-    updateSummaryStats(qaData.summary);
-    
-    // Render test files
-    renderTestFiles(qaData.test_files);
-}
-
-function updateSummaryStats(summary) {
-    // Update main summary stats
-    document.getElementById('total-test-files').textContent = summary.total_test_files || 0;
-    document.getElementById('total-assertions').textContent = summary.total_assertions || 0;
-}
-
-function renderTestFiles(testFiles) {
-    const container = document.getElementById('test-files-list');
-    
-    testFiles.forEach((testFile, index) => {
-        const testFileElement = createTestFileElement(testFile, index);
-        container.appendChild(testFileElement);
-    });
-}
-
-function createTestFileElement(testFile, index) {
-    const div = document.createElement('div');
-    div.className = 'test-phase';
-    
-    div.innerHTML = `
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-file-code"></i> 
-                ${testFile.title} (${testFile.assertion_count} assertions)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <div id="phases-${index}">
-                <!-- Phases will be populated here -->
-            </div>
-        </div>
-    `;
-    
-    // Populate phases
-    setTimeout(() => {
-        const phasesContainer = div.querySelector(`#phases-${index}`);
-        testFile.phases.forEach(phase => {
-            const phaseElement = createPhaseElement(phase);
-            phasesContainer.appendChild(phaseElement);
-        });
-    }, 0);
-    
-    return div;
-}
-
-function createPhaseElement(phase) {
-    const div = document.createElement('div');
-    div.style.cssText = 'margin-bottom: 1.5rem;';
-    
-    const hasAssertions = phase.assertions && phase.assertions.length > 0;
-    
-    div.innerHTML = `
-        <div style="margin-bottom: 0.5rem;">
-            <h4 style="color: #2d3748; font-weight: 600; margin-bottom: 0.75rem;">
-                ${phase.objective}
-            </h4>
-            ${hasAssertions ? `
-                <div style="padding-left: 1.5rem;">
-                    ${phase.assertions.map(assertion => `
-                        <div style="color: #4a5568; margin-bottom: 0.5rem; line-height: 1.5;">
-                            ${assertion.description}
-                        </div>
-                    `).join('')}
-                </div>
-            ` : ''}
-        </div>
-    `;
-    
-    return div;
-}
-
-function showErrorState() {
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('error-state').style.display = 'block';
-}
-
-// Load data when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    loadQAData();
-});
-</script>
-
     
     <script>
         // Basic JavaScript for interactivity

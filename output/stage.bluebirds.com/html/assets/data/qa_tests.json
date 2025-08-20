@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "total_test_files": 5,
+    "total_phases": 26,
+    "total_assertions": 27,
+    "avg_phases_per_file": 5.2,
+    "avg_assertions_per_file": 5.4
+  },
+  "test_files": [
+    {
+      "filename": "detailed_product_feature_research_test.yaml",
+      "name": "Detailed Product Feature Research Test",
+      "title": "Detailed Product Feature Research",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com and browse the initial information.",
+          "assertions": [
+            {
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Look for a link like 'Learn More', 'Product Details', or 'Features' related to fuel cards.",
+          "assertions": [
+            {
+              "id": "product_link_discoverable",
+              "description": "Verify that verify a clear link to product details or features is present on the homepage.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Click the link to navigate to https://www.atob.com/product-fuel-cards.",
+          "assertions": [
+            {
+              "id": "navigate_to_product_page",
+              "description": "Verify that verify successful navigation to the '/product-fuel-cards' URL.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll through the 'Fuel card details' page, reading sections about benefits, features, and how it works.",
+          "assertions": [
+            {
+              "id": "product_details_sections_visible",
+              "description": "Verify that verify sections for benefits, features, and 'how it works' are present and readable.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Spend time examining specific details such as savings opportunities, network acceptance, and management tools.",
+          "assertions": [
+            {
+              "id": "specific_details_present_accurate",
+              "description": "Verify that verify key details like savings, network acceptance, and management tools are displayed.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 5
+    },
+    {
+      "filename": "mobile_user_quick_scan__get_started_test.yaml",
+      "name": "Mobile User Quick Scan & Get Started Test",
+      "title": "Mobile User Quick Scan & Get Started",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to Access https://www.atob.com via a mobile browser (e.g., Chrome on Android, Safari on iOS).",
+          "assertions": [
+            {
+              "id": "homepage_loads_on_mobile",
+              "description": "Verify that verify the homepage loads successfully on a mobile browser.",
+              "status": "pending"
+            },
+            {
+              "id": "mobile_friendly_design",
+              "description": "Verify that verify the website displays a mobile-responsive layout.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Observe the mobile-responsive layout and scroll through the homepage, tapping on any interactive elements.",
+          "assertions": [
+            {
+              "id": "homepage_elements_tap_responsive",
+              "description": "Verify that verify homepage elements are correctly sized and tappable on mobile.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Tap the 'Learn More' or 'Product' link, potentially within a hamburger menu, to navigate to https://www.atob.com/product-fuel-cards.",
+          "assertions": [
+            {
+              "id": "mobile_navigation_to_product_page",
+              "description": "Verify that verify successful navigation to the '/product-fuel-cards' URL from the mobile menu/link.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll through the 'Fuel card details' page, focusing on bullet points and headlines due to limited screen space.",
+          "assertions": [
+            {
+              "id": "product_details_mobile_readable",
+              "description": "Verify that verify the product details page content is well-formatted and readable on mobile (e.g., uses bullet points, clear headlines).",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Tap the 'Get Started' button or similar call-to-action to proceed to https://www.atob.com/get-started.",
+          "assertions": [
+            {
+              "id": "mobile_cta_to_signup_page",
+              "description": "Verify that verify the 'Get Started' button is present, tappable, and navigates to the signup page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Navigate to Attempt to fill out the 'Sign up form' on the mobile interface, using on-screen keyboard.",
+          "assertions": [
+            {
+              "id": "mobile_signup_form_functional",
+              "description": "Verify that verify the signup form fields are correctly aligned, allow input, and the on-screen keyboard appears correctly.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 6,
+      "assertion_count": 7
+    },
+    {
+      "filename": "price_and_savings_comparison_test.yaml",
+      "name": "Price and Savings Comparison Test",
+      "title": "Price and Savings Comparison",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com.",
+          "assertions": [
+            {
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Scan the homepage specifically for 'Pricing', 'Fees', or 'Savings' links or mentions.",
+          "assertions": [
+            {
+              "id": "pricing_info_discoverable",
+              "description": "Verify that verify the presence of 'Pricing', 'Fees', or 'Savings' links/mentions on the homepage.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to If no direct link is found, click on 'Learn More' or 'Product Details' to go to https://www.atob.com/product-fuel-cards, assuming pricing information will be there.",
+          "assertions": [
+            {
+              "id": "navigate_to_expected_pricing_page",
+              "description": "Verify that verify navigation to the product details page or direct pricing page if available.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to On the 'Fuel card details' page, actively search and scroll for sections detailing transaction fees, monthly charges, fuel discounts, and other cost-related information.",
+          "assertions": [
+            {
+              "id": "cost_details_present_on_product_page",
+              "description": "Verify that verify sections detailing transaction fees, monthly charges, and fuel discounts are present.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to May use browser's 'Find' function (Ctrl+F or Cmd+F) to search for keywords like 'fee', 'cost', 'discount', 'savings'.",
+          "assertions": [
+            {
+              "id": "pricing_keywords_searchable",
+              "description": "Verify that verify relevant keywords like 'fee', 'cost', 'discount', 'savings' are present on the page content.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 5
+    },
+    {
+      "filename": "returning_visitor_re_evaluation__signup_test.yaml",
+      "name": "Returning Visitor Re-evaluation & Signup Test",
+      "title": "Returning Visitor Re-evaluation & Signup",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate directly to https://www.atob.com, possibly from a bookmark or memory.",
+          "assertions": [
+            {
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads quickly and completely.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Product Details' or 'Learn More' link to revisit https://www.atob.com/product-fuel-cards and quickly re-scan key benefits or features.",
+          "assertions": [
+            {
+              "id": "revisit_product_page_success",
+              "description": "Verify that verify navigation to the product page and quick scan of benefits/features is possible.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to Once confident, locate the 'Get Started' or 'Apply Now' button on the product page or navigate back to the home page to click it.",
+          "assertions": [
+            {
+              "id": "cta_button_locatable_clickable",
+              "description": "Verify that verify the 'Get Started' or 'Apply Now' button is present and clickable on the product or home page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Arrive at the https://www.atob.com/get-started page.",
+          "assertions": [
+            {
+              "id": "redirect_to_signup_page",
+              "description": "Verify that verify the user is successfully redirected to the '/get-started' URL.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Begin filling out the 'Sign up form', possibly recalling some previous information or having necessary documents ready.",
+          "assertions": [
+            {
+              "id": "signup_form_is_interactive",
+              "description": "Verify that verify the signup form is fully displayed and allows user input.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 5
+    },
+    {
+      "filename": "quick_decision_maker_signup_test.yaml",
+      "name": "Quick Decision Maker Signup Test",
+      "title": "Quick Decision Maker Signup",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com and quickly scan the main headline and calls-to-action.",
+          "assertions": [
+            {
+              "id": "homepage_loads_successfully",
+              "description": "Verify that verify the homepage loads completely without errors.",
+              "status": "pending"
+            },
+            {
+              "id": "main_headline_cta_visible",
+              "description": "Verify that verify the main headline and primary calls-to-action are visible and legible.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to Locate and click the most prominent 'Get Started' or 'Apply Now' button on the homepage.",
+          "assertions": []
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to Arrive at the https://www.atob.com/get-started page.",
+          "assertions": [
+            {
+              "id": "redirect_to_signup_page",
+              "description": "Verify that verify the user is redirected to the '/get-started' URL successfully.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Efficiently fill in all required fields on the 'Sign up form'.",
+          "assertions": [
+            {
+              "id": "signup_form_fields_present",
+              "description": "Verify that verify all required signup form fields are present and interactive.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Click the 'Submit Application' button to proceed.",
+          "assertions": [
+            {
+              "id": "application_submission_success",
+              "description": "Verify that verify the application submits successfully, leading to a confirmation or next step.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 5
+    }
+  ]
+}

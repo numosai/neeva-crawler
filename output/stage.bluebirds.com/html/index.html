@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Tests - Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</title>
+    <title>Bluebirds - Website Analysis</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         /* Inline CSS for better GitHub Pages compatibility */
@@ -561,17 +561,17 @@ body {
                 <i class="fas fa-home"></i> All Reports
             </a>
             <div class="breadcrumb">
-                <span class="breadcrumb-item">Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management</span>
+                <span class="breadcrumb-item">Bluebirds</span>
             </div>
         </div>
 
         <div class="header">
-            <h1><i class="fas fa-chart-line"></i> Trucking Fuel Cards, Fleet Gas Cards &amp; Fleet Card Management Analysis</h1>
-            <p>Comprehensive QA test suite with automated browser testing scenarios</p>
+            <h1><i class="fas fa-chart-line"></i> Bluebirds Analysis</h1>
+            <p>Comprehensive website analysis dashboard with SEO, accessibility, and performance insights</p>
         </div>
 
         <div class="nav-tabs">
-            <a href="index.html" class="nav-tab">
+            <a href="index.html" class="nav-tab active">
                 <i class="fas fa-tachometer-alt"></i> Overview
             </a>
             <a href="seo-analysis.html" class="nav-tab">
@@ -580,7 +580,7 @@ body {
             <a href="accessibility.html" class="nav-tab">
                 <i class="fas fa-universal-access"></i> Accessibility
             </a>
-            <a href="qa-tests.html" class="nav-tab active">
+            <a href="qa-tests.html" class="nav-tab">
                 <i class="fas fa-tasks"></i> QA Tests
             </a>
             <a href="ux-analysis.html" class="nav-tab">
@@ -593,64 +593,99 @@ body {
 
         <main>
             
-<!-- QA Summary Cards -->
 <div class="stats-grid">
-    <div class="stat-card">
+    <a href="seo-analysis.html" class="stat-card clickable-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value" id="total-test-files">0</div>
-                <div class="stat-label">Test Files</div>
-                <div class="card-description">Total QA test files generated</div>
+                <div class="stat-value">21</div>
+                <div class="stat-label">SEO Issues Found</div>
+                <div class="card-description">Search engine optimization analysis with title tags, meta descriptions, and content structure</div>
             </div>
             <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                <i class="fas fa-file-alt"></i>
+                <i class="fas fa-search"></i>
             </div>
         </div>
-    </div>
+    </a>
+
+    <a href="accessibility.html" class="stat-card clickable-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">90.0%</div>
+                <div class="stat-label">Accessibility Score</div>
+                <div class="card-description">WCAG 2.1 AA compliance analysis with 8 issues identified</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-universal-access"></i>
+            </div>
+        </div>
+    </a>
+
+    <a href="qa-tests.html" class="stat-card clickable-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">27</div>
+                <div class="stat-label">QA Test Cases</div>
+                <div class="card-description">27 test assertions across 5 test files</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-tasks"></i>
+            </div>
+        </div>
+    </a>
+
+    <a href="ux-analysis.html" class="stat-card clickable-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">45</div>
+                <div class="stat-label">UX Recommendations</div>
+                <div class="card-description">User experience analysis with 15 high-priority improvements</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-user-check"></i>
+            </div>
+        </div>
+    </a>
+
+    <a href="screenshots.html" class="stat-card clickable-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">8</div>
+                <div class="stat-label">Screenshots Captured</div>
+                <div class="card-description">Visual gallery of all 8 pages captured during website analysis</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+                <i class="fas fa-images"></i>
+            </div>
+        </div>
+    </a>
 
     <div class="stat-card">
         <div class="stat-header">
             <div>
-                <div class="stat-value" id="total-assertions">0</div>
-                <div class="stat-label">Test Assertions</div>
-                <div class="card-description">Total verification points across all tests</div>
+                <div class="stat-value">8</div>
+                <div class="stat-label">Pages Analyzed</div>
+                <div class="card-description">Total pages crawled and analyzed for comprehensive website assessment</div>
             </div>
-            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                <i class="fas fa-check-circle"></i>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-globe"></i>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Loading State -->
-<div id="loading-state" class="content-section" style="text-align: center; padding: 2rem;">
-    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: #667eea; margin-bottom: 1rem;"></i>
-    <p style="color: #4a5568;">Loading QA test data...</p>
-</div>
 
-<!-- Test Files Container (populated by JavaScript) -->
-<div id="qa-tests-container" style="display: none;">
-    <div class="content-section">
-        <h2 class="section-title">
-            <i class="fas fa-tasks"></i>
-            QA Test Cases
-        </h2>
-        <div class="section-description">
-            Detailed test scenarios for comprehensive website quality assurance. Each test file contains multiple phases with specific verification points.
-        </div>
-        
-        <div id="test-files-list">
-            <!-- Test files will be populated here by JavaScript -->
-        </div>
+<!-- Site Structure Section -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-sitemap"></i>
+        Website Structure & Site Map
+    </h2>
+    <div class="section-description">
+        Visual representation of the website structure showing page relationships and internal linking structure.
     </div>
-</div>
-
-<!-- Error State -->
-<div id="error-state" class="content-section" style="display: none; text-align: center; padding: 2rem;">
-    <i class="fas fa-exclamation-triangle" style="font-size: 2rem; color: #e53e3e; margin-bottom: 1rem;"></i>
-    <h3 style="color: #2d3748; margin-bottom: 1rem;">No QA Test Data Available</h3>
-    <p style="color: #4a5568; margin-bottom: 1rem;">QA test data could not be loaded or no tests were found.</p>
-    <p style="color: #718096; font-size: 0.9rem;">Run the crawler with QA analysis enabled to generate test data.</p>
+    <div class="sitemap-container">
+        <img src="assets/sitemap.png" alt="Website Sitemap - Visual representation showing page relationships and internal linking structure" class="sitemap-image">
+    </div>
 </div>
 
 
@@ -658,121 +693,6 @@ body {
     </div>
 
     
-<script>
-// Load QA test data dynamically
-async function loadQAData() {
-    try {
-        const response = await fetch('assets/data/qa_tests.json');
-        if (!response.ok) {
-            throw new Error('QA test data not found');
-        }
-        
-        const qaData = await response.json();
-        displayQAData(qaData);
-        
-    } catch (error) {
-        console.error('Error loading QA data:', error);
-        showErrorState();
-    }
-}
-
-function displayQAData(qaData) {
-    // Hide loading state
-    document.getElementById('loading-state').style.display = 'none';
-    
-    // Show QA tests container
-    document.getElementById('qa-tests-container').style.display = 'block';
-    
-    // Update summary statistics
-    updateSummaryStats(qaData.summary);
-    
-    // Render test files
-    renderTestFiles(qaData.test_files);
-}
-
-function updateSummaryStats(summary) {
-    // Update main summary stats
-    document.getElementById('total-test-files').textContent = summary.total_test_files || 0;
-    document.getElementById('total-assertions').textContent = summary.total_assertions || 0;
-}
-
-function renderTestFiles(testFiles) {
-    const container = document.getElementById('test-files-list');
-    
-    testFiles.forEach((testFile, index) => {
-        const testFileElement = createTestFileElement(testFile, index);
-        container.appendChild(testFileElement);
-    });
-}
-
-function createTestFileElement(testFile, index) {
-    const div = document.createElement('div');
-    div.className = 'test-phase';
-    
-    div.innerHTML = `
-        <div class="phase-header" onclick="toggleSection(this)">
-            <div class="phase-title">
-                <i class="fas fa-file-code"></i> 
-                ${testFile.title} (${testFile.assertion_count} assertions)
-            </div>
-            <i class="fas fa-chevron-down toggle-icon"></i>
-        </div>
-        <div class="phase-content" style="display: none;">
-            <div id="phases-${index}">
-                <!-- Phases will be populated here -->
-            </div>
-        </div>
-    `;
-    
-    // Populate phases
-    setTimeout(() => {
-        const phasesContainer = div.querySelector(`#phases-${index}`);
-        testFile.phases.forEach(phase => {
-            const phaseElement = createPhaseElement(phase);
-            phasesContainer.appendChild(phaseElement);
-        });
-    }, 0);
-    
-    return div;
-}
-
-function createPhaseElement(phase) {
-    const div = document.createElement('div');
-    div.style.cssText = 'margin-bottom: 1.5rem;';
-    
-    const hasAssertions = phase.assertions && phase.assertions.length > 0;
-    
-    div.innerHTML = `
-        <div style="margin-bottom: 0.5rem;">
-            <h4 style="color: #2d3748; font-weight: 600; margin-bottom: 0.75rem;">
-                ${phase.objective}
-            </h4>
-            ${hasAssertions ? `
-                <div style="padding-left: 1.5rem;">
-                    ${phase.assertions.map(assertion => `
-                        <div style="color: #4a5568; margin-bottom: 0.5rem; line-height: 1.5;">
-                            ${assertion.description}
-                        </div>
-                    `).join('')}
-                </div>
-            ` : ''}
-        </div>
-    `;
-    
-    return div;
-}
-
-function showErrorState() {
-    document.getElementById('loading-state').style.display = 'none';
-    document.getElementById('error-state').style.display = 'block';
-}
-
-// Load data when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    loadQAData();
-});
-</script>
-
     
     <script>
         // Basic JavaScript for interactivity
