@@ -1,4 +1,27 @@
 {
-  "pages": [],
-  "summary": {}
+  "pages": [
+    {
+      "url": "https://www.atob.com",
+      "title": "Trucking Fuel Cards, Fleet Gas Cards & Fleet Card Management | AtoB",
+      "description": "Manage your fleet's finances with the AtoB trucking fuel & fleet cards. Access discounts, set spending limits, track transactions, & more. Get started now!",
+      "h1": "More money for your miles",
+      "title_length": 67,
+      "desc_length": 155,
+      "h2_count": 27,
+      "issues": [
+        "Title too long (67 chars)",
+        "Too many H2 tags (27) - consider consolidating content"
+      ],
+      "score": 70
+    }
+  ],
+  "summary": {
+    "total_pages": 1,
+    "total_issues": 2,
+    "avg_title_length": 67,
+    "avg_desc_length": 155,
+    "avg_score": 70,
+    "pages_with_h1": 1,
+    "total_h2_elements": 27
+  }
 }
