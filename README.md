@@ -1,53 +1,139 @@
 # Neeva-Crawler
 
-A local-first website crawler that uses [Crawl4AI](https://github.com/unclecode/crawl4ai) to:
-
-- Crawl multiple pages of a website
-- Take screenshots per page
-- Build a graph of flows between pages
-- Generate QA test plans (via LLM)
-- Produce Accessibility, SEO, and UX reports
+A comprehensive website analysis tool that uses [Crawl4AI](https://github.com/unclecode/crawl4ai) to perform multi-page crawling, quality assurance testing, and automated reporting.
 
 ## Features
 
-- **Multi-page crawling** with depth and limit
-- **Screenshots** saved for each page
-- **QA Plan** generated with LLM based on flows + content
-- **Accessibility Report** (missing `alt`, empty buttons, empty links)
-- **SEO Report** (title, description, headings)
-- **UX Recommendations** (LLM suggestions)
-- **Flow Graph** saved as JSON (`flows.json`)
+- **Multi-page crawling** with configurable depth and page limits
+- **Complete QA test suite** generation using LLM analysis
+- **Accessibility auditing** (WCAG compliance, missing alt text, empty links)
+- **SEO analysis** (metadata, headings, page structure)
+- **UX recommendations** powered by LLM
+- **Visual screenshots** for every crawled page
+- **Interactive HTML reports** with responsive design
+- **Site flow mapping** and navigation analysis
+- **Automated git workflow** for results management
 
-## Requirements
+## Quick Start
 
+### Option 1: GitHub Actions (Recommended)
+
+The easiest way to run analysis is through the GitHub Actions workflow:
+
+1. **Set up repository secret:**
+   - Go to your repository → Settings → Secrets and variables → Actions
+   - Add new repository secret: `GOOGLE_API_KEY` with your Google API key
+
+2. **Run analysis:**
+   - Navigate to Actions tab in your GitHub repository
+   - Click "Website Analyzer" workflow
+   - Click "Run workflow" button
+   - Enter the website URL to analyze
+   - Select LLM model (optional)
+   - Click "Run workflow"
+
+3. **View results:**
+   - Results are automatically committed to the `output/` directory
+   - HTML reports are generated for easy viewing
+
+### Option 2: Local Installation
+
+**Requirements:**
 - Python 3.9+
-- [Crawl4AI](https://github.com/unclecode/crawl4ai)
+- Google API key for Gemini models
 
-Install dependencies:
-
+**Setup:**
 ```bash
-pip install -r requirements.txt
+# Install uv (recommended)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv pip install -r requirements.txt
+
+# Set API key
+export GOOGLE_API_KEY="your-google-api-key-here"
 ```
 
-## Usage
-
-Run the crawler with a starting URL:
-
+**Usage:**
 ```bash
-python main.py https://www.atob.com/get-started
+# Full analysis with automatic git commit/push
+uv run python main.py https://example.com --git-push
+
+# Different LLM models
+uv run python main.py https://example.com --model gemini/gemini-1.5-pro
+
+# Individual analysis modes
+uv run python main.py https://example.com --html-only
+uv run python main.py https://example.com --qa-only
+uv run python main.py https://example.com --accessibility-only
 ```
 
-Outputs will be saved under `qa_output/<domain>/`:
+## Output Structure
 
-- `qa_plan.json` → structured QA test plan
-- `accessibility.json` → accessibility issues
-- `seo.json` → SEO metadata and heading structure
-- `ux.json` → UX improvement recommendations
-- `flows.json` → nodes and edges of crawled site graph
-- `screenshots/` → screenshots of each crawled page
+Results are organized in `output/<domain>/`:
 
-## Extending
+```
+output/example.com/
+├── html/                          # Interactive HTML reports
+│   ├── index.html                # Main dashboard
+│   ├── qa-tests.html            # QA test plans
+│   ├── accessibility.html       # Accessibility audit
+│   ├── seo-analysis.html        # SEO analysis
+│   ├── ux-analysis.html         # UX recommendations
+│   ├── screenshots.html         # Page screenshots
+│   └── assets/                  # Static assets and data
+└── raw/                         # Raw analysis data
+    ├── tests/                   # YAML test files
+    ├── screenshots/             # Page screenshots (JPEG)
+    ├── accessibility.json       # Accessibility violations
+    ├── seo.json                # SEO metadata
+    ├── ux.json                 # UX recommendations
+    ├── flows.json              # Site navigation graph
+    └── sitemap.png             # Visual site map
+```
 
-- Modify schemas in `main.py` to expand accessibility/SEO checks
-- Adjust depth/limit in `crawl()` to crawl more pages
-- Plug in your own LLM provider (local or cloud) in `LLMExtractionStrategy`
+## Configuration
+
+### Environment Variables
+- `GOOGLE_API_KEY` - Required for LLM-based analysis
+
+### CLI Options
+```bash
+python main.py <url> [options]
+
+Options:
+  --model MODEL           LLM model (default: gemini/gemini-2.5-flash)
+  --git-push             Auto commit and push results
+  --html-only            Generate HTML from existing data
+  --qa-only              Run QA analysis only
+  --accessibility-only   Run accessibility analysis only
+  --seo-only             Run SEO analysis only
+```
+
+### Customization
+
+Key configuration files:
+- `src/utils/crawler.py` - Crawling settings (max_pages: 20, max_depth: 2)
+- `src/config/prompts.py` - LLM prompts for analysis
+- `src/html_generator/templates/` - HTML report templates
+
+## Architecture
+
+- **Crawler Engine** (`src/crawler_engine.py`) - Main orchestrator
+- **Web Crawler** (`src/utils/crawler.py`) - Multi-page crawling with Crawl4AI
+- **Analyzers** (`src/analyzers/`) - Specialized analysis modules
+- **HTML Generator** (`src/html_generator/`) - Interactive report generation
+- **CLI** (`src/cli/main.py`) - Command-line interface
+
+## Contributing
+
+The tool is designed to be easily extensible:
+
+1. **Add new analyzers** by extending the base analyzer class
+2. **Customize HTML templates** in `src/html_generator/templates/`
+3. **Modify crawling behavior** in `src/utils/crawler.py`
+4. **Extend QA test generation** in `src/analyzers/qa.py`
+
+## License
+
+This project is for internal use and analysis purposes.
