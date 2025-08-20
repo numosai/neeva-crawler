@@ -64,38 +64,19 @@ class DataProcessor:
             try:
                 with open(a11y_file, 'r') as f:
                     a11y_data = json.load(f)
-                    if isinstance(a11y_data, list) and a11y_data:
-                        data = a11y_data[0]
-                        stats['accessibility_issues'] = (
-                            data.get('images_missing_alt', 0) +
-                            data.get('buttons_without_labels', 0) +
-                            data.get('links_without_text', 0) +
-                            data.get('missing_lang', 0)
-                        )
+                    if isinstance(a11y_data, dict) and 'summary' in a11y_data:
+                        stats['accessibility_issues'] = a11y_data['summary'].get('total_issues', 0)
             except Exception:
                 pass
         
-        # Count SEO issues (estimate based on common issues)
+        # Count SEO issues
         seo_file = self.raw_dir / "seo.json"
         if seo_file.exists():
             try:
                 with open(seo_file, 'r') as f:
                     seo_data = json.load(f)
-                    if isinstance(seo_data, list) and seo_data:
-                        data = seo_data[0]
-                        # Estimate issues based on missing/poor data
-                        issues = 0
-                        title = data.get('title', '')
-                        desc = data.get('meta_description', '')
-                        
-                        if not title or len(title) < 30 or len(title) > 60:
-                            issues += 1
-                        if not desc or len(desc) < 120 or len(desc) > 160:
-                            issues += 1
-                        if not data.get('h1'):
-                            issues += 1
-                            
-                        stats['seo_issues'] = issues
+                    if isinstance(seo_data, dict) and 'summary' in seo_data:
+                        stats['seo_issues'] = seo_data['summary'].get('total_issues', 0)
             except Exception:
                 pass
         
@@ -116,8 +97,8 @@ class DataProcessor:
             try:
                 with open(seo_file, 'r') as f:
                     seo_data = json.load(f)
-                    if isinstance(seo_data, list) and seo_data:
-                        title = seo_data[0].get('title', '')
+                    if isinstance(seo_data, dict) and 'pages' in seo_data and seo_data['pages']:
+                        title = seo_data['pages'][0].get('title', '')
                         if title:
                             stats['site_title'] = title.split('|')[0].strip()
             except Exception:
@@ -135,14 +116,13 @@ class DataProcessor:
             with open(seo_file, 'r') as f:
                 raw_data = json.load(f)
             
-            if not isinstance(raw_data, list) or not raw_data:
-                return {'pages': [], 'summary': {}}
+            # Return analyzed format as-is
+            if isinstance(raw_data, dict) and 'pages' in raw_data and 'summary' in raw_data:
+                return raw_data
             
-            # For now, we only have single page data from the current crawler
-            seo_data = raw_data[0]
-            
-            # Analyze the data
-            title = seo_data.get('title', '')
+            return {'pages': [], 'summary': {}}
+        except Exception:
+            return {'pages': [], 'summary': {}}
             description = seo_data.get('meta_description', '')
             h1 = seo_data.get('h1', '')
             h2_elements = seo_data.get('h2', [])
@@ -216,13 +196,15 @@ class DataProcessor:
             with open(a11y_file, 'r') as f:
                 raw_data = json.load(f)
             
-            if not isinstance(raw_data, list) or not raw_data:
-                return {'summary': {}, 'issues': []}
-            
-            data = raw_data[0]
-            
-            # Extract metrics
-            images_missing_alt = data.get('images_missing_alt', 0)
+            # Return analyzed format as-is
+            if isinstance(raw_data, dict) and 'issues' in raw_data and 'summary' in raw_data:
+                return raw_data
+                
+            return {'summary': {}, 'issues': []}
+        except Exception:
+            return {'summary': {}, 'issues': []}
+    
+    def process_qa_data(self) -> Dict[str, Any]:
             buttons_without_labels = data.get('buttons_without_labels', 0)
             links_without_text = data.get('links_without_text', 0)
             missing_lang = data.get('missing_lang', 0)

@@ -157,47 +157,4 @@
 </div>
 {% endif %}
 
-<!-- SEO Best Practices -->
-<div class="content-section">
-    <h2 class="section-title">
-        <i class="fas fa-star"></i>
-        SEO Best Practices Checklist
-    </h2>
-    <div class="section-description">
-        Review these fundamental SEO elements for optimal search engine performance:
-    </div>
-    
-    <div class="metrics-grid">
-        <div class="metric-item">
-            <div class="metric-value">
-                <i class="fas fa-{% if data.seo.summary.pages_with_h1 > 0 %}check text-green-600{% else %}times text-red-600{% endif %}"></i>
-            </div>
-            <div class="metric-label">H1 Tags Present</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">{{ data.seo.summary.total_h2_elements or 0 }}</div>
-            <div class="metric-label">H2 Elements</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">30-60</div>
-            <div class="metric-label">Optimal Title Length</div>
-        </div>
-        <div class="metric-item">
-            <div class="metric-value">120-160</div>
-            <div class="metric-label">Optimal Description Length</div>
-        </div>
-    </div>
-    
-    <div style="margin-top: 2rem;">
-        <h3 style="color: #2d3748; margin-bottom: 1rem;">Key Recommendations</h3>
-        <ul style="list-style-type: disc; padding-left: 1.5rem; color: #4a5568; line-height: 1.6;">
-            <li>Ensure all pages have unique, descriptive title tags between 30-60 characters</li>
-            <li>Write compelling meta descriptions that accurately describe page content (120-160 chars)</li>
-            <li>Use proper heading hierarchy with one H1 per page and logical H2-H6 structure</li>
-            <li>Include target keywords naturally in titles, descriptions, and headings</li>
-            <li>Ensure fast page loading speeds and mobile-friendly design</li>
-            <li>Create high-quality, original content that provides value to users</li>
-        </ul>
-    </div>
-</div>
 {% endblock %}
