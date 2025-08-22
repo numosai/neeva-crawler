@@ -158,33 +158,39 @@ You are a UX reviewer. Based on the page content:
 """
 
 USER_FLOW_DISCOVERY_PROMPT = """
-You are analyzing a trucking fuel card website. Create 5 realistic user flows with precise browser actions.
+You are analyzing a website. Create 5 realistic user flows with precise browser actions based on the actual site structure and content.
 
-Given pages:
-- page_1: Home page (https://www.atob.com) - "Trucking Fuel Cards"  
-- page_2: Get started (https://www.atob.com/get-started) - "Sign up form"
-- page_3: Product page (https://www.atob.com/product-fuel-cards) - "Fuel card details"
+Analyze the provided site navigation data and page information to understand:
+- What the website is about (product/service)
+- Available pages and their URLs
+- User interaction possibilities
 
-Create different user types: quick signup, product research, price comparison, returning visitor, mobile user.
+Create different user types based on common patterns like:
+- Quick action taker (immediate signup/purchase)
+- Detailed researcher (explores product information)
+- Price/feature comparer
+- Returning visitor with specific goals
+- Mobile user with time constraints
 
 MUST return valid JSON with exactly 5 flows in this exact format:
 {
   "flows": [
     {
-      "id": "quick_signup", 
-      "title": "Quick Decision Maker Signup",
-      "description": "User who already knows what they want signs up immediately",
-      "page_sequence": ["page_1", "page_2"],
-      "user_goals": ["Get fuel card quickly", "Start application"],
+      "id": "flow_id", 
+      "title": "Descriptive Flow Title",
+      "description": "Brief description of user type and their goal",
+      "page_sequence": ["page_1", "page_2", "etc"],
+      "user_goals": ["Primary goal", "Secondary goal"],
       "browser_actions": [
-        "Navigate to https://www.atob.com and quickly scan homepage value proposition",
-        "Locate and click the prominent 'Get Started' button without deep exploration", 
-        "Fill in required signup form fields efficiently",
-        "Submit application to proceed"
+        "Specific browser action 1",
+        "Specific browser action 2",
+        "etc"
       ]
     }
   ]
 }
+
+Base your flows on the actual pages and content discovered during crawling.
 """
 
 MULTI_PAGE_QA_PROMPT = """
@@ -195,38 +201,24 @@ You will receive user flows with browser_actions arrays. Use each browser_action
 MUST return valid JSON array in this exact format:
 [
   {
-    "name": "Homepage to Signup Flow Test",
+    "name": "Test Flow Name",
     "qa_plan": {
-      "title": "New User Registration Journey",
+      "title": "Descriptive Test Journey Title",
       "phases": [
         {
           "phaseNumber": 1,
-          "objective": "Navigate to https://www.atob.com and review homepage content including main heading and value proposition",
+          "objective": "Navigate to [actual URL from flow] and perform specific action from browser_actions",
           "assertions": [
             {
-              "verificationId": "homepage_loads_successfully",
-              "description": "Verify homepage loads completely without errors"
-            },
-            {
-              "verificationId": "main_content_visible",
-              "description": "Verify main heading and value proposition are clearly displayed"
+              "verificationId": "unique_verification_id",
+              "description": "Verify specific expected outcome"
             }
           ]
         },
         {
           "phaseNumber": 2,
-          "objective": "Locate and click the 'Get Started' button or signup call-to-action on the homepage",
+          "objective": "Next browser action from the flow",
           "assertions": []
-        },
-        {
-          "phaseNumber": 3,
-          "objective": "Fill in required form fields including company name, email address, and phone number",
-          "assertions": [
-            {
-              "verificationId": "form_submission_success",
-              "description": "Verify form submits successfully and shows confirmation message"
-            }
-          ]
         }
       ]
     }

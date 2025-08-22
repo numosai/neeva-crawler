@@ -1,0 +1,41 @@
+name: Mobile User Registering for Webinar
+qa_plan:
+  title: Mobile User Registering for Webinar
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to `https://www.goodbill.com` on a mobile browser.
+    assertions:
+    - verificationId: webinar_registration_mobile_v1_1
+      description: Verify that the current URL is 'https://www.goodbill.com'.
+    - verificationId: webinar_registration_mobile_v1_2
+      description: Verify that verify the viewport size is consistent with a mobile
+        device (e.g., width < 768px).
+  - phaseNumber: 2
+    objective: Tap the hamburger menu icon (if present) to open the mobile navigation.
+    assertions:
+    - verificationId: webinar_registration_mobile_v2_1
+      description: Verify that the mobile navigation menu is visible or open.
+  - phaseNumber: 3
+    objective: Tap on 'Book a demo' from the navigation menu.
+    assertions:
+    - verificationId: webinar_registration_mobile_v3_1
+      description: Verify that the user is navigated to the 'Request a Demo' page
+        (URL contains '/demo').
+    - verificationId: webinar_registration_mobile_v3_2
+      description: Verify that verify the page title contains 'Request a Demo'.
+  - phaseNumber: 4
+    objective: Scroll down on the Demo page to locate the 'Upcoming webinar!' section.
+    assertions:
+    - verificationId: webinar_registration_mobile_v4_1
+      description: Verify that the 'Upcoming webinar!' section is visible in the current
+        viewport.
+  - phaseNumber: 5
+    objective: 'Tap the ''Register for'' link associated with the webinar ''Intro
+      to 501(r): The Hospital Discount Hiding in Plain Sight''.'
+    assertions:
+    - verificationId: webinar_registration_mobile_v5_1
+      description: Verify that the user is navigated to the webinar registration page
+        (URL contains '/webinars/live/registration-may-2025').
+    - verificationId: webinar_registration_mobile_v5_2
+      description: Verify that verify the page title or a prominent heading confirms
+        registration for 'Intro to 501(r)' webinar.

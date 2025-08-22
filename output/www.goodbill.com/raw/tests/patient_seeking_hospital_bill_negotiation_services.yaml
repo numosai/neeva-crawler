@@ -1,0 +1,19 @@
+name: Patient Seeking Hospital Bill Negotiation Services
+qa_plan:
+  title: Patient Seeking Hospital Bill Negotiation Services
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to `https://www.goodbill.com`.
+    assertions:
+    - verificationId: patient_bill_negotiation_v1_1
+      description: Verify that the current URL is 'https://www.goodbill.com'.
+  - phaseNumber: 2
+    objective: Navigate to In the 'Got a hospital bill?' section, click the 'We help
+      you negotiate, too' link.
+    assertions:
+    - verificationId: patient_bill_negotiation_v2_1
+      description: Verify that the user is navigated to the patient services page
+        (URL contains '/patients').
+    - verificationId: patient_bill_negotiation_v2_2
+      description: Verify that verify the page title contains 'We negotiate hospital
+        bills' or 'Goodbill'.

@@ -1,0 +1,18 @@
+name: General User Checking FAQs
+qa_plan:
+  title: General User Checking FAQs
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to `https://www.goodbill.com`.
+    assertions:
+    - verificationId: general_faq_seeker_v1_1
+      description: Verify that the current URL is 'https://www.goodbill.com'.
+  - phaseNumber: 2
+    objective: Scroll to the website footer and click the 'FAQ' link.
+    assertions:
+    - verificationId: general_faq_seeker_v2_1
+      description: Verify that the user is navigated to the FAQ page (URL contains
+        '/faq').
+    - verificationId: general_faq_seeker_v2_2
+      description: Verify that verify the page title contains 'FAQ' or 'Frequently
+        Asked Questions'.

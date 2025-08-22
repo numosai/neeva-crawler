@@ -1,0 +1,22 @@
+name: Quick Demo Request for Employer
+qa_plan:
+  title: Quick Demo Request for Employer
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to `https://www.goodbill.com`.
+    assertions:
+    - verificationId: employer_quick_demo_v1_1
+      description: Verify that the current URL is 'https://www.goodbill.com'.
+    - verificationId: employer_quick_demo_v1_2
+      description: Verify that verify the page title contains 'Lower hospital bills'
+        or 'Goodbill'.
+  - phaseNumber: 2
+    objective: Click on the 'Book a demo' button prominently displayed in the hero
+      section.
+    assertions:
+    - verificationId: employer_quick_demo_v2_1
+      description: Verify that the user is navigated to the 'Request a Demo' page
+        (URL contains '/demo').
+    - verificationId: employer_quick_demo_v2_2
+      description: Verify that verify the page title contains 'Request a Demo' or
+        'Goodbill'.

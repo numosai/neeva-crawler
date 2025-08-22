@@ -1,385 +1,287 @@
 {
   "summary": {
     "total_test_files": 5,
-    "total_phases": 27,
-    "total_assertions": 34,
-    "avg_phases_per_file": 5.4,
-    "avg_assertions_per_file": 6.8
+    "total_phases": 16,
+    "total_assertions": 27,
+    "avg_phases_per_file": 3.2,
+    "avg_assertions_per_file": 5.4
   },
   "test_files": [
     {
-      "filename": "cost_conscious_price_comparer_flow_test.yaml",
-      "name": "Cost-Conscious Price Comparer Flow Test",
-      "title": "Cost-Conscious Price Comparison Journey",
+      "filename": "mobile_user_registering_for_webinar.yaml",
+      "name": "Mobile User Registering for Webinar",
+      "title": "Mobile User Registering for Webinar",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Navigate to https://www.atob.com and immediately scan the homepage for any mentions of 'savings', 'discounts', 'no fees', or 'pricing'",
+          "objective": "Navigate to `https://www.goodbill.com` on a mobile browser.",
           "assertions": [
             {
-              "id": "homepage_loaded_successfully",
-              "description": "Verify that verify homepage loads completely without errors.",
+              "id": "webinar_registration_mobile_v1_1",
+              "description": "Verify that the current URL is 'https://www.goodbill.com'.",
               "status": "pending"
             },
             {
-              "id": "pricing_keywords_present_on_homepage",
-              "description": "Verify that verify prominent keywords like 'savings', 'discounts', 'fees', or 'pricing' are visible on the homepage.",
+              "id": "webinar_registration_mobile_v1_2",
+              "description": "Verify that verify the viewport size is consistent with a mobile device (e.g., width < 768px).",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Click on a call to action or navigation link (e.g., 'Our Cards', 'Features & Pricing') that is likely to contain cost information",
+          "objective": "Tap the hamburger menu icon (if present) to open the mobile navigation.",
           "assertions": [
             {
-              "id": "redirect_to_pricing_information_page",
-              "description": "Verify that verify successful navigation to a page expected to contain pricing or cost-related information.",
+              "id": "webinar_registration_mobile_v2_1",
+              "description": "Verify that the mobile navigation menu is visible or open.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 3,
-          "objective": "Navigate to Land on the 'Fuel card details' page (https://www.atob.com/product-fuel-cards)",
+          "objective": "Tap on 'Book a demo' from the navigation menu.",
           "assertions": [
             {
-              "id": "product_details_url_correct",
-              "description": "Verify that verify the current URL matches 'https://www.atob.com/product-fuel-cards'.",
+              "id": "webinar_registration_mobile_v3_1",
+              "description": "Verify that the user is navigated to the 'Request a Demo' page (URL contains '/demo').",
               "status": "pending"
             },
             {
-              "id": "pricing_sections_visible_on_product_page",
-              "description": "Verify that verify sections related to pricing, fees, or savings are visible on the product details page.",
+              "id": "webinar_registration_mobile_v3_2",
+              "description": "Verify that verify the page title contains 'Request a Demo'.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 4,
-          "objective": "Navigate to Quickly scroll through the product page, specifically looking for sections titled 'Pricing', 'Fees', 'How You Save', 'Rebates', or 'Cost Benefits'",
+          "objective": "Scroll down on the Demo page to locate the 'Upcoming webinar!' section.",
           "assertions": [
             {
-              "id": "specific_cost_sections_identifiable",
-              "description": "Verify that verify specific sections like 'Pricing', 'Fees', 'How You Save', or 'Rebates' are identifiable after scrolling.",
+              "id": "webinar_registration_mobile_v4_1",
+              "description": "Verify that the 'Upcoming webinar!' section is visible in the current viewport.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 5,
-          "objective": "Navigate to If satisfactory pricing or savings information is found, click 'Get Started' to explore further or initiate an application",
+          "objective": "Tap the 'Register for' link associated with the webinar 'Intro to 501(r): The Hospital Discount Hiding in Plain Sight'.",
           "assertions": [
             {
-              "id": "redirect_to_application_from_pricing",
-              "description": "Verify that verify successful navigation to the application or signup page.",
+              "id": "webinar_registration_mobile_v5_1",
+              "description": "Verify that the user is navigated to the webinar registration page (URL contains '/webinars/live/registration-may-2025').",
+              "status": "pending"
+            },
+            {
+              "id": "webinar_registration_mobile_v5_2",
+              "description": "Verify that verify the page title or a prominent heading confirms registration for 'Intro to 501(r)' webinar.",
               "status": "pending"
             }
           ]
         }
       ],
       "phase_count": 5,
-      "assertion_count": 7
+      "assertion_count": 8
     },
     {
-      "filename": "mobile_user_on_the_go_signup_flow_test.yaml",
-      "name": "Mobile User On-the-Go Signup Flow Test",
-      "title": "Mobile User On-the-Go Signup Journey",
+      "filename": "quick_demo_request_for_employer.yaml",
+      "name": "Quick Demo Request for Employer",
+      "title": "Quick Demo Request for Employer",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Open https://www.atob.com on a mobile browser (e.g., Chrome on Android, Safari on iOS)",
+          "objective": "Navigate to `https://www.goodbill.com`.",
           "assertions": [
             {
-              "id": "homepage_loaded_mobile_successfully",
-              "description": "Verify that verify homepage loads completely without errors on a mobile browser.",
+              "id": "employer_quick_demo_v1_1",
+              "description": "Verify that the current URL is 'https://www.goodbill.com'.",
               "status": "pending"
             },
             {
-              "id": "mobile_responsiveness_verified",
-              "description": "Verify that verify the page layout is optimized for mobile screens (e.g., content fits viewport, no horizontal scroll).",
+              "id": "employer_quick_demo_v1_2",
+              "description": "Verify that verify the page title contains 'Lower hospital bills' or 'Goodbill'.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Navigate to Quickly scroll down the mobile homepage, focusing on headlines and prominent calls to action, avoiding extensive text reading",
+          "objective": "Click on the 'Book a demo' button prominently displayed in the hero section.",
           "assertions": [
             {
-              "id": "mobile_headlines_ctas_visible_on_scroll",
-              "description": "Verify that verify key headlines and Calls-to-Action remain prominent and visible during mobile scrolling.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 3,
-          "objective": "Tap the highly visible 'Get Started' or 'Apply Now' button, which may be in a sticky header/footer or a large, central hero section button",
-          "assertions": [
-            {
-              "id": "redirect_to_signup_page_mobile",
-              "description": "Verify that verify successful navigation to the signup or application form page.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 4,
-          "objective": "Navigate to Land on the 'Sign up form' page (https://www.atob.com/get-started), expecting a mobile-optimized layout with large input fields and clear labels",
-          "assertions": [
-            {
-              "id": "signup_page_url_correct_mobile",
-              "description": "Verify that verify the current URL matches 'https://www.atob.com/get-started' on mobile.",
+              "id": "employer_quick_demo_v2_1",
+              "description": "Verify that the user is navigated to the 'Request a Demo' page (URL contains '/demo').",
               "status": "pending"
             },
             {
-              "id": "mobile_form_layout_optimized",
-              "description": "Verify that verify the signup form elements (inputs, labels, buttons) are appropriately sized and spaced for mobile interaction.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 5,
-          "objective": "Navigate to Carefully tap and input information into the mobile-friendly form fields, utilizing mobile keyboard features like auto-fill suggestions",
-          "assertions": []
-        },
-        {
-          "phase_number": 6,
-          "objective": "Tap the 'Submit' button to complete the application, expecting clear success or next-step messaging",
-          "assertions": [
-            {
-              "id": "application_submission_success_mobile",
-              "description": "Verify that verify the application submits successfully on mobile (e.g., clear success message, redirection to a confirmation page).",
+              "id": "employer_quick_demo_v2_2",
+              "description": "Verify that verify the page title contains 'Request a Demo' or 'Goodbill'.",
               "status": "pending"
             }
           ]
         }
       ],
-      "phase_count": 6,
-      "assertion_count": 7
+      "phase_count": 2,
+      "assertion_count": 4
     },
     {
-      "filename": "in_depth_product_researcher_flow_test.yaml",
-      "name": "In-Depth Product Researcher Flow Test",
-      "title": "In-Depth Product Research Journey",
+      "filename": "employer_researching_specific_plan_solutions.yaml",
+      "name": "Employer Researching Specific Plan Solutions",
+      "title": "Employer Researching Specific Plan Solutions",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Navigate to https://www.atob.com and read through the homepage's introductory content and value propositions",
+          "objective": "Navigate to `https://www.goodbill.com`.",
           "assertions": [
             {
-              "id": "homepage_loaded_successfully",
-              "description": "Verify that verify homepage loads completely without errors.",
-              "status": "pending"
-            },
-            {
-              "id": "introductory_content_visible",
-              "description": "Verify that verify introductory content and value propositions are clearly displayed.",
+              "id": "employer_detailed_research_v1_1",
+              "description": "Verify that the current URL is 'https://www.goodbill.com'.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Navigate to Locate and click a link like 'Learn More about our Fuel Cards' or 'View Product Details' from the homepage",
+          "objective": "Navigate to From the main navigation (or 'Solutions' menu), click the link to '501(r) Discounts'.",
           "assertions": [
             {
-              "id": "redirect_to_product_details_page",
-              "description": "Verify that verify successful navigation to the product details page.",
+              "id": "employer_detailed_research_v2_1",
+              "description": "Verify that the user is navigated to the '501(r) Discounts' page (URL contains '/501r-discounts').",
+              "status": "pending"
+            },
+            {
+              "id": "employer_detailed_research_v2_2",
+              "description": "Verify that verify the page title contains '501(r) Discounts' or related content.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 3,
-          "objective": "Navigate to Land on the 'Fuel card details' page (https://www.atob.com/product-fuel-cards)",
+          "objective": "Navigate to From the main navigation (or 'Solutions' menu), click the link to 'Claim Reviews'.",
           "assertions": [
             {
-              "id": "product_details_url_correct",
-              "description": "Verify that verify the current URL matches 'https://www.atob.com/product-fuel-cards'.",
+              "id": "employer_detailed_research_v3_1",
+              "description": "Verify that the user is navigated to the 'Claim Reviews' page (URL contains '/claim-reviews').",
               "status": "pending"
             },
             {
-              "id": "product_features_content_visible",
-              "description": "Verify that verify the main content sections for product features and benefits are present.",
+              "id": "employer_detailed_research_v3_2",
+              "description": "Verify that verify the page title contains 'Claim Reviews' or related content.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 4,
-          "objective": "Scroll through the entire product page, carefully reading sections on features, benefits, network coverage, and reporting tools",
-          "assertions": []
-        },
-        {
-          "phase_number": 5,
-          "objective": "Navigate to Look for FAQs or specific terms and conditions on the product page",
+          "objective": "Navigate to From the main navigation (or 'Solutions' menu), click the link to 'Member Experience'.",
           "assertions": [
             {
-              "id": "faq_or_terms_section_present",
-              "description": "Verify that verify FAQs or a section for terms and conditions is visible and accessible on the product page.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 6,
-          "objective": "Click the 'Apply Now' or 'Get Started' button on the product page after feeling satisfied with the information",
-          "assertions": [
-            {
-              "id": "redirect_to_application_from_product",
-              "description": "Verify that verify successful navigation to the application or signup page.",
-              "status": "pending"
-            }
-          ]
-        }
-      ],
-      "phase_count": 6,
-      "assertion_count": 7
-    },
-    {
-      "filename": "returning_visitor_flow_test.yaml",
-      "name": "Returning Visitor Flow Test",
-      "title": "Returning Visitor Journey (Continuing Application/Re-evaluation)",
-      "phases": [
-        {
-          "phase_number": 1,
-          "objective": "Navigate directly to https://www.atob.com, likely from a browser bookmark or a follow-up email link",
-          "assertions": [
-            {
-              "id": "homepage_loaded_successfully",
-              "description": "Verify that verify homepage loads completely without errors.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 2,
-          "objective": "Navigate to Look for a 'Login' or 'Continue Application' link; if not visible, click 'Get Started' assuming it will lead to a login/resume option",
-          "assertions": [
-            {
-              "id": "redirect_to_login_or_signup",
-              "description": "Verify that verify successful navigation to either a login page or the signup form.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 3,
-          "objective": "Navigate to Land on the 'Sign up form' page (https://www.atob.com/get-started) and attempt to locate a 'Login' or 'Already Applied?' link/button",
-          "assertions": [
-            {
-              "id": "signup_page_url_correct",
-              "description": "Verify that verify the current URL matches 'https://www.atob.com/get-started'.",
+              "id": "employer_detailed_research_v4_1",
+              "description": "Verify that the user is navigated to the 'Member Experience' page (URL contains '/member-experience').",
               "status": "pending"
             },
             {
-              "id": "login_resume_option_visible",
-              "description": "Verify that verify a 'Login' or 'Already Applied?' link/button is present on the form page.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 4,
-          "objective": "Navigate to If unable to log in or continue, navigate back to the homepage to search for other options",
-          "assertions": [
-            {
-              "id": "returned_to_homepage",
-              "description": "Verify that verify successful navigation back to 'https://www.atob.com'.",
+              "id": "employer_detailed_research_v4_2",
+              "description": "Verify that verify the page title contains 'Member Experience' or related content.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 5,
-          "objective": "Click 'Learn More' or 'Product Details' from the homepage to re-visit the 'Fuel card details' page (https://www.atob.com/product-fuel-cards) to confirm a specific detail they remembered or had questions about",
+          "objective": "Click on the 'Book a demo' button (likely from the main navigation or footer).",
           "assertions": [
             {
-              "id": "redirect_to_product_details_page_again",
-              "description": "Verify that verify successful navigation to the 'Fuel card details' page (https://www.atob.com/product-fuel-cards).",
+              "id": "employer_detailed_research_v5_1",
+              "description": "Verify that the user is navigated to the 'Request a Demo' page (URL contains '/demo').",
               "status": "pending"
             },
             {
-              "id": "relevant_product_info_accessible",
-              "description": "Verify that verify general product details are visible and can be reviewed.",
+              "id": "employer_detailed_research_v5_2",
+              "description": "Verify that verify the page title contains 'Request a Demo' or 'Goodbill'.",
               "status": "pending"
             }
           ]
         }
       ],
       "phase_count": 5,
-      "assertion_count": 7
+      "assertion_count": 9
     },
     {
-      "filename": "quick_decision_maker_signup_test.yaml",
-      "name": "Quick Decision Maker Signup Test",
-      "title": "Quick Decision Maker Signup Journey",
+      "filename": "patient_seeking_hospital_bill_negotiation_services.yaml",
+      "name": "Patient Seeking Hospital Bill Negotiation Services",
+      "title": "Patient Seeking Hospital Bill Negotiation Services",
       "phases": [
         {
           "phase_number": 1,
-          "objective": "Navigate to https://www.atob.com and quickly scan the main hero section for key benefits",
+          "objective": "Navigate to `https://www.goodbill.com`.",
           "assertions": [
             {
-              "id": "homepage_loaded_successfully",
-              "description": "Verify that verify homepage loads completely without errors.",
-              "status": "pending"
-            },
-            {
-              "id": "hero_section_visible",
-              "description": "Verify that verify the main hero section content and key benefits are prominently displayed.",
+              "id": "patient_bill_negotiation_v1_1",
+              "description": "Verify that the current URL is 'https://www.goodbill.com'.",
               "status": "pending"
             }
           ]
         },
         {
           "phase_number": 2,
-          "objective": "Navigate to Locate and click the prominent 'Get Started' or 'Apply Now' button, likely in the header or hero section",
+          "objective": "Navigate to In the 'Got a hospital bill?' section, click the 'We help you negotiate, too' link.",
           "assertions": [
             {
-              "id": "redirect_to_signup_page",
-              "description": "Verify that verify successful navigation to the signup or application form page.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 3,
-          "objective": "Navigate to Land on the 'Sign up form' page (https://www.atob.com/get-started)",
-          "assertions": [
-            {
-              "id": "signup_page_url_correct",
-              "description": "Verify that verify the current URL matches 'https://www.atob.com/get-started'.",
+              "id": "patient_bill_negotiation_v2_1",
+              "description": "Verify that the user is navigated to the patient services page (URL contains '/patients').",
               "status": "pending"
             },
             {
-              "id": "signup_form_elements_visible",
-              "description": "Verify that verify the signup form and its required input fields are clearly visible.",
-              "status": "pending"
-            }
-          ]
-        },
-        {
-          "phase_number": 4,
-          "objective": "Navigate to Efficiently fill in the required fields on the signup form (e.g., Company Name, Email, Phone, Fleet Size)",
-          "assertions": []
-        },
-        {
-          "phase_number": 5,
-          "objective": "Click 'Submit' or 'Continue' to complete the initial application step",
-          "assertions": [
-            {
-              "id": "application_submission_success",
-              "description": "Verify that verify the application submits successfully and shows a confirmation message or redirects to a success page.",
+              "id": "patient_bill_negotiation_v2_2",
+              "description": "Verify that verify the page title contains 'We negotiate hospital bills' or 'Goodbill'.",
               "status": "pending"
             }
           ]
         }
       ],
-      "phase_count": 5,
-      "assertion_count": 6
+      "phase_count": 2,
+      "assertion_count": 3
+    },
+    {
+      "filename": "general_user_checking_faqs.yaml",
+      "name": "General User Checking FAQs",
+      "title": "General User Checking FAQs",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to `https://www.goodbill.com`.",
+          "assertions": [
+            {
+              "id": "general_faq_seeker_v1_1",
+              "description": "Verify that the current URL is 'https://www.goodbill.com'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll to the website footer and click the 'FAQ' link.",
+          "assertions": [
+            {
+              "id": "general_faq_seeker_v2_1",
+              "description": "Verify that the user is navigated to the FAQ page (URL contains '/faq').",
+              "status": "pending"
+            },
+            {
+              "id": "general_faq_seeker_v2_2",
+              "description": "Verify that verify the page title contains 'FAQ' or 'Frequently Asked Questions'.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 2,
+      "assertion_count": 3
     }
   ]
 }

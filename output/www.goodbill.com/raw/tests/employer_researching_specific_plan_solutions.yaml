@@ -1,0 +1,49 @@
+name: Employer Researching Specific Plan Solutions
+qa_plan:
+  title: Employer Researching Specific Plan Solutions
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to `https://www.goodbill.com`.
+    assertions:
+    - verificationId: employer_detailed_research_v1_1
+      description: Verify that the current URL is 'https://www.goodbill.com'.
+  - phaseNumber: 2
+    objective: Navigate to From the main navigation (or 'Solutions' menu), click the
+      link to '501(r) Discounts'.
+    assertions:
+    - verificationId: employer_detailed_research_v2_1
+      description: Verify that the user is navigated to the '501(r) Discounts' page
+        (URL contains '/501r-discounts').
+    - verificationId: employer_detailed_research_v2_2
+      description: Verify that verify the page title contains '501(r) Discounts' or
+        related content.
+  - phaseNumber: 3
+    objective: Navigate to From the main navigation (or 'Solutions' menu), click the
+      link to 'Claim Reviews'.
+    assertions:
+    - verificationId: employer_detailed_research_v3_1
+      description: Verify that the user is navigated to the 'Claim Reviews' page (URL
+        contains '/claim-reviews').
+    - verificationId: employer_detailed_research_v3_2
+      description: Verify that verify the page title contains 'Claim Reviews' or related
+        content.
+  - phaseNumber: 4
+    objective: Navigate to From the main navigation (or 'Solutions' menu), click the
+      link to 'Member Experience'.
+    assertions:
+    - verificationId: employer_detailed_research_v4_1
+      description: Verify that the user is navigated to the 'Member Experience' page
+        (URL contains '/member-experience').
+    - verificationId: employer_detailed_research_v4_2
+      description: Verify that verify the page title contains 'Member Experience'
+        or related content.
+  - phaseNumber: 5
+    objective: Click on the 'Book a demo' button (likely from the main navigation
+      or footer).
+    assertions:
+    - verificationId: employer_detailed_research_v5_1
+      description: Verify that the user is navigated to the 'Request a Demo' page
+        (URL contains '/demo').
+    - verificationId: employer_detailed_research_v5_2
+      description: Verify that verify the page title contains 'Request a Demo' or
+        'Goodbill'.

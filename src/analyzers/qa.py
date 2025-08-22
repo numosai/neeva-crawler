@@ -28,8 +28,15 @@ class UserFlowAnalyzer(BaseAnalyzer):
         
         print(f"🔍 Discovering user flows using {model}...")
         
-        # Use direct LLM call instead of extraction strategy
-        result_data = await self._call_llm_directly(self.prompt, model)
+        # Load the actual site navigation data
+        with open(flows_file, 'r') as f:
+            site_data = json.load(f)
+        
+        # Create enhanced prompt with actual site data
+        enhanced_prompt = self.prompt + f"\n\nActual Site Navigation Data:\n{json.dumps(site_data, indent=2)[:5000]}\n\nBase URL: {base_url}"
+        
+        # Use direct LLM call with enhanced prompt
+        result_data = await self._call_llm_directly(enhanced_prompt, model)
         
         if result_data:
             # Handle Gemini's wrapped response format
@@ -208,14 +215,20 @@ class QAAnalyzer(BaseAnalyzer):
         # Load cached page content
         cached_content = {}
         for flow in user_flows_data.get('flows', []):
-            for page_id in flow.get('page_sequence', []):
-                # Page files are named like "page_1_content.html"
-                html_file = raw_dir / f"{page_id}_content.html"
-                if html_file.exists():
-                    with open(html_file, 'r', encoding='utf-8') as f:
-                        cached_content[page_id] = f.read()[:8000]  # Allow more content for better analysis
+            for page_ref in flow.get('page_sequence', []):
+                # Handle both page IDs (page_1) and URLs
+                if page_ref.startswith('page_'):
+                    # Page files are named like "page_1_content.html"
+                    html_file = raw_dir / f"{page_ref}_content.html"
+                    if html_file.exists():
+                        with open(html_file, 'r', encoding='utf-8') as f:
+                            cached_content[page_ref] = f.read()[:8000]  # Allow more content for better analysis
+                    else:
+                        print(f"⚠️ Cached HTML not found for {page_ref} at {html_file}")
                 else:
-                    print(f"⚠️ Cached HTML not found for {page_id} at {html_file}")
+                    # For URLs, try to find corresponding page_X file from flows.json
+                    # Skip URLs as they're not in our cached content
+                    print(f"⚠️ Skipping URL reference: {page_ref} (not in cached pages)")
         
         # Load screenshots if available
         screenshot_dir = raw_dir / "screenshots"
