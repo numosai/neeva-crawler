@@ -1,0 +1,205 @@
+{
+  "pages": [
+    {
+      "url": "https://www.goodbill.com/",
+      "title": "Lower hospital bills for plans & patients | Goodbill",
+      "description": "Our supercharged reviews lower hospital claims by an average of 30%. See why TPAs, brokers and employers love our member-centric cost containment solution.",
+      "h1": "Never overpay for hospital visitsagain.",
+      "h2_elements": [
+        "Member-drivensavings for self-funded plans.",
+        "All with aworld-classmember experience.",
+        "We\u2019ve got your back,everywhere.",
+        "Lock in savingsbeforethe plan pays.",
+        "Goodbillin the news",
+        "We\u2019re simplydifferent."
+      ],
+      "h2_count": 6,
+      "issues": [],
+      "recommendations": [],
+      "score": 100
+    },
+    {
+      "url": "https://www.goodbill.com/demo",
+      "title": "Request a Demo | Goodbill",
+      "description": "",
+      "h1": "Solutions for Plans",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (25 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://www.goodbill.com/patients",
+      "title": "We negotiate hospital bills for you | Goodbill",
+      "description": "We negotiate hospital bills to save you up to 100%, even if you have insurance. We find errors in your hospital bill and negotiate to save you money. BBB\u00ae Accredited with a 5-star rating.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Our customers love what we do.",
+        "We bet we can save you money.",
+        "\u200d\u200d\u200dHere's how it works.",
+        "We've got your back.",
+        "Negotiating hospital bills has never been this easy."
+      ],
+      "h2_count": 5,
+      "issues": [
+        "Meta description too long (187 chars)"
+      ],
+      "recommendations": [
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.goodbill.com/501r-discounts",
+      "title": "Unlock hidden savings with 501(r) discounts | Goodbill",
+      "description": "Most hospitals are required to offer discounts based on member income. Goodbill guides members through the entire process \u2014 from screening, to application, to results.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Healthcare\u2019sbest-kept savings secret",
+        "A 501(r) one-stop shopfor plans and members",
+        "Lock in savingsbeforethe plan pays."
+      ],
+      "h2_count": 3,
+      "issues": [
+        "Meta description too long (167 chars)"
+      ],
+      "recommendations": [
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.goodbill.com/claim-reviews",
+      "title": "Supercharge your Claim Reviews for Bigger Savings | Goodbill",
+      "description": "Most hospital claims contain inflated charges. We use A.I., coding and clinical experts, and real visit data to catch these errors early \u2014 before the plan pays the provider.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Capture more savingson every claim.",
+        "Claim reviews that arepreciseandfast.",
+        "How we get tothe truthon every claim.",
+        "Lock in savingsbeforethe plan pays."
+      ],
+      "h2_count": 4,
+      "issues": [
+        "Meta description too long (173 chars)"
+      ],
+      "recommendations": [
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.goodbill.com/member-experience",
+      "title": "Member Experience | Goodbill",
+      "description": "Using a blend of smart automation and real human support, we create a tailored experience for every member. We know your members are your savings superpower, so we make it easy for them to drive claim savings no one else can.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Your members areyour savings superpower.",
+        "Personalized experience.Personal connection.",
+        "You\u2019re in good hands with ouraward-winning team.",
+        "Lock in savingsbeforethe plan pays."
+      ],
+      "h2_count": 4,
+      "issues": [
+        "Title too short (28 chars) - should be 30-60 characters",
+        "Meta description too long (225 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 80
+    },
+    {
+      "url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+      "title": "Request a Demo | Goodbill",
+      "description": "",
+      "h1": "Solutions for Plans",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (25 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+      "title": "Request a Demo | Goodbill",
+      "description": "",
+      "h1": "Solutions for Plans",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (25 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://www.goodbill.com/negotiation-resources",
+      "title": "Hospital Bill Negotiation Help",
+      "description": "Expert tips on how to negotiate your hospital bill, lower your hospital bill, and save money.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Frustrated with TPAs, This CEO Built His Own \u2014 Powered by AI",
+        "Negotiating hospital bills has never been this easy."
+      ],
+      "h2_count": 2,
+      "issues": [
+        "Meta description too short (93 chars)"
+      ],
+      "recommendations": [
+        "Expand meta description to 120-160 characters"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.goodbill.com/about",
+      "title": "About | Goodbill",
+      "description": "Goodbill negotiates hospital bills, making them affordable, understandable and transparent.",
+      "h1": "Solutions for Plans",
+      "h2_elements": [
+        "Goodbillin the news"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (16 chars) - should be 30-60 characters",
+        "Meta description too short (91 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters"
+      ],
+      "score": 80
+    }
+  ],
+  "summary": {
+    "total_pages": 10,
+    "total_issues": 17,
+    "avg_title_length": 36,
+    "avg_desc_length": 109,
+    "avg_score": 81.5
+  }
+}

@@ -1,0 +1,180 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 10
+Total Unique URLs: 45
+Total Links: 156
+
+PAGE DETAILS
+------------------------------
+
+1. Lower hospital bills for plans & patients | Goodbill
+   URL: https://www.goodbill.com/
+   Page ID: page_1
+   Outgoing Links (14):
+     → See plan solutions: https://www.goodbill.com/
+     → Book a demo: https://www.goodbill.com/demo
+     → We help you negotiate, too: https://www.goodbill.com/patients
+     → Learn more about 501(r) discounts: https://www.goodbill.com/501r-discounts
+     → Learn more about claim reviews: https://www.goodbill.com/claim-reviews
+     ... and 9 more
+   Incoming Links (9):
+     ← No text: https://www.goodbill.com/demo
+     ← No text: https://www.goodbill.com/patients
+     ← No text: https://www.goodbill.com/501r-discounts
+     ... and 6 more
+
+2. Request a Demo | Goodbill
+   URL: https://www.goodbill.com/demo
+   Page ID: page_2
+   Outgoing Links (13):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 8 more
+   Incoming Links (9):
+     ← Book a demo: https://www.goodbill.com/
+     ← Book a demo: https://www.goodbill.com/patients
+     ← Book a demo: https://www.goodbill.com/501r-discounts
+     ... and 6 more
+
+3. We negotiate hospital bills for you | Goodbill
+   URL: https://www.goodbill.com/patients
+   Page ID: page_3
+   Outgoing Links (12):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 7 more
+   Incoming Links (9):
+     ← We help you negotiate, too: https://www.goodbill.com/
+     ← Hospital Bill Negotiations: https://www.goodbill.com/demo
+     ← Hospital Bill Negotiations: https://www.goodbill.com/501r-discounts
+     ... and 6 more
+
+4. Unlock hidden savings with 501(r) discounts | Goodbill
+   URL: https://www.goodbill.com/501r-discounts
+   Page ID: page_4
+   Outgoing Links (17):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 12 more
+   Incoming Links (9):
+     ← Learn more about 501(r) discounts: https://www.goodbill.com/
+     ← 501(r) Discounts: https://www.goodbill.com/demo
+     ← 501(r) Discounts: https://www.goodbill.com/patients
+     ... and 6 more
+
+5. Supercharge your Claim Reviews for Bigger Savings | Goodbill
+   URL: https://www.goodbill.com/claim-reviews
+   Page ID: page_5
+   Outgoing Links (15):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 10 more
+   Incoming Links (9):
+     ← Learn more about claim reviews: https://www.goodbill.com/
+     ← Claim Reviews: https://www.goodbill.com/demo
+     ← Claim Reviews: https://www.goodbill.com/patients
+     ... and 6 more
+
+6. Member Experience | Goodbill
+   URL: https://www.goodbill.com/member-experience
+   Page ID: page_6
+   Outgoing Links (13):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 8 more
+   Incoming Links (9):
+     ← Learn more: https://www.goodbill.com/
+     ← Member Experience: https://www.goodbill.com/demo
+     ← Member Experience: https://www.goodbill.com/patients
+     ... and 6 more
+
+7. Request a Demo | Goodbill
+   URL: https://www.goodbill.com/demo?source=homepage+see+case+study
+   Page ID: page_7
+   Outgoing Links (13):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 8 more
+   Incoming Links (1):
+     ← See Case Study: https://www.goodbill.com/
+
+8. Request a Demo | Goodbill
+   URL: https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer
+   Page ID: page_8
+   Outgoing Links (13):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 8 more
+   Incoming Links (1):
+     ← Get savings estimate: https://www.goodbill.com/
+
+9. Hospital Bill Negotiation Help
+   URL: https://www.goodbill.com/negotiation-resources
+   Page ID: page_9
+   Outgoing Links (34):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 29 more
+   Incoming Links (9):
+     ← Resources: https://www.goodbill.com/
+     ← Resources: https://www.goodbill.com/demo
+     ← Resources: https://www.goodbill.com/patients
+     ... and 6 more
+
+10. About | Goodbill
+   URL: https://www.goodbill.com/about
+   Page ID: page_10
+   Outgoing Links (12):
+     → No text: https://www.goodbill.com/
+     → 501(r) Discounts: https://www.goodbill.com/501r-discounts
+     → Claim Reviews: https://www.goodbill.com/claim-reviews
+     → Member Experience: https://www.goodbill.com/member-experience
+     → Hospital Bill Negotiations: https://www.goodbill.com/patients
+     ... and 7 more
+   Incoming Links (9):
+     ← About us: https://www.goodbill.com/
+     ← About us: https://www.goodbill.com/demo
+     ← About us: https://www.goodbill.com/patients
+     ... and 6 more
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  negotiation-resources: 34 outgoing links
+  501r-discounts: 17 outgoing links
+  claim-reviews: 15 outgoing links
+  homepage: 14 outgoing links
+  demo: 13 outgoing links
+
+Most Referenced Pages (most incoming links):
+  homepage: 10 incoming links
+  demo: 10 incoming links
+  patients: 10 incoming links
+  501r-discounts: 10 incoming links
+  claim-reviews: 10 incoming links
