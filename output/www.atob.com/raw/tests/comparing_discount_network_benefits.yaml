@@ -1,0 +1,34 @@
+name: Comparing Discount Network Benefits
+qa_plan:
+  title: Comparing Discount Network Benefits
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com/ (Homepage)
+    assertions:
+    - verificationId: flow3_phase1_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/'.
+  - phaseNumber: 2
+    objective: Click on the 'AtoB Truck Stop Discount Network' link under the 'Discounts'
+      section.
+    assertions:
+    - verificationId: flow3_phase2_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/truck-stop-discount-network'.
+    - verificationId: flow3_phase2_assertion2
+      description: Verify that verify the presence of content detailing truck stop
+        fuel discounts.
+  - phaseNumber: 3
+    objective: Navigate back to the homepage using the browser's back button or a
+      global navigation link (assuming presence).
+    assertions:
+    - verificationId: flow3_phase3_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/' after
+        navigating back.
+  - phaseNumber: 4
+    objective: Click on the 'AtoB Gas Station Discount Network' link under the 'Discounts'
+      section.
+    assertions:
+    - verificationId: flow3_phase4_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/gas-station-discount-network'.
+    - verificationId: flow3_phase4_assertion2
+      description: Verify that verify the presence of content detailing gas station
+        fuel discounts.

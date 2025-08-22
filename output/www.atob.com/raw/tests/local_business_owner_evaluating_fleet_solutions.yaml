@@ -1,0 +1,26 @@
+name: Local Business Owner Evaluating Fleet Solutions
+qa_plan:
+  title: Local Business Owner Evaluating Fleet Solutions
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com/ (Homepage)
+    assertions:
+    - verificationId: flow5_phase1_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/'.
+  - phaseNumber: 2
+    objective: Click on the 'Local businesses' link under the 'Who we serve' section.
+    assertions:
+    - verificationId: flow5_phase2_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/local'.
+    - verificationId: flow5_phase2_assertion2
+      description: Verify that content specifically tailored for local businesses
+        is visible on the page.
+  - phaseNumber: 3
+    objective: Click on the 'Get started' link on the 'Local businesses' page or from
+      the persistent header/footer navigation.
+    assertions:
+    - verificationId: flow5_phase3_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/get-started'.
+    - verificationId: flow5_phase3_assertion2
+      description: Verify that the 'Get started' application section or relevant introductory
+        content is displayed.

@@ -1,0 +1,18 @@
+name: Detailed Research on Fuel Card Features
+qa_plan:
+  title: Detailed Research on Fuel Card Features
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com/ (Homepage)
+    assertions:
+    - verificationId: flow2_phase1_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/'.
+  - phaseNumber: 2
+    objective: Click on the 'Fuel cards' link under the 'Products' section in the
+      navigation.
+    assertions:
+    - verificationId: flow2_phase2_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/product-fuel-cards'.
+    - verificationId: flow2_phase2_assertion2
+      description: Verify that sections detailing fuel card features and security
+        controls are visible.

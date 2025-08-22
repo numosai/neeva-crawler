@@ -1,0 +1,95 @@
+{
+  "flows": [
+    {
+      "id": "flow_1",
+      "title": "Quick Application for Fuel Cards",
+      "description": "A new fleet manager or owner, keen to quickly explore the benefits and start the application process for AtoB's fuel cards to save on costs.",
+      "page_sequence": [
+        "page_1",
+        "https://www.atob.com/get-started"
+      ],
+      "user_goals": [
+        "Start the application process for fuel cards",
+        "Understand immediate benefits of AtoB services"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com/ (Homepage)",
+        "Click on the 'Get started' link in the header or main call to action."
+      ]
+    },
+    {
+      "id": "flow_2",
+      "title": "Detailed Research on Fuel Card Features",
+      "description": "A fleet operations manager meticulously researching the security and features of AtoB's fuel card product before making a decision.",
+      "page_sequence": [
+        "page_1",
+        "https://www.atob.com/product-fuel-cards"
+      ],
+      "user_goals": [
+        "Understand the specific features and benefits of AtoB fuel cards",
+        "Learn about security controls and fraud defense mentioned for fuel cards"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com/ (Homepage)",
+        "Click on the 'Fuel cards' link under the 'Products' section in the navigation."
+      ]
+    },
+    {
+      "id": "flow_3",
+      "title": "Comparing Discount Network Benefits",
+      "description": "A cost-conscious fleet owner looking to compare the fuel discounts offered by AtoB across different networks to maximize savings.",
+      "page_sequence": [
+        "page_1",
+        "https://www.atob.com/truck-stop-discount-network",
+        "https://www.atob.com/gas-station-discount-network"
+      ],
+      "user_goals": [
+        "Identify the extent of fuel discounts offered at truck stops",
+        "Identify the extent of fuel discounts offered at gas stations",
+        "Compare discount networks to determine the best fit for their fleet"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com/ (Homepage)",
+        "Click on the 'AtoB Truck Stop Discount Network' link under the 'Discounts' section.",
+        "Navigate back to the homepage using the browser's back button or a global navigation link (assuming presence).",
+        "Click on the 'AtoB Gas Station Discount Network' link under the 'Discounts' section."
+      ]
+    },
+    {
+      "id": "flow_4",
+      "title": "Returning Visitor Exploring Driver Pay Solutions",
+      "description": "A current AtoB customer or someone familiar with their fuel cards, now interested in expanding their use of AtoB services to include driver payroll.",
+      "page_sequence": [
+        "page_1",
+        "https://www.atob.com/product-payrolls"
+      ],
+      "user_goals": [
+        "Understand how AtoB's driver pay system works",
+        "Learn about the benefits of instant driver payments and payroll automation"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com/ (Homepage)",
+        "Click on the 'Driver Pay' link under the 'Products' section in the navigation."
+      ]
+    },
+    {
+      "id": "flow_5",
+      "title": "Local Business Owner Evaluating Fleet Solutions",
+      "description": "An owner of a local business with a small fleet, seeking specific solutions tailored for short-journey fleets and general service overview.",
+      "page_sequence": [
+        "page_1",
+        "https://www.atob.com/local",
+        "https://www.atob.com/get-started"
+      ],
+      "user_goals": [
+        "Verify if AtoB serves local businesses and understand relevant offerings",
+        "Quickly get an overview of how to start using AtoB's services tailored for local fleets"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com/ (Homepage)",
+        "Click on the 'Local businesses' link under the 'Who we serve' section.",
+        "Click on the 'Get started' link on the 'Local businesses' page or from the persistent header/footer navigation."
+      ]
+    }
+  ]
+}

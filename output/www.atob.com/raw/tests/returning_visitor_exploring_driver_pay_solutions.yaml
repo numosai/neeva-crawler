@@ -1,0 +1,18 @@
+name: Returning Visitor Exploring Driver Pay Solutions
+qa_plan:
+  title: Returning Visitor Exploring Driver Pay Solutions
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com/ (Homepage)
+    assertions:
+    - verificationId: flow4_phase1_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/'.
+  - phaseNumber: 2
+    objective: Click on the 'Driver Pay' link under the 'Products' section in the
+      navigation.
+    assertions:
+    - verificationId: flow4_phase2_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/product-payrolls'.
+    - verificationId: flow4_phase2_assertion2
+      description: Verify that content describing AtoB's driver pay system and its
+        benefits is displayed.

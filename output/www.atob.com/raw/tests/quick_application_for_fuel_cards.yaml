@@ -1,0 +1,20 @@
+name: Quick Application for Fuel Cards
+qa_plan:
+  title: Quick Application for Fuel Cards
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com/ (Homepage)
+    assertions:
+    - verificationId: flow1_phase1_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/'.
+    - verificationId: flow1_phase1_assertion2
+      description: Verify that verify the presence of the main call to action or 'Get
+        started' link.
+  - phaseNumber: 2
+    objective: Click on the 'Get started' link in the header or main call to action.
+    assertions:
+    - verificationId: flow1_phase2_assertion1
+      description: Verify that verify the current URL is 'https://www.atob.com/get-started'.
+    - verificationId: flow1_phase2_assertion2
+      description: Verify that the application form or introductory content for getting
+        started is displayed.

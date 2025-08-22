@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "total_test_files": 5,
+    "total_phases": 13,
+    "total_assertions": 21,
+    "avg_phases_per_file": 2.6,
+    "avg_assertions_per_file": 4.2
+  },
+  "test_files": [
+    {
+      "filename": "comparing_discount_network_benefits.yaml",
+      "name": "Comparing Discount Network Benefits",
+      "title": "Comparing Discount Network Benefits",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com/ (Homepage)",
+          "assertions": [
+            {
+              "id": "flow3_phase1_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'AtoB Truck Stop Discount Network' link under the 'Discounts' section.",
+          "assertions": [
+            {
+              "id": "flow3_phase2_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/truck-stop-discount-network'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase2_assertion2",
+              "description": "Verify that verify the presence of content detailing truck stop fuel discounts.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate back to the homepage using the browser's back button or a global navigation link (assuming presence).",
+          "assertions": [
+            {
+              "id": "flow3_phase3_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/' after navigating back.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Click on the 'AtoB Gas Station Discount Network' link under the 'Discounts' section.",
+          "assertions": [
+            {
+              "id": "flow3_phase4_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/gas-station-discount-network'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase4_assertion2",
+              "description": "Verify that verify the presence of content detailing gas station fuel discounts.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 6
+    },
+    {
+      "filename": "detailed_research_on_fuel_card_features.yaml",
+      "name": "Detailed Research on Fuel Card Features",
+      "title": "Detailed Research on Fuel Card Features",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com/ (Homepage)",
+          "assertions": [
+            {
+              "id": "flow2_phase1_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Fuel cards' link under the 'Products' section in the navigation.",
+          "assertions": [
+            {
+              "id": "flow2_phase2_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/product-fuel-cards'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase2_assertion2",
+              "description": "Verify that sections detailing fuel card features and security controls are visible.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 2,
+      "assertion_count": 3
+    },
+    {
+      "filename": "local_business_owner_evaluating_fleet_solutions.yaml",
+      "name": "Local Business Owner Evaluating Fleet Solutions",
+      "title": "Local Business Owner Evaluating Fleet Solutions",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com/ (Homepage)",
+          "assertions": [
+            {
+              "id": "flow5_phase1_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Local businesses' link under the 'Who we serve' section.",
+          "assertions": [
+            {
+              "id": "flow5_phase2_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/local'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow5_phase2_assertion2",
+              "description": "Verify that content specifically tailored for local businesses is visible on the page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Click on the 'Get started' link on the 'Local businesses' page or from the persistent header/footer navigation.",
+          "assertions": [
+            {
+              "id": "flow5_phase3_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/get-started'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow5_phase3_assertion2",
+              "description": "Verify that the 'Get started' application section or relevant introductory content is displayed.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 3,
+      "assertion_count": 5
+    },
+    {
+      "filename": "quick_application_for_fuel_cards.yaml",
+      "name": "Quick Application for Fuel Cards",
+      "title": "Quick Application for Fuel Cards",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com/ (Homepage)",
+          "assertions": [
+            {
+              "id": "flow1_phase1_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase1_assertion2",
+              "description": "Verify that verify the presence of the main call to action or 'Get started' link.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Get started' link in the header or main call to action.",
+          "assertions": [
+            {
+              "id": "flow1_phase2_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/get-started'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase2_assertion2",
+              "description": "Verify that the application form or introductory content for getting started is displayed.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 2,
+      "assertion_count": 4
+    },
+    {
+      "filename": "returning_visitor_exploring_driver_pay_solutions.yaml",
+      "name": "Returning Visitor Exploring Driver Pay Solutions",
+      "title": "Returning Visitor Exploring Driver Pay Solutions",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.atob.com/ (Homepage)",
+          "assertions": [
+            {
+              "id": "flow4_phase1_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Driver Pay' link under the 'Products' section in the navigation.",
+          "assertions": [
+            {
+              "id": "flow4_phase2_assertion1",
+              "description": "Verify that verify the current URL is 'https://www.atob.com/product-payrolls'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow4_phase2_assertion2",
+              "description": "Verify that content describing AtoB's driver pay system and its benefits is displayed.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 2,
+      "assertion_count": 3
+    }
+  ]
+}
