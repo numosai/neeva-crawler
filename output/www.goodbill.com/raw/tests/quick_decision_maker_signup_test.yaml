@@ -1,0 +1,38 @@
+name: Quick Decision Maker Signup Test
+qa_plan:
+  title: Quick Decision Maker Signup Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com and quickly scan the main hero section
+      for key benefits
+    assertions:
+    - verificationId: homepage_loaded_successfully
+      description: Verify that verify homepage loads completely without errors.
+    - verificationId: hero_section_visible
+      description: Verify that verify the main hero section content and key benefits
+        are prominently displayed.
+  - phaseNumber: 2
+    objective: Navigate to Locate and click the prominent 'Get Started' or 'Apply
+      Now' button, likely in the header or hero section
+    assertions:
+    - verificationId: redirect_to_signup_page
+      description: Verify that verify successful navigation to the signup or application
+        form page.
+  - phaseNumber: 3
+    objective: Navigate to Land on the 'Sign up form' page (https://www.atob.com/get-started)
+    assertions:
+    - verificationId: signup_page_url_correct
+      description: Verify that verify the current URL matches 'https://www.atob.com/get-started'.
+    - verificationId: signup_form_elements_visible
+      description: Verify that verify the signup form and its required input fields
+        are clearly visible.
+  - phaseNumber: 4
+    objective: Navigate to Efficiently fill in the required fields on the signup form
+      (e.g., Company Name, Email, Phone, Fleet Size)
+    assertions: []
+  - phaseNumber: 5
+    objective: Click 'Submit' or 'Continue' to complete the initial application step
+    assertions:
+    - verificationId: application_submission_success
+      description: Verify that verify the application submits successfully and shows
+        a confirmation message or redirects to a success page.

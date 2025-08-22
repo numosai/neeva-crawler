@@ -1,0 +1,26 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 0
+Total Unique URLs: 29
+Total Links: 174
+
+PAGE DETAILS
+------------------------------
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  product-fuel-cards: 25 outgoing links
+  local: 19 outgoing links
+  homepage: 18 outgoing links
+  product-payrolls: 18 outgoing links
+  truck-stop-discount-network: 18 outgoing links
+
+Most Referenced Pages (most incoming links):
+  get-started: 10 incoming links
+  homepage: 10 incoming links
+  product-fuel-cards: 9 incoming links
+  product-payrolls: 9 incoming links
+  truck-stop-discount-network: 9 incoming links

@@ -1,0 +1,214 @@
+{
+  "issues": [
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/blog"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/customers"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/terms"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/privacy-policy"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/customers/intersystems"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://stage.bluebirds.com/customers/redpanda"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://stage.bluebirds.com",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com"
+        }
+      ],
+      "score": 90,
+      "total_images": 53,
+      "total_links": 10,
+      "total_buttons": 2
+    },
+    {
+      "url": "https://stage.bluebirds.com/",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/"
+        }
+      ],
+      "score": 90,
+      "total_images": 53,
+      "total_links": 10,
+      "total_buttons": 2
+    },
+    {
+      "url": "https://stage.bluebirds.com/blog",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/blog"
+        }
+      ],
+      "score": 90,
+      "total_images": 3,
+      "total_links": 9,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/customers"
+        }
+      ],
+      "score": 90,
+      "total_images": 17,
+      "total_links": 13,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://stage.bluebirds.com/terms",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/terms"
+        }
+      ],
+      "score": 90,
+      "total_images": 3,
+      "total_links": 10,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://stage.bluebirds.com/privacy-policy",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/privacy-policy"
+        }
+      ],
+      "score": 90,
+      "total_images": 3,
+      "total_links": 10,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers/intersystems",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/customers/intersystems"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 12,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://stage.bluebirds.com/customers/redpanda",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://stage.bluebirds.com/customers/redpanda"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 12,
+      "total_buttons": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 8,
+    "score": 90.0,
+    "total_images": 140,
+    "total_links": 86,
+    "total_buttons": 10,
+    "total_pages": 8
+  }
+}

@@ -1,6 +1,24 @@
 {
   "pages": [
     {
+      "url": "https://www.goodbill.com",
+      "title": "Lower hospital bills for plans & patients | Goodbill",
+      "description": "Our supercharged reviews lower hospital claims by an average of 30%. See why TPAs, brokers and employers love our member-centric cost containment solution.",
+      "h1": "Never overpay for hospital visitsagain.",
+      "h2_elements": [
+        "Member-drivensavings for self-funded plans.",
+        "All with aworld-classmember experience.",
+        "We\u2019ve got your back,everywhere.",
+        "Lock in savingsbeforethe plan pays.",
+        "Goodbillin the news",
+        "We\u2019re simplydifferent."
+      ],
+      "h2_count": 6,
+      "issues": [],
+      "recommendations": [],
+      "score": 100
+    },
+    {
       "url": "https://www.goodbill.com/",
       "title": "Lower hospital bills for plans & patients | Goodbill",
       "description": "Our supercharged reviews lower hospital claims by an average of 30%. See why TPAs, brokers and employers love our member-centric cost containment solution.",
@@ -158,48 +176,32 @@
       "score": 65
     },
     {
-      "url": "https://www.goodbill.com/negotiation-resources",
-      "title": "Hospital Bill Negotiation Help",
-      "description": "Expert tips on how to negotiate your hospital bill, lower your hospital bill, and save money.",
-      "h1": "Solutions for Plans",
-      "h2_elements": [
-        "Frustrated with TPAs, This CEO Built His Own \u2014 Powered by AI",
-        "Negotiating hospital bills has never been this easy."
-      ],
-      "h2_count": 2,
+      "url": "https://www.goodbill.com/employers",
+      "title": "Not Found",
+      "description": "",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
       "issues": [
-        "Meta description too short (93 chars)"
-      ],
-      "recommendations": [
-        "Expand meta description to 120-160 characters"
-      ],
-      "score": 90
-    },
-    {
-      "url": "https://www.goodbill.com/about",
-      "title": "About | Goodbill",
-      "description": "Goodbill negotiates hospital bills, making them affordable, understandable and transparent.",
-      "h1": "Solutions for Plans",
-      "h2_elements": [
-        "Goodbillin the news"
-      ],
-      "h2_count": 1,
-      "issues": [
-        "Title too short (16 chars) - should be 30-60 characters",
-        "Meta description too short (91 chars)"
+        "Title too short (9 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "Missing H1 tag",
+        "No H2 tags found"
       ],
       "recommendations": [
         "Expand title tag to be more descriptive",
-        "Expand meta description to 120-160 characters"
+        "Add meta description tag for better search snippets",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
       ],
-      "score": 80
+      "score": 40
     }
   ],
   "summary": {
     "total_pages": 10,
-    "total_issues": 17,
-    "avg_title_length": 36,
-    "avg_desc_length": 109,
-    "avg_score": 81.5
+    "total_issues": 18,
+    "avg_title_length": 38,
+    "avg_desc_length": 106,
+    "avg_score": 78.5
   }
 }

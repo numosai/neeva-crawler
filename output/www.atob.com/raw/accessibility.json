@@ -1,0 +1,498 @@
+{
+  "issues": [
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 53 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 35 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/get-started"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/get-started"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 105 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 38 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/product-payrolls"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/product-payrolls"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 87 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/truck-stop-discount-network"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/truck-stop-discount-network"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 128 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/gas-station-discount-network"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/gas-station-discount-network"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 39 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/local"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/local"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 47 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/overtheroad"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/overtheroad"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/become-a-factoring-partner"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 31 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../tr?id=353940347453199&ev=PageView&noscript=1",
+        ".../tr?id=389195278716091&ev=PageView&noscript=1"
+      ],
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.atob.com",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 53 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com"
+        }
+      ],
+      "score": 70,
+      "total_images": 53,
+      "total_links": 71,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/get-started",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 35 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/get-started"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/get-started"
+        }
+      ],
+      "score": 70,
+      "total_images": 35,
+      "total_links": 8,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/product-fuel-cards",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 105 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/product-fuel-cards"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.atob.com/product-fuel-cards"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/product-fuel-cards"
+        }
+      ],
+      "score": 60,
+      "total_images": 105,
+      "total_links": 107,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/product-payrolls",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 38 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/product-payrolls"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/product-payrolls"
+        }
+      ],
+      "score": 70,
+      "total_images": 38,
+      "total_links": 73,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/truck-stop-discount-network",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 87 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/truck-stop-discount-network"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/truck-stop-discount-network"
+        }
+      ],
+      "score": 70,
+      "total_images": 87,
+      "total_links": 68,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/gas-station-discount-network",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 128 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/gas-station-discount-network"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/gas-station-discount-network"
+        }
+      ],
+      "score": 70,
+      "total_images": 128,
+      "total_links": 141,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/local",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 39 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/local"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/local"
+        }
+      ],
+      "score": 70,
+      "total_images": 39,
+      "total_links": 72,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/overtheroad",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 47 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/overtheroad"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/overtheroad"
+        }
+      ],
+      "score": 70,
+      "total_images": 47,
+      "total_links": 71,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/become-a-factoring-partner",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/become-a-factoring-partner"
+        }
+      ],
+      "score": 90,
+      "total_images": 25,
+      "total_links": 64,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.atob.com/become-a-broker-partner",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 31 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../tr?id=353940347453199&ev=PageView&noscript=1",
+            ".../tr?id=389195278716091&ev=PageView&noscript=1"
+          ],
+          "page_url": "https://www.atob.com/become-a-broker-partner"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.atob.com/become-a-broker-partner"
+        }
+      ],
+      "score": 70,
+      "total_images": 31,
+      "total_links": 63,
+      "total_buttons": 0
+    }
+  ],
+  "summary": {
+    "total_issues": 20,
+    "score": 71.0,
+    "total_images": 588,
+    "total_links": 738,
+    "total_buttons": 0,
+    "total_pages": 10
+  }
+}

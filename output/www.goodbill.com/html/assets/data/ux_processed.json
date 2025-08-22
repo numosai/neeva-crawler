@@ -1,11 +1,2522 @@
 {
-  "issues": [],
-  "recommendations": [],
+  "issues": [
+    {
+      "text": "Overpaying for hospital visits",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Plans and members paying more than what's fair",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Ordinary solutions cannot unlock certain savings",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Lack of awareness or access to 501(r) financial assistance discounts at nonprofit hospitals",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Low claim review accuracy without real visit data",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Potential for overcharges before repricing, adjudication, and payment",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Other services might not prioritize member experience or understanding",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Hospital bills can contain errors",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Consumers need help negotiating hospital bills",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Hospital bill overcharges",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Savings often get overlooked",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Difficulty for plan sponsors to fulfill fiduciary obligations",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "High hospital costs",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Plans paying providers before savings are locked in",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Difficulty getting an itemized hospital bill",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Medical bills are complex to decipher and pay",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Unnecessary tests and incorrect codes in hospital bills",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Big/huge medical bills needing negotiation",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Ordinary cost containment solutions do the bare minimum",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Other solutions only review high-dollar claims for coding errors and clinical necessity",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Other solutions offer no 501(r) discounts",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Difficulty in fulfilling fiduciary duty regarding plan costs",
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "text": "Never overpay for hospital visits again.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Ensure plans and members pay only what\u2019s fair (implies current unfairness/overpayment)",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Got a hospital bill?",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "unlock savings that ordinary solutions can\u2019t",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "High plan and member responsibility due to lack of 501(r) application.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Claim review accuracy issues without real visit data.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Overcharges before repricing, adjudication and payment.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Implied poor member experience or difficulty for patients with hospital bills.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Hospital bills.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Bill for errors.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Overcharges.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Hospital bill audits and hospital bill reduction (implies need for reduction).",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Savings that otherwise get overlooked.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Overpaying.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "High hospital costs.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Stress out of hospital visits.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Overcharges before they happen.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Implied overpayment if claims are not reviewed before adjudication.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Getting an Itemized Hospital Bill is Basically Impossible.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Unnecessary tests and incorrect codes.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Huge medical bill.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Inflated medical bill.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Overcharges.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Ordinary cost containment solutions do the bare minimum.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Other solutions only review high-dollar claims for coding errors and clinical necessity.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Other solutions offer no 501(r) discounts.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Implied difficulty in fulfilling fiduciary duty regarding healthcare costs.",
+      "page_url": "https://www.goodbill.com/"
+    },
+    {
+      "text": "Hospitals may not be applying 501(r) discounts, leading to higher patient bills.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Lack of awareness about available 501(r) discounts.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Gag clauses in healthcare contracts were a concern for TPAs and brokers.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Healthcare costs are high and individuals/organizations are looking for ways to save money.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Need for solutions to make healthcare more affordable for patients, plan members, payers/TPAs, benefits advisors/brokers, and employers.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Hospitals may not be applying 501(r) discounts, leading to higher patient bills.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Need for industry professionals (TPAs) to connect and learn about healthcare administration.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "Users may have specific questions or need support related to healthcare billing, press inquiries, or partnership opportunities.",
+      "page_url": "https://www.goodbill.com/demo"
+    },
+    {
+      "text": "People go toe-to-toe with the healthcare system.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Our healthcare system doesn't exactly scream transparency.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "No one can really give you a price estimate.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Medical records are filed away in dusty cabinets.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "High hospital bills (e.g., $1,837, $3,620, $1,837, $9,560, $2,000, $5,768, $5,962, $3,078, $1,142, $648, $454, $939).",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Concerns about not being charged fairly.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Lack of expertise to successfully negotiate hospital bills.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Facing a sea of charges on a medical bill that is not understood.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Coding errors on bills.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Inability to resolve billing issues on one's own.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Stressful negotiation with hospitals.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Outrageous charges for services (e.g., ER visits).",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Facing large medical debt.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Hospitals being uncooperative and denying disputes.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Feeling hopeless about medical bills.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Stress from bills after significant life events (e.g., birth of a child).",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Overcharging by hospitals.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Difficulty discovering billing errors independently.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Nearly every hospital bill is negotiable, but the process is stressful and time-consuming for individuals.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "The standard bill received in the mail usually hides errors and inflated charges.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Patients may not have the expertise to review their medical record against their bill to flag suspicious charges.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "The healthcare system lacks affordability, fairness, and transparency for patients.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Patients struggle to go 'toe-to-toe' with the healthcare system.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "It's difficult to get price estimates for healthcare services.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Medical records are often inaccessible or filed away, making it hard for patients to access their own data.",
+      "page_url": "https://www.goodbill.com/patients"
+    },
+    {
+      "text": "Members and plan sponsors often miss out on 'hidden savings' because they are unaware of or struggle to access 501(r) discounts.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "The process of securing 501(r) discounts can be complex, involving screening, application, and follow-up.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Plan sponsors and members may not be paying the 'right amount' on claims due to unapplied 501(r) discounts.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Many claims that are eligible for 501(r) discounts are not receiving them, as it's considered 'healthcare\u2019s best-kept savings secret'.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "The process of identifying eligibility, applying for, and securing 501(r) discounts can be complex and burdensome for individuals and plans.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Claims are often paid without considering potential discounts, leading to overpayment by plans and members.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Claims are often paid without considering potential discounts, leading to overpayment by plans and members.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Fulfilling fiduciary duty regarding healthcare costs can be challenging for plan sponsors.",
+      "page_url": "https://www.goodbill.com/501r-discounts"
+    },
+    {
+      "text": "Most hospital claims contain inflated charges.",
+      "page_url": "https://www.goodbill.com/claim-reviews"
+    },
+    {
+      "text": "5 in 10 claims contain coding errors or unnecessary care.",
+      "page_url": "https://www.goodbill.com/claim-reviews"
+    },
+    {
+      "text": "Clawback headaches from post-payment reviews.",
+      "page_url": "https://www.goodbill.com/claim-reviews"
+    },
+    {
+      "text": "Coding errors (upcoding, unbundling, duplicate charges, wrong quantities).",
+      "page_url": "https://www.goodbill.com/claim-reviews"
+    },
+    {
+      "text": "Clinically unnecessary care (inflated severity of condition, excessive labs or tests, low-value procedures).",
+      "page_url": "https://www.goodbill.com/claim-reviews"
+    },
+    {
+      "text": "Stress from healthcare bills",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Difficulty saving on healthcare costs",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Inflated charges on claims",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Missed opportunities for 501(r) discounts",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Impersonal or confusing healthcare billing processes",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Lack of tailored support for individual member cases",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Lack of accessible and expert support for healthcare bills",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Emotional stress and financial hardship for families due to medical bills",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Claims being adjudicated and paid before overcharges or discounts are identified",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Lack of a pre-adjudication review process for claims",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Difficulty for plans in fulfilling their fiduciary duty",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Challenges in maximizing savings for healthcare plans",
+      "page_url": "https://www.goodbill.com/member-experience"
+    },
+    {
+      "text": "Hospital discounts are hiding in plain sight",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "Need to prepare for the Gag Clause Ban",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "High healthcare costs",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "Need for more affordable healthcare",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "Hospital discounts are hiding in plain sight",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "Need for specific help or support",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study"
+    },
+    {
+      "text": "Hospital discounts (501(r)) are often overlooked or unknown, despite being available.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "TPAs and Brokers need to prepare for the upcoming Gag Clause Ban.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "Healthcare costs are high, and there is a need for affordability for brokers, payers, and employers.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "Patients and plan members also seek savings on healthcare.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "An error occurred during form submission.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "Hospital discounts (501(r)) are often overlooked or unknown, despite being available.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "Users may need help with specific issues related to healthcare.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    },
+    {
+      "text": "Lack of trust and confidence in healthcare transactions.",
+      "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer"
+    }
+  ],
+  "recommendations": [
+    {
+      "text": {
+        "text": "Ensure plans and members pay only what\u2019s fair",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize 501(r) discounts",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Conduct pre-payment claim reviews",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Negotiate hospital bills for patients",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage members to unlock savings",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide instant 501(r) discount eligibility screening",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer medical record retrieval in seconds",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide personal case managers available 7 days a week",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize 501(r) discounts to lower plan and member responsibility",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer instant checks for 501(r) eligibility (4 in 10 claims eligible)",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enable plans to save up to 80% off billed charges through 501(r)",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enable members to save up to 100% off patient responsibility through 501(r)",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improve claim review accuracy by cross-checking provider notes",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Conduct claim reviews before repricing, adjudication, and payment",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Apply a $0 review threshold on claims",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrate with EHR platforms for instant member access to visit data",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize licensed coders & clinicians for reviews",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Directly integrate with major EHR platforms (Epic, Cerner, Allscripts)",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide a world-class member experience",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Focus on helping patients first",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer award-winning member experience",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Ensure compatibility with existing platforms and solutions",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide bilingual English and Spanish support",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer 7 days a week support by phone, email and chat",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Negotiate hospital bills for consumers",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Review bills for errors to save money",
+        "page_url": "https://www.goodbill.com",
+        "priority": "high"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide exceptional hospital bill audits and reduction services",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Find and capture overlooked savings",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Help plan sponsors feel confident about fulfilling fiduciary obligations",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Act as a watchdog to prevent overpaying",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Stop overcharges before they happen",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Protect clients and members from high hospital costs",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Operate in all 50 states",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Digitally integrate with most hospitals for faster results",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Connect to 2,500+ hospitals for instant EHR access to enhance claim reviews",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Connect to 3,500+ hospitals for instant 501(r) screening based on member data",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Lock in savings before the plan pays the provider",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrate Goodbill as the first stop in the claims stream before adjudication",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage members to connect patient portals and check 501(r) eligibility",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Flag overcharges based on provider notes using A.I., coders, and clinicians",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Help eligible members apply and secure additional 501(r) discounts",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Return dynamically repriced and edited claims",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Handle appeals after the plan adjudicates and pays the provider",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide information from itemized bills that are otherwise hard to get",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Help negotiate medical bills",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Assign an advocate to work on cases (contingency-based payment)",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use software to catch unnecessary tests and incorrect codes by drawing on public hospital data",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Maximize savings beyond ordinary solutions",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Review all facility claims for coding errors",
+        "page_url": "https://www.goodbill.com",
+        "priority": "high"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Review all facility claims for clinical necessity",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide 501(r) discounts for all facility claims",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Make fulfilling fiduciary duty easier",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Help plans make every dollar count",
+        "page_url": "https://www.goodbill.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Ensure plans and members pay only what\u2019s fair, with 501(r) discounts and pre-payment claim reviews.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Capture 8% average savings on annual plan spend.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We help you negotiate, too (for patients).",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We engage members to unlock savings that ordinary solutions can\u2019t.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Instant 501(r) discount eligibility screening.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Medical record retrieval in seconds.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Personal case manager available 7 days a week.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Tap into 501(r) discounts available at most hospitals.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "501(r), a financial assistance requirement at nonprofit hospitals, can lower both the plan and member responsibility.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "4 in 10 claims eligible through our instant checks.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Plans can save up to 80% off billed charges.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Members save up to 100% off patient responsibility.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improve claim review accuracy by cross-checking provider notes \u2014before repricing, adjudication and payment.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$0 review threshold on claims.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrations with EHR platforms enable members to instantly grant access to visit data.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Reviews by licensed coders & clinicians.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We know members better than anyone else. After all, we started our company by helping patients first.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "99 All-time CSAT Score.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Award-winning member experience.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Works with existing platforms and solutions.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Bilingual English and Spanish support.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Available 7 days a week by phone, email and chat.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We negotiate your hospital bills, too!",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We review your bill for errors and negotiate to save you money.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Exceptional in terms of hospital bill audits and hospital bill reduction.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Finds and captures savings that otherwise get overlooked.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Great to have a watchdog on their side to ensure they are not overpaying.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Protect our clients and members from high hospital costs and take the stress out of hospital visits.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Stop overcharges before they happen.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Delivering smarter savings and real financial protection.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill is the first stop in the claims stream before adjudication.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Members connect their patient portal and check 501(r) eligibility in seconds.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "A.I., coders, and clinicians flag overcharges based on provider notes.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We help eligible members apply and secure additional discounts.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We return the claim, dynamically repriced and edited.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill handles appeals.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill\u2019s site...[it showed] me the very information I had been hoping to see.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Assign an advocate to work on your case.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "If they save you nothing, they get nothing.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Software \u2013 which draws on public hospital data \u2013 catches unnecessary tests and incorrect codes.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill is a great place to turn.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "We maximize your savings.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill reviews all facility claims for coding errors.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill reviews all facility claims for clinical necessity.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill offers 501(r) discounts for all facility claims.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Fulfilling your fiduciary duty just got a whole lot easier.",
+        "page_url": "https://www.goodbill.com/",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Attend the 'Intro to 501(r): The Hospital Discount Hiding in Plain Sight' webinar to learn more.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for the webinar for free.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "TPAs & Brokers should get ready for the Gag Clause Ban (historical recommendation related to the past webinar).",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Join Goodbill to make healthcare more affordable.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select your role (patient, plan member, payer/TPA, benefits advisor/broker, employer, or something else) and fill out the form to connect with Goodbill.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for the 'Intro to 501(r): The Hospital Discount Hiding in Plain Sight' webinar.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Book a meeting with Goodbill at the Healthcare Administrators Association TPA Summit in Dallas, TX.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Goodbill Support at help@goodbill.com.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "For press inquiries, contact media@goodbill.com.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "For partnerships, contact partner@goodbill.com.",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Explore Goodbill's solutions for Plans (501(r) Discounts, Claim Reviews, Member Experience) and Patients (Hospital Bill Negotiations).",
+        "page_url": "https://www.goodbill.com/demo",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Do it for the patient.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Sweat the details.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Follow through.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Store data securely and transmit it using the latest in encryption technology (for security and privacy).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Negotiating hospital bills has never been this easy (implied: use Goodbill's service).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Building trust and confidence into every health care transaction.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer 501(r) Discounts (for plans).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer Claim Reviews (for plans).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improve Member Experience (for plans).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer Hospital Bill Negotiations (for patients).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill negotiates hospital bills for you.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Lower your hospital bill by up to 100%, even if you have insurance.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill reviews your bill for errors and discount opportunities, and negotiates to keep money in your pocket.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "It's 100% free unless Goodbill finds you savings.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill negotiates hospital bills.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill provides case managers who keep in constant contact and are knowledgeable.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill reviews charges and advocates on behalf of the patient.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill identifies coding errors, leading to bills being waived or significantly reduced.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill makes the negotiation process easy and stress-free.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill is proactive, efficient, and easy to work with.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill helps reduce medical costs and takes care of the entire process.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill provides outstanding customer service, being efficient, professional, responsive, and patient.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill brings fairness and relief to challenging billing situations.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill handles the entire process, requiring minimal effort from the patient (e.g., uploading health records).",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill's experts know how to navigate the negotiation process to maximize savings.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill offers a guarantee: you pay only 20% of what you save.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "There is no upfront cost for Goodbill's service.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "There are no hidden fees.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "The signup process is easy and quick.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill obtains the correct itemized bill from your hospital.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill's team of medical coding and billing experts reviews your medical record against your bill to flag suspicious charges.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill negotiates your hospital bill to achieve the best possible savings, providing regular updates.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill is on a mission to make healthcare affordable, fair, and transparent for patients.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill's team is passionate about helping people navigate and challenge the healthcare system.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill operates with clear values: 'Do it for the patient', 'Sweat the details', and 'Follow through'.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill prioritizes security and privacy, storing data securely and transmitting it using the latest encryption technology.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "high"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill leverages recent government efforts to require insurance companies and hospitals to make data accessible online, enabling better advocacy for patients.",
+        "page_url": "https://www.goodbill.com/patients",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize Goodbill to guide members through the entire 501(r) discount process, from screening to application to results.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Leverage Goodbill to ensure correct payment by applying 501(r) discounts.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Educate oneself about 501(r) eligibility and potential savings by downloading Goodbill's whitepaper or case study.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use Goodbill's secure portal as a one-stop shop for plans and members to streamline the 501(r) discount process, including instant eligibility checks, application completion, and follow-up with hospitals.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrate Goodbill into the claims stream as the first stop before adjudication to secure 501(r) discounts and ensure claims are dynamically repriced and edited before payment.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrate Goodbill into the claims stream as the first stop before adjudication to secure 501(r) discounts and ensure claims are dynamically repriced and edited before payment.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use Goodbill to make fulfilling fiduciary duty easier by securing savings for plans and ensuring every dollar counts.",
+        "page_url": "https://www.goodbill.com/501r-discounts",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill uses A.I., coding and clinical experts, and real visit data to catch errors early before the plan pays the provider.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "high"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill provides line-by-line claim reviews to ensure fair payment.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill typically finds 30% savings when a bill is wrong.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill digitally connects to member\u2019s health records for accurate and quick reviews.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill helps members pull visit notes in seconds from over 2,500 hospitals.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill's coders and clinicians check each charge against the member\u2019s health record.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill edits, reprices, and returns claims with findings before payment.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill reviews every hospital claim with no threshold or volume caps.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill enhances accuracy with EHR, connecting to 2,500+ hospitals.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill catches issues pre-payment to avoid clawback headaches.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill uses A.I. to flag overcharges, with licensed coders and clinicians certifying findings.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill's licensed coders and clinicians cross-check visit notes against claims to verify fairness and accuracy.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill provides nationwide access to EHR data in seconds via a secure portal.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Members can connect health records from most hospitals with a few clicks.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill is connected to 2,500+ EHR hospitals (over 350,000 beds) and integrated with major EHR platforms.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill acts as the first stop in the claims stream before adjudication.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill engages members to connect their patient portal and check 501(r) eligibility.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill uses A.I., coders, and clinicians to flag overcharges based on provider notes.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill helps eligible members apply for and secure additional 501(r) discounts.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill returns dynamically repriced and edited claims.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill handles appeals after the plan adjudicates and pays the provider.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill makes fulfilling fiduciary duty easier for plans.",
+        "page_url": "https://www.goodbill.com/claim-reviews",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Deliver peace of mind through a world-class member experience",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Save more, stress less",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Supercharge claim reviews by cross-checking clinical notes to uncover inflated charges",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Tap into 501(r) discounts of up to 100% off at 3,500+ hospitals",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Create a tailored experience for every member by blending smart automation with real human support",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Assign each member a personal case manager (concierge) to guide them through the process",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide smart, real-time automation for alerts and progress updates tailored to individual cases",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Integrate fully with existing platforms and implement in weeks",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Guide members every step of the way with experienced concierges",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Offer support 7 days a week by phone, SMS, email, and chat",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide bilingual support in English and Spanish",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Ensure award-winning customer satisfaction (99 all-time CSAT)",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Goodbill acts as the first stop in the claims stream before adjudication",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage members to connect their patient portal and check 501(r) eligibility in seconds",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use A.I., coders, and clinicians to flag overcharges based on provider notes",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Help eligible members apply and secure additional 501(r) discounts",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Return dynamically repriced and edited claims",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Handle appeals after the plan adjudicates and pays the provider",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Make it easier for plans to fulfill their fiduciary duty",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enable plans to make every dollar count",
+        "page_url": "https://www.goodbill.com/member-experience",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize 501(r) Discounts",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage in Claim Reviews",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improve Member Experience",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Seek Hospital Bill Negotiations",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for the 'Intro to 501(r)' webinar",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Attend the 'Gag Clause Ban' webinar",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Join innovative brokers, payers, and employers in making healthcare more affordable (by engaging with Goodbill)",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for the 'Intro to 501(r)' webinar",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Book a meeting with Goodbill at the Healthcare Administrators Association TPA Summit",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Support",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Utilize 501(r) Discounts",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage in Claim Reviews",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improve Member Experience",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Seek Hospital Bill Negotiations",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Goodbill Support via email (help@goodbill.com)",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Goodbill for Press Inquiries (media@goodbill.com)",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Goodbill for Partnerships (partner@goodbill.com)",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+see+case+study",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Attend the 'Intro to 501(r): The Hospital Discount Hiding in Plain Sight' webinar on May 8 at 10:00am PT/1:00pm ET.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for free for the webinar.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Attend the 'TPAs & Brokers: Get Ready for the Gag Clause Ban' webinar on Thu, November 16 @ 1 - 2 pm ET / 10 - 11 am ET.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Join Goodbill to make healthcare more affordable.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select your role (A patient, A plan member, A payer or TPA, A benefits advisor or broker, An employer, Something else) to see how Goodbill can help.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide your client type (Fully insured individuals or groups, Level-funded groups, Self-insured groups) if applicable.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Submit your contact information (Name, Title, Company, Email Address, Phone number) to engage with Goodbill.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Try submitting the form again.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Register for free for the 'Intro to 501(r): The Hospital Discount Hiding in Plain Sight' webinar on May 8.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Book a meeting at the Healthcare Administrators Association TPA Summit in Dallas, TX on July 21-23.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Contact Support for assistance.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Engage with Goodbill to build trust and confidence into every health care transaction.",
+        "page_url": "https://www.goodbill.com/demo?source=homepage+savings+estimate+request+footer",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    }
+  ],
   "summary": {
-    "total_issues": 0,
-    "total_recommendations": 0,
-    "high_priority": 0,
-    "medium_priority": 0,
-    "low_priority": 0
+    "total_issues": 121,
+    "total_recommendations": 225,
+    "high_priority": 75,
+    "medium_priority": 75,
+    "low_priority": 75
   }
 }

@@ -1,0 +1,44 @@
+name: Thorough Product Researcher Flow Test
+qa_plan:
+  title: Thorough Product Researcher
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com and scan the main sections of the
+      homepage to find product information.
+    assertions:
+    - verificationId: homepage_loads_successfully
+      description: Verify that verify the homepage loads completely and key sections
+        are visible.
+  - phaseNumber: 2
+    objective: Navigate to Locate and click the 'Learn More', 'Product', or 'Fuel
+      Card Details' link to navigate to the dedicated product page.
+    assertions:
+    - verificationId: navigation_to_product_page
+      description: Verify that verify successful navigation to the dedicated product
+        page (https://www.atob.com/product-fuel-cards).
+  - phaseNumber: 3
+    objective: Navigate to On https://www.atob.com/product-fuel-cards, meticulously
+      read through all sections including features, benefits, FAQs, and any eligibility
+      criteria.
+    assertions:
+    - verificationId: all_product_sections_present
+      description: Verify that 'Features', 'Benefits', 'FAQs', and 'Eligibility Criteria'
+        sections are present on the product page.
+    - verificationId: content_is_displayed
+      description: Verify that content within these sections is clearly displayed
+        and legible.
+  - phaseNumber: 4
+    objective: Scroll down to review any presented testimonials, use cases, or comparison
+      charts.
+    assertions:
+    - verificationId: additional_content_present
+      description: Verify that verify the presence of testimonials, use cases, or
+        comparison charts on the product page.
+  - phaseNumber: 5
+    objective: Navigate to After gathering sufficient information and deciding to
+      proceed, locate and click the 'Apply Now' or 'Get Started' button on the product
+      page to proceed to signup.
+    assertions:
+    - verificationId: redirect_to_signup_page
+      description: Verify that clicking the 'Apply Now' or 'Get Started' button on
+        the product page redirects to the signup/application page.

@@ -30,7 +30,6 @@ Thumbs.db
 logs/
 
 # Raw output data (keep HTML for GitHub Pages)
-output/*/raw/
 output/*/screenshots/*.png
 
 # Temporary files

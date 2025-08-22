@@ -1,0 +1,36 @@
+name: Returning Visitor Re-evaluation
+qa_plan:
+  title: Returning Visitor Re-evaluation
+  phases:
+  - phaseNumber: 1
+    objective: Navigate directly to https://www.atob.com, potentially from a browser
+      bookmark or direct URL entry.
+    assertions:
+    - verificationId: homepage_loads_successfully
+      description: Verify that https://www.atob.com loads completely without errors.
+  - phaseNumber: 2
+    objective: Scroll briefly on the homepage to see if there are any new announcements
+      or prominent calls to action since their last visit.
+    assertions:
+    - verificationId: prominent_ctas_or_announcements_visible
+      description: Verify that verify any prominent calls to action or new announcement
+        sections are visible on the homepage.
+  - phaseNumber: 3
+    objective: Click on 'Fuel Card Details' to revisit https://www.atob.com/product-fuel-cards
+      and re-evaluate specific features or benefits that were previously unclear or
+      of new interest.
+    assertions:
+    - verificationId: navigate_to_product_page_revisit
+      description: Verify that verify user is successfully navigated to the product
+        details page (https://www.atob.com/product-fuel-cards).
+  - phaseNumber: 4
+    objective: Navigate to After reviewing details on the product page, click on the
+      'Get Started' or 'Apply Now' call-to-action button, which leads to https://www.atob.com/get-started.
+    assertions:
+    - verificationId: navigate_to_signup_from_product
+      description: Verify that verify user is successfully navigated to the sign-up/application
+        page (https://www.atob.com/get-started).
+  - phaseNumber: 5
+    objective: Navigate to Begin filling out the signup form, potentially benefiting
+      from browser autofill for previously entered details.
+    assertions: []

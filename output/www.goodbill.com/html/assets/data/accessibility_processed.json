@@ -6,6 +6,14 @@
       "description": "HTML document missing lang attribute",
       "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
       "count": 1,
+      "page_url": "https://www.goodbill.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
       "page_url": "https://www.goodbill.com/"
     },
     {
@@ -70,18 +78,27 @@
       "description": "HTML document missing lang attribute",
       "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
       "count": 1,
-      "page_url": "https://www.goodbill.com/negotiation-resources"
-    },
-    {
-      "type": "Missing Language",
-      "severity": "medium",
-      "description": "HTML document missing lang attribute",
-      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
-      "count": 1,
-      "page_url": "https://www.goodbill.com/about"
+      "page_url": "https://www.goodbill.com/employers"
     }
   ],
   "pages": [
+    {
+      "url": "https://www.goodbill.com",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.goodbill.com"
+        }
+      ],
+      "score": 90,
+      "total_images": 179,
+      "total_links": 56,
+      "total_buttons": 0
+    },
     {
       "url": "https://www.goodbill.com/",
       "issues": [
@@ -219,7 +236,7 @@
       "total_buttons": 0
     },
     {
-      "url": "https://www.goodbill.com/negotiation-resources",
+      "url": "https://www.goodbill.com/employers",
       "issues": [
         {
           "type": "Missing Language",
@@ -227,37 +244,20 @@
           "description": "HTML document missing lang attribute",
           "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
           "count": 1,
-          "page_url": "https://www.goodbill.com/negotiation-resources"
+          "page_url": "https://www.goodbill.com/employers"
         }
       ],
       "score": 90,
-      "total_images": 28,
-      "total_links": 51,
-      "total_buttons": 0
-    },
-    {
-      "url": "https://www.goodbill.com/about",
-      "issues": [
-        {
-          "type": "Missing Language",
-          "severity": "medium",
-          "description": "HTML document missing lang attribute",
-          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
-          "count": 1,
-          "page_url": "https://www.goodbill.com/about"
-        }
-      ],
-      "score": 90,
-      "total_images": 49,
-      "total_links": 40,
+      "total_images": 0,
+      "total_links": 0,
       "total_buttons": 0
     }
   ],
   "summary": {
     "total_issues": 10,
     "score": 90.0,
-    "total_images": 678,
-    "total_links": 410,
+    "total_images": 780,
+    "total_links": 375,
     "total_buttons": 0,
     "total_pages": 10
   }

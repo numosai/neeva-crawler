@@ -1,0 +1,656 @@
+{
+  "issues": [
+    {
+      "text": "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "text": "The content mentions that AtoB is not a bank, which might cause confusion for users expecting traditional banking services.",
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "text": "string",
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "text": "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "text": "The content mentions that AtoB currently does not offer the option to port discounts from Pilot Flying J, which could be a limitation for some users.",
+      "page_url": "https://www.atob.com"
+    },
+    {
+      "text": "Potential misuse of cards without full control",
+      "page_url": "https://www.atob.com/get-started"
+    },
+    {
+      "text": "Complexity in managing multiple fleet expenses",
+      "page_url": "https://www.atob.com/get-started"
+    },
+    {
+      "text": "Fuel card misuse and security concerns, difficulty with previous fuel card providers (Fuelman and Comdata), and challenges in managing invoices and customer support.",
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "text": "The content is heavily repetitive, especially with images and links being repeated multiple times.",
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "text": "The content is cluttered with numerous images and links that may not be relevant to the user's request.",
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "text": "There is a lack of clear structure in the content, making it difficult to extract specific information efficiently.",
+      "page_url": "https://www.atob.com/product-fuel-cards"
+    },
+    {
+      "text": "AtoB does not currently support W2 payroll.",
+      "page_url": "https://www.atob.com/product-payrolls"
+    },
+    {
+      "text": "Form error, please try again!",
+      "page_url": "https://www.atob.com/truck-stop-discount-network"
+    },
+    {
+      "text": "Oops! Something went wrong while submitting the form.",
+      "page_url": "https://www.atob.com/truck-stop-discount-network"
+    },
+    {
+      "text": "The AtoB Fuel Card is subject to approval.",
+      "page_url": "https://www.atob.com/truck-stop-discount-network"
+    },
+    {
+      "text": "The content contains repetitive information and redundant links, which can confuse users. Additionally, there are broken image links and placeholder text that may not render correctly.",
+      "page_url": "https://www.atob.com/gas-station-discount-network"
+    },
+    {
+      "text": "The content contains repetitive links and text, which may confuse users.",
+      "page_url": "https://www.atob.com/local"
+    },
+    {
+      "text": "There are multiple instances of 'Get started' and 'Log in' links, which could lead to navigation issues.",
+      "page_url": "https://www.atob.com/local"
+    },
+    {
+      "text": "Some images are missing alt text, which is not accessible for screen readers.",
+      "page_url": "https://www.atob.com/local"
+    },
+    {
+      "text": "Form error, please try again!",
+      "page_url": "https://www.atob.com/overtheroad"
+    },
+    {
+      "text": "Oops! Something went wrong while submitting the form.",
+      "page_url": "https://www.atob.com/overtheroad"
+    },
+    {
+      "text": "Fuel card misuse for personal expenses.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner"
+    },
+    {
+      "text": "Confusing invoices and random card shutdowns with previous providers.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner"
+    },
+    {
+      "text": "Difficulty in speaking to customer support with previous providers.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner"
+    },
+    {
+      "text": "Previous fuel card providers were confusing and had issues with invoices.",
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    },
+    {
+      "text": "Cards would randomly shut down with previous providers.",
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    },
+    {
+      "text": "Long wait times to speak to customer service with previous providers.",
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    },
+    {
+      "text": "Fuel theft was a major issue before switching to AtoB.",
+      "page_url": "https://www.atob.com/become-a-broker-partner"
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Ensure the form submission process is robust and provides clear feedback to users.",
+      "page_url": "https://www.atob.com",
+      "priority": "medium"
+    },
+    {
+      "text": "Clarify the role of AtoB in financial transactions to avoid confusion with traditional banking services.",
+      "page_url": "https://www.atob.com",
+      "priority": "medium"
+    },
+    {
+      "text": "string",
+      "page_url": "https://www.atob.com",
+      "priority": "medium"
+    },
+    {
+      "text": "Improve the form submission process to reduce errors and enhance user experience.",
+      "page_url": "https://www.atob.com",
+      "priority": "high"
+    },
+    {
+      "text": "Consider expanding the discount porting options to include Pilot Flying J to attract more users.",
+      "page_url": "https://www.atob.com",
+      "priority": "low"
+    },
+    {
+      "text": "Enhance fraud prevention measures and communicate these clearly to build trust with potential customers.",
+      "page_url": "https://www.atob.com",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide more detailed information on the credit offerings and how they can benefit fleet managers.",
+      "page_url": "https://www.atob.com",
+      "priority": "medium"
+    },
+    {
+      "text": "Prevent card misuse with full control",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Use one card for all fleet expenses",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Automate 1099 taxes",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Run payroll 7 days per week, 365 days per year",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Process payments to your drivers instantly",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Accepted everywhere Mastercard is accepted",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Simple, affordable pricing",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Around the clock support",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "No limits on transfers or payments",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Business credit bureau reporting",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Simplify payroll with custom calculations",
+      "page_url": "https://www.atob.com/get-started",
+      "priority": "medium"
+    },
+    {
+      "text": "Switch to AtoB fuel cards for enhanced security features like telematics integration, secure card unlock, and priority support. AtoB offers easy onboarding, significant fuel discounts, and the ability to set driver-specific spending limits.",
+      "page_url": "https://www.atob.com/product-fuel-cards",
+      "priority": "high"
+    },
+    {
+      "text": "Streamline the content by removing duplicate images and links to improve readability.",
+      "page_url": "https://www.atob.com/product-fuel-cards",
+      "priority": "medium"
+    },
+    {
+      "text": "Organize the content into clear sections with headings to make it easier to navigate and extract information.",
+      "page_url": "https://www.atob.com/product-fuel-cards",
+      "priority": "medium"
+    },
+    {
+      "text": "Focus on providing concise and relevant information, reducing the amount of unnecessary details.",
+      "page_url": "https://www.atob.com/product-fuel-cards",
+      "priority": "medium"
+    },
+    {
+      "text": "Consider expanding payroll support to include W2 forms to cater to a broader range of businesses.",
+      "page_url": "https://www.atob.com/product-payrolls",
+      "priority": "low"
+    },
+    {
+      "text": "Enhance the user experience by ensuring that all features are accessible to both credit and prepaid fuel card customers.",
+      "page_url": "https://www.atob.com/product-payrolls",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure that the form submission process is robust and error-free.",
+      "page_url": "https://www.atob.com/truck-stop-discount-network",
+      "priority": "high"
+    },
+    {
+      "text": "Provide clear guidelines and criteria for the approval of the AtoB Fuel Card.",
+      "page_url": "https://www.atob.com/truck-stop-discount-network",
+      "priority": "medium"
+    },
+    {
+      "text": "Streamline the content by removing duplicate links and ensuring all images and links are functional. Replace placeholder text with meaningful content to improve user experience.",
+      "page_url": "https://www.atob.com/gas-station-discount-network",
+      "priority": "medium"
+    },
+    {
+      "text": "Consolidate repetitive links and text to improve user navigation.",
+      "page_url": "https://www.atob.com/local",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure all images have descriptive alt text for better accessibility.",
+      "page_url": "https://www.atob.com/local",
+      "priority": "high"
+    },
+    {
+      "text": "Streamline the content to focus on key offerings and benefits to avoid overwhelming users.",
+      "page_url": "https://www.atob.com/local",
+      "priority": "medium"
+    },
+    {
+      "text": "Enjoy deep discounts on fuel purchases of 45\u00a2 off per gallon on average and up to $2.00 off per gallon at stations like TA, TA Petro, TA Express, 7-Eleven, Speedway, and many more.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "Don\u2019t drive extra miles for fuel discounts. The AtoB App factors in real-time visibility on the best offers for savings on fuel expenses available along a driver's route.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "Get real-time alerts anytime a truck driver tries to make an unauthorized purchase to keep costs down.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "AtoB processes driver payments 24/7, automates your tax reporting, and offers your drivers on-demand access to all of their payroll information.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "Set spending limits, add operational hours, and whitelist merchants. AtoB provides you full visibility into every dollar spent and saved.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "Custom controls paired with security features like our Telematics integration and Secure Card Unlock allow us to validate every purchase, helping prevent card misuse and fuel theft.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "high"
+    },
+    {
+      "text": "Take care of your drivers with AtoB\u2019s Instant 1099 Payroll. Send emergency funds, pay drivers by mileage, hour, or fixed rate and make tax season easier with automated tax reports.",
+      "page_url": "https://www.atob.com/overtheroad",
+      "priority": "medium"
+    },
+    {
+      "text": "Use AtoB's telematics integration and SMS unlock features to prevent fuel card misuse.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner",
+      "priority": "medium"
+    },
+    {
+      "text": "Switch to AtoB for a more reliable and user-friendly experience.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner",
+      "priority": "medium"
+    },
+    {
+      "text": "Utilize AtoB's responsive customer support for better service.",
+      "page_url": "https://www.atob.com/become-a-factoring-partner",
+      "priority": "medium"
+    },
+    {
+      "text": "Switch to AtoB for a more reliable fuel card service.",
+      "page_url": "https://www.atob.com/become-a-broker-partner",
+      "priority": "medium"
+    },
+    {
+      "text": "Utilize AtoB's telematics integration and SMS unlock features for enhanced security.",
+      "page_url": "https://www.atob.com/become-a-broker-partner",
+      "priority": "high"
+    },
+    {
+      "text": "Take advantage of AtoB's responsive customer support and easy onboarding process.",
+      "page_url": "https://www.atob.com/become-a-broker-partner",
+      "priority": "medium"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.atob.com",
+      "raw_data": [
+        {
+          "issues": [
+            "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+            "The content mentions that AtoB is not a bank, which might cause confusion for users expecting traditional banking services."
+          ],
+          "recommendations": [
+            "Ensure the form submission process is robust and provides clear feedback to users.",
+            "Clarify the role of AtoB in financial transactions to avoid confusion with traditional banking services."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "string"
+          ],
+          "recommendations": [
+            "string"
+          ]
+        },
+        {
+          "issues": [
+            "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+            "The content mentions that AtoB currently does not offer the option to port discounts from Pilot Flying J, which could be a limitation for some users."
+          ],
+          "recommendations": [
+            "Improve the form submission process to reduce errors and enhance user experience.",
+            "Consider expanding the discount porting options to include Pilot Flying J to attract more users.",
+            "Enhance fraud prevention measures and communicate these clearly to build trust with potential customers.",
+            "Provide more detailed information on the credit offerings and how they can benefit fleet managers."
+          ]
+        }
+      ],
+      "issues": [
+        "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+        "The content mentions that AtoB is not a bank, which might cause confusion for users expecting traditional banking services.",
+        "string",
+        "Form submission errors are mentioned, indicating potential issues with the form submission process.",
+        "The content mentions that AtoB currently does not offer the option to port discounts from Pilot Flying J, which could be a limitation for some users."
+      ],
+      "recommendations": [
+        "Ensure the form submission process is robust and provides clear feedback to users.",
+        "Clarify the role of AtoB in financial transactions to avoid confusion with traditional banking services.",
+        "string",
+        "Improve the form submission process to reduce errors and enhance user experience.",
+        "Consider expanding the discount porting options to include Pilot Flying J to attract more users.",
+        "Enhance fraud prevention measures and communicate these clearly to build trust with potential customers.",
+        "Provide more detailed information on the credit offerings and how they can benefit fleet managers."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/get-started",
+      "raw_data": [
+        {
+          "issues": [
+            "Potential misuse of cards without full control",
+            "Complexity in managing multiple fleet expenses"
+          ],
+          "recommendations": [
+            "Prevent card misuse with full control",
+            "Use one card for all fleet expenses",
+            "Automate 1099 taxes",
+            "Run payroll 7 days per week, 365 days per year",
+            "Process payments to your drivers instantly",
+            "Accepted everywhere Mastercard is accepted",
+            "Simple, affordable pricing",
+            "Around the clock support",
+            "No limits on transfers or payments",
+            "Business credit bureau reporting",
+            "Simplify payroll with custom calculations"
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Potential misuse of cards without full control",
+        "Complexity in managing multiple fleet expenses"
+      ],
+      "recommendations": [
+        "Prevent card misuse with full control",
+        "Use one card for all fleet expenses",
+        "Automate 1099 taxes",
+        "Run payroll 7 days per week, 365 days per year",
+        "Process payments to your drivers instantly",
+        "Accepted everywhere Mastercard is accepted",
+        "Simple, affordable pricing",
+        "Around the clock support",
+        "No limits on transfers or payments",
+        "Business credit bureau reporting",
+        "Simplify payroll with custom calculations"
+      ]
+    },
+    {
+      "url": "https://www.atob.com/product-fuel-cards",
+      "raw_data": [
+        {
+          "issues": "Fuel card misuse and security concerns, difficulty with previous fuel card providers (Fuelman and Comdata), and challenges in managing invoices and customer support.",
+          "recommendations": "Switch to AtoB fuel cards for enhanced security features like telematics integration, secure card unlock, and priority support. AtoB offers easy onboarding, significant fuel discounts, and the ability to set driver-specific spending limits.",
+          "error": false
+        },
+        {
+          "issues": [
+            "The content is heavily repetitive, especially with images and links being repeated multiple times.",
+            "The content is cluttered with numerous images and links that may not be relevant to the user's request.",
+            "There is a lack of clear structure in the content, making it difficult to extract specific information efficiently."
+          ],
+          "recommendations": [
+            "Streamline the content by removing duplicate images and links to improve readability.",
+            "Organize the content into clear sections with headings to make it easier to navigate and extract information.",
+            "Focus on providing concise and relevant information, reducing the amount of unnecessary details."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Fuel card misuse and security concerns, difficulty with previous fuel card providers (Fuelman and Comdata), and challenges in managing invoices and customer support.",
+        "The content is heavily repetitive, especially with images and links being repeated multiple times.",
+        "The content is cluttered with numerous images and links that may not be relevant to the user's request.",
+        "There is a lack of clear structure in the content, making it difficult to extract specific information efficiently."
+      ],
+      "recommendations": [
+        "Switch to AtoB fuel cards for enhanced security features like telematics integration, secure card unlock, and priority support. AtoB offers easy onboarding, significant fuel discounts, and the ability to set driver-specific spending limits.",
+        "Streamline the content by removing duplicate images and links to improve readability.",
+        "Organize the content into clear sections with headings to make it easier to navigate and extract information.",
+        "Focus on providing concise and relevant information, reducing the amount of unnecessary details."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/product-payrolls",
+      "raw_data": [
+        {
+          "issues": [
+            "AtoB does not currently support W2 payroll."
+          ],
+          "recommendations": [
+            "Consider expanding payroll support to include W2 forms to cater to a broader range of businesses.",
+            "Enhance the user experience by ensuring that all features are accessible to both credit and prepaid fuel card customers."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "AtoB does not currently support W2 payroll."
+      ],
+      "recommendations": [
+        "Consider expanding payroll support to include W2 forms to cater to a broader range of businesses.",
+        "Enhance the user experience by ensuring that all features are accessible to both credit and prepaid fuel card customers."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/truck-stop-discount-network",
+      "raw_data": [
+        {
+          "issues": [
+            "Form error, please try again!",
+            "Oops! Something went wrong while submitting the form.",
+            "The AtoB Fuel Card is subject to approval."
+          ],
+          "recommendations": [
+            "Ensure that the form submission process is robust and error-free.",
+            "Provide clear guidelines and criteria for the approval of the AtoB Fuel Card."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Form error, please try again!",
+        "Oops! Something went wrong while submitting the form.",
+        "The AtoB Fuel Card is subject to approval."
+      ],
+      "recommendations": [
+        "Ensure that the form submission process is robust and error-free.",
+        "Provide clear guidelines and criteria for the approval of the AtoB Fuel Card."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/gas-station-discount-network",
+      "raw_data": [
+        {
+          "issues": "The content contains repetitive information and redundant links, which can confuse users. Additionally, there are broken image links and placeholder text that may not render correctly.",
+          "recommendations": "Streamline the content by removing duplicate links and ensuring all images and links are functional. Replace placeholder text with meaningful content to improve user experience.",
+          "error": false
+        }
+      ],
+      "issues": [
+        "The content contains repetitive information and redundant links, which can confuse users. Additionally, there are broken image links and placeholder text that may not render correctly."
+      ],
+      "recommendations": [
+        "Streamline the content by removing duplicate links and ensuring all images and links are functional. Replace placeholder text with meaningful content to improve user experience."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/local",
+      "raw_data": [
+        {
+          "issues": [
+            "The content contains repetitive links and text, which may confuse users.",
+            "There are multiple instances of 'Get started' and 'Log in' links, which could lead to navigation issues.",
+            "Some images are missing alt text, which is not accessible for screen readers."
+          ],
+          "recommendations": [
+            "Consolidate repetitive links and text to improve user navigation.",
+            "Ensure all images have descriptive alt text for better accessibility.",
+            "Streamline the content to focus on key offerings and benefits to avoid overwhelming users."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "The content contains repetitive links and text, which may confuse users.",
+        "There are multiple instances of 'Get started' and 'Log in' links, which could lead to navigation issues.",
+        "Some images are missing alt text, which is not accessible for screen readers."
+      ],
+      "recommendations": [
+        "Consolidate repetitive links and text to improve user navigation.",
+        "Ensure all images have descriptive alt text for better accessibility.",
+        "Streamline the content to focus on key offerings and benefits to avoid overwhelming users."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/overtheroad",
+      "raw_data": [
+        {
+          "issues": [
+            "Form error, please try again!",
+            "Oops! Something went wrong while submitting the form."
+          ],
+          "recommendations": [
+            "Enjoy deep discounts on fuel purchases of 45\u00a2 off per gallon on average and up to $2.00 off per gallon at stations like TA, TA Petro, TA Express, 7-Eleven, Speedway, and many more.",
+            "Don\u2019t drive extra miles for fuel discounts. The AtoB App factors in real-time visibility on the best offers for savings on fuel expenses available along a driver's route.",
+            "Get real-time alerts anytime a truck driver tries to make an unauthorized purchase to keep costs down.",
+            "AtoB processes driver payments 24/7, automates your tax reporting, and offers your drivers on-demand access to all of their payroll information.",
+            "Set spending limits, add operational hours, and whitelist merchants. AtoB provides you full visibility into every dollar spent and saved.",
+            "Custom controls paired with security features like our Telematics integration and Secure Card Unlock allow us to validate every purchase, helping prevent card misuse and fuel theft.",
+            "Take care of your drivers with AtoB\u2019s Instant 1099 Payroll. Send emergency funds, pay drivers by mileage, hour, or fixed rate and make tax season easier with automated tax reports."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Form error, please try again!",
+        "Oops! Something went wrong while submitting the form."
+      ],
+      "recommendations": [
+        "Enjoy deep discounts on fuel purchases of 45\u00a2 off per gallon on average and up to $2.00 off per gallon at stations like TA, TA Petro, TA Express, 7-Eleven, Speedway, and many more.",
+        "Don\u2019t drive extra miles for fuel discounts. The AtoB App factors in real-time visibility on the best offers for savings on fuel expenses available along a driver's route.",
+        "Get real-time alerts anytime a truck driver tries to make an unauthorized purchase to keep costs down.",
+        "AtoB processes driver payments 24/7, automates your tax reporting, and offers your drivers on-demand access to all of their payroll information.",
+        "Set spending limits, add operational hours, and whitelist merchants. AtoB provides you full visibility into every dollar spent and saved.",
+        "Custom controls paired with security features like our Telematics integration and Secure Card Unlock allow us to validate every purchase, helping prevent card misuse and fuel theft.",
+        "Take care of your drivers with AtoB\u2019s Instant 1099 Payroll. Send emergency funds, pay drivers by mileage, hour, or fixed rate and make tax season easier with automated tax reports."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/become-a-factoring-partner",
+      "raw_data": [
+        {
+          "issues": [
+            "Fuel card misuse for personal expenses.",
+            "Confusing invoices and random card shutdowns with previous providers.",
+            "Difficulty in speaking to customer support with previous providers."
+          ],
+          "recommendations": [
+            "Use AtoB's telematics integration and SMS unlock features to prevent fuel card misuse.",
+            "Switch to AtoB for a more reliable and user-friendly experience.",
+            "Utilize AtoB's responsive customer support for better service."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Fuel card misuse for personal expenses.",
+        "Confusing invoices and random card shutdowns with previous providers.",
+        "Difficulty in speaking to customer support with previous providers."
+      ],
+      "recommendations": [
+        "Use AtoB's telematics integration and SMS unlock features to prevent fuel card misuse.",
+        "Switch to AtoB for a more reliable and user-friendly experience.",
+        "Utilize AtoB's responsive customer support for better service."
+      ]
+    },
+    {
+      "url": "https://www.atob.com/become-a-broker-partner",
+      "raw_data": [
+        {
+          "issues": [
+            "Previous fuel card providers were confusing and had issues with invoices.",
+            "Cards would randomly shut down with previous providers.",
+            "Long wait times to speak to customer service with previous providers.",
+            "Fuel theft was a major issue before switching to AtoB."
+          ],
+          "recommendations": [
+            "Switch to AtoB for a more reliable fuel card service.",
+            "Utilize AtoB's telematics integration and SMS unlock features for enhanced security.",
+            "Take advantage of AtoB's responsive customer support and easy onboarding process."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Previous fuel card providers were confusing and had issues with invoices.",
+        "Cards would randomly shut down with previous providers.",
+        "Long wait times to speak to customer service with previous providers.",
+        "Fuel theft was a major issue before switching to AtoB."
+      ],
+      "recommendations": [
+        "Switch to AtoB for a more reliable fuel card service.",
+        "Utilize AtoB's telematics integration and SMS unlock features for enhanced security.",
+        "Take advantage of AtoB's responsive customer support and easy onboarding process."
+      ]
+    }
+  ],
+  "summary": {
+    "total_issues": 28,
+    "total_recommendations": 43,
+    "high_priority": 6,
+    "medium_priority": 35,
+    "low_priority": 2,
+    "total_pages": 10
+  }
+}

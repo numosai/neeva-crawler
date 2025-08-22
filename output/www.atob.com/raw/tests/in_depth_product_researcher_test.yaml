@@ -1,0 +1,36 @@
+name: In-Depth Product Researcher Test
+qa_plan:
+  title: In-Depth Product Researcher
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com
+    assertions:
+    - verificationId: homepage_loads_successfully
+      description: Verify that verify the homepage loads completely without errors
+  - phaseNumber: 2
+    objective: Navigate to Look for a navigation link or button explicitly stating
+      'Fuel Cards' or 'Our Product'
+    assertions: []
+  - phaseNumber: 3
+    objective: Click on the link to navigate to https://www.atob.com/product-fuel-cards
+    assertions:
+    - verificationId: navigated_to_product_page
+      description: Verify that verify navigation to the correct product details page
+        (https://www.atob.com/product-fuel-cards)
+  - phaseNumber: 4
+    objective: Scroll through the 'Fuel card details' page, reading about features,
+      advantages, and potential savings
+    assertions:
+    - verificationId: product_features_visible
+      description: Verify that verify key sections like features, advantages, and
+        savings are present and readable
+  - phaseNumber: 5
+    objective: Navigate to Review any FAQs or detailed specifications presented on
+      the product page
+    assertions:
+    - verificationId: faq_section_present
+      description: Verify that verify the FAQ or detailed specifications section is
+        present and accessible
+  - phaseNumber: 6
+    objective: Navigate to Consider if the product meets their trucking business needs
+    assertions: []

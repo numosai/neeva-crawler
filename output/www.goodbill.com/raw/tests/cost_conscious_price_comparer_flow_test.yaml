@@ -1,0 +1,42 @@
+name: Cost-Conscious Price Comparer Flow Test
+qa_plan:
+  title: Cost-Conscious Price Comparison Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com and immediately scan the homepage
+      for any mentions of 'savings', 'discounts', 'no fees', or 'pricing'
+    assertions:
+    - verificationId: homepage_loaded_successfully
+      description: Verify that verify homepage loads completely without errors.
+    - verificationId: pricing_keywords_present_on_homepage
+      description: Verify that verify prominent keywords like 'savings', 'discounts',
+        'fees', or 'pricing' are visible on the homepage.
+  - phaseNumber: 2
+    objective: Click on a call to action or navigation link (e.g., 'Our Cards', 'Features
+      & Pricing') that is likely to contain cost information
+    assertions:
+    - verificationId: redirect_to_pricing_information_page
+      description: Verify that verify successful navigation to a page expected to
+        contain pricing or cost-related information.
+  - phaseNumber: 3
+    objective: Navigate to Land on the 'Fuel card details' page (https://www.atob.com/product-fuel-cards)
+    assertions:
+    - verificationId: product_details_url_correct
+      description: Verify that verify the current URL matches 'https://www.atob.com/product-fuel-cards'.
+    - verificationId: pricing_sections_visible_on_product_page
+      description: Verify that verify sections related to pricing, fees, or savings
+        are visible on the product details page.
+  - phaseNumber: 4
+    objective: Navigate to Quickly scroll through the product page, specifically looking
+      for sections titled 'Pricing', 'Fees', 'How You Save', 'Rebates', or 'Cost Benefits'
+    assertions:
+    - verificationId: specific_cost_sections_identifiable
+      description: Verify that verify specific sections like 'Pricing', 'Fees', 'How
+        You Save', or 'Rebates' are identifiable after scrolling.
+  - phaseNumber: 5
+    objective: Navigate to If satisfactory pricing or savings information is found,
+      click 'Get Started' to explore further or initiate an application
+    assertions:
+    - verificationId: redirect_to_application_from_pricing
+      description: Verify that verify successful navigation to the application or
+        signup page.

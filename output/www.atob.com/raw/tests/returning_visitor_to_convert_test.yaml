@@ -1,0 +1,37 @@
+name: Returning Visitor to Convert Test
+qa_plan:
+  title: Returning Visitor to Convert
+  phases:
+  - phaseNumber: 1
+    objective: Navigate directly to https://www.atob.com (potentially via a bookmark
+      or recent history)
+    assertions:
+    - verificationId: homepage_loads_successfully
+      description: Verify that verify the homepage loads completely without errors
+  - phaseNumber: 2
+    objective: Navigate to Quickly re-scan the homepage for any new information or
+      direct calls to action
+    assertions: []
+  - phaseNumber: 3
+    objective: Navigate to Immediately locate and click the prominent 'Get Started'
+      or 'Apply Now' button, bypassing detailed browsing
+    assertions:
+    - verificationId: redirected_to_signup_page
+      description: Verify that verify user is successfully redirected to the signup
+        page (https://www.atob.com/get-started)
+  - phaseNumber: 4
+    objective: Navigate to Arrive at the 'Sign up form' on https://www.atob.com/get-started
+    assertions:
+    - verificationId: signup_form_loaded
+      description: Verify that verify the signup form is fully loaded and visible
+        on the page
+  - phaseNumber: 5
+    objective: Navigate to Proceed to fill in or complete the signup form with full
+      intent to submit
+    assertions: []
+  - phaseNumber: 6
+    objective: Click 'Submit Application' to finalize
+    assertions:
+    - verificationId: form_submission_success
+      description: Verify that verify the application form submits successfully and
+        displays a confirmation or proceeds to the next step

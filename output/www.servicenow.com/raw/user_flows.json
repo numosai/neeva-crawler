@@ -1,0 +1,108 @@
+{
+  "flows": [
+    {
+      "id": "quick_signup",
+      "title": "Quick Decision Maker Signup",
+      "description": "User who already knows what they want and signs up immediately with minimal browsing.",
+      "page_sequence": [
+        "page_1",
+        "page_2"
+      ],
+      "user_goals": [
+        "Get a fuel card quickly",
+        "Start the application process"
+      ],
+      "browser_actions": [
+        "Navigate directly to https://www.atob.com and immediately locate the primary call-to-action for sign-up.",
+        "Click the prominent 'Get Started' button (or similar clear CTA) on the homepage without deep exploration.",
+        "Efficiently fill out the required fields on the 'Sign up form' page (https://www.atob.com/get-started), such as company name, contact person, and email.",
+        "Click 'Submit Application' or 'Continue' to complete the initial signup process."
+      ]
+    },
+    {
+      "id": "product_researcher",
+      "title": "Thorough Product Researcher",
+      "description": "User who wants to understand the full capabilities and benefits of the fuel card before committing.",
+      "page_sequence": [
+        "page_1",
+        "page_3",
+        "page_2"
+      ],
+      "user_goals": [
+        "Understand fuel card features",
+        "Evaluate benefits for their business",
+        "Decide if it meets their specific trucking needs",
+        "Potentially start application"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com and scan the main sections of the homepage to find product information.",
+        "Locate and click the 'Learn More', 'Product', or 'Fuel Card Details' link to navigate to the dedicated product page.",
+        "On https://www.atob.com/product-fuel-cards, meticulously read through all sections including features, benefits, FAQs, and any eligibility criteria.",
+        "Scroll down to review any presented testimonials, use cases, or comparison charts.",
+        "After gathering sufficient information and deciding to proceed, locate and click the 'Apply Now' or 'Get Started' button on the product page to proceed to signup."
+      ]
+    },
+    {
+      "id": "price_comparer",
+      "title": "Cost-Focused Price Comparer",
+      "description": "User primarily interested in understanding the pricing structure, fees, and potential savings to compare with competitors.",
+      "page_sequence": [
+        "page_1",
+        "page_3"
+      ],
+      "user_goals": [
+        "Find pricing, fee, and discount information",
+        "Estimate potential savings for their fleet",
+        "Compare costs with other fuel card providers"
+      ],
+      "browser_actions": [
+        "Navigate to https://www.atob.com and immediately look for 'Pricing', 'Fees', 'Savings', or 'Rates' links/sections on the homepage.",
+        "Since no direct pricing page exists, click the 'Fuel Card Details' or 'Product' link (leading to https://www.atob.com/product-fuel-cards) hoping to find cost information within it.",
+        "On the product page, quickly scan headlines and specific sections for keywords like 'fees', 'pricing', 'discounts', 'rebates', or 'annual cost'.",
+        "If specific pricing isn't immediately visible, look for calls-to-action like 'Request a Quote' or 'Calculate Your Savings' to initiate a personalized cost inquiry.",
+        "Based on the discovered information (or lack thereof), decide whether to proceed, contact sales, or leave to compare with other providers."
+      ]
+    },
+    {
+      "id": "returning_visitor",
+      "title": "Returning Visitor (Application Continuation)",
+      "description": "User who previously started an application or visited the site and is now returning to complete a task or re-evaluate.",
+      "page_sequence": [
+        "page_1",
+        "page_2"
+      ],
+      "user_goals": [
+        "Continue an incomplete application",
+        "Re-access previously viewed information",
+        "Potentially finish signup"
+      ],
+      "browser_actions": [
+        "Navigate directly to https://www.atob.com, likely via a bookmark, email link, or direct URL entry.",
+        "Look for a prominent 'Login' or 'Continue Application' button, or instinctively click 'Get Started' again, expecting to be prompted to log in or retrieve progress.",
+        "On the 'Sign up form' page (https://www.atob.com/get-started), locate fields or links to continue an existing application (e.g., 'Already applied? Click here' or enter email to retrieve progress).",
+        "If prompted, enter login credentials or the necessary identifier (e.g., application ID, email address) to resume the application process."
+      ]
+    },
+    {
+      "id": "mobile_on_the_go",
+      "title": "Mobile User (On-the-Go Enquiry)",
+      "description": "User accessing the site on a mobile device, likely looking for quick information or to start a basic enquiry while on the road or away from a desktop.",
+      "page_sequence": [
+        "page_1",
+        "page_3"
+      ],
+      "user_goals": [
+        "Get a quick overview of benefits",
+        "See if the service is relevant to their immediate need",
+        "Find basic product details"
+      ],
+      "browser_actions": [
+        "Open a mobile browser and navigate to https://www.atob.com.",
+        "Quickly scroll down the mobile homepage, scanning for key value propositions and services relevant to trucking fuel cards.",
+        "Tap the hamburger menu icon (or similar mobile navigation) to see the available site sections.",
+        "Tap 'Product' or 'Fuel Card Details' from the mobile menu to get a concise overview on https://www.atob.com/product-fuel-cards.",
+        "Briefly scroll and skim the product details page, focusing on bullet points, key headlines, and prominent features before closing the browser or deciding to bookmark for later."
+      ]
+    }
+  ]
+}

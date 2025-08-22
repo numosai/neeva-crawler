@@ -1,0 +1,35 @@
+name: Cost & Savings Comparison
+qa_plan:
+  title: Cost & Savings Comparison
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.atob.com, immediately looking for 'Pricing',
+      'Savings', or 'Cost' related links on the homepage.
+    assertions:
+    - verificationId: homepage_loads_successfully
+      description: Verify that https://www.atob.com loads completely without errors.
+    - verificationId: pricing_links_visibility
+      description: Verify that 'Pricing', 'Savings', or 'Cost' related links are visible
+        on the homepage, if present.
+  - phaseNumber: 2
+    objective: Navigate to If no direct pricing page link, click on 'Fuel Card Details'
+      or 'Product' to reach https://www.atob.com/product-fuel-cards, anticipating
+      cost and savings information there.
+    assertions:
+    - verificationId: navigate_to_product_page_for_pricing
+      description: Verify that verify user is successfully navigated to the product
+        page (https://www.atob.com/product-fuel-cards).
+  - phaseNumber: 3
+    objective: Navigate to On the product page, actively scan for sections detailing
+      fees, discounts, typical savings, or the presence of a savings calculator.
+    assertions:
+    - verificationId: cost_savings_info_present
+      description: Verify that verify sections detailing fees, discounts, typical
+        savings, or a savings calculator are present and visible on the product page.
+  - phaseNumber: 4
+    objective: Navigate to Note down key figures or take a screenshot to facilitate
+      external comparison with competitor offerings.
+    assertions:
+    - verificationId: comparable_data_present
+      description: Verify that key figures or data points relevant for cost comparison
+        are clearly displayed.

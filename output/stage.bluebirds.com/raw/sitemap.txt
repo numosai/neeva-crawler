@@ -1,0 +1,136 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 8
+Total Unique URLs: 8
+Total Links: 42
+
+PAGE DETAILS
+------------------------------
+
+1. Bluebirds
+   URL: https://stage.bluebirds.com
+   Page ID: page_1
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+
+2. Bluebirds
+   URL: https://stage.bluebirds.com/
+   Page ID: page_2
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (7):
+     ← No text: https://stage.bluebirds.com
+     ← No text: https://stage.bluebirds.com/blog
+     ← No text: https://stage.bluebirds.com/customers
+     ... and 4 more
+
+3. Bluebirds
+   URL: https://stage.bluebirds.com/blog
+   Page ID: page_3
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (7):
+     ← Blog: https://stage.bluebirds.com
+     ← Blog: https://stage.bluebirds.com/
+     ← Blog: https://stage.bluebirds.com/customers
+     ... and 4 more
+
+4. Bluebirds
+   URL: https://stage.bluebirds.com/customers
+   Page ID: page_4
+   Outgoing Links (7):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Read case study: https://stage.bluebirds.com/customers/intersystems
+     → Read case study: https://stage.bluebirds.com/customers/redpanda
+     ... and 2 more
+   Incoming Links (7):
+     ← Our Customers: https://stage.bluebirds.com
+     ← Our Customers: https://stage.bluebirds.com/
+     ← Our Customers: https://stage.bluebirds.com/blog
+     ... and 4 more
+
+5. Bluebirds
+   URL: https://stage.bluebirds.com/terms
+   Page ID: page_5
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (7):
+     ← Terms & Conditions: https://stage.bluebirds.com
+     ← Terms & Conditions: https://stage.bluebirds.com/
+     ← Terms & Conditions: https://stage.bluebirds.com/blog
+     ... and 4 more
+
+6. Bluebirds
+   URL: https://stage.bluebirds.com/privacy-policy
+   Page ID: page_6
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (7):
+     ← Privacy Policy: https://stage.bluebirds.com
+     ← Privacy Policy: https://stage.bluebirds.com/
+     ← Privacy Policy: https://stage.bluebirds.com/blog
+     ... and 4 more
+
+7. Bluebirds
+   URL: https://stage.bluebirds.com/customers/intersystems
+   Page ID: page_7
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (1):
+     ← Read case study: https://stage.bluebirds.com/customers
+
+8. Bluebirds
+   URL: https://stage.bluebirds.com/customers/redpanda
+   Page ID: page_8
+   Outgoing Links (5):
+     → No text: https://stage.bluebirds.com/
+     → Blog: https://stage.bluebirds.com/blog
+     → Our Customers: https://stage.bluebirds.com/customers
+     → Terms & Conditions: https://stage.bluebirds.com/terms
+     → Privacy Policy: https://stage.bluebirds.com/privacy-policy
+   Incoming Links (1):
+     ← Read case study: https://stage.bluebirds.com/customers
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  customers: 7 outgoing links
+  homepage: 5 outgoing links
+  homepage: 5 outgoing links
+  blog: 5 outgoing links
+  terms: 5 outgoing links
+
+Most Referenced Pages (most incoming links):
+  homepage: 8 incoming links
+  blog: 8 incoming links
+  customers: 8 incoming links
+  terms: 8 incoming links
+  privacy-policy: 8 incoming links
