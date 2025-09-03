@@ -72,6 +72,12 @@ class WebCrawler:
                     with open(page_html_file, 'w', encoding='utf-8') as f:
                         f.write(result.html)
                 
+                # Store clean markdown content for QA test generation
+                page_md_file = raw_dir / f"page_{page_idx}_content.md"
+                if result.markdown:
+                    with open(page_md_file, 'w', encoding='utf-8') as f:
+                        f.write(result.markdown)
+                
                 # Add page data
                 page_node = f"page_{page_idx}"
                 crawled_pages.append({

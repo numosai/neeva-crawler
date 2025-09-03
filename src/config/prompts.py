@@ -158,19 +158,48 @@ You are a UX reviewer. Based on the page content:
 """
 
 USER_FLOW_DISCOVERY_PROMPT = """
-You are analyzing a website. Create 5 realistic user flows with precise browser actions based on the actual site structure and content.
+You are analyzing a website to create 5 resilient user flows that test core business functionality regardless of changing content.
 
 Analyze the provided site navigation data and page information to understand:
-- What the website is about (product/service)
-- Available pages and their URLs
-- User interaction possibilities
+- What the website is about (e-commerce, travel, SaaS, content, etc.)
+- Primary business functions and user goals
+- Available interaction patterns and workflows
 
-Create different user types based on common patterns like:
-- Quick action taker (immediate signup/purchase)
-- Detailed researcher (explores product information)
-- Price/feature comparer
-- Returning visitor with specific goals
-- Mobile user with time constraints
+**CRITICAL: Generate FUNCTIONAL flows, not content-specific flows**
+
+Create different user types based on common patterns:
+- Quick action taker (immediate completion of primary site goal)
+- Detailed researcher (explores options before deciding)
+- Price/feature comparer (evaluates multiple options)
+- Information seeker (researches company/service details)  
+- Mobile user (time-constrained interactions)
+
+**CRITICAL: Avoid authentication-dependent flows** - Automated tests cannot login with real credentials.
+
+**RESILIENCE GUIDELINES:**
+- Use GENERIC actions that work regardless of inventory/content changes
+- Focus on BUSINESS WORKFLOWS, not specific products/content
+- Reference CATEGORIES and PATTERNS, not exact items
+- Test USER JOURNEY FUNCTIONALITY across any domain
+
+**Universal Flow Patterns by Domain:**
+
+**E-commerce Sites:**
+- Search → Browse results → Select item → Add to cart → Checkout
+- Browse category → Filter/sort → Compare products → Purchase decision  
+- Browse deals → Compare promotions → Add deal item to cart
+
+**Travel/Booking Sites:**  
+- Search destination → View options → Select booking → Enter details → Confirm
+- Browse deals → Filter by criteria → Compare options → Save/book
+
+**SaaS/Service Sites:**
+- Explore features → View pricing → Select plan → Sign up → Onboard
+- Access account → Manage settings → Use core features
+
+**Content Sites:**
+- Search topics → Read content → Navigate related → Subscribe/engage
+- Browse categories → Filter content → Consume media
 
 MUST return valid JSON with exactly 5 flows in this exact format:
 {
@@ -179,24 +208,41 @@ MUST return valid JSON with exactly 5 flows in this exact format:
       "id": "flow_id", 
       "title": "Descriptive Flow Title",
       "description": "Brief description of user type and their goal",
-      "page_sequence": ["page_1", "page_2", "etc"],
-      "user_goals": ["Primary goal", "Secondary goal"],
+      "page_sequence": ["page_1", "category_page", "item_detail_page", "cart_page"],
+      "user_goals": ["Primary functional goal", "Secondary outcome goal"],
       "browser_actions": [
-        "Specific browser action 1",
-        "Specific browser action 2",
-        "etc"
+        "Navigate to homepage",
+        "Search for [category] products",
+        "Select any available option from results", 
+        "Add selected item to cart",
+        "Proceed to checkout process"
       ]
     }
   ]
 }
 
-Base your flows on the actual pages and content discovered during crawling.
+**EXAMPLES OF RESILIENT ACTIONS:**
+- "Search for any product in the [category] section"
+- "Select the first available option from search results"  
+- "Apply any price filter to narrow results"
+- "Add any in-stock item to cart"
+- "Browse any available deals or promotions"
+- "Navigate to company information or help sections"
+- "Explore publicly accessible features and services"
+
+**AVOID AUTHENTICATION-DEPENDENT ACTIONS:**
+- "Login with credentials" (no test credentials available)
+- "View order history" (requires login)
+- "Access account settings" (requires login) 
+- "Reorder previous items" (requires login)
+
+Base flows on the site's core business purpose, not current inventory or content.
 """
 
 MULTI_PAGE_QA_PROMPT = """
 Generate JSON test files for multi-page user flows using the provided browser_actions as precise objectives.
 
-You will receive user flows with browser_actions arrays. Use each browser_action as the exact objective for each phase - these contain the specific browser interactions to perform.
+You will receive user flows with browser_actions arrays AND clean markdown content from each page. Use this content to create business-critical assertions.
 
 MUST return valid JSON array in this exact format:
 [
@@ -210,28 +256,68 @@ MUST return valid JSON array in this exact format:
           "objective": "Navigate to [actual URL from flow] and perform specific action from browser_actions",
           "assertions": [
             {
-              "verificationId": "unique_verification_id",
-              "description": "Verify specific expected outcome"
+              "verificationId": "unique_verification_id", 
+              "description": "Expected outcome (do not prefix with 'Verify that' or 'Verify')"
             }
           ]
-        },
-        {
-          "phaseNumber": 2,
-          "objective": "Next browser action from the flow",
-          "assertions": []
         }
       ]
     }
   }
 ]
 
-IMPORTANT GUIDELINES:
-- Use the browser_actions from each flow as the exact objective text for each phase
-- Each browser_action becomes one phase objective
-- Only add assertions that provide meaningful validation aligned with the user flow's goals
-- It's perfectly acceptable to have zero assertions (empty array) if there are no valuable things to verify after an objective
-- Focus on quality over quantity - avoid trivial or redundant assertions
-- Prioritize assertions that validate successful completion of critical user goals
-- Examples of good assertions: form submission success, navigation to correct page, data persistence, error handling
-- Examples to avoid: button exists (if clicking is the objective), page loads (unless loading is critical to user goals)
+BUSINESS-CRITICAL ASSERTION GUIDELINES:
+
+**ASSERTION PHILOSOPHY:**
+- Test FUNCTIONALITY, not specific content that changes daily
+- Focus on USER GOALS and business outcomes
+- Avoid over-testing obvious UI elements
+- Make tests resilient to product inventory changes
+
+**Domain-Specific Patterns:**
+
+**E-commerce Sites:** Test shopping flow functionality
+- Search: "Verify search returns products with prices displayed"
+- Product pages: "Verify any product shows name, price, and add-to-cart option"
+- Cart: "Verify added items appear in cart with quantities and total"
+- Filters: "Verify filter application updates product count and results"
+- NOT: Specific product names, exact prices, or product availability
+
+**Travel Sites:** Test booking functionality  
+- Search: "Verify search shows available options with pricing"
+- Selection: "Verify selected options persist through booking steps"
+- Forms: "Verify required booking information is captured"
+- NOT: Specific hotel names, exact rates, or room availability
+
+**SaaS/Service Sites:** Test engagement flows
+- Features: "Verify key value propositions are presented"
+- Sign-up: "Verify form captures required user information"
+- Pricing: "Verify different plan options are available for comparison"
+- NOT: Specific feature names, exact pricing, or plan details
+
+**ASSERTION QUALITY RULES:**
+1. **Maximum 2 assertions per phase** - Focus on critical validations only
+2. **Test outcomes, not existence** - "Cart total updates" not "cart icon exists"  
+3. **Use patterns, not specifics** - "Any product" not "Doritos Nacho Cheese"
+4. **Functional validation** - "Add to cart works" not "button is present"
+5. **Empty arrays are preferred** over trivial assertions
+
+**GOOD EXAMPLES:**
+- "Any selected product can be added to cart"
+- "Cart displays items with quantities and total price"  
+- "Filter selection updates the displayed product list"
+- "Search returns relevant results with pricing information"
+
+**AVOID:**
+- Product-specific assertions with exact names/prices
+- Existence checks for obvious UI elements
+- Page load or navigation confirmations (unless critical)
+- More than 2 assertions per phase
+
+**RESILIENCE PRINCIPLE:**
+Write tests that will pass tomorrow even if products change, go out of stock, or prices update. Test the business functionality, not the current inventory.
+
+**ASSERTION FORMAT:**
+- Assertion descriptions should be direct statements, NOT prefixed with "Verify that" or "Verify"
+- Example: "Search returns relevant products with pricing" (not "Verify that search returns...")
 """

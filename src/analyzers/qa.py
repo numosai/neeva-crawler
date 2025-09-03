@@ -212,19 +212,19 @@ class QAAnalyzer(BaseAnalyzer):
         raw_dir = output_dir / "raw"
         flows_file = raw_dir / "flows.json"
         
-        # Load cached page content
+        # Load cached page content (clean markdown)
         cached_content = {}
         for flow in user_flows_data.get('flows', []):
             for page_ref in flow.get('page_sequence', []):
                 # Handle both page IDs (page_1) and URLs
                 if page_ref.startswith('page_'):
-                    # Page files are named like "page_1_content.html"
-                    html_file = raw_dir / f"{page_ref}_content.html"
-                    if html_file.exists():
-                        with open(html_file, 'r', encoding='utf-8') as f:
-                            cached_content[page_ref] = f.read()[:8000]  # Allow more content for better analysis
+                    # Use clean markdown content for better analysis
+                    md_file = raw_dir / f"{page_ref}_content.md"
+                    if md_file.exists():
+                        with open(md_file, 'r', encoding='utf-8') as f:
+                            cached_content[page_ref] = f.read()  # No truncation - markdown is clean
                     else:
-                        print(f"⚠️ Cached HTML not found for {page_ref} at {html_file}")
+                        print(f"⚠️ Cached markdown not found for {page_ref} at {md_file}")
                 else:
                     # For URLs, try to find corresponding page_X file from flows.json
                     # Skip URLs as they're not in our cached content
