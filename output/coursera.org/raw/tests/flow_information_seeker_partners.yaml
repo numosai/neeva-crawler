@@ -1,0 +1,28 @@
+name: flow_information_seeker_partners
+qa_plan:
+  title: 'Information Seeker: Research Partner Institutions and Offerings'
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://coursera.org and navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.coursera.org/about/partners and navigate to
+      an 'About' or 'Partners' section of the website
+    assertions:
+    - verificationId: partners_page_lists_institutions
+      description: Verify that partners page displays a comprehensive list of educational
+        and industry partners
+  - phaseNumber: 3
+    objective: Navigate to https://www.coursera.org/partners/duke and select any available
+      partner institution or organization from the list
+    assertions:
+    - verificationId: selected_partner_showcases_programs
+      description: Verify that selected partner's page showcases their associated
+        programs and institutional profile
+  - phaseNumber: 4
+    objective: Navigate to Review the partner's dedicated page for information regarding
+      their programs or profile
+    assertions:
+    - verificationId: partner_page_clarifies_contribution
+      description: Verify that partner page provides clear information about their
+        contribution to Coursera's catalog

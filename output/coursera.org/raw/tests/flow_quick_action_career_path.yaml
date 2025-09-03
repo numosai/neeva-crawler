@@ -1,0 +1,31 @@
+name: flow_quick_action_career_path
+qa_plan:
+  title: 'Quick Action: Discover a Career Path & Explore Programs'
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://coursera.org and navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.coursera.org/career-academy and click on the
+      'Careers' navigation link
+    assertions:
+    - verificationId: career_academy_roles_displayed
+      description: Verify that career Academy page displays various career roles
+    - verificationId: career_role_listing_info_present
+      description: Verify that each career role listing includes a description
+  - phaseNumber: 3
+    objective: Navigate to https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker
+      and select any available career role from the listings on the career academy
+      page
+    assertions:
+    - verificationId: selected_role_insights_credentials
+      description: Verify that selected career role page displays relevant job insights
+        and credentials
+  - phaseNumber: 4
+    objective: Navigate to https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker
+      and click on any associated professional certificate or specialization link
+      displayed on the career role page
+    assertions:
+    - verificationId: learning_program_overview_displayed
+      description: Verify that selected learning program page provides an overview
+        with key details

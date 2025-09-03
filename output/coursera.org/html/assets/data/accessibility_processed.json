@@ -1,0 +1,424 @@
+{
+  "issues": [
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://coursera.org"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://coursera.org"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/career-academy"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/career-academy"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "4 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 4,
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://coursera.org",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://coursera.org"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://coursera.org"
+        }
+      ],
+      "score": 70,
+      "total_images": 99,
+      "total_links": 168,
+      "total_buttons": 38
+    },
+    {
+      "url": "https://www.coursera.org/",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/"
+        }
+      ],
+      "score": 70,
+      "total_images": 99,
+      "total_links": 168,
+      "total_buttons": 38
+    },
+    {
+      "url": "https://www.coursera.org/business",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/business"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/business"
+        }
+      ],
+      "score": 70,
+      "total_images": 37,
+      "total_links": 81,
+      "total_buttons": 19
+    },
+    {
+      "url": "https://www.coursera.org/campus",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/campus"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/campus"
+        }
+      ],
+      "score": 70,
+      "total_images": 32,
+      "total_links": 67,
+      "total_buttons": 16
+    },
+    {
+      "url": "https://www.coursera.org/government",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/government"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/government"
+        }
+      ],
+      "score": 70,
+      "total_images": 24,
+      "total_links": 66,
+      "total_buttons": 16
+    },
+    {
+      "url": "https://www.coursera.org/degrees",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/degrees"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/degrees"
+        }
+      ],
+      "score": 70,
+      "total_images": 49,
+      "total_links": 162,
+      "total_buttons": 56
+    },
+    {
+      "url": "https://www.coursera.org/career-academy",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/career-academy"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/career-academy"
+        }
+      ],
+      "score": 70,
+      "total_images": 17,
+      "total_links": 98,
+      "total_buttons": 32
+    },
+    {
+      "url": "https://www.coursera.org/?authmode=login",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/?authmode=login"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/?authmode=login"
+        }
+      ],
+      "score": 70,
+      "total_images": 99,
+      "total_links": 168,
+      "total_buttons": 38
+    },
+    {
+      "url": "https://www.coursera.org/?authmode=signup",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/?authmode=signup"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/?authmode=signup"
+        }
+      ],
+      "score": 70,
+      "total_images": 99,
+      "total_links": 168,
+      "total_buttons": 38
+    },
+    {
+      "url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "4 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 4,
+          "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+        }
+      ],
+      "score": 70,
+      "total_images": 34,
+      "total_links": 94,
+      "total_buttons": 36
+    }
+  ],
+  "summary": {
+    "total_issues": 20,
+    "score": 70.0,
+    "total_images": 589,
+    "total_links": 1240,
+    "total_buttons": 327,
+    "total_pages": 10
+  }
+}

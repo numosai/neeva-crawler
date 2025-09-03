@@ -1,0 +1,29 @@
+name: flow_price_comparer_business_solutions
+qa_plan:
+  title: 'Price/Feature Comparer: Evaluate Business Learning Solutions'
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://coursera.org and navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.coursera.org/business and click on the 'For
+      Businesses' navigation link
+    assertions:
+    - verificationId: business_solutions_options_presented
+      description: Verify that business solutions page presents different options
+        for organizations
+  - phaseNumber: 3
+    objective: Navigate to https://www.coursera.org/business/teams?promocode=aug30-2025
+      and navigate to any specific business solution page (e.g., 'Teams' or 'Enterprise'
+      solutions link)
+    assertions:
+    - verificationId: business_solution_features_benefits
+      description: Verify that specific business solution page highlights key features
+        and benefits
+  - phaseNumber: 4
+    objective: Navigate to Review the features and benefits presented for the business
+      solution
+    assertions:
+    - verificationId: business_solution_pricing_contact
+      description: Verify that business solution page clearly outlines pricing models
+        or contact options

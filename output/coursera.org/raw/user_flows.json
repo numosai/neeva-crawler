@@ -1,0 +1,105 @@
+{
+  "flows": [
+    {
+      "id": "flow_quick_action_career_path",
+      "title": "Quick Action: Discover a Career Path & Explore Programs",
+      "description": "A quick action taker wants to quickly understand a career role and see associated learning programs to assess immediate relevance for their skill development.",
+      "page_sequence": [
+        "page_1",
+        "https://www.coursera.org/career-academy",
+        "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+        "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker"
+      ],
+      "user_goals": [
+        "Identify potential career paths",
+        "View a relevant learning program for a selected career"
+      ],
+      "browser_actions": [
+        "Navigate to homepage",
+        "Click on the 'Careers' navigation link",
+        "Select any available career role from the listings on the career academy page",
+        "Click on any associated professional certificate or specialization link displayed on the career role page"
+      ]
+    },
+    {
+      "id": "flow_detailed_researcher_degrees",
+      "title": "Detailed Researcher: Investigate Online Degree Programs",
+      "description": "A detailed researcher wants to explore the available online degree programs, understanding their structure, partners, and requirements before making a decision.",
+      "page_sequence": [
+        "page_1",
+        "https://www.coursera.org/degrees",
+        "https://www.coursera.org/partners/illinois"
+      ],
+      "user_goals": [
+        "Explore various online degree options",
+        "Review details of a specific degree program or its hosting partner"
+      ],
+      "browser_actions": [
+        "Navigate to homepage",
+        "Click on the 'Online Degrees' navigation link",
+        "Select any available online degree program or a partner associated with degrees from the listings",
+        "Review the program's overview or its host institution's details"
+      ]
+    },
+    {
+      "id": "flow_price_comparer_business_solutions",
+      "title": "Price/Feature Comparer: Evaluate Business Learning Solutions",
+      "description": "A user interested in 'price/feature comparison' (in a B2B context) is evaluating Coursera's offerings for organizations, looking for different solutions and features for business teams.",
+      "page_sequence": [
+        "page_1",
+        "https://www.coursera.org/business",
+        "https://www.coursera.org/business/teams?promocode=aug30-2025"
+      ],
+      "user_goals": [
+        "Understand Coursera's enterprise offerings for organizations",
+        "Explore specific solutions and features designed for business teams"
+      ],
+      "browser_actions": [
+        "Navigate to homepage",
+        "Click on the 'For Businesses' navigation link",
+        "Navigate to any specific business solution page (e.g., 'Teams' or 'Enterprise' solutions link)",
+        "Review the features and benefits presented for the business solution"
+      ]
+    },
+    {
+      "id": "flow_information_seeker_partners",
+      "title": "Information Seeker: Research Partner Institutions and Offerings",
+      "description": "An information seeker wants to understand Coursera's network of partners to evaluate the credibility, range, and types of content providers.",
+      "page_sequence": [
+        "page_1",
+        "https://www.coursera.org/about/partners",
+        "https://www.coursera.org/partners/duke"
+      ],
+      "user_goals": [
+        "Discover Coursera's educational and industry partners",
+        "Explore the offerings or profile of a specific partner institution"
+      ],
+      "browser_actions": [
+        "Navigate to homepage",
+        "Navigate to an 'About' or 'Partners' section of the website",
+        "Select any available partner institution or organization from the list",
+        "Review the partner's dedicated page for information regarding their programs or profile"
+      ]
+    },
+    {
+      "id": "flow_mobile_rapid_topic_discovery",
+      "title": "Mobile User: Rapid Topic-Based Course Discovery",
+      "description": "A time-constrained mobile user wants to quickly find new or trending courses in a specific topic area without extensive browsing or filtering.",
+      "page_sequence": [
+        "page_1",
+        "https://www.coursera.org/explore/generative-ai",
+        "https://www.coursera.org/learn/claude-code"
+      ],
+      "user_goals": [
+        "Quickly find learning content on a specific, popular topic",
+        "Access the overview of a relevant course or program to assess interest"
+      ],
+      "browser_actions": [
+        "Navigate to homepage",
+        "Click on any prominent 'Explore' or 'Trending Topics' link (e.g., 'Generative AI', 'New on Coursera')",
+        "Select any listed course, specialization, or program from the topic page results",
+        "View the overview page of the selected learning item to learn more"
+      ]
+    }
+  ]
+}

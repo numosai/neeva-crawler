@@ -1,0 +1,29 @@
+name: flow_detailed_researcher_degrees
+qa_plan:
+  title: 'Detailed Researcher: Investigate Online Degree Programs'
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://coursera.org and navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.coursera.org/degrees and click on the 'Online
+      Degrees' navigation link
+    assertions:
+    - verificationId: degrees_page_lists_programs
+      description: Verify that online Degrees page displays a list of available degree
+        programs from various partners
+  - phaseNumber: 3
+    objective: Navigate to https://www.coursera.org/partners/illinois and select any
+      available online degree program or a partner associated with degrees from the
+      listings
+    assertions:
+    - verificationId: partner_degree_details_displayed
+      description: Verify that selected partner or degree program page presents specific
+        offerings or institutional details
+  - phaseNumber: 4
+    objective: Navigate to Review the program's overview or its host institution's
+      details
+    assertions:
+    - verificationId: program_institution_value_proposition
+      description: Verify that program or institution page clearly outlines the offerings
+        and value proposition

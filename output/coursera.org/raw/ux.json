@@ -1,0 +1,1989 @@
+{
+  "issues": [
+    {
+      "text": "The website stores cookies on the browser to collect information, which might relate to user preferences or device.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "First Party Strictly Necessary Cookies cannot be switched off in the system.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "Targeting cookies may be set by advertising partners to build a profile of user interests and show relevant adverts on other sites.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "The cookie consent interface misleadingly labels 'Targeting Cookies', 'Performance Cookies', and 'Functional Cookies' as 'Always Active', implying users cannot opt-out, despite the section being titled 'Manage Consent Preferences' and containing text that suggests a choice ('If you do not allow these cookies...').",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "There is no apparent mechanism within the provided content for users to actually manage or opt-out of non-essential cookies (Targeting, Performance, Functional), as they are all marked 'Always Active'.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "The contradiction between the 'Always Active' status for non-essential cookies and the implied choice through phrases like 'If you do not allow these cookies' and the presence of 'checkbox label' and 'Confirm My Choices' creates confusion and a lack of transparency for the user.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "The current setup likely does not comply with privacy regulations (e.g., GDPR, CCPA) that require explicit, granular consent for non-essential cookies and the ability for users to easily withdraw consent.",
+      "page_url": "https://coursera.org"
+    },
+    {
+      "text": "The cookie consent interface states 'Always Active' for Targeting Cookies, Performance Cookies, and Functional Cookies, implying users cannot disable these categories through the provided controls, which contradicts the purpose of 'Manage Consent Preferences'.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "There is a lack of granular control for non-strictly necessary cookies, as no visible toggles or checkboxes are presented for users to opt-in or opt-out of Targeting, Performance, or Functional Cookies.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "The 'Manage Consent Preferences' section is misleading for non-essential cookie categories if users are unable to change their 'Always Active' status.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "The current setup appears to not fully comply with privacy regulations (e.g., GDPR, CCPA) that require user consent and the ability to opt-out of non-essential cookies.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "Cookies are stored on the browser to collect information.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "Users cannot opt-out of First Party Strictly Necessary Cookies as they are essential for website functioning.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "Targeting Cookies are always active and may be used by advertising partners to build a profile of user interests and show relevant adverts on other sites.",
+      "page_url": "https://www.coursera.org/"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "text": "If you do not allow Targeting Cookies, you will experience less targeted advertising.",
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "text": "If you do not allow Performance Cookies, Coursera will not know when you have visited their site and will not be able to monitor its performance.",
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "text": "If you do not allow Functional Cookies, some or all enhanced functionality and personalization services may not function properly.",
+      "page_url": "https://www.coursera.org/business"
+    },
+    {
+      "text": "Universities may struggle to develop courses quickly enough on their own to become 'University 4.0'.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Individual professors or universities may not be able to offer the breadth of course choices students need.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Universities may find it difficult to effectively bridge the gap between classroom learning and workplace demands on their own.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "The website stores cookies to collect information, which might relate to user preferences or device.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Disallowing certain types of cookies may impact the user's experience of the site and the services offered.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Users cannot opt-out of First Party Strictly Necessary Cookies.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Setting the browser to block or alert about Strictly Necessary Cookies may cause some parts of the site to not work.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "If Performance Cookies are not allowed, the site will not know when a user has visited and will not be able to monitor its performance.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "If Functional Cookies are not allowed, some or all services on the site may not function properly.",
+      "page_url": "https://www.coursera.org/campus"
+    },
+    {
+      "text": "Citizens and government employees may lack in-demand skills.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need to drive sustainable economic growth.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need to build a competitive workforce.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need to improve service efficiency and drive performance results for government employees.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need to enable the workforce to develop job-relevant skills to help reduce unemployment and increase economic competitiveness.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need for world-class training and credentials.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need for training in in-demand skills (data, technology, leadership).",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need for applied, hands-on learning.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Need for tracking, measuring, and benchmarking learner progress.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Difficulty accessing entry-level talent with demonstrated skills aligned to open roles.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Slow sourcing and screening of candidates.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Limited or undiverse talent pools.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Website stores cookies on your browser to collect information (relating to you, your preferences, or your device).",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact your experience of the site and the services offered.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Strictly Necessary Cookies are essential for the website to function.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "If you set your browser to block or alert about these cookies, some parts of the site will not work.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Targeting Cookies may be used by advertising partners to build a profile of your interests and show relevant adverts on other sites.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "If Performance Cookies are not allowed, the site will not know when you have visited and will not be able to monitor its performance.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly.",
+      "page_url": "https://www.coursera.org/government"
+    },
+    {
+      "text": "Concern about whether online degrees are from accredited universities.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Concern about transferring previously earned college credits.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Concern about geographic limitations for taking online degree courses.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Concern about how long online degrees take to finish.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Concern about application deadlines for college programs.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Concern about what the online degree experience is like on Coursera.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "You cannot apply for a scholarship or tuition assistance directly from Coursera.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, to log into your account, to redirect you when you log out, etc.).",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Strictly Necessary Cookies are necessary for the website to function and cannot be switched off in our systems.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "If you do not allow Performance Cookies we will not know when you have visited our site, and will not be able to monitor its performance.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "If you do not allow Functional Cookies then some or all of these services may not function properly.",
+      "page_url": "https://www.coursera.org/degrees"
+    },
+    {
+      "text": "Strictly Necessary Cookies are always active and cannot be switched off by users, limiting their control over essential website functions.",
+      "page_url": "https://www.coursera.org/career-academy"
+    },
+    {
+      "text": "The labeling of 'Targeting Cookies,' 'Performance Cookies,' and 'Functional Cookies' as 'Always Active' is contradictory to the descriptive text that implies users can choose to 'not allow' them, leading to confusion regarding user control.",
+      "page_url": "https://www.coursera.org/career-academy"
+    },
+    {
+      "text": "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "If you set your browser to block or alert you about Strictly Necessary Cookies, some parts of the site will not then work.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "Users are explicitly told they cannot opt-out of First Party Strictly Necessary Cookies, which, while standard for essential functionality, might be perceived as a lack of control.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "Blocking Strictly Necessary Cookies via browser settings will lead to parts of the site not working, which is a significant consequence for users.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "The label 'Always Active' for Targeting Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "Users are not provided with a clear and functional mechanism to opt-out of these non-essential advertising cookies, despite being in a 'Manage Consent Preferences' section.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "The label 'Always Active' for Performance Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "Users are not provided with a clear and functional mechanism to opt-out of these non-essential tracking cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "The label 'Always Active' for Functional Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "Users are not provided with a clear and functional mechanism to opt-out of these non-essential functional cookies, especially those from third-party providers.",
+      "page_url": "https://www.coursera.org/?authmode=login"
+    },
+    {
+      "text": "When you visit our website, we store cookies on your browser to collect information. The information collected might relate to you, your preferences or your device, and is mostly used to make the site work as you expect it to and to provide a more personalized web experience.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "You can choose not to allow certain types of cookies, which may impact your experience of the site and the services we are able to offer.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "The cookie consent mechanism states 'Always Active' for Targeting, Performance, and Functional Cookies, implying that users cannot opt-out of these non-essential categories through the provided interface.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "This 'Always Active' status for non-essential cookies contradicts the purpose of a 'Manage Consent Preferences' section and the fundamental principles of user control over data as required by privacy regulations like GDPR and CCPA.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "There is an absence of clear, actionable opt-in/opt-out toggles or checkboxes for non-essential cookie categories, which prevents users from genuinely managing their consent.",
+      "page_url": "https://www.coursera.org/?authmode=signup"
+    },
+    {
+      "text": "Certificates earned within the first 14 days will be revoked if a refund is requested for an annual payment plan.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Certain courses, Specializations, and Professional Certificate programs are excluded from Coursera Plus.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Coursera Plus does not include degrees or MasterTrack\u2122 Certificate programs.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Existing Coursera Specialization subscriptions do not automatically cancel when a Coursera Plus subscription is started, potentially leading to being charged for both.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "The offer is a special limited-time offer, ending September 22, 2025, 11:59 PM UTC.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "The offer is valid for new Coursera Plus subscribers only and is limited to one per person.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "The offer cannot be used in conjunction with other offers.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "The offer is available for residents of India only.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Coursera reserves the right to modify or cancel the promotion at any time.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "The subscription automatically renews on an annual basis for INR \u20b913,999/year (plus applicable taxes) unless canceled.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "When visiting the website, cookies are stored on the browser to collect information, which might relate to the user, preferences, or device.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "First Party Strictly Necessary Cookies cannot be opted out of as they are essential for the proper functioning of the website.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Strictly Necessary Cookies are essential for the website to function and cannot be switched off.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "Setting your browser to block or alert about these cookies may cause some parts of the site not to work.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "If Targeting Cookies are not allowed, users will experience less targeted advertising.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "If Performance Cookies are not allowed, Coursera will not know when you have visited the site and will not be able to monitor its performance.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    },
+    {
+      "text": "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025"
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Users can click on different category headings to find out more and change default cookie settings.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Users can follow a provided link for more information about the First and Third Party Cookies used.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Users can set their browser to block or alert about Strictly Necessary Cookies, but some parts of the site will not then work.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement clear and functional opt-in/opt-out mechanisms (e.g., checkboxes or toggles) for all non-essential cookie categories (Targeting, Performance, Functional) to allow users to genuinely manage their consent preferences.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Remove the 'Always Active' label from non-essential cookie categories and ensure the user interface accurately reflects the available choices.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure the cookie consent mechanism fully complies with relevant data privacy regulations by providing granular control and clear information about each cookie category.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Clarify the language used to describe cookie categories, resolving the contradiction between 'Always Active' and phrases implying user choice, to enhance transparency and user understanding.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "If there are specific reasons why certain non-essential cookies are deemed 'Always Active', these reasons must be explicitly and transparently communicated to the user, along with any alternative methods for control (e.g., browser settings), though this approach is generally not recommended for compliance.",
+      "page_url": "https://coursera.org",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement clear and functional toggles or checkboxes for Targeting, Performance, and Functional Cookies, allowing users to easily enable or disable them.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure that the 'Manage Consent Preferences' section genuinely provides users with the ability to manage and change their consent for all non-strictly necessary cookie categories.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Clarify the meaning of 'Always Active' for non-essential cookies. If it means they are active by default but can be switched off, the UI must clearly present the option to do so.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Review and update the cookie consent mechanism to fully comply with relevant data privacy regulations, ensuring users have meaningful control over their cookie preferences.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change default settings according to your preference.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Set your browser to block or alert you about Strictly Necessary Cookies (with the caveat that some parts of the site will not then work).",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Allow All cookies for a complete web experience.",
+      "page_url": "https://www.coursera.org/",
+      "priority": "medium"
+    },
+    {
+      "text": "Use Coursera for Business to empower talent to drive your business forward.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Train teams with respected industry experts and top universities.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Enrich learning solutions with tailored paths and AI tools.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Boost employee engagement with globally recognized credentials.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Customize scalable learning solutions efficiently.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Contact Coursera for Business.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Get Coursera for Teams if upskilling fewer than 125 employees.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Offer learning solutions that accelerate business transformation.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Train your teams in the skills that matter most in today\u2019s digital economy.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide access to content from 350+ leading universities and industry partners.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Build real world experience learning innovative skills, tools, and technology through hands-on learning.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Utilize measurement & benchmarking to track progress, demonstrate the business case for learning, and focus your learning strategy.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Save on training costs with tailored content and industry-recognized credentials.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Explore world-class content.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Strengthen workplace skills with customized learning pathways.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Discover learning pathways and credentials designed to build high-impact skills that support your company\u2019s strategic priorities.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Preview and utilize specific programs like Generative AI Academy, Tech Academy, Data and Analytics Academy, Leadership Academy, Marketing Academy, Finance Academy, and Career Academy.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Connect with Coursera to accelerate your digital transformation, improve your company\u2019s agility, boost employee productivity and innovation, and equip employees to drive growth.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Get The Job Skills of 2025 Report.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Get The Global Skills Report 2025.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Get the Forrester Total Economic Impact\u2122 Study of Coursera for Business.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Allow All cookies for a complete web experience.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change default cookie settings according to your preference.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Confirm My Choices after making cookie selections.",
+      "page_url": "https://www.coursera.org/business",
+      "priority": "medium"
+    },
+    {
+      "text": "Use insights from the Professional Certificates survey to enhance curriculum and strengthen employment outcomes.",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change default cookie settings.",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Follow the 'More information' link for details about First and Third Party Cookies.",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Allow All cookies (as an option).",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Set your browser to block or alert about Strictly Necessary Cookies (with the understanding that some parts of the site may not work).",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Disallow Targeting Cookies to experience less targeted advertising.",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Confirm My Choices (as an option).",
+      "page_url": "https://www.coursera.org/campus",
+      "priority": "medium"
+    },
+    {
+      "text": "Equip citizens and government employees with in-demand skills through online learning from leading universities and companies.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Train your citizen workforce for reskilling.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Upskill government employees.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Train your government employees to build a skilled workforce.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Train your citizens to develop job-relevant skills.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Empower learners with world-class training and credentials from 350+ leading universities and companies.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Offer training in data, technology, and leadership skills.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Enable applied learning through real-world assessments and projects.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Track, measure, and benchmark learner progress to guide training strategies.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Access entry-level talent with demonstrated skills aligned to open roles.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Source and screen candidates faster with industry-trained, job-ready talent.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Discover a diverse, untapped talent pool to expand your hiring network.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Pilot program available in India and the United States.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "You can choose not to allow certain types of cookies.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Manage consent preferences by clicking on different category headings.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "You cannot opt-out of First Party Strictly Necessary Cookies as they ensure proper functioning of the website.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "These cookies are always active and cannot be switched off in the system.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "If you do not allow these cookies, you will experience less targeted advertising.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "These cookies allow the site to count visits and traffic sources to measure and improve performance.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "These cookies enable the website to provide enhanced functionality and personalization.",
+      "page_url": "https://www.coursera.org/government",
+      "priority": "medium"
+    },
+    {
+      "text": "Discover flexible degree pathways that enable you to build new skills and gain career certificates while making progress and earning credit toward eligible degree programs.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Complete university-approved content to qualify for performance-based admission to select degree programs and earn credit toward your degree.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "No application or prior work experience is required to start these degree pathways.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Pursue your degree with affordable tuition, flexible payment options that let you pay as you go, and financial aid opportunities, including scholarships.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Unlock your potential and pave the way to a successful career by earning a degree from an accredited university.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Learn from expert faculty passionate about helping you achieve your goals.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Enroll in flexible, 100% online degree programs.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Set your own schedule to balance your work and personal commitments and complete coursework at your own pace.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "All online degree programs available on Coursera are directly conferred by accredited institutions.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Accreditation shows that an institution meets rigorous academic standards, eases your ability to transfer credits, and helps employers validate the quality of education on your resume or application.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Many of the bachelor\u2019s degrees on Coursera from US-based institutions allow students to transfer some previously earned college credits.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Some degree completion programs require transfer credits in order to enroll.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Each university determines the number of pre-approved transfer credits that may count towards the degree requirements according to institutional policies; check with each degree program for more information.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "You can build credit toward an online degree program by first enrolling in university pre-approved courses, specializations, and certificates on Coursera, and if you decide to apply and are admitted, the courses you\u2019ve completed may count toward your degree requirements.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Yes, you can take online degree courses from anywhere in the world with a reliable internet connection.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Specific application requirements may apply based on your status as a domestic or international student.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Degree programs on Coursera are designed with flexibility, allowing you to study part-time or full-time.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Undergraduate degrees typically take between two and six years to complete, depending on transfer credits and program structure.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Graduate degrees generally require one to three years, depending on your pace and program requirements.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Coursera offers greater flexibility with application deadlines, which tend to occur around three times a year (fall, spring, summer) depending on the institution.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Some degree programs, like the University of Colorado Boulder's Master of Science in Data Science, don't require an application for admission; you can qualify for performance-based admission by passing three online courses pre-approved by the university with an 80% grade or higher.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Earning your degree from a leading university on Coursera offers greater flexibility than in-person degree programs, allowing you to earn the best degree for your needs without having to relocate or choose between your other responsibilities.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "You can take your online courses from anywhere in the world, at a pace that works for you.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Once enrolled in your program, you may find a range of learning options, including live video lectures that encourage collaboration.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Learn more about the benefits of learning online.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Check with each degree program for more information.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "You can find information on external scholarships and other resources to help fund your degree on Coursera\u2019s Financial Resources Hub.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Consider your overall goals, whether the subject matter in a degree program aligns with your needs, the types of skills you\u2019d like to develop, and how you learn best.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "low"
+    },
+    {
+      "text": "These are just some of the factors worth reflecting on as you set about reviewing different degree programs on Coursera.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Learn more about whether a bachelor\u2019s degree is worth it and whether a master\u2019s degree is worth it.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Visit the learner help center",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change our default settings according to your preference.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "For more information about the First and Third Party Cookies used please follow this link.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work.",
+      "page_url": "https://www.coursera.org/degrees",
+      "priority": "medium"
+    },
+    {
+      "text": "For Strictly Necessary Cookies, clearly explain why they cannot be disabled and their essential role.",
+      "page_url": "https://www.coursera.org/career-academy",
+      "priority": "medium"
+    },
+    {
+      "text": "Clarify the 'Always Active' label for Targeting, Performance, and Functional Cookies to accurately reflect their default state and the user's ability to manage them.",
+      "page_url": "https://www.coursera.org/career-academy",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure consistent messaging between cookie category labels and their descriptions to avoid user confusion about consent options.",
+      "page_url": "https://www.coursera.org/career-academy",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide clear and functional controls (e.g., checkboxes or toggles) for users to manage their preferences for Targeting, Performance, and Functional Cookies.",
+      "page_url": "https://www.coursera.org/career-academy",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change our default settings according to your preference.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Follow this link for more information about the First and Third Party Cookies used.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Allow All (cookies for a full experience).",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Clearly explain the specific, essential functions that Strictly Necessary Cookies enable (e.g., login, session management, remembering privacy settings) to justify their mandatory nature.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide explicit and prominent warnings about the potential impact on website functionality if users attempt to block these cookies through browser settings.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Remove the 'Always Active' label for Targeting Cookies if users are intended to have the option to disable them.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Targeting Cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure the user interface accurately reflects the available choices for managing consent for these cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Remove the 'Always Active' label for Performance Cookies if users are intended to have the option to disable them.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Performance Cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure the user interface accurately reflects the available choices for managing consent for these cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Remove the 'Always Active' label for Functional Cookies if users are intended to have the option to disable them.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Functional Cookies.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Clearly specify which 'enhanced functionality and personalization' features rely on these cookies, so users can make an informed decision about their consent.",
+      "page_url": "https://www.coursera.org/?authmode=login",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on the different category headings to find out more and change our default settings according to your preference.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "For more information about the First and Third Party Cookies used please follow this link.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "Implement functional opt-in/opt-out mechanisms (e.g., interactive toggles or checkboxes) for Targeting, Performance, and Functional Cookies, allowing users to grant or withdraw consent for each category.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "Ensure that non-essential cookies are not 'Always Active' by default and are only deployed upon explicit user consent, aligning with privacy by design principles.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "Conduct a thorough review of the cookie consent implementation to ensure full compliance with relevant data privacy regulations (e.g., GDPR, CCPA) regarding user consent for non-essential data processing.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "Update the user interface and user experience of the 'Manage Consent Preferences' section to accurately reflect and enable genuine user control over cookie preferences, enhancing transparency and trust.",
+      "page_url": "https://www.coursera.org/?authmode=signup",
+      "priority": "medium"
+    },
+    {
+      "text": "If opting for monthly payments, take advantage of a 7-day free trial.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Cancel during the 7-day free trial period to avoid charges.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "If opting for an annual payment, submit a refund request within 14 days if Coursera Plus is not suitable.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Look for the Coursera Plus badge or check the list of included content to determine if a particular offering is included.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "If taking more than 1 course regularly, you could save up to 30% every month.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Showcase earned certificates on your LinkedIn profile.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Add earned certificates to your resume.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Share earned certificates with your network.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Share earned certificates with your employer to demonstrate new skills and their applicability on the job.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "If your employer offers educational reimbursements for online learning programs, submit your Coursera Plus receipt for reimbursement.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Cancel existing Specialization subscriptions to avoid being charged for both Coursera Plus and single Specialization subscriptions.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Cancel anytime in account settings to avoid renewal.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Users can choose not to allow certain types of cookies, though this may impact the experience of the site and the services offered.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Click on different category headings to find out more and change default cookie settings.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    },
+    {
+      "text": "Follow the provided link for more information about the First and Third Party Cookies used.",
+      "page_url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "priority": "medium"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://coursera.org",
+      "raw_data": [
+        {
+          "issues": [
+            "The website stores cookies on the browser to collect information, which might relate to user preferences or device.",
+            "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+            "First Party Strictly Necessary Cookies cannot be switched off in the system.",
+            "Targeting cookies may be set by advertising partners to build a profile of user interests and show relevant adverts on other sites."
+          ],
+          "recommendations": [
+            "Users can click on different category headings to find out more and change default cookie settings.",
+            "Users can follow a provided link for more information about the First and Third Party Cookies used.",
+            "Users can set their browser to block or alert about Strictly Necessary Cookies, but some parts of the site will not then work."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "The cookie consent interface misleadingly labels 'Targeting Cookies', 'Performance Cookies', and 'Functional Cookies' as 'Always Active', implying users cannot opt-out, despite the section being titled 'Manage Consent Preferences' and containing text that suggests a choice ('If you do not allow these cookies...').",
+            "There is no apparent mechanism within the provided content for users to actually manage or opt-out of non-essential cookies (Targeting, Performance, Functional), as they are all marked 'Always Active'.",
+            "The contradiction between the 'Always Active' status for non-essential cookies and the implied choice through phrases like 'If you do not allow these cookies' and the presence of 'checkbox label' and 'Confirm My Choices' creates confusion and a lack of transparency for the user.",
+            "The current setup likely does not comply with privacy regulations (e.g., GDPR, CCPA) that require explicit, granular consent for non-essential cookies and the ability for users to easily withdraw consent."
+          ],
+          "recommendations": [
+            "Implement clear and functional opt-in/opt-out mechanisms (e.g., checkboxes or toggles) for all non-essential cookie categories (Targeting, Performance, Functional) to allow users to genuinely manage their consent preferences.",
+            "Remove the 'Always Active' label from non-essential cookie categories and ensure the user interface accurately reflects the available choices.",
+            "Ensure the cookie consent mechanism fully complies with relevant data privacy regulations by providing granular control and clear information about each cookie category.",
+            "Clarify the language used to describe cookie categories, resolving the contradiction between 'Always Active' and phrases implying user choice, to enhance transparency and user understanding.",
+            "If there are specific reasons why certain non-essential cookies are deemed 'Always Active', these reasons must be explicitly and transparently communicated to the user, along with any alternative methods for control (e.g., browser settings), though this approach is generally not recommended for compliance."
+          ]
+        }
+      ],
+      "issues": [
+        "The website stores cookies on the browser to collect information, which might relate to user preferences or device.",
+        "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+        "First Party Strictly Necessary Cookies cannot be switched off in the system.",
+        "Targeting cookies may be set by advertising partners to build a profile of user interests and show relevant adverts on other sites.",
+        "The cookie consent interface misleadingly labels 'Targeting Cookies', 'Performance Cookies', and 'Functional Cookies' as 'Always Active', implying users cannot opt-out, despite the section being titled 'Manage Consent Preferences' and containing text that suggests a choice ('If you do not allow these cookies...').",
+        "There is no apparent mechanism within the provided content for users to actually manage or opt-out of non-essential cookies (Targeting, Performance, Functional), as they are all marked 'Always Active'.",
+        "The contradiction between the 'Always Active' status for non-essential cookies and the implied choice through phrases like 'If you do not allow these cookies' and the presence of 'checkbox label' and 'Confirm My Choices' creates confusion and a lack of transparency for the user.",
+        "The current setup likely does not comply with privacy regulations (e.g., GDPR, CCPA) that require explicit, granular consent for non-essential cookies and the ability for users to easily withdraw consent."
+      ],
+      "recommendations": [
+        "Users can click on different category headings to find out more and change default cookie settings.",
+        "Users can follow a provided link for more information about the First and Third Party Cookies used.",
+        "Users can set their browser to block or alert about Strictly Necessary Cookies, but some parts of the site will not then work.",
+        "Implement clear and functional opt-in/opt-out mechanisms (e.g., checkboxes or toggles) for all non-essential cookie categories (Targeting, Performance, Functional) to allow users to genuinely manage their consent preferences.",
+        "Remove the 'Always Active' label from non-essential cookie categories and ensure the user interface accurately reflects the available choices.",
+        "Ensure the cookie consent mechanism fully complies with relevant data privacy regulations by providing granular control and clear information about each cookie category.",
+        "Clarify the language used to describe cookie categories, resolving the contradiction between 'Always Active' and phrases implying user choice, to enhance transparency and user understanding.",
+        "If there are specific reasons why certain non-essential cookies are deemed 'Always Active', these reasons must be explicitly and transparently communicated to the user, along with any alternative methods for control (e.g., browser settings), though this approach is generally not recommended for compliance."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/",
+      "raw_data": [
+        {
+          "issues": [
+            "The cookie consent interface states 'Always Active' for Targeting Cookies, Performance Cookies, and Functional Cookies, implying users cannot disable these categories through the provided controls, which contradicts the purpose of 'Manage Consent Preferences'.",
+            "There is a lack of granular control for non-strictly necessary cookies, as no visible toggles or checkboxes are presented for users to opt-in or opt-out of Targeting, Performance, or Functional Cookies.",
+            "The 'Manage Consent Preferences' section is misleading for non-essential cookie categories if users are unable to change their 'Always Active' status.",
+            "The current setup appears to not fully comply with privacy regulations (e.g., GDPR, CCPA) that require user consent and the ability to opt-out of non-essential cookies."
+          ],
+          "recommendations": [
+            "Implement clear and functional toggles or checkboxes for Targeting, Performance, and Functional Cookies, allowing users to easily enable or disable them.",
+            "Ensure that the 'Manage Consent Preferences' section genuinely provides users with the ability to manage and change their consent for all non-strictly necessary cookie categories.",
+            "Clarify the meaning of 'Always Active' for non-essential cookies. If it means they are active by default but can be switched off, the UI must clearly present the option to do so.",
+            "Review and update the cookie consent mechanism to fully comply with relevant data privacy regulations, ensuring users have meaningful control over their cookie preferences."
+          ]
+        },
+        {
+          "issues": [
+            "Cookies are stored on the browser to collect information.",
+            "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+            "Users cannot opt-out of First Party Strictly Necessary Cookies as they are essential for website functioning.",
+            "Targeting Cookies are always active and may be used by advertising partners to build a profile of user interests and show relevant adverts on other sites."
+          ],
+          "recommendations": [
+            "Click on the different category headings to find out more and change default settings according to your preference.",
+            "Set your browser to block or alert you about Strictly Necessary Cookies (with the caveat that some parts of the site will not then work).",
+            "Allow All cookies for a complete web experience."
+          ]
+        }
+      ],
+      "issues": [
+        "The cookie consent interface states 'Always Active' for Targeting Cookies, Performance Cookies, and Functional Cookies, implying users cannot disable these categories through the provided controls, which contradicts the purpose of 'Manage Consent Preferences'.",
+        "There is a lack of granular control for non-strictly necessary cookies, as no visible toggles or checkboxes are presented for users to opt-in or opt-out of Targeting, Performance, or Functional Cookies.",
+        "The 'Manage Consent Preferences' section is misleading for non-essential cookie categories if users are unable to change their 'Always Active' status.",
+        "The current setup appears to not fully comply with privacy regulations (e.g., GDPR, CCPA) that require user consent and the ability to opt-out of non-essential cookies.",
+        "Cookies are stored on the browser to collect information.",
+        "Choosing not to allow certain types of cookies may impact the user's experience of the site and the services offered.",
+        "Users cannot opt-out of First Party Strictly Necessary Cookies as they are essential for website functioning.",
+        "Targeting Cookies are always active and may be used by advertising partners to build a profile of user interests and show relevant adverts on other sites."
+      ],
+      "recommendations": [
+        "Implement clear and functional toggles or checkboxes for Targeting, Performance, and Functional Cookies, allowing users to easily enable or disable them.",
+        "Ensure that the 'Manage Consent Preferences' section genuinely provides users with the ability to manage and change their consent for all non-strictly necessary cookie categories.",
+        "Clarify the meaning of 'Always Active' for non-essential cookies. If it means they are active by default but can be switched off, the UI must clearly present the option to do so.",
+        "Review and update the cookie consent mechanism to fully comply with relevant data privacy regulations, ensuring users have meaningful control over their cookie preferences.",
+        "Click on the different category headings to find out more and change default settings according to your preference.",
+        "Set your browser to block or alert you about Strictly Necessary Cookies (with the caveat that some parts of the site will not then work).",
+        "Allow All cookies for a complete web experience."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/business",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [
+            "Use Coursera for Business to empower talent to drive your business forward.",
+            "Train teams with respected industry experts and top universities.",
+            "Enrich learning solutions with tailored paths and AI tools.",
+            "Boost employee engagement with globally recognized credentials.",
+            "Customize scalable learning solutions efficiently.",
+            "Contact Coursera for Business.",
+            "Get Coursera for Teams if upskilling fewer than 125 employees.",
+            "Offer learning solutions that accelerate business transformation.",
+            "Train your teams in the skills that matter most in today\u2019s digital economy.",
+            "Provide access to content from 350+ leading universities and industry partners.",
+            "Build real world experience learning innovative skills, tools, and technology through hands-on learning.",
+            "Utilize measurement & benchmarking to track progress, demonstrate the business case for learning, and focus your learning strategy.",
+            "Save on training costs with tailored content and industry-recognized credentials.",
+            "Explore world-class content.",
+            "Strengthen workplace skills with customized learning pathways.",
+            "Discover learning pathways and credentials designed to build high-impact skills that support your company\u2019s strategic priorities.",
+            "Preview and utilize specific programs like Generative AI Academy, Tech Academy, Data and Analytics Academy, Leadership Academy, Marketing Academy, Finance Academy, and Career Academy.",
+            "Connect with Coursera to accelerate your digital transformation, improve your company\u2019s agility, boost employee productivity and innovation, and equip employees to drive growth.",
+            "Get The Job Skills of 2025 Report.",
+            "Get The Global Skills Report 2025.",
+            "Get the Forrester Total Economic Impact\u2122 Study of Coursera for Business."
+          ]
+        },
+        {
+          "issues": [
+            "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+            "If you do not allow Targeting Cookies, you will experience less targeted advertising.",
+            "If you do not allow Performance Cookies, Coursera will not know when you have visited their site and will not be able to monitor its performance.",
+            "If you do not allow Functional Cookies, some or all enhanced functionality and personalization services may not function properly."
+          ],
+          "recommendations": [
+            "Allow All cookies for a complete web experience.",
+            "Click on the different category headings to find out more and change default cookie settings according to your preference.",
+            "Confirm My Choices after making cookie selections."
+          ]
+        }
+      ],
+      "issues": [
+        "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+        "If you do not allow Targeting Cookies, you will experience less targeted advertising.",
+        "If you do not allow Performance Cookies, Coursera will not know when you have visited their site and will not be able to monitor its performance.",
+        "If you do not allow Functional Cookies, some or all enhanced functionality and personalization services may not function properly."
+      ],
+      "recommendations": [
+        "Use Coursera for Business to empower talent to drive your business forward.",
+        "Train teams with respected industry experts and top universities.",
+        "Enrich learning solutions with tailored paths and AI tools.",
+        "Boost employee engagement with globally recognized credentials.",
+        "Customize scalable learning solutions efficiently.",
+        "Contact Coursera for Business.",
+        "Get Coursera for Teams if upskilling fewer than 125 employees.",
+        "Offer learning solutions that accelerate business transformation.",
+        "Train your teams in the skills that matter most in today\u2019s digital economy.",
+        "Provide access to content from 350+ leading universities and industry partners.",
+        "Build real world experience learning innovative skills, tools, and technology through hands-on learning.",
+        "Utilize measurement & benchmarking to track progress, demonstrate the business case for learning, and focus your learning strategy.",
+        "Save on training costs with tailored content and industry-recognized credentials.",
+        "Explore world-class content.",
+        "Strengthen workplace skills with customized learning pathways.",
+        "Discover learning pathways and credentials designed to build high-impact skills that support your company\u2019s strategic priorities.",
+        "Preview and utilize specific programs like Generative AI Academy, Tech Academy, Data and Analytics Academy, Leadership Academy, Marketing Academy, Finance Academy, and Career Academy.",
+        "Connect with Coursera to accelerate your digital transformation, improve your company\u2019s agility, boost employee productivity and innovation, and equip employees to drive growth.",
+        "Get The Job Skills of 2025 Report.",
+        "Get The Global Skills Report 2025.",
+        "Get the Forrester Total Economic Impact\u2122 Study of Coursera for Business.",
+        "Allow All cookies for a complete web experience.",
+        "Click on the different category headings to find out more and change default cookie settings according to your preference.",
+        "Confirm My Choices after making cookie selections."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/campus",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [
+            "Use insights from the Professional Certificates survey to enhance curriculum and strengthen employment outcomes."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Universities may struggle to develop courses quickly enough on their own to become 'University 4.0'."
+          ],
+          "recommendations": [],
+          "error": false
+        },
+        {
+          "issues": [
+            "Individual professors or universities may not be able to offer the breadth of course choices students need.",
+            "Universities may find it difficult to effectively bridge the gap between classroom learning and workplace demands on their own."
+          ],
+          "recommendations": [],
+          "error": false
+        },
+        {
+          "issues": [
+            "The website stores cookies to collect information, which might relate to user preferences or device.",
+            "Disallowing certain types of cookies may impact the user's experience of the site and the services offered.",
+            "Users cannot opt-out of First Party Strictly Necessary Cookies.",
+            "Setting the browser to block or alert about Strictly Necessary Cookies may cause some parts of the site to not work.",
+            "If Performance Cookies are not allowed, the site will not know when a user has visited and will not be able to monitor its performance.",
+            "If Functional Cookies are not allowed, some or all services on the site may not function properly."
+          ],
+          "recommendations": [
+            "Click on the different category headings to find out more and change default cookie settings.",
+            "Follow the 'More information' link for details about First and Third Party Cookies.",
+            "Allow All cookies (as an option).",
+            "Set your browser to block or alert about Strictly Necessary Cookies (with the understanding that some parts of the site may not work).",
+            "Disallow Targeting Cookies to experience less targeted advertising.",
+            "Confirm My Choices (as an option)."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Universities may struggle to develop courses quickly enough on their own to become 'University 4.0'.",
+        "Individual professors or universities may not be able to offer the breadth of course choices students need.",
+        "Universities may find it difficult to effectively bridge the gap between classroom learning and workplace demands on their own.",
+        "The website stores cookies to collect information, which might relate to user preferences or device.",
+        "Disallowing certain types of cookies may impact the user's experience of the site and the services offered.",
+        "Users cannot opt-out of First Party Strictly Necessary Cookies.",
+        "Setting the browser to block or alert about Strictly Necessary Cookies may cause some parts of the site to not work.",
+        "If Performance Cookies are not allowed, the site will not know when a user has visited and will not be able to monitor its performance.",
+        "If Functional Cookies are not allowed, some or all services on the site may not function properly."
+      ],
+      "recommendations": [
+        "Use insights from the Professional Certificates survey to enhance curriculum and strengthen employment outcomes.",
+        "Click on the different category headings to find out more and change default cookie settings.",
+        "Follow the 'More information' link for details about First and Third Party Cookies.",
+        "Allow All cookies (as an option).",
+        "Set your browser to block or alert about Strictly Necessary Cookies (with the understanding that some parts of the site may not work).",
+        "Disallow Targeting Cookies to experience less targeted advertising.",
+        "Confirm My Choices (as an option)."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/government",
+      "raw_data": [
+        {
+          "issues": [
+            "Citizens and government employees may lack in-demand skills.",
+            "Need to drive sustainable economic growth.",
+            "Need to build a competitive workforce."
+          ],
+          "recommendations": [
+            "Equip citizens and government employees with in-demand skills through online learning from leading universities and companies.",
+            "Train your citizen workforce for reskilling.",
+            "Upskill government employees."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Need to improve service efficiency and drive performance results for government employees.",
+            "Need to enable the workforce to develop job-relevant skills to help reduce unemployment and increase economic competitiveness."
+          ],
+          "recommendations": [
+            "Train your government employees to build a skilled workforce.",
+            "Train your citizens to develop job-relevant skills."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Need for world-class training and credentials.",
+            "Need for training in in-demand skills (data, technology, leadership).",
+            "Need for applied, hands-on learning.",
+            "Need for tracking, measuring, and benchmarking learner progress."
+          ],
+          "recommendations": [
+            "Empower learners with world-class training and credentials from 350+ leading universities and companies.",
+            "Offer training in data, technology, and leadership skills.",
+            "Enable applied learning through real-world assessments and projects.",
+            "Track, measure, and benchmark learner progress to guide training strategies."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Difficulty accessing entry-level talent with demonstrated skills aligned to open roles.",
+            "Slow sourcing and screening of candidates.",
+            "Limited or undiverse talent pools."
+          ],
+          "recommendations": [
+            "Access entry-level talent with demonstrated skills aligned to open roles.",
+            "Source and screen candidates faster with industry-trained, job-ready talent.",
+            "Discover a diverse, untapped talent pool to expand your hiring network.",
+            "Pilot program available in India and the United States."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Website stores cookies on your browser to collect information (relating to you, your preferences, or your device).",
+            "Choosing not to allow certain types of cookies may impact your experience of the site and the services offered."
+          ],
+          "recommendations": [
+            "You can choose not to allow certain types of cookies.",
+            "Manage consent preferences by clicking on different category headings.",
+            "You cannot opt-out of First Party Strictly Necessary Cookies as they ensure proper functioning of the website."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Strictly Necessary Cookies are essential for the website to function.",
+            "If you set your browser to block or alert about these cookies, some parts of the site will not work."
+          ],
+          "recommendations": [
+            "These cookies are always active and cannot be switched off in the system."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "Targeting Cookies may be used by advertising partners to build a profile of your interests and show relevant adverts on other sites."
+          ],
+          "recommendations": [
+            "If you do not allow these cookies, you will experience less targeted advertising."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "If Performance Cookies are not allowed, the site will not know when you have visited and will not be able to monitor its performance."
+          ],
+          "recommendations": [
+            "These cookies allow the site to count visits and traffic sources to measure and improve performance."
+          ],
+          "error": false
+        },
+        {
+          "issues": [
+            "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly."
+          ],
+          "recommendations": [
+            "These cookies enable the website to provide enhanced functionality and personalization."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Citizens and government employees may lack in-demand skills.",
+        "Need to drive sustainable economic growth.",
+        "Need to build a competitive workforce.",
+        "Need to improve service efficiency and drive performance results for government employees.",
+        "Need to enable the workforce to develop job-relevant skills to help reduce unemployment and increase economic competitiveness.",
+        "Need for world-class training and credentials.",
+        "Need for training in in-demand skills (data, technology, leadership).",
+        "Need for applied, hands-on learning.",
+        "Need for tracking, measuring, and benchmarking learner progress.",
+        "Difficulty accessing entry-level talent with demonstrated skills aligned to open roles.",
+        "Slow sourcing and screening of candidates.",
+        "Limited or undiverse talent pools.",
+        "Website stores cookies on your browser to collect information (relating to you, your preferences, or your device).",
+        "Choosing not to allow certain types of cookies may impact your experience of the site and the services offered.",
+        "Strictly Necessary Cookies are essential for the website to function.",
+        "If you set your browser to block or alert about these cookies, some parts of the site will not work.",
+        "Targeting Cookies may be used by advertising partners to build a profile of your interests and show relevant adverts on other sites.",
+        "If Performance Cookies are not allowed, the site will not know when you have visited and will not be able to monitor its performance.",
+        "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly."
+      ],
+      "recommendations": [
+        "Equip citizens and government employees with in-demand skills through online learning from leading universities and companies.",
+        "Train your citizen workforce for reskilling.",
+        "Upskill government employees.",
+        "Train your government employees to build a skilled workforce.",
+        "Train your citizens to develop job-relevant skills.",
+        "Empower learners with world-class training and credentials from 350+ leading universities and companies.",
+        "Offer training in data, technology, and leadership skills.",
+        "Enable applied learning through real-world assessments and projects.",
+        "Track, measure, and benchmark learner progress to guide training strategies.",
+        "Access entry-level talent with demonstrated skills aligned to open roles.",
+        "Source and screen candidates faster with industry-trained, job-ready talent.",
+        "Discover a diverse, untapped talent pool to expand your hiring network.",
+        "Pilot program available in India and the United States.",
+        "You can choose not to allow certain types of cookies.",
+        "Manage consent preferences by clicking on different category headings.",
+        "You cannot opt-out of First Party Strictly Necessary Cookies as they ensure proper functioning of the website.",
+        "These cookies are always active and cannot be switched off in the system.",
+        "If you do not allow these cookies, you will experience less targeted advertising.",
+        "These cookies allow the site to count visits and traffic sources to measure and improve performance.",
+        "These cookies enable the website to provide enhanced functionality and personalization."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/degrees",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [
+            "Discover flexible degree pathways that enable you to build new skills and gain career certificates while making progress and earning credit toward eligible degree programs."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Complete university-approved content to qualify for performance-based admission to select degree programs and earn credit toward your degree.",
+            "No application or prior work experience is required to start these degree pathways."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Pursue your degree with affordable tuition, flexible payment options that let you pay as you go, and financial aid opportunities, including scholarships."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Unlock your potential and pave the way to a successful career by earning a degree from an accredited university.",
+            "Learn from expert faculty passionate about helping you achieve your goals."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Enroll in flexible, 100% online degree programs.",
+            "Set your own schedule to balance your work and personal commitments and complete coursework at your own pace."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about whether online degrees are from accredited universities."
+          ],
+          "recommendations": [
+            "All online degree programs available on Coursera are directly conferred by accredited institutions.",
+            "Accreditation shows that an institution meets rigorous academic standards, eases your ability to transfer credits, and helps employers validate the quality of education on your resume or application."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about transferring previously earned college credits."
+          ],
+          "recommendations": [
+            "Many of the bachelor\u2019s degrees on Coursera from US-based institutions allow students to transfer some previously earned college credits.",
+            "Some degree completion programs require transfer credits in order to enroll.",
+            "Each university determines the number of pre-approved transfer credits that may count towards the degree requirements according to institutional policies; check with each degree program for more information.",
+            "You can build credit toward an online degree program by first enrolling in university pre-approved courses, specializations, and certificates on Coursera, and if you decide to apply and are admitted, the courses you\u2019ve completed may count toward your degree requirements."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about geographic limitations for taking online degree courses."
+          ],
+          "recommendations": [
+            "Yes, you can take online degree courses from anywhere in the world with a reliable internet connection.",
+            "Specific application requirements may apply based on your status as a domestic or international student."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about how long online degrees take to finish."
+          ],
+          "recommendations": [
+            "Degree programs on Coursera are designed with flexibility, allowing you to study part-time or full-time.",
+            "Undergraduate degrees typically take between two and six years to complete, depending on transfer credits and program structure.",
+            "Graduate degrees generally require one to three years, depending on your pace and program requirements."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about application deadlines for college programs."
+          ],
+          "recommendations": [
+            "Coursera offers greater flexibility with application deadlines, which tend to occur around three times a year (fall, spring, summer) depending on the institution.",
+            "Some degree programs, like the University of Colorado Boulder's Master of Science in Data Science, don't require an application for admission; you can qualify for performance-based admission by passing three online courses pre-approved by the university with an 80% grade or higher."
+          ]
+        },
+        {
+          "issues": [
+            "Concern about what the online degree experience is like on Coursera."
+          ],
+          "recommendations": [
+            "Earning your degree from a leading university on Coursera offers greater flexibility than in-person degree programs, allowing you to earn the best degree for your needs without having to relocate or choose between your other responsibilities.",
+            "You can take your online courses from anywhere in the world, at a pace that works for you.",
+            "Once enrolled in your program, you may find a range of learning options, including live video lectures that encourage collaboration."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Learn more about the benefits of learning online."
+          ]
+        },
+        {
+          "issues": [
+            "You cannot apply for a scholarship or tuition assistance directly from Coursera."
+          ],
+          "recommendations": [
+            "Check with each degree program for more information.",
+            "You can find information on external scholarships and other resources to help fund your degree on Coursera\u2019s Financial Resources Hub."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Consider your overall goals, whether the subject matter in a degree program aligns with your needs, the types of skills you\u2019d like to develop, and how you learn best.",
+            "These are just some of the factors worth reflecting on as you set about reviewing different degree programs on Coursera.",
+            "Learn more about whether a bachelor\u2019s degree is worth it and whether a master\u2019s degree is worth it."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Visit the learner help center"
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+            "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, to log into your account, to redirect you when you log out, etc.).",
+            "Strictly Necessary Cookies are necessary for the website to function and cannot be switched off in our systems.",
+            "If you do not allow Performance Cookies we will not know when you have visited our site, and will not be able to monitor its performance.",
+            "If you do not allow Functional Cookies then some or all of these services may not function properly."
+          ],
+          "recommendations": [
+            "Click on the different category headings to find out more and change our default settings according to your preference.",
+            "For more information about the First and Third Party Cookies used please follow this link.",
+            "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work."
+          ]
+        }
+      ],
+      "issues": [
+        "Concern about whether online degrees are from accredited universities.",
+        "Concern about transferring previously earned college credits.",
+        "Concern about geographic limitations for taking online degree courses.",
+        "Concern about how long online degrees take to finish.",
+        "Concern about application deadlines for college programs.",
+        "Concern about what the online degree experience is like on Coursera.",
+        "You cannot apply for a scholarship or tuition assistance directly from Coursera.",
+        "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+        "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website (such as prompting the cookie banner and remembering your settings, to log into your account, to redirect you when you log out, etc.).",
+        "Strictly Necessary Cookies are necessary for the website to function and cannot be switched off in our systems.",
+        "If you do not allow Performance Cookies we will not know when you have visited our site, and will not be able to monitor its performance.",
+        "If you do not allow Functional Cookies then some or all of these services may not function properly."
+      ],
+      "recommendations": [
+        "Discover flexible degree pathways that enable you to build new skills and gain career certificates while making progress and earning credit toward eligible degree programs.",
+        "Complete university-approved content to qualify for performance-based admission to select degree programs and earn credit toward your degree.",
+        "No application or prior work experience is required to start these degree pathways.",
+        "Pursue your degree with affordable tuition, flexible payment options that let you pay as you go, and financial aid opportunities, including scholarships.",
+        "Unlock your potential and pave the way to a successful career by earning a degree from an accredited university.",
+        "Learn from expert faculty passionate about helping you achieve your goals.",
+        "Enroll in flexible, 100% online degree programs.",
+        "Set your own schedule to balance your work and personal commitments and complete coursework at your own pace.",
+        "All online degree programs available on Coursera are directly conferred by accredited institutions.",
+        "Accreditation shows that an institution meets rigorous academic standards, eases your ability to transfer credits, and helps employers validate the quality of education on your resume or application.",
+        "Many of the bachelor\u2019s degrees on Coursera from US-based institutions allow students to transfer some previously earned college credits.",
+        "Some degree completion programs require transfer credits in order to enroll.",
+        "Each university determines the number of pre-approved transfer credits that may count towards the degree requirements according to institutional policies; check with each degree program for more information.",
+        "You can build credit toward an online degree program by first enrolling in university pre-approved courses, specializations, and certificates on Coursera, and if you decide to apply and are admitted, the courses you\u2019ve completed may count toward your degree requirements.",
+        "Yes, you can take online degree courses from anywhere in the world with a reliable internet connection.",
+        "Specific application requirements may apply based on your status as a domestic or international student.",
+        "Degree programs on Coursera are designed with flexibility, allowing you to study part-time or full-time.",
+        "Undergraduate degrees typically take between two and six years to complete, depending on transfer credits and program structure.",
+        "Graduate degrees generally require one to three years, depending on your pace and program requirements.",
+        "Coursera offers greater flexibility with application deadlines, which tend to occur around three times a year (fall, spring, summer) depending on the institution.",
+        "Some degree programs, like the University of Colorado Boulder's Master of Science in Data Science, don't require an application for admission; you can qualify for performance-based admission by passing three online courses pre-approved by the university with an 80% grade or higher.",
+        "Earning your degree from a leading university on Coursera offers greater flexibility than in-person degree programs, allowing you to earn the best degree for your needs without having to relocate or choose between your other responsibilities.",
+        "You can take your online courses from anywhere in the world, at a pace that works for you.",
+        "Once enrolled in your program, you may find a range of learning options, including live video lectures that encourage collaboration.",
+        "Learn more about the benefits of learning online.",
+        "Check with each degree program for more information.",
+        "You can find information on external scholarships and other resources to help fund your degree on Coursera\u2019s Financial Resources Hub.",
+        "Consider your overall goals, whether the subject matter in a degree program aligns with your needs, the types of skills you\u2019d like to develop, and how you learn best.",
+        "These are just some of the factors worth reflecting on as you set about reviewing different degree programs on Coursera.",
+        "Learn more about whether a bachelor\u2019s degree is worth it and whether a master\u2019s degree is worth it.",
+        "Visit the learner help center",
+        "Click on the different category headings to find out more and change our default settings according to your preference.",
+        "For more information about the First and Third Party Cookies used please follow this link.",
+        "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/career-academy",
+      "raw_data": [
+        {
+          "issues": [
+            "Strictly Necessary Cookies are always active and cannot be switched off by users, limiting their control over essential website functions.",
+            "The labeling of 'Targeting Cookies,' 'Performance Cookies,' and 'Functional Cookies' as 'Always Active' is contradictory to the descriptive text that implies users can choose to 'not allow' them, leading to confusion regarding user control."
+          ],
+          "recommendations": [
+            "For Strictly Necessary Cookies, clearly explain why they cannot be disabled and their essential role.",
+            "Clarify the 'Always Active' label for Targeting, Performance, and Functional Cookies to accurately reflect their default state and the user's ability to manage them.",
+            "Ensure consistent messaging between cookie category labels and their descriptions to avoid user confusion about consent options.",
+            "Provide clear and functional controls (e.g., checkboxes or toggles) for users to manage their preferences for Targeting, Performance, and Functional Cookies."
+          ]
+        }
+      ],
+      "issues": [
+        "Strictly Necessary Cookies are always active and cannot be switched off by users, limiting their control over essential website functions.",
+        "The labeling of 'Targeting Cookies,' 'Performance Cookies,' and 'Functional Cookies' as 'Always Active' is contradictory to the descriptive text that implies users can choose to 'not allow' them, leading to confusion regarding user control."
+      ],
+      "recommendations": [
+        "For Strictly Necessary Cookies, clearly explain why they cannot be disabled and their essential role.",
+        "Clarify the 'Always Active' label for Targeting, Performance, and Functional Cookies to accurately reflect their default state and the user's ability to manage them.",
+        "Ensure consistent messaging between cookie category labels and their descriptions to avoid user confusion about consent options.",
+        "Provide clear and functional controls (e.g., checkboxes or toggles) for users to manage their preferences for Targeting, Performance, and Functional Cookies."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/?authmode=login",
+      "raw_data": [
+        {
+          "issues": [
+            "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+            "If you set your browser to block or alert you about Strictly Necessary Cookies, some parts of the site will not then work."
+          ],
+          "recommendations": [
+            "Click on the different category headings to find out more and change our default settings according to your preference.",
+            "Follow this link for more information about the First and Third Party Cookies used.",
+            "Allow All (cookies for a full experience)."
+          ]
+        },
+        {
+          "issues": [
+            "Users are explicitly told they cannot opt-out of First Party Strictly Necessary Cookies, which, while standard for essential functionality, might be perceived as a lack of control.",
+            "Blocking Strictly Necessary Cookies via browser settings will lead to parts of the site not working, which is a significant consequence for users."
+          ],
+          "recommendations": [
+            "Clearly explain the specific, essential functions that Strictly Necessary Cookies enable (e.g., login, session management, remembering privacy settings) to justify their mandatory nature.",
+            "Provide explicit and prominent warnings about the potential impact on website functionality if users attempt to block these cookies through browser settings."
+          ]
+        },
+        {
+          "issues": [
+            "The label 'Always Active' for Targeting Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+            "Users are not provided with a clear and functional mechanism to opt-out of these non-essential advertising cookies, despite being in a 'Manage Consent Preferences' section."
+          ],
+          "recommendations": [
+            "Remove the 'Always Active' label for Targeting Cookies if users are intended to have the option to disable them.",
+            "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Targeting Cookies.",
+            "Ensure the user interface accurately reflects the available choices for managing consent for these cookies."
+          ]
+        },
+        {
+          "issues": [
+            "The label 'Always Active' for Performance Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+            "Users are not provided with a clear and functional mechanism to opt-out of these non-essential tracking cookies."
+          ],
+          "recommendations": [
+            "Remove the 'Always Active' label for Performance Cookies if users are intended to have the option to disable them.",
+            "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Performance Cookies.",
+            "Ensure the user interface accurately reflects the available choices for managing consent for these cookies."
+          ]
+        },
+        {
+          "issues": [
+            "The label 'Always Active' for Functional Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+            "Users are not provided with a clear and functional mechanism to opt-out of these non-essential functional cookies, especially those from third-party providers."
+          ],
+          "recommendations": [
+            "Remove the 'Always Active' label for Functional Cookies if users are intended to have the option to disable them.",
+            "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Functional Cookies.",
+            "Clearly specify which 'enhanced functionality and personalization' features rely on these cookies, so users can make an informed decision about their consent."
+          ]
+        }
+      ],
+      "issues": [
+        "Choosing not to allow certain types of cookies may impact your experience of the site and the services we are able to offer.",
+        "If you set your browser to block or alert you about Strictly Necessary Cookies, some parts of the site will not then work.",
+        "Users are explicitly told they cannot opt-out of First Party Strictly Necessary Cookies, which, while standard for essential functionality, might be perceived as a lack of control.",
+        "Blocking Strictly Necessary Cookies via browser settings will lead to parts of the site not working, which is a significant consequence for users.",
+        "The label 'Always Active' for Targeting Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+        "Users are not provided with a clear and functional mechanism to opt-out of these non-essential advertising cookies, despite being in a 'Manage Consent Preferences' section.",
+        "The label 'Always Active' for Performance Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+        "Users are not provided with a clear and functional mechanism to opt-out of these non-essential tracking cookies.",
+        "The label 'Always Active' for Functional Cookies directly contradicts the statement 'If you do not allow these cookies...', implying a choice that is not visually or functionally offered within the consent management interface.",
+        "Users are not provided with a clear and functional mechanism to opt-out of these non-essential functional cookies, especially those from third-party providers."
+      ],
+      "recommendations": [
+        "Click on the different category headings to find out more and change our default settings according to your preference.",
+        "Follow this link for more information about the First and Third Party Cookies used.",
+        "Allow All (cookies for a full experience).",
+        "Clearly explain the specific, essential functions that Strictly Necessary Cookies enable (e.g., login, session management, remembering privacy settings) to justify their mandatory nature.",
+        "Provide explicit and prominent warnings about the potential impact on website functionality if users attempt to block these cookies through browser settings.",
+        "Remove the 'Always Active' label for Targeting Cookies if users are intended to have the option to disable them.",
+        "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Targeting Cookies.",
+        "Ensure the user interface accurately reflects the available choices for managing consent for these cookies.",
+        "Remove the 'Always Active' label for Performance Cookies if users are intended to have the option to disable them.",
+        "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Performance Cookies.",
+        "Ensure the user interface accurately reflects the available choices for managing consent for these cookies.",
+        "Remove the 'Always Active' label for Functional Cookies if users are intended to have the option to disable them.",
+        "Implement a clear and functional toggle or checkbox that allows users to easily enable or disable Functional Cookies.",
+        "Clearly specify which 'enhanced functionality and personalization' features rely on these cookies, so users can make an informed decision about their consent."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/?authmode=signup",
+      "raw_data": [
+        {
+          "issues": [
+            "When you visit our website, we store cookies on your browser to collect information. The information collected might relate to you, your preferences or your device, and is mostly used to make the site work as you expect it to and to provide a more personalized web experience.",
+            "You can choose not to allow certain types of cookies, which may impact your experience of the site and the services we are able to offer.",
+            "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website."
+          ],
+          "recommendations": [
+            "Click on the different category headings to find out more and change our default settings according to your preference.",
+            "For more information about the First and Third Party Cookies used please follow this link.",
+            "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work."
+          ]
+        },
+        {
+          "issues": [
+            "The cookie consent mechanism states 'Always Active' for Targeting, Performance, and Functional Cookies, implying that users cannot opt-out of these non-essential categories through the provided interface.",
+            "This 'Always Active' status for non-essential cookies contradicts the purpose of a 'Manage Consent Preferences' section and the fundamental principles of user control over data as required by privacy regulations like GDPR and CCPA.",
+            "There is an absence of clear, actionable opt-in/opt-out toggles or checkboxes for non-essential cookie categories, which prevents users from genuinely managing their consent."
+          ],
+          "recommendations": [
+            "Implement functional opt-in/opt-out mechanisms (e.g., interactive toggles or checkboxes) for Targeting, Performance, and Functional Cookies, allowing users to grant or withdraw consent for each category.",
+            "Ensure that non-essential cookies are not 'Always Active' by default and are only deployed upon explicit user consent, aligning with privacy by design principles.",
+            "Conduct a thorough review of the cookie consent implementation to ensure full compliance with relevant data privacy regulations (e.g., GDPR, CCPA) regarding user consent for non-essential data processing.",
+            "Update the user interface and user experience of the 'Manage Consent Preferences' section to accurately reflect and enable genuine user control over cookie preferences, enhancing transparency and trust."
+          ]
+        }
+      ],
+      "issues": [
+        "When you visit our website, we store cookies on your browser to collect information. The information collected might relate to you, your preferences or your device, and is mostly used to make the site work as you expect it to and to provide a more personalized web experience.",
+        "You can choose not to allow certain types of cookies, which may impact your experience of the site and the services we are able to offer.",
+        "You cannot opt-out of our First Party Strictly Necessary Cookies as they are deployed in order to ensure the proper functioning of our website.",
+        "The cookie consent mechanism states 'Always Active' for Targeting, Performance, and Functional Cookies, implying that users cannot opt-out of these non-essential categories through the provided interface.",
+        "This 'Always Active' status for non-essential cookies contradicts the purpose of a 'Manage Consent Preferences' section and the fundamental principles of user control over data as required by privacy regulations like GDPR and CCPA.",
+        "There is an absence of clear, actionable opt-in/opt-out toggles or checkboxes for non-essential cookie categories, which prevents users from genuinely managing their consent."
+      ],
+      "recommendations": [
+        "Click on the different category headings to find out more and change our default settings according to your preference.",
+        "For more information about the First and Third Party Cookies used please follow this link.",
+        "You can set your browser to block or alert you about Strictly Necessary Cookies, but some parts of the site will not then work.",
+        "Implement functional opt-in/opt-out mechanisms (e.g., interactive toggles or checkboxes) for Targeting, Performance, and Functional Cookies, allowing users to grant or withdraw consent for each category.",
+        "Ensure that non-essential cookies are not 'Always Active' by default and are only deployed upon explicit user consent, aligning with privacy by design principles.",
+        "Conduct a thorough review of the cookie consent implementation to ensure full compliance with relevant data privacy regulations (e.g., GDPR, CCPA) regarding user consent for non-essential data processing.",
+        "Update the user interface and user experience of the 'Manage Consent Preferences' section to accurately reflect and enable genuine user control over cookie preferences, enhancing transparency and trust."
+      ]
+    },
+    {
+      "url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "raw_data": [
+        {
+          "issues": [
+            "Certificates earned within the first 14 days will be revoked if a refund is requested for an annual payment plan."
+          ],
+          "recommendations": [
+            "If opting for monthly payments, take advantage of a 7-day free trial.",
+            "Cancel during the 7-day free trial period to avoid charges.",
+            "If opting for an annual payment, submit a refund request within 14 days if Coursera Plus is not suitable."
+          ]
+        },
+        {
+          "issues": [
+            "Certain courses, Specializations, and Professional Certificate programs are excluded from Coursera Plus.",
+            "Coursera Plus does not include degrees or MasterTrack\u2122 Certificate programs."
+          ],
+          "recommendations": [
+            "Look for the Coursera Plus badge or check the list of included content to determine if a particular offering is included."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "If taking more than 1 course regularly, you could save up to 30% every month."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Showcase earned certificates on your LinkedIn profile.",
+            "Add earned certificates to your resume.",
+            "Share earned certificates with your network.",
+            "Share earned certificates with your employer to demonstrate new skills and their applicability on the job."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "If your employer offers educational reimbursements for online learning programs, submit your Coursera Plus receipt for reimbursement."
+          ]
+        },
+        {
+          "issues": [
+            "Existing Coursera Specialization subscriptions do not automatically cancel when a Coursera Plus subscription is started, potentially leading to being charged for both."
+          ],
+          "recommendations": [
+            "Cancel existing Specialization subscriptions to avoid being charged for both Coursera Plus and single Specialization subscriptions."
+          ]
+        },
+        {
+          "issues": [
+            "The offer is a special limited-time offer, ending September 22, 2025, 11:59 PM UTC.",
+            "The offer is valid for new Coursera Plus subscribers only and is limited to one per person.",
+            "The offer cannot be used in conjunction with other offers.",
+            "The offer is available for residents of India only.",
+            "Coursera reserves the right to modify or cancel the promotion at any time.",
+            "The subscription automatically renews on an annual basis for INR \u20b913,999/year (plus applicable taxes) unless canceled."
+          ],
+          "recommendations": [
+            "Cancel anytime in account settings to avoid renewal."
+          ]
+        },
+        {
+          "issues": [
+            "When visiting the website, cookies are stored on the browser to collect information, which might relate to the user, preferences, or device.",
+            "First Party Strictly Necessary Cookies cannot be opted out of as they are essential for the proper functioning of the website."
+          ],
+          "recommendations": [
+            "Users can choose not to allow certain types of cookies, though this may impact the experience of the site and the services offered.",
+            "Click on different category headings to find out more and change default cookie settings.",
+            "Follow the provided link for more information about the First and Third Party Cookies used."
+          ]
+        },
+        {
+          "issues": [
+            "Strictly Necessary Cookies are essential for the website to function and cannot be switched off.",
+            "Setting your browser to block or alert about these cookies may cause some parts of the site not to work."
+          ],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "If Targeting Cookies are not allowed, users will experience less targeted advertising."
+          ],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "If Performance Cookies are not allowed, Coursera will not know when you have visited the site and will not be able to monitor its performance."
+          ],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly."
+          ],
+          "recommendations": []
+        }
+      ],
+      "issues": [
+        "Certificates earned within the first 14 days will be revoked if a refund is requested for an annual payment plan.",
+        "Certain courses, Specializations, and Professional Certificate programs are excluded from Coursera Plus.",
+        "Coursera Plus does not include degrees or MasterTrack\u2122 Certificate programs.",
+        "Existing Coursera Specialization subscriptions do not automatically cancel when a Coursera Plus subscription is started, potentially leading to being charged for both.",
+        "The offer is a special limited-time offer, ending September 22, 2025, 11:59 PM UTC.",
+        "The offer is valid for new Coursera Plus subscribers only and is limited to one per person.",
+        "The offer cannot be used in conjunction with other offers.",
+        "The offer is available for residents of India only.",
+        "Coursera reserves the right to modify or cancel the promotion at any time.",
+        "The subscription automatically renews on an annual basis for INR \u20b913,999/year (plus applicable taxes) unless canceled.",
+        "When visiting the website, cookies are stored on the browser to collect information, which might relate to the user, preferences, or device.",
+        "First Party Strictly Necessary Cookies cannot be opted out of as they are essential for the proper functioning of the website.",
+        "Strictly Necessary Cookies are essential for the website to function and cannot be switched off.",
+        "Setting your browser to block or alert about these cookies may cause some parts of the site not to work.",
+        "If Targeting Cookies are not allowed, users will experience less targeted advertising.",
+        "If Performance Cookies are not allowed, Coursera will not know when you have visited the site and will not be able to monitor its performance.",
+        "If Functional Cookies are not allowed, some or all enhanced functionality and personalization services may not function properly."
+      ],
+      "recommendations": [
+        "If opting for monthly payments, take advantage of a 7-day free trial.",
+        "Cancel during the 7-day free trial period to avoid charges.",
+        "If opting for an annual payment, submit a refund request within 14 days if Coursera Plus is not suitable.",
+        "Look for the Coursera Plus badge or check the list of included content to determine if a particular offering is included.",
+        "If taking more than 1 course regularly, you could save up to 30% every month.",
+        "Showcase earned certificates on your LinkedIn profile.",
+        "Add earned certificates to your resume.",
+        "Share earned certificates with your network.",
+        "Share earned certificates with your employer to demonstrate new skills and their applicability on the job.",
+        "If your employer offers educational reimbursements for online learning programs, submit your Coursera Plus receipt for reimbursement.",
+        "Cancel existing Specialization subscriptions to avoid being charged for both Coursera Plus and single Specialization subscriptions.",
+        "Cancel anytime in account settings to avoid renewal.",
+        "Users can choose not to allow certain types of cookies, though this may impact the experience of the site and the services offered.",
+        "Click on different category headings to find out more and change default cookie settings.",
+        "Follow the provided link for more information about the First and Third Party Cookies used."
+      ]
+    }
+  ],
+  "summary": {
+    "total_issues": 95,
+    "total_recommendations": 140,
+    "high_priority": 0,
+    "medium_priority": 139,
+    "low_priority": 1,
+    "total_pages": 10
+  }
+}

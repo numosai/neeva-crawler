@@ -152,12 +152,12 @@ class SitemapAnalyzer:
         plt.figure(figsize=(20, 15))
         
         # Use spring layout for better visualization
-        pos = nx.spring_layout(graph, k=3, iterations=100, seed=42)
+        pos = nx.spring_layout(graph, k=1.5, iterations=100, seed=42)
         
         # Draw nodes
         nx.draw_networkx_nodes(graph, pos, 
                               node_color='lightblue',
-                              node_size=1000, 
+                              node_size=3000, 
                               alpha=0.7)
         
         # Draw edges

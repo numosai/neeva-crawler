@@ -1,0 +1,177 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 10
+Total Unique URLs: 207
+Total Links: 818
+
+PAGE DETAILS
+------------------------------
+
+1. Coursera | Degrees, Certificates, & Free Online Courses
+   URL: https://coursera.org
+   Page ID: page_1
+   Outgoing Links (122):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 117 more
+
+2. Coursera | Degrees, Certificates, & Free Online Courses
+   URL: https://www.coursera.org/
+   Page ID: page_2
+   Outgoing Links (122):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 117 more
+   Incoming Links (8):
+     ← For Individuals: https://coursera.org
+     ← For Individuals: https://www.coursera.org/business
+     ← For Individuals: https://www.coursera.org/campus
+     ... and 5 more
+
+3. Custom Employee Development Programs | Coursera for Business
+   URL: https://www.coursera.org/business
+   Page ID: page_3
+   Outgoing Links (34):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → For Teams: https://www.coursera.org/business/teams
+     ... and 29 more
+   Incoming Links (9):
+     ← For Businesses: https://coursera.org
+     ← For Businesses: https://www.coursera.org/
+     ← For Businesses: https://www.coursera.org/campus
+     ... and 6 more
+
+4. Online Learning Platform for Universities | Coursera
+   URL: https://www.coursera.org/campus
+   Page ID: page_4
+   Outgoing Links (27):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Compare Plans: https://coursera.org/campus/compare-plans
+     ... and 22 more
+   Incoming Links (9):
+     ← For Universities: https://coursera.org
+     ← For Universities: https://www.coursera.org/
+     ← For Universities: https://www.coursera.org/business
+     ... and 6 more
+
+5. Employee Training and Workforce Development Programs | Coursera for Government
+   URL: https://www.coursera.org/government
+   Page ID: page_5
+   Outgoing Links (26):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → For Teams: https://www.coursera.org/government/teams
+     ... and 21 more
+   Incoming Links (9):
+     ← For Governments: https://coursera.org
+     ← For Governments: https://www.coursera.org/
+     ← For Governments: https://www.coursera.org/business
+     ... and 6 more
+
+6. Online Degrees and Postgraduate Studies from Top Universities | Coursera
+   URL: https://www.coursera.org/degrees
+   Page ID: page_6
+   Outgoing Links (113):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 108 more
+   Incoming Links (9):
+     ← Online Degrees: https://coursera.org
+     ← Online Degrees: https://www.coursera.org/
+     ← Degrees: https://www.coursera.org/business
+     ... and 6 more
+
+7. Explore Career Paths: Find Courses and Build Skills by Job Role | Coursera
+   URL: https://www.coursera.org/career-academy
+   Page ID: page_7
+   Outgoing Links (66):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 61 more
+   Incoming Links (4):
+     ← Careers: https://coursera.org
+     ← Careers: https://www.coursera.org/
+     ← Careers: https://www.coursera.org/?authmode=login
+     ... and 1 more
+
+8. Coursera | Online Courses & Credentials From Top Educators. Join for Free
+   URL: https://www.coursera.org/?authmode=login
+   Page ID: page_8
+   Outgoing Links (122):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 117 more
+   Incoming Links (2):
+     ← Log In: https://coursera.org
+     ← Log In: https://www.coursera.org/
+
+9. Coursera | Online Courses & Credentials From Top Educators. Join for Free
+   URL: https://www.coursera.org/?authmode=signup
+   Page ID: page_9
+   Outgoing Links (122):
+     → For Individuals: https://www.coursera.org/
+     → For Businesses: https://www.coursera.org/business
+     → For Universities: https://www.coursera.org/campus
+     → For Governments: https://www.coursera.org/government
+     → Online Degrees: https://www.coursera.org/degrees
+     ... and 117 more
+   Incoming Links (2):
+     ← Join for Free: https://coursera.org
+     ← Join for Free: https://www.coursera.org/
+
+10. Coursera Plus | Unlimited Access to 10,000+ Online Courses
+   URL: https://www.coursera.org/courseraplus/special/in-august-2025
+   Page ID: page_10
+   Outgoing Links (64):
+     → Offer Terms: https://www.coursera.org/courseraplus/special/in-august-2025
+     → Python for Everybody: https://www.coursera.org/specializations/python
+     → Prompt Engineering: https://www.coursera.org/specializations/prompt-engineering
+     → IBM Data Science: https://www.coursera.org/professional-certificates/ibm-data-science
+     → My Purchases page: https://www.coursera.org/my-purchases/transactions
+     ... and 59 more
+   Incoming Links (4):
+     ← Save on Coursera Plus: https://coursera.org
+     ← Save on Coursera Plus: https://www.coursera.org/
+     ← Save on Coursera Plus: https://www.coursera.org/?authmode=login
+     ... and 1 more
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  homepage: 122 outgoing links
+  homepage: 122 outgoing links
+  homepage: 122 outgoing links
+  homepage: 122 outgoing links
+  degrees: 113 outgoing links
+
+Most Referenced Pages (most incoming links):
+  business: 10 incoming links
+  campus: 10 incoming links
+  government: 10 incoming links
+  degrees: 10 incoming links
+  browse: 10 incoming links

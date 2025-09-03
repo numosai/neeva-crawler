@@ -1,0 +1,5000 @@
+{
+  "nodes": [
+    [
+      "page_1",
+      {
+        "url": "https://coursera.org",
+        "title": "Coursera | Degrees, Certificates, & Free Online Courses",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/)](https://www.coursera.org/)\nExplore\n[Online Degrees](https://www.coursera.org/degrees)\n[Careers](https://www.coursera.org/career-academy)\n[Log In](https://www.coursera.org/?authMode=login)\n[Join for Free](https://www.coursera.org/?authMode=signup)\n[![Coursera](https://www.coursera.org/)](https://www.coursera.org/)\n![](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://"
+      }
+    ],
+    [
+      "https://www.coursera.org/",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business",
+      {}
+    ],
+    [
+      "https://www.coursera.org/campus",
+      {}
+    ],
+    [
+      "https://www.coursera.org/government",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees",
+      {}
+    ],
+    [
+      "https://www.coursera.org/career-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/?authmode=login",
+      {}
+    ],
+    [
+      "https://www.coursera.org/?authmode=signup",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courseraplus/special/in-august-2025",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/teams?promocode=aug30-2025",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/partners",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/illinois",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/duke",
+      {}
+    ],
+    [
+      "https://www.coursera.org/google-career-certificates",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/umich",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/ibm-skills-network",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/imperial",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/stanford",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners/penn",
+      {}
+    ],
+    [
+      "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/ibm-data-analyst?recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/career-academy/roles/data-scientist?level=beginner&recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/ibm-data-science?recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/career-academy/roles/machine-learning-engineer?level=beginner&recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/specializations/machine-learning-introduction?recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer?recommenderid=role-ranker",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/google-data-analytics",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/google-project-management",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/google-it-support",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/google-ux-design",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates",
+      {}
+    ],
+    [
+      "https://www.coursera.org/explore/generative-ai",
+      {}
+    ],
+    [
+      "https://www.coursera.org/learn/claude-code",
+      {}
+    ],
+    [
+      "https://www.coursera.org/specializations/vibe-coding",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      {}
+    ],
+    [
+      "https://www.coursera.org/learn/retrieval-augmented-generation-rag",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/python-sql-tableau-data-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/microsoft-sql-server",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/ec-council-information-security-analyst",
+      {}
+    ],
+    [
+      "https://www.coursera.org/explore/new-on-coursera",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      {}
+    ],
+    [
+      "https://www.coursera.org/specializations/machine-learning-introduction",
+      {}
+    ],
+    [
+      "https://www.coursera.org/specializations/python",
+      {}
+    ],
+    [
+      "https://www.coursera.org/specializations/excel",
+      {}
+    ],
+    [
+      "https://www.coursera.org/explore/most-popular-courses",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/msee-boulder",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/ms-computer-science-boulder",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/imba",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/landing/pathways",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/pgdm-spjimr",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/statistics-data-analytics-pgdip-isi",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/data-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/business",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/computer-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/life-sciences",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/social-sciences",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/personal-development",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/arts-and-humanities",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/physical-science-and-engineering",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/language-learning",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/information-technology",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse/math-and-logic",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/teams",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=chatgpt",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=coding",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=cybersecurity",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=devops",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=ethical+hacking",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=generative+ai",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=java",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=python",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=web+development",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=artificial+intelligence",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=big+data",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=business+analysis",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=data+analytics",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=financial+modeling",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=microsoft+excel",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=microsoft+power+bi",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=sql",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=accounting",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=digital+marketing",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=e-commerce",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=finance&skills=Finance",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=google",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=graphic+design",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=ibm",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=project+management",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=social+media+marketing",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/high-income-skills",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/data-analytics-certification",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      {}
+    ],
+    [
+      "https://www.coursera.org/resources",
+      {}
+    ],
+    [
+      "https://www.coursera.org/resources/career-quiz",
+      {}
+    ],
+    [
+      "https://www.coursera.org/browse",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courseraplus",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificate",
+      {}
+    ],
+    [
+      "https://www.coursera.org/mastertrack",
+      {}
+    ],
+    [
+      "https://www.coursera.org/social-impact",
+      {}
+    ],
+    [
+      "https://www.coursera.org/courses?query=free",
+      {}
+    ],
+    [
+      "https://www.coursera.org/explore/ects-credit-recommendation",
+      {}
+    ],
+    [
+      "https://www.coursera.org/partners",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/press",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/terms",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/privacy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/contact",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles",
+      {}
+    ],
+    [
+      "https://www.coursera.org/directory",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/cookies-manage",
+      {}
+    ],
+    [
+      "https://www.coursera.org/about/cookies",
+      {}
+    ],
+    [
+      "page_2",
+      {
+        "url": "https://www.coursera.org/",
+        "title": "Coursera | Degrees, Certificates, & Free Online Courses",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/)](https://www.coursera.org/)\nExplore\n[Online Degrees](https://www.coursera.org/degrees)\n[Careers](https://www.coursera.org/career-academy)\n[Log In](https://www.coursera.org/?authMode=login)\n[Join for Free](https://www.coursera.org/?authMode=signup)\n[![Coursera](https://www.coursera.org/)](https://www.coursera.org/)\n![](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://"
+      }
+    ],
+    [
+      "page_3",
+      {
+        "url": "https://www.coursera.org/business",
+        "title": "Custom Employee Development Programs | Coursera for Business",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business)\n  * [For Universities](https://www.coursera.org/campus)\n  * [For Governments](https://www.coursera.org/government)\n\n\n[![Coursera for Business](https://coursera_assets.s3.amazonaws.com/images/81644c849a0086f12a3c514402734ed9.svg)](https://www.coursera.org/business)\n[Why Coursera](https://www.coursera.org/business)\n[Solutions](https://www.coursera.org/business)\n[Resources](https://www.coursera.org/business)\n[For Teams](https://www.coursera.org/business/teams)\n[Compare Plans](https://www.coursera.org/business/compare-plans)\n[Contact Sales](https://www.coursera.org/business/learn-more)\n# Empower talent to drive your business forward\n  * Train teams with respected industry experts and top universities \n  * Enrich learning solutions with tailored paths and AI tools\n  * Boost employee engagement with globally recognized credentials\n  * Customize scalable learning solutions efficiently \n\n\n["
+      }
+    ],
+    [
+      "https://www.coursera.org/business/compare-plans",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/learn-more",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/home-short",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/content",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/generative-ai-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/tech-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/data-analytics-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/leadership-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/marketing-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/finance-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/business/career-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/skills-reports/job-skills",
+      {}
+    ],
+    [
+      "https://www.coursera.org/skills-reports/global",
+      {}
+    ],
+    [
+      "https://www.coursera.org/enterprise/resources/ebook/forrester-study",
+      {}
+    ],
+    [
+      "page_4",
+      {
+        "url": "https://www.coursera.org/campus",
+        "title": "Online Learning Platform for Universities | Coursera",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business)\n  * [For Universities](https://www.coursera.org/campus)\n  * [For Governments](https://www.coursera.org/government)\n\n\n[![Coursera for Campus](https://coursera_assets.s3.amazonaws.com/images/9146da888f067f43dde3b92a89d53cd5.svg)](https://www.coursera.org/campus)\n[Why Coursera](https://www.coursera.org/campus)\n[Solutions](https://www.coursera.org/campus)\n[Resources](https://www.coursera.org/campus)\n[Compare Plans](https://coursera.org/campus/compare-plans)\n[Contact Us](https://www.coursera.org/campus/learn-more)\n# Strengthen employability to attract more students\nEquip students with the most in-demand skills and prepare them for job success.\n[Contact us](https://www.coursera.org/campus/learn-more)\nSee your options, [compare plans](https://www.coursera.org/campus/compare-plans)\n76%\nStudents are 76% more likely to enroll in a degree program that offers industry micro-credentials\n[[1]](ht"
+      }
+    ],
+    [
+      "https://coursera.org/campus/compare-plans",
+      {}
+    ],
+    [
+      "https://www.coursera.org/campus/learn-more",
+      {}
+    ],
+    [
+      "https://www.coursera.org/campus/compare-plans",
+      {}
+    ],
+    [
+      "https://www.coursera.org/campus/career-academy",
+      {}
+    ],
+    [
+      "https://www.coursera.org/campus/resources/ebooks/industry-micro-credentials",
+      {}
+    ],
+    [
+      "https://www.coursera.org/enterprise/resources/ebooks/micro-credentials-report-2025",
+      {}
+    ],
+    [
+      "page_5",
+      {
+        "url": "https://www.coursera.org/government",
+        "title": "Employee Training and Workforce Development Programs | Coursera for Government",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business)\n  * [For Universities](https://www.coursera.org/campus)\n  * [For Governments](https://www.coursera.org/government)\n\n\n[![Coursera for Government](https://coursera_assets.s3.amazonaws.com/images/d324d318c79ee0de97fc11c7c70e1972.svg)](https://www.coursera.org/government)\n[Why Coursera](https://www.coursera.org/government)\n[Solutions](https://www.coursera.org/government)\n[Resources](https://www.coursera.org/government)\n[For Teams](https://www.coursera.org/government/teams)\n[Contact Sales](https://www.coursera.org/government/learn-more)\n# Equip citizens and government employees with in-demand skills\nDrive sustainable economic growth and build a competitive workforce with online learning from leading universities and companies.\n[Train your citizen workforce](https://www.coursera.org/government/citizen-reskilling)\n[Upskill government employees](https://www.coursera.org/government/public-of"
+      }
+    ],
+    [
+      "https://www.coursera.org/government/teams",
+      {}
+    ],
+    [
+      "https://www.coursera.org/government/learn-more",
+      {}
+    ],
+    [
+      "https://www.coursera.org/government/citizen-reskilling",
+      {}
+    ],
+    [
+      "https://www.coursera.org/government/public-official-upskilling",
+      {}
+    ],
+    [
+      "page_6",
+      {
+        "url": "https://www.coursera.org/degrees",
+        "title": "Online Degrees and Postgraduate Studies from Top Universities | Coursera",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/degrees)](https://www.coursera.org/)\nExplore\n  * [Online Degrees](https://www.coursera.org/degrees)\n  * [Careers](https://www.coursera.org/career-academy?trk_ref=globalnav)\n  * [Log In](https://www.coursera.org/degrees?authMode=login)\n  * [Join for Free](https://www.coursera.org/degrees?authMode=signup)\n\n\n[![Coursera](https://www.coursera.org/degrees)](https://www.coursera.org/)\n# Take your ca"
+      }
+    ],
+    [
+      "https://www.coursera.org/career-academy?trk_ref=globalnav",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees?authmode=login",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees?authmode=signup",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelor-of-science-computer-science-bits",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/mba-business-analytics-jgu",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/ma-international-relations-security-strategy-jgu",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelor-of-science-psychology-jgu",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/emba-iitr",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelors",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/masters",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/postgraduate-studies",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/business",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/computer-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/data-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/public-health",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/data-analytics",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/top-european",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/maestria-en-linea-latinoamerica",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/top-indian",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelor-of-science-computer-science-london",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/master-of-science-data-science-boulder",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/mba-illinois-tech",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/msc-cyber-security-london",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/ms-management-illinois",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/master-of-data-science-university-of-pittsburgh",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/omie",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/maestria-ingenieria-software-uniandes",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/online-bachelors-degrees",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/online-masters-degrees",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/going-back-to-school-7-things-to-consider",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/benefits-of-online-learning",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-is-accreditation",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/how-to-list-education-on-a-resume",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/ba-liberal-studies-georgetown",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-are-college-credits",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/unt-online-bachelor-completion",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/bachelor-of-science-general-business-unt",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/online-degrees",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/ai-quick-tip-organize-your-daily-schedule-video",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/undergraduate-degree",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/how-many-credits-do-you-need-to-graduate-college",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/graduate-degree",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/when-are-college-applications-due",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-is-a-bachelors-degree",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/masters-degree",
+      {}
+    ],
+    [
+      "https://www.coursera.org/degrees/coursera-financial-resources",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/is-a-bachelors-degree-worth-it",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/is-a-masters-degree-worth-it",
+      {}
+    ],
+    [
+      "page_7",
+      {
+        "url": "https://www.coursera.org/career-academy",
+        "title": "Explore Career Paths: Find Courses and Build Skills by Job Role | Coursera",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/career-academy)](https://www.coursera.org/)\nExplore\n  * [Online Degrees](https://www.coursera.org/degrees)\n  * [Careers](https://www.coursera.org/career-academy?trk_ref=globalnav)\n  * [Log In](https://www.coursera.org/career-academy?authMode=login)\n  * [Join for Free](https://www.coursera.org/career-academy?authMode=signup)\n\n\n[![Coursera](https://www.coursera.org/career-academy)](https://www.c"
+      }
+    ],
+    [
+      "https://www.coursera.org/career-academy?authmode=login",
+      {}
+    ],
+    [
+      "https://www.coursera.org/career-academy?authmode=signup",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-is-project-manager",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/web-developer",
+      {}
+    ],
+    [
+      "https://www.coursera.org/articles/what-does-a-ux-designer-do",
+      {}
+    ],
+    [
+      "page_8",
+      {
+        "url": "https://www.coursera.org/?authmode=login",
+        "title": "Coursera | Online Courses & Credentials From Top Educators. Join for Free",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/?authmode=login)](https://www.coursera.org/)\nExplore\n[Online Degrees](https://www.coursera.org/degrees)\n[Careers](https://www.coursera.org/career-academy)\n[Log In](https://www.coursera.org/?authmode=login&authMode=login)\n[Join for Free](https://www.coursera.org/?authmode=login&authMode=signup)\n[![Coursera](https://www.coursera.org/?authmode=login)](https://www.coursera.org/)\n![](https://d3njjc"
+      }
+    ],
+    [
+      "https://www.coursera.org/?authmode=login&authmode=login",
+      {}
+    ],
+    [
+      "https://www.coursera.org/?authmode=login&authmode=signup",
+      {}
+    ],
+    [
+      "page_9",
+      {
+        "url": "https://www.coursera.org/?authmode=signup",
+        "title": "Coursera | Online Courses & Credentials From Top Educators. Join for Free",
+        "markdown": "  * [For Individuals](https://www.coursera.org/)\n  * [For Businesses](https://www.coursera.org/business?utm_content=corp-to-home-for-enterprise&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Universities](https://www.coursera.org/campus?utm_content=corp-to-landing-for-campus&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n  * [For Governments](https://www.coursera.org/government?utm_content=corp-to-landing-for-government&utm_campaign=website&utm_medium=coursera&utm_source=header&utm_term=b-out)\n\n\n[![Coursera](https://www.coursera.org/?authmode=signup)](https://www.coursera.org/)\nExplore\n[Online Degrees](https://www.coursera.org/degrees)\n[Careers](https://www.coursera.org/career-academy)\n[Log In](https://www.coursera.org/?authmode=signup&authMode=login)\n[Join for Free](https://www.coursera.org/?authmode=signup&authMode=signup)\n[![Coursera](https://www.coursera.org/?authmode=signup)](https://www.coursera.org/)\n![](https://d3"
+      }
+    ],
+    [
+      "https://www.coursera.org/?authmode=signup&authmode=login",
+      {}
+    ],
+    [
+      "https://www.coursera.org/?authmode=signup&authmode=signup",
+      {}
+    ],
+    [
+      "page_10",
+      {
+        "url": "https://www.coursera.org/courseraplus/special/in-august-2025",
+        "title": "Coursera Plus | Unlimited Access to 10,000+ Online Courses",
+        "markdown": "![Coursera](https://www.coursera.org/courseraplus/special/in-august-2025)\n![Coursera](https://www.coursera.org/courseraplus/special/in-august-2025)\n![Coursera Plus](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/coursera_plus/landing_page/coursera-plus-blue.png?auto=format%2Ccompress&dpr=1)\nSave now\nSave now\n![](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/coursera_plus/courseraplus-reversed-rgb-cropped.png?auto=format%2Ccompress&dpr=1&h=20)\nDiscover new skills and big savings\nGet Coursera Plus for \u20b97,999/year and dive into 10,000+ skill-building programs from Google, IBM, and more. Turn your curiosity into career-building expertise with limitless learning.\nSave now\nOffer ends September 22, 2025, see our [Offer Terms](https://www.coursera.org/courseraplus/special/in-august-2025#disclaimer-on-footer).\n![](https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imagepr"
+      }
+    ],
+    [
+      "https://www.coursera.org/specializations/prompt-engineering",
+      {}
+    ],
+    [
+      "https://www.coursera.org/professional-certificates/ibm-data-science",
+      {}
+    ],
+    [
+      "https://www.coursera.org/my-purchases/transactions",
+      {}
+    ]
+  ],
+  "edges": [
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/career-academy",
+      "label": "Careers"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/?authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/?authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "label": "Save on Coursera Plus"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/business/teams?promocode=aug30-2025",
+      "label": "Save on Teams"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/partners",
+      "label": "We collaborate with 350+ leading universities and companies"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/illinois",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/duke",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/google-career-certificates",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/umich",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/ibm-skills-network",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/imperial",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/stanford",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners/penn",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+      "label": "Data Analyst"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker",
+      "label": "Meta Data Analyst,"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-analyst?recommenderid=role-ranker",
+      "label": "IBM Data Analyst,"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/career-academy/roles/data-scientist?level=beginner&recommenderid=role-ranker",
+      "label": "Data Scientist"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-science?recommenderid=role-ranker",
+      "label": "IBM Data Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/career-academy/roles/machine-learning-engineer?level=beginner&recommenderid=role-ranker",
+      "label": "Machine Learning Engineer"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction?recommenderid=role-ranker",
+      "label": "Machine Learning,"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer?recommenderid=role-ranker",
+      "label": "MathWorks Computer Vision Engineer,"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "label": "Google Data Analytics"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/google-project-management",
+      "label": "Google Project Management:"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/google-it-support",
+      "label": "Google IT Support"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "label": "Google UX Design"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates",
+      "label": "View all"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/explore/generative-ai",
+      "label": "View all GenAI"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/learn/claude-code",
+      "label": "Claude Code: Software Engineering with Generative AI Agents"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/specializations/vibe-coding",
+      "label": "Vibe Coding Essentials - Build Apps with AI"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "label": "AWS Generative AI for Developers"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/learn/retrieval-augmented-generation-rag",
+      "label": "Retrieval Augmented Generation (RAG)"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/python-sql-tableau-data-science",
+      "label": "Python, SQL, Tableau for Data Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-sql-server",
+      "label": "Microsoft SQL Server"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/ec-council-information-security-analyst",
+      "label": "Information Security Analyst"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/explore/new-on-coursera",
+      "label": "View all"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      "label": "Microsoft Power BI Data Analyst"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/specializations/python",
+      "label": "Python for Everybody"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/specializations/excel",
+      "label": "Excel Skills for Business"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/explore/most-popular-courses",
+      "label": "View all"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/msee-boulder",
+      "label": "Master of Science in Electrical and Computer Engineering"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      "label": "Master of Engineering in Engineering Management"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/ms-computer-science-boulder",
+      "label": "Master of Science in Computer Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/imba",
+      "label": "Master of Business Administration (iMBA)"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/landing/pathways",
+      "label": "View all"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      "label": "Bachelor of Science in Data Science & AI"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      "label": "BSc Data Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/pgdm-spjimr",
+      "label": "PG Diploma in Management (PGDM) Online"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/degrees/statistics-data-analytics-pgdip-isi",
+      "label": "Postgraduate Diploma in Applied Statistics"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/data-science",
+      "label": "Data Science425 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/business",
+      "label": "Business1095 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/computer-science",
+      "label": "Computer Science668 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/life-sciences",
+      "label": "Health471 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/social-sciences",
+      "label": "Social Sciences401 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/personal-development",
+      "label": "Personal Development137 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/arts-and-humanities",
+      "label": "Arts and Humanities338 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/physical-science-and-engineering",
+      "label": "Physical Science and Engineering413 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/language-learning",
+      "label": "Language Learning150 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/information-technology",
+      "label": "Information Technology145 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse/math-and-logic",
+      "label": "Math and Logic70 courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/business/teams",
+      "label": "Check out Coursera for Teams"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_1",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/career-academy",
+      "label": "Careers"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/?authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/?authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "label": "Save on Coursera Plus"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/business/teams?promocode=aug30-2025",
+      "label": "Save on Teams"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/partners",
+      "label": "We collaborate with 350+ leading universities and companies"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/illinois",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/duke",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/google-career-certificates",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/umich",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/ibm-skills-network",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/imperial",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/stanford",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners/penn",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+      "label": "Data Analyst"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker",
+      "label": "Meta Data Analyst,"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-analyst?recommenderid=role-ranker",
+      "label": "IBM Data Analyst,"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/career-academy/roles/data-scientist?level=beginner&recommenderid=role-ranker",
+      "label": "Data Scientist"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-science?recommenderid=role-ranker",
+      "label": "IBM Data Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/career-academy/roles/machine-learning-engineer?level=beginner&recommenderid=role-ranker",
+      "label": "Machine Learning Engineer"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction?recommenderid=role-ranker",
+      "label": "Machine Learning,"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer?recommenderid=role-ranker",
+      "label": "MathWorks Computer Vision Engineer,"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "label": "Google Data Analytics"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/google-project-management",
+      "label": "Google Project Management:"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/google-it-support",
+      "label": "Google IT Support"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "label": "Google UX Design"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates",
+      "label": "View all"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/explore/generative-ai",
+      "label": "View all GenAI"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/learn/claude-code",
+      "label": "Claude Code: Software Engineering with Generative AI Agents"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/specializations/vibe-coding",
+      "label": "Vibe Coding Essentials - Build Apps with AI"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "label": "AWS Generative AI for Developers"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/learn/retrieval-augmented-generation-rag",
+      "label": "Retrieval Augmented Generation (RAG)"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/python-sql-tableau-data-science",
+      "label": "Python, SQL, Tableau for Data Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-sql-server",
+      "label": "Microsoft SQL Server"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/ec-council-information-security-analyst",
+      "label": "Information Security Analyst"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/explore/new-on-coursera",
+      "label": "View all"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      "label": "Microsoft Power BI Data Analyst"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/specializations/python",
+      "label": "Python for Everybody"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/specializations/excel",
+      "label": "Excel Skills for Business"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/explore/most-popular-courses",
+      "label": "View all"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/msee-boulder",
+      "label": "Master of Science in Electrical and Computer Engineering"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      "label": "Master of Engineering in Engineering Management"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/ms-computer-science-boulder",
+      "label": "Master of Science in Computer Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/imba",
+      "label": "Master of Business Administration (iMBA)"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/landing/pathways",
+      "label": "View all"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      "label": "Bachelor of Science in Data Science & AI"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      "label": "BSc Data Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/pgdm-spjimr",
+      "label": "PG Diploma in Management (PGDM) Online"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/degrees/statistics-data-analytics-pgdip-isi",
+      "label": "Postgraduate Diploma in Applied Statistics"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/data-science",
+      "label": "Data Science425 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/business",
+      "label": "Business1095 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/computer-science",
+      "label": "Computer Science668 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/life-sciences",
+      "label": "Health471 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/social-sciences",
+      "label": "Social Sciences401 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/personal-development",
+      "label": "Personal Development137 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/arts-and-humanities",
+      "label": "Arts and Humanities338 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/physical-science-and-engineering",
+      "label": "Physical Science and Engineering413 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/language-learning",
+      "label": "Language Learning150 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/information-technology",
+      "label": "Information Technology145 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse/math-and-logic",
+      "label": "Math and Logic70 courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/business/teams",
+      "label": "Check out Coursera for Teams"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_2",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/teams",
+      "label": "For Teams"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/compare-plans",
+      "label": "Compare Plans"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/learn-more",
+      "label": "Contact Sales"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/home-short",
+      "label": "Contact us"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/content",
+      "label": "Explore world-class content"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/generative-ai-academy",
+      "label": "Generative AI AcademyImprove productivity, reduce risks, and stay current with the latest in generative AI. Courses range from beginner to advanced, taught by leading experts.5\u00a0(Recently added)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/tech-academy",
+      "label": "Tech AcademyStreamline technology transformation with training for IT, engineering, and security teams.4.73\u00a0(1,020k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/data-analytics-academy",
+      "label": "Data and Analytics AcademyInvest in data, AI, and ML skills to improve decision-making and increase innovation. 4.73\u00a0(933k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/leadership-academy",
+      "label": "Leadership AcademyDevelop employees with the skills to collaborate, communicate, and lead teams.4.74\u00a0(692k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/marketing-academy",
+      "label": "Marketing AcademySupercharge your marketing team with hands-on martech and digital marketing training.4.73\u00a0(769k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/finance-academy",
+      "label": "Finance AcademyImprove confidence in forecasting, budgeting, and major business decisions.4.75\u00a0(1,086k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/business/career-academy",
+      "label": "Career AcademyAttract and retain your frontline workers with career development benefits.4.58\u00a0(671k course reviews)Learn more"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms\u00a0of Use"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy\u00a0Notice."
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/skills-reports/job-skills",
+      "label": "The Job Skills of 2025 ReportDiscover the fastest-growing job skills for 2025. Get report"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/skills-reports/global",
+      "label": "The Global Skills Report 2025Explore trusted skill insights from 170M+ learners.Get report"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/enterprise/resources/ebook/forrester-study",
+      "label": "Forrester Total Economic Impact\u2122 Study of Coursera for BusinessDiscover how organizations use Coursera for Business to achieve measurable business outcomes and explore practical insights from global industry leaders.Get study"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Degrees"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_3",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_4",
+      "to": "https://coursera.org/campus/compare-plans",
+      "label": "Compare Plans"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/campus/learn-more",
+      "label": "Contact Us"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/campus/compare-plans",
+      "label": "compare plans"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/campus/career-academy",
+      "label": "Learn more about Career Academy"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/campus/resources/ebooks/industry-micro-credentials",
+      "label": "Get report"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms\u00a0of Use"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy\u00a0Notice"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/enterprise/resources/ebooks/micro-credentials-report-2025",
+      "label": "The Micro-Credentials Impact Report 2025: Insights from Students and EmployersExplore global data on career and academic outcomes, credit-bearing and GenAI credentials, and more.Get report"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/skills-reports/job-skills",
+      "label": "The Job Skills of 2025 ReportDiscover the fastest-growing job skills for 2025. Get report"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/skills-reports/global",
+      "label": "The Global Skills Report 2025Explore trusted skill insights from 170M+ learners.Get report"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Degrees"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_4",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/government/teams",
+      "label": "For Teams"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/government/learn-more",
+      "label": "Contact Sales"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/government/citizen-reskilling",
+      "label": "Train your citizen workforce"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/government/public-official-upskilling",
+      "label": "Upskill government employees"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms\u00a0of Use"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy\u00a0Notice"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/skills-reports/job-skills",
+      "label": "The Job Skills of 2025 ReportDiscover the fastest-growing job skills for 2025. Get report"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/skills-reports/global",
+      "label": "The Global Skills Report 2025Explore trusted skill insights from 170M+ learners.Get report"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/enterprise/resources/ebook/forrester-study",
+      "label": "Forrester Total Economic Impact\u2122 Study of Coursera for BusinessDiscover how organizations use Coursera for Business to achieve measurable business outcomes and explore practical insights from global industry leaders.Get study"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Degrees"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_5",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/career-academy?trk_ref=globalnav",
+      "label": "Careers"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees?authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees?authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      "label": "Bachelor of Science in Data Science & AI"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      "label": "BSc Data Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/pgdm-spjimr",
+      "label": "PG Diploma in Management (PGDM) Online"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-computer-science-bits",
+      "label": "Bachelor of Science in Computer Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/mba-business-analytics-jgu",
+      "label": "MBA in Business Analytics"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/ma-international-relations-security-strategy-jgu",
+      "label": "M.A. in International Relations, Security, and Strategy"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-psychology-jgu",
+      "label": "Bachelor of Science in Psychology"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/emba-iitr",
+      "label": "Executive MBA"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelors",
+      "label": "Bachelor's Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/masters",
+      "label": "Master's Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/postgraduate-studies",
+      "label": "Postgraduate Programs"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/business",
+      "label": "Business and MBA Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/computer-science",
+      "label": "Computer Science Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/data-science",
+      "label": "Data Science Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/public-health",
+      "label": "Public Health Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/data-analytics",
+      "label": "Data Analytics Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/top-european",
+      "label": "Top European Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/maestria-en-linea-latinoamerica",
+      "label": "Maestr\u00edas en l\u00ednea de Latinoam\u00e9rica"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/top-indian",
+      "label": "Top Indian Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/imba",
+      "label": "Master of Business Administration (iMBA)"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-computer-science-london",
+      "label": "Bachelor of Science in Computer Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/master-of-science-data-science-boulder",
+      "label": "Master of Science in Data Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      "label": "Master of Engineering in Engineering Management"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/mba-illinois-tech",
+      "label": "Master of Business Administration"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/msc-cyber-security-london",
+      "label": "Master of Science in Cyber Security"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/ms-management-illinois",
+      "label": "Master of Science in Management (iMSM)"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/master-of-data-science-university-of-pittsburgh",
+      "label": "Master of Data Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/omie",
+      "label": "MSc in Innovation and Entrepreneurship"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/maestria-ingenieria-software-uniandes",
+      "label": "Maestr\u00eda en Ingenier\u00eda de Software"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles",
+      "label": "Explore all articles"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/online-bachelors-degrees",
+      "label": "A Guide to Online Bachelor's Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/online-masters-degrees",
+      "label": "A Guide to Online Master's Degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/going-back-to-school-7-things-to-consider",
+      "label": "Should You Go Back to School? 7 Things to Consider"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/benefits-of-online-learning",
+      "label": "10 Surprising Benefits of Online Learning in 2025"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/what-is-accreditation",
+      "label": "Accreditation"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/how-to-list-education-on-a-resume",
+      "label": "education on your resume"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/ba-liberal-studies-georgetown",
+      "label": "Bachelor of Arts in Liberal Studies"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/what-are-college-credits",
+      "label": "college credit"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/unt-online-bachelor-completion",
+      "label": "Bachelor of Applied Arts and Sciences"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-general-business-unt",
+      "label": "Bachelor of Science in General Business"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/online-degrees",
+      "label": "Degree programs"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/ai-quick-tip-organize-your-daily-schedule-video",
+      "label": "your schedule"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/undergraduate-degree",
+      "label": "Undergraduate degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/how-many-credits-do-you-need-to-graduate-college",
+      "label": "credits"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/graduate-degree",
+      "label": "Graduate degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/when-are-college-applications-due",
+      "label": "College application deadlines"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/what-is-a-bachelors-degree",
+      "label": "bachelor\u2019s degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/masters-degree",
+      "label": "master\u2019s degrees"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/degrees/coursera-financial-resources",
+      "label": "Financial Resources Hub"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/is-a-bachelors-degree-worth-it",
+      "label": "bachelor\u2019s degree is worth it"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/is-a-masters-degree-worth-it",
+      "label": "master\u2019s degree is worth it"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_6",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/career-academy?trk_ref=globalnav",
+      "label": "Careers"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/career-academy?authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/career-academy?authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do? Your 2024 Career Guide"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/what-is-project-manager",
+      "label": "What Is a Project Manager? A Career Guide"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/web-developer",
+      "label": "What Does a Web Developer Do (and How Do I Become One)?"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/what-does-a-ux-designer-do",
+      "label": "What Does a UX Designer Do?"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_7",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/career-academy",
+      "label": "Careers"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/?authmode=login&authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/?authmode=login&authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "label": "Save on Coursera Plus"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/business/teams?promocode=aug30-2025",
+      "label": "Save on Teams"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/partners",
+      "label": "We collaborate with 350+ leading universities and companies"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/illinois",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/duke",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/google-career-certificates",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/umich",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/ibm-skills-network",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/imperial",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/stanford",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners/penn",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+      "label": "Data Analyst"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker",
+      "label": "Meta Data Analyst,"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-analyst?recommenderid=role-ranker",
+      "label": "IBM Data Analyst,"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/career-academy/roles/data-scientist?level=beginner&recommenderid=role-ranker",
+      "label": "Data Scientist"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-science?recommenderid=role-ranker",
+      "label": "IBM Data Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/career-academy/roles/machine-learning-engineer?level=beginner&recommenderid=role-ranker",
+      "label": "Machine Learning Engineer"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction?recommenderid=role-ranker",
+      "label": "Machine Learning,"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer?recommenderid=role-ranker",
+      "label": "MathWorks Computer Vision Engineer,"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "label": "Google Data Analytics"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/google-project-management",
+      "label": "Google Project Management:"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/google-it-support",
+      "label": "Google IT Support"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "label": "Google UX Design"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates",
+      "label": "View all"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/explore/generative-ai",
+      "label": "View all GenAI"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/learn/claude-code",
+      "label": "Claude Code: Software Engineering with Generative AI Agents"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/specializations/vibe-coding",
+      "label": "Vibe Coding Essentials - Build Apps with AI"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "label": "AWS Generative AI for Developers"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/learn/retrieval-augmented-generation-rag",
+      "label": "Retrieval Augmented Generation (RAG)"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/python-sql-tableau-data-science",
+      "label": "Python, SQL, Tableau for Data Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-sql-server",
+      "label": "Microsoft SQL Server"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/ec-council-information-security-analyst",
+      "label": "Information Security Analyst"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/explore/new-on-coursera",
+      "label": "View all"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      "label": "Microsoft Power BI Data Analyst"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/specializations/python",
+      "label": "Python for Everybody"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/specializations/excel",
+      "label": "Excel Skills for Business"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/explore/most-popular-courses",
+      "label": "View all"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/msee-boulder",
+      "label": "Master of Science in Electrical and Computer Engineering"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      "label": "Master of Engineering in Engineering Management"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/ms-computer-science-boulder",
+      "label": "Master of Science in Computer Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/imba",
+      "label": "Master of Business Administration (iMBA)"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/landing/pathways",
+      "label": "View all"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      "label": "Bachelor of Science in Data Science & AI"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      "label": "BSc Data Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/pgdm-spjimr",
+      "label": "PG Diploma in Management (PGDM) Online"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/degrees/statistics-data-analytics-pgdip-isi",
+      "label": "Postgraduate Diploma in Applied Statistics"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/data-science",
+      "label": "Data Science425 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/business",
+      "label": "Business1095 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/computer-science",
+      "label": "Computer Science668 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/life-sciences",
+      "label": "Health471 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/social-sciences",
+      "label": "Social Sciences401 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/personal-development",
+      "label": "Personal Development137 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/arts-and-humanities",
+      "label": "Arts and Humanities338 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/physical-science-and-engineering",
+      "label": "Physical Science and Engineering413 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/language-learning",
+      "label": "Language Learning150 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/information-technology",
+      "label": "Information Technology145 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse/math-and-logic",
+      "label": "Math and Logic70 courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/business/teams",
+      "label": "Check out Coursera for Teams"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_8",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/",
+      "label": "For Individuals"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/business",
+      "label": "For Businesses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Universities"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/government",
+      "label": "For Governments"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Online Degrees"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/career-academy",
+      "label": "Careers"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/?authmode=signup&authmode=login",
+      "label": "Log In"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/?authmode=signup&authmode=signup",
+      "label": "Join for Free"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "label": "Save on Coursera Plus"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/business/teams?promocode=aug30-2025",
+      "label": "Save on Teams"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/partners",
+      "label": "We collaborate with 350+ leading universities and companies"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/illinois",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/duke",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/google-career-certificates",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/umich",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/ibm-skills-network",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/imperial",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/stanford",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners/penn",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker",
+      "label": "Data Analyst"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker",
+      "label": "Meta Data Analyst,"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-analyst?recommenderid=role-ranker",
+      "label": "IBM Data Analyst,"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/career-academy/roles/data-scientist?level=beginner&recommenderid=role-ranker",
+      "label": "Data Scientist"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-science?recommenderid=role-ranker",
+      "label": "IBM Data Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/career-academy/roles/machine-learning-engineer?level=beginner&recommenderid=role-ranker",
+      "label": "Machine Learning Engineer"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction?recommenderid=role-ranker",
+      "label": "Machine Learning,"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/mathworks-computer-vision-engineer?recommenderid=role-ranker",
+      "label": "MathWorks Computer Vision Engineer,"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/google-data-analytics",
+      "label": "Google Data Analytics"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/google-project-management",
+      "label": "Google Project Management:"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/google-it-support",
+      "label": "Google IT Support"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/google-ux-design",
+      "label": "Google UX Design"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates",
+      "label": "View all"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/explore/generative-ai",
+      "label": "View all GenAI"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/learn/claude-code",
+      "label": "Claude Code: Software Engineering with Generative AI Agents"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/specializations/vibe-coding",
+      "label": "Vibe Coding Essentials - Build Apps with AI"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/aws-generative-ai-developers",
+      "label": "AWS Generative AI for Developers"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/learn/retrieval-augmented-generation-rag",
+      "label": "Retrieval Augmented Generation (RAG)"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/python-sql-tableau-data-science",
+      "label": "Python, SQL, Tableau for Data Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-sql-server",
+      "label": "Microsoft SQL Server"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/ec-council-information-security-analyst",
+      "label": "Information Security Analyst"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/explore/new-on-coursera",
+      "label": "View all"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+      "label": "Microsoft Power BI Data Analyst"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/specializations/python",
+      "label": "Python for Everybody"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/specializations/excel",
+      "label": "Excel Skills for Business"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/explore/most-popular-courses",
+      "label": "View all"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/msee-boulder",
+      "label": "Master of Science in Electrical and Computer Engineering"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/me-engineering-management-boulder",
+      "label": "Master of Engineering in Engineering Management"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/ms-computer-science-boulder",
+      "label": "Master of Science in Computer Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/imba",
+      "label": "Master of Business Administration (iMBA)"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/landing/pathways",
+      "label": "View all"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati",
+      "label": "Bachelor of Science in Data Science & AI"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/bsc-data-science-huddersfield",
+      "label": "BSc Data Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/pgdm-spjimr",
+      "label": "PG Diploma in Management (PGDM) Online"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/degrees/statistics-data-analytics-pgdip-isi",
+      "label": "Postgraduate Diploma in Applied Statistics"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/data-science",
+      "label": "Data Science425 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/business",
+      "label": "Business1095 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/computer-science",
+      "label": "Computer Science668 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/life-sciences",
+      "label": "Health471 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/social-sciences",
+      "label": "Social Sciences401 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/personal-development",
+      "label": "Personal Development137 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/arts-and-humanities",
+      "label": "Arts and Humanities338 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/physical-science-and-engineering",
+      "label": "Physical Science and Engineering413 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/language-learning",
+      "label": "Language Learning150 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/information-technology",
+      "label": "Information Technology145 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse/math-and-logic",
+      "label": "Math and Logic70 courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/business/teams",
+      "label": "Check out Coursera for Teams"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_9",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courseraplus/special/in-august-2025",
+      "label": "Offer Terms"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/specializations/python",
+      "label": "Python for Everybody"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/specializations/prompt-engineering",
+      "label": "Prompt Engineering"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "label": "IBM Data Science"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/my-purchases/transactions",
+      "label": "My Purchases page"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=chatgpt",
+      "label": "ChatGPT"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=coding",
+      "label": "Coding"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=computer+science&topic=Computer+Science",
+      "label": "Computer Science"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=devops",
+      "label": "DevOps"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=ethical+hacking",
+      "label": "Ethical Hacking"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=generative+ai",
+      "label": "Generative AI"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=java",
+      "label": "Java Programming"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=python",
+      "label": "Python"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=web+development",
+      "label": "Web Development"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=artificial+intelligence",
+      "label": "Artificial Intelligence"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=big+data",
+      "label": "Big Data"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=business+analysis",
+      "label": "Business Analysis"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=data+analytics",
+      "label": "Data Analytics"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=data+science&topic=Data+Science",
+      "label": "Data Science"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=financial+modeling",
+      "label": "Financial Modeling"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=machine+learning&skills=Machine+Learning",
+      "label": "Machine Learning"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=microsoft+excel",
+      "label": "Microsoft Excel"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=microsoft+power+bi",
+      "label": "Microsoft Power BI"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=sql",
+      "label": "SQL"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=accounting",
+      "label": "Accounting"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=digital+marketing",
+      "label": "Digital Marketing"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=e-commerce",
+      "label": "E-commerce"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=finance&skills=Finance",
+      "label": "Finance"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=google",
+      "label": "Google"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=graphic+design",
+      "label": "Graphic Design"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=ibm",
+      "label": "IBM"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=marketing&skills=Marketing",
+      "label": "Marketing"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=project+management",
+      "label": "Project Management"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=social+media+marketing",
+      "label": "Social Media Marketing"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/essential-it-certifications-entry-level-and-beginner",
+      "label": "Essential IT Certifications"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/high-income-skills",
+      "label": "High-Income Skills to Learn"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/the-pmp-certification-a-guide-to-getting-started",
+      "label": "How to Get a PMP Certification"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/how-to-learn-artificial-intelligence",
+      "label": "How to Learn Artificial Intelligence"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/popular-cybersecurity-certifications",
+      "label": "Popular Cybersecurity Certifications"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/data-analytics-certification",
+      "label": "Popular Data Analytics Certifications"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide",
+      "label": "What Does a Data Analyst Do?"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/resources",
+      "label": "Career Development Resources"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/resources/career-quiz",
+      "label": "Career Aptitude Test"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/browse",
+      "label": "Catalog"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courseraplus",
+      "label": "Coursera Plus"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/professional-certificate",
+      "label": "Professional Certificates"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/mastertrack",
+      "label": "MasterTrack\u00ae Certificates"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/degrees",
+      "label": "Degrees"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/business",
+      "label": "For Enterprise"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/government",
+      "label": "For Government"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/campus",
+      "label": "For Campus"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/social-impact",
+      "label": "Social Impact"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/courses?query=free",
+      "label": "Free Courses"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/explore/ects-credit-recommendation",
+      "label": "ECTS Credit Recommendations"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/partners",
+      "label": "Partners"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/press",
+      "label": "Press"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/terms",
+      "label": "Terms"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/privacy",
+      "label": "Privacy"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/contact",
+      "label": "Contact"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/articles",
+      "label": "Articles"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/directory",
+      "label": "Directory"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/cookies-manage",
+      "label": "Manage Cookie Preferences"
+    },
+    {
+      "from": "page_10",
+      "to": "https://www.coursera.org/about/cookies",
+      "label": "More information"
+    }
+  ]
+}

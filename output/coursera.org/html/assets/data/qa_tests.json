@@ -1,0 +1,251 @@
+{
+  "summary": {
+    "total_test_files": 5,
+    "total_phases": 20,
+    "total_assertions": 16,
+    "avg_phases_per_file": 4.0,
+    "avg_assertions_per_file": 3.2
+  },
+  "test_files": [
+    {
+      "filename": "flow_quick_action_career_path.yaml",
+      "name": "flow_quick_action_career_path",
+      "title": "Quick Action: Discover a Career Path & Explore Programs",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://coursera.org and navigate to homepage",
+          "assertions": []
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to https://www.coursera.org/career-academy and click on the 'Careers' navigation link",
+          "assertions": [
+            {
+              "id": "career_academy_roles_displayed",
+              "description": "Verify that career Academy page displays various career roles",
+              "status": "pending"
+            },
+            {
+              "id": "career_role_listing_info_present",
+              "description": "Verify that each career role listing includes a description",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to https://www.coursera.org/career-academy/roles/data-analyst?level=beginner&recommenderid=role-ranker and select any available career role from the listings on the career academy page",
+          "assertions": [
+            {
+              "id": "selected_role_insights_credentials",
+              "description": "Verify that selected career role page displays relevant job insights and credentials",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to https://www.coursera.org/professional-certificates/meta-data-analyst?recommenderid=role-ranker and click on any associated professional certificate or specialization link displayed on the career role page",
+          "assertions": [
+            {
+              "id": "learning_program_overview_displayed",
+              "description": "Verify that selected learning program page provides an overview with key details",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 4
+    },
+    {
+      "filename": "flow_price_comparer_business_solutions.yaml",
+      "name": "flow_price_comparer_business_solutions",
+      "title": "Price/Feature Comparer: Evaluate Business Learning Solutions",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://coursera.org and navigate to homepage",
+          "assertions": []
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to https://www.coursera.org/business and click on the 'For Businesses' navigation link",
+          "assertions": [
+            {
+              "id": "business_solutions_options_presented",
+              "description": "Verify that business solutions page presents different options for organizations",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to https://www.coursera.org/business/teams?promocode=aug30-2025 and navigate to any specific business solution page (e.g., 'Teams' or 'Enterprise' solutions link)",
+          "assertions": [
+            {
+              "id": "business_solution_features_benefits",
+              "description": "Verify that specific business solution page highlights key features and benefits",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Review the features and benefits presented for the business solution",
+          "assertions": [
+            {
+              "id": "business_solution_pricing_contact",
+              "description": "Verify that business solution page clearly outlines pricing models or contact options",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 3
+    },
+    {
+      "filename": "flow_information_seeker_partners.yaml",
+      "name": "flow_information_seeker_partners",
+      "title": "Information Seeker: Research Partner Institutions and Offerings",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://coursera.org and navigate to homepage",
+          "assertions": []
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to https://www.coursera.org/about/partners and navigate to an 'About' or 'Partners' section of the website",
+          "assertions": [
+            {
+              "id": "partners_page_lists_institutions",
+              "description": "Verify that partners page displays a comprehensive list of educational and industry partners",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to https://www.coursera.org/partners/duke and select any available partner institution or organization from the list",
+          "assertions": [
+            {
+              "id": "selected_partner_showcases_programs",
+              "description": "Verify that selected partner's page showcases their associated programs and institutional profile",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Review the partner's dedicated page for information regarding their programs or profile",
+          "assertions": [
+            {
+              "id": "partner_page_clarifies_contribution",
+              "description": "Verify that partner page provides clear information about their contribution to Coursera's catalog",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 3
+    },
+    {
+      "filename": "flow_detailed_researcher_degrees.yaml",
+      "name": "flow_detailed_researcher_degrees",
+      "title": "Detailed Researcher: Investigate Online Degree Programs",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://coursera.org and navigate to homepage",
+          "assertions": []
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to https://www.coursera.org/degrees and click on the 'Online Degrees' navigation link",
+          "assertions": [
+            {
+              "id": "degrees_page_lists_programs",
+              "description": "Verify that online Degrees page displays a list of available degree programs from various partners",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to https://www.coursera.org/partners/illinois and select any available online degree program or a partner associated with degrees from the listings",
+          "assertions": [
+            {
+              "id": "partner_degree_details_displayed",
+              "description": "Verify that selected partner or degree program page presents specific offerings or institutional details",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Review the program's overview or its host institution's details",
+          "assertions": [
+            {
+              "id": "program_institution_value_proposition",
+              "description": "Verify that program or institution page clearly outlines the offerings and value proposition",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 3
+    },
+    {
+      "filename": "flow_mobile_rapid_topic_discovery.yaml",
+      "name": "flow_mobile_rapid_topic_discovery",
+      "title": "Mobile User: Rapid Topic-Based Course Discovery",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://coursera.org and navigate to homepage",
+          "assertions": []
+        },
+        {
+          "phase_number": 2,
+          "objective": "Navigate to https://www.coursera.org/explore/generative-ai and click on any prominent 'Explore' or 'Trending Topics' link (e.g., 'Generative AI')",
+          "assertions": [
+            {
+              "id": "topic_page_displays_relevant_content",
+              "description": "Verify that topic page displays a curated list of relevant courses and programs",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to https://www.coursera.org/learn/claude-code and select any listed course, specialization, or program from the topic page results",
+          "assertions": [
+            {
+              "id": "learning_item_overview_loads_details",
+              "description": "Verify that selected learning item's overview page loads with course details and enrollment options",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to View the overview page of the selected learning item to learn more",
+          "assertions": [
+            {
+              "id": "overview_page_presents_objectives",
+              "description": "Verify that learning item overview page clearly presents learning objectives and structure",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 3
+    }
+  ]
+}

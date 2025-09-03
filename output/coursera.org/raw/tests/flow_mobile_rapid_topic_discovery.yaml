@@ -1,0 +1,28 @@
+name: flow_mobile_rapid_topic_discovery
+qa_plan:
+  title: 'Mobile User: Rapid Topic-Based Course Discovery'
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://coursera.org and navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.coursera.org/explore/generative-ai and click
+      on any prominent 'Explore' or 'Trending Topics' link (e.g., 'Generative AI')
+    assertions:
+    - verificationId: topic_page_displays_relevant_content
+      description: Verify that topic page displays a curated list of relevant courses
+        and programs
+  - phaseNumber: 3
+    objective: Navigate to https://www.coursera.org/learn/claude-code and select any
+      listed course, specialization, or program from the topic page results
+    assertions:
+    - verificationId: learning_item_overview_loads_details
+      description: Verify that selected learning item's overview page loads with course
+        details and enrollment options
+  - phaseNumber: 4
+    objective: Navigate to View the overview page of the selected learning item to
+      learn more
+    assertions:
+    - verificationId: overview_page_presents_objectives
+      description: Verify that learning item overview page clearly presents learning
+        objectives and structure
