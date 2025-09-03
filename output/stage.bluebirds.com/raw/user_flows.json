@@ -1,111 +1,103 @@
 {
   "flows": [
     {
-      "id": "quick_signup",
-      "title": "Quick Decision Maker Signup",
-      "description": "User who already knows what they want and trusts the brand signs up immediately.",
+      "id": "flow_1",
+      "title": "Quick Service Inquiry",
+      "description": "A sales manager who quickly identifies a need for lead generation automation and wants to initiate contact or learn more immediately.",
       "page_sequence": [
-        "page_1",
-        "page_2"
+        "page_1"
       ],
       "user_goals": [
-        "Get fuel card quickly",
-        "Start application process"
+        "Initiate contact for Bluebirds service",
+        "Understand next steps for implementation"
       ],
       "browser_actions": [
-        "Navigate to https://www.atob.com and quickly scan the main headline and calls-to-action.",
-        "Locate and click the most prominent 'Get Started' or 'Apply Now' button on the homepage.",
-        "Arrive at the https://www.atob.com/get-started page.",
-        "Efficiently fill in all required fields on the 'Sign up form'.",
-        "Click the 'Submit Application' button to proceed."
+        "Navigate to https://stage.bluebirds.com/",
+        "Click the 'Get started' call-to-action button prominently displayed on the homepage."
       ]
     },
     {
-      "id": "product_research",
-      "title": "Detailed Product Feature Research",
-      "description": "User wants to understand the specific features, benefits, and mechanics of the fuel card before considering application.",
+      "id": "flow_2",
+      "title": "Customer Success and Case Study Review",
+      "description": "A sales operations lead or executive performing due diligence, seeking validation of Bluebirds' effectiveness through customer testimonials and case studies.",
       "page_sequence": [
         "page_1",
-        "page_3"
+        "page_4",
+        "https://stage.bluebirds.com/customers/intersystems"
       ],
       "user_goals": [
-        "Understand product features",
-        "Assess benefits and suitability",
-        "Gather detailed information"
+        "Find proof points and success stories from existing customers",
+        "Understand the impact of Bluebirds on other businesses"
       ],
       "browser_actions": [
-        "Navigate to https://www.atob.com and browse the initial information.",
-        "Look for a link like 'Learn More', 'Product Details', or 'Features' related to fuel cards.",
-        "Click the link to navigate to https://www.atob.com/product-fuel-cards.",
-        "Scroll through the 'Fuel card details' page, reading sections about benefits, features, and how it works.",
-        "Spend time examining specific details such as savings opportunities, network acceptance, and management tools."
+        "Navigate to https://stage.bluebirds.com/",
+        "Click 'Our Customers' link in the main navigation bar.",
+        "On the 'Customers' page, click the 'Read case study' button associated with 'InterSystems'."
       ]
     },
     {
-      "id": "price_comparison",
-      "title": "Price and Savings Comparison",
-      "description": "User is focused on understanding the cost structure, potential savings, and any associated fees to compare with competitors.",
-      "page_sequence": [
-        "page_1",
-        "page_3"
-      ],
-      "user_goals": [
-        "Find pricing information",
-        "Identify potential savings and discounts",
-        "Understand all fees",
-        "Compare value proposition"
-      ],
-      "browser_actions": [
-        "Navigate to https://www.atob.com.",
-        "Scan the homepage specifically for 'Pricing', 'Fees', or 'Savings' links or mentions.",
-        "If no direct link is found, click on 'Learn More' or 'Product Details' to go to https://www.atob.com/product-fuel-cards, assuming pricing information will be there.",
-        "On the 'Fuel card details' page, actively search and scroll for sections detailing transaction fees, monthly charges, fuel discounts, and other cost-related information.",
-        "May use browser's 'Find' function (Ctrl+F or Cmd+F) to search for keywords like 'fee', 'cost', 'discount', 'savings'."
-      ]
-    },
-    {
-      "id": "returning_visitor",
-      "title": "Returning Visitor Re-evaluation & Signup",
-      "description": "User previously visited, perhaps researched, and is now returning with an intent to move forward, re-confirming details before signing up.",
+      "id": "flow_3",
+      "title": "Company Background and Acquisition News Research",
+      "description": "A potential partner, investor, or a curious professional looking into the company's recent developments, funding, and strategic moves like the Salesforce acquisition.",
       "page_sequence": [
         "page_1",
         "page_3",
-        "page_2"
+        "https://stage.bluebirds.com/",
+        "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-bluebirds/"
       ],
       "user_goals": [
-        "Re-confirm product details",
-        "Verify decision to apply",
-        "Complete application"
+        "Understand the company's history and growth (e.g., funding rounds)",
+        "Learn more about the Salesforce acquisition and its implications"
       ],
       "browser_actions": [
-        "Navigate directly to https://www.atob.com, possibly from a bookmark or memory.",
-        "Click on the 'Product Details' or 'Learn More' link to revisit https://www.atob.com/product-fuel-cards and quickly re-scan key benefits or features.",
-        "Once confident, locate the 'Get Started' or 'Apply Now' button on the product page or navigate back to the home page to click it.",
-        "Arrive at the https://www.atob.com/get-started page.",
-        "Begin filling out the 'Sign up form', possibly recalling some previous information or having necessary documents ready."
+        "Navigate to https://stage.bluebirds.com/",
+        "Click 'Blog' link in the main navigation bar.",
+        "Read the blog post titled 'Bluebirds Raises $5M Seed Round Led by Lightspeed to fix outbound sales'.",
+        "Navigate back to the homepage (https://stage.bluebirds.com/).",
+        "Click the 'Learn more' link next to the 'Bluebirds is now part of Salesforce!' announcement."
       ]
     },
     {
-      "id": "mobile_user_on_the_go",
-      "title": "Mobile User Quick Scan & Get Started",
-      "description": "User accessing the website on a mobile device, likely on the go, needing to quickly grasp the offering and potentially initiate an application.",
+      "id": "flow_4",
+      "title": "Legal and Compliance Review",
+      "description": "An IT, legal, or procurement professional evaluating Bluebirds for compliance with data privacy, terms of service, and security standards before a potential partnership or purchase.",
       "page_sequence": [
         "page_1",
-        "page_3",
-        "page_2"
+        "https://stage.bluebirds.com/privacy-policy",
+        "https://stage.bluebirds.com/terms",
+        "https://app.vanta.com/bluebirds/trust"
       ],
       "user_goals": [
-        "Quickly understand offering on mobile",
-        "Access key details conveniently",
-        "Start application process via mobile"
+        "Review Privacy Policy for data handling practices",
+        "Understand Terms & Conditions for service usage",
+        "Check security and compliance certifications (e.g., Trust Center)"
       ],
       "browser_actions": [
-        "Access https://www.atob.com via a mobile browser (e.g., Chrome on Android, Safari on iOS).",
-        "Observe the mobile-responsive layout and scroll through the homepage, tapping on any interactive elements.",
-        "Tap the 'Learn More' or 'Product' link, potentially within a hamburger menu, to navigate to https://www.atob.com/product-fuel-cards.",
-        "Scroll through the 'Fuel card details' page, focusing on bullet points and headlines due to limited screen space.",
-        "Tap the 'Get Started' button or similar call-to-action to proceed to https://www.atob.com/get-started.",
-        "Attempt to fill out the 'Sign up form' on the mobile interface, using on-screen keyboard."
+        "Navigate to https://stage.bluebirds.com/",
+        "Scroll to the footer section of the page.",
+        "Click the 'Privacy Policy' link.",
+        "Navigate back to the homepage (https://stage.bluebirds.com/).",
+        "Scroll to the footer section of the page.",
+        "Click the 'Terms & Conditions' link.",
+        "Navigate back to the homepage (https://stage.bluebirds.com/).",
+        "Scroll to the footer section of the page.",
+        "Click the 'Trust Center' link."
+      ]
+    },
+    {
+      "id": "flow_5",
+      "title": "Returning User Login",
+      "description": "An existing Bluebirds customer who needs to log into their account to use the service or manage their settings.",
+      "page_sequence": [
+        "page_1"
+      ],
+      "user_goals": [
+        "Access their Bluebirds account dashboard",
+        "Continue using the Bluebirds service"
+      ],
+      "browser_actions": [
+        "Navigate to https://stage.bluebirds.com/",
+        "Click the 'Log in' link in the top right corner of the navigation bar."
       ]
     }
   ]

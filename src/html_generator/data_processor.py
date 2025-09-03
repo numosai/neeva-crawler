@@ -285,14 +285,14 @@ class DataProcessor:
     
     def process_sitemap_data(self) -> Dict[str, Any]:
         """Process sitemap data"""
-        sitemap_png = self.raw_dir / "sitemap.png"
+        sitemap_svg = self.raw_dir / "sitemap.svg"
         sitemap_txt = self.raw_dir / "sitemap.txt"
         flows_file = self.raw_dir / "flows.json"
         
         data = {
-            'has_visual': sitemap_png.exists(),
+            'has_visual': sitemap_svg.exists(),
             'has_text': sitemap_txt.exists(),
-            'visual_path': 'assets/sitemap.png' if sitemap_png.exists() else None,
+            'visual_path': 'assets/sitemap.svg' if sitemap_svg.exists() else None,
             'nodes': 0,
             'edges': 0
         }

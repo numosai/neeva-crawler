@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Analysis - Target : Expect More. Pay Less.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Inline CSS for better GitHub Pages compatibility */
+        /* Neeva-Crawler Analysis Dashboard Styles - Numos Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Numos-web color scheme */
+    --primary: #4A90E2;
+    --primary-dark: #357ABD;
+    --primary-light: #6BA3E9;
+    --background: #FAFBFC;
+    --foreground: #1A202C;
+    --card: #FFFFFF;
+    --border: #E2E8F0;
+    --muted: #F7FAFC;
+    --muted-foreground: #64748B;
+    --success: #10B981;
+    --destructive: #EF4444;
+    --warning: #F59E0B;
+    --accent: #8B5CF6;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    color: var(--foreground);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border: 1px solid var(--border);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 12px;
+    background: var(--muted);
+    border-radius: 6px;
+    color: var(--foreground);
+    font-weight: 500;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    color: var(--foreground);
+    margin-bottom: 32px;
+    padding: 24px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--foreground);
+}
+
+.header p {
+    font-size: 1.125rem;
+    color: var(--muted-foreground);
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+    display: flex;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.nav-tab {
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+    background: var(--card);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted-foreground);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid var(--border);
+}
+
+.nav-tab:last-child {
+    border-right: none;
+}
+
+.nav-tab:hover {
+    background: var(--muted);
+    color: var(--foreground);
+}
+
+.nav-tab.active {
+    background: var(--primary);
+    color: white;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.stat-card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.stat-card:hover, .clickable-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.clickable-card {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.clickable-card:hover .stat-value {
+    color: var(--primary);
+}
+
+.stat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: white;
+    background: var(--primary);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.stat-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* Content Sections */
+.content-section {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 16px;
+}
+
+.data-table th,
+.data-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+    background: var(--muted);
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.data-table td {
+    font-size: 0.875rem;
+    color: var(--foreground);
+}
+
+.data-table tr:hover td {
+    background: var(--muted);
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    display: inline-block;
+}
+
+.status-pass {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.status-fail {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.status-pending {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-high {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.priority-medium {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-low {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+/* Screenshot Gallery */
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.screenshot-item {
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.screenshot-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.screenshot-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+}
+
+.screenshot-info {
+    padding: 16px;
+}
+
+.screenshot-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.screenshot-meta {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+}
+
+/* Sitemap Styles */
+.sitemap-container {
+    background: var(--muted);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-help {
+    text-align: center;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    padding: 8px;
+    background: var(--card);
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-wrapper {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: grab;
+    position: relative;
+    background: white;
+}
+
+.sitemap-wrapper:active {
+    cursor: grabbing;
+}
+
+.sitemap-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+/* Charts and Metrics */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 16px 0;
+}
+
+.metric-item {
+    text-align: center;
+    padding: 20px;
+    background: var(--muted);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    line-height: 1.2;
+}
+
+.metric-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Issue Lists */
+.issue-list {
+    list-style: none;
+    margin: 16px 0;
+}
+
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background: var(--muted);
+    border-radius: 10px;
+    border-left: 4px solid var(--destructive);
+}
+
+.issue-item.severity-medium {
+    border-left-color: var(--warning);
+}
+
+.issue-item.severity-low {
+    border-left-color: var(--success);
+}
+
+.issue-icon {
+    color: var(--destructive);
+    margin-top: 2px;
+}
+
+.issue-content h4 {
+    margin-bottom: 4px;
+    color: var(--foreground);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.issue-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.issue-guideline {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+/* Test Phases */
+.test-phase {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.phase-header {
+    background: var(--muted);
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phase-title {
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.phase-content {
+    padding: 16px;
+    background: var(--card);
+}
+
+.assertion-list {
+    list-style: none;
+}
+
+.assertion-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.assertion-item:last-child {
+    border-bottom: none;
+}
+
+.assertion-id {
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    min-width: 150px;
+}
+
+.assertion-description {
+    flex: 1;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-tabs {
+        flex-direction: column;
+    }
+    
+    .nav-tab {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .nav-tab:last-child {
+        border-bottom: none;
+    }
+    
+    .header h1 {
+        font-size: 1.875rem;
+    }
+    
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
+}
+
+/* Lightbox for screenshots */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.lightbox-close:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Target : Expect More. Pay Less.</span>
+            </div>
+        </div>
+
+        <div class="header">
+            <h1><i class="fas fa-chart-line"></i> Target : Expect More. Pay Less. Analysis</h1>
+            <p>User experience analysis with actionable recommendations for improved usability</p>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="seo-analysis.html" class="nav-tab">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="accessibility.html" class="nav-tab">
+                <i class="fas fa-universal-access"></i> Accessibility
+            </a>
+            <a href="qa-tests.html" class="nav-tab">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="ux-analysis.html" class="nav-tab active">
+                <i class="fas fa-user-check"></i> UX Analysis
+            </a>
+            <a href="screenshots.html" class="nav-tab">
+                <i class="fas fa-images"></i> Screenshots
+            </a>
+        </div>
+
+        <main>
+            
+<!-- UX Summary Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">46</div>
+                <div class="stat-label">UX Issues</div>
+                <div class="card-description">User experience issues identified</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">216</div>
+                <div class="stat-label">Recommendations</div>
+                <div class="card-description">Actionable improvement suggestions</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">72</div>
+                <div class="stat-label">High Priority</div>
+                <div class="card-description">Critical improvements for immediate attention</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-flag"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">144</div>
+                <div class="stat-label">Lower Priority</div>
+                <div class="card-description">Medium and low priority enhancements</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-list"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Priority Breakdown -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-chart-pie"></i>
+        Recommendation Priority Breakdown
+    </h2>
+    <div class="metrics-grid">
+        <div class="metric-item">
+            <div class="metric-value" style="color: #e53e3e;">72</div>
+            <div class="metric-label">High Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value" style="color: #dd6b20;">72</div>
+            <div class="metric-label">Medium Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value" style="color: #38a169;">72</div>
+            <div class="metric-label">Low Priority</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">33.0%</div>
+            <div class="metric-label">Critical Focus</div>
+        </div>
+    </div>
+</div>
+
+<!-- UX Issues -->
+
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-bug"></i>
+        User Experience Issues
+    </h2>
+    <div class="section-description">
+        Issues that may negatively impact user experience and require attention.
+    </div>
+    
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Many benefits (5% discount, free 2-day shipping, extended returns, same-day delivery) are subject to various restrictions, exclusions, and eligibility criteria, which could lead to user confusion or disappointment.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The 5% Target Circle Card discount has a long list of exclusions, including prescriptions, gift cards, clinic services, and other specific items/services.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Free 2-day shipping eligibility varies by item, market, and destination ZIP code, and requires specific order cutoff times.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Extended returns do not apply to certain categories like Target Optical, non-returnable items, contract mobile phones, or online SNAP/EBT purchases.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Target Circle 360 monthly freebies are not available to trial members.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Target™ Mastercard® requires a minimum of $10 in rewards for redemption, and rewards are forfeited if the account is closed or more than one month past due.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The existence of multiple Target Circle Card types (debit, credit, Mastercard, reloadable) with slightly different features and benefits could be complex for users to navigate.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circle</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Rewards accumulate on the Target Circle Card account and not on the individual cards.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">If we determine there is fraud, misuse or abuse of the program, we may take away rewards; prevent you from redeeming rewards or earning additional rewards; deactivate any Target GiftCard reward; and/or suspend or close your Target Circle Card.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">If your Target Circle Card account is closed for any reason, you will have 135 days from the date the account was closed to redeem your available rewards, after which you will forfeit all accumulated, unredeemed rewards.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">You will not be able to redeem rewards if our records indicate that mail is undeliverable to the mailing address we have on file for your Target Circle Card.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">You will not be able to redeem rewards if your account is restricted or suspended, for example if your card is lost or we’re investigating fraud on your account.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">We are not responsible for lost or stolen Target GiftCards.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">We are not responsible if a Target GiftCard is not delivered to you.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Rewards are not your property and you have no property rights or other legal interest in the Rewards.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Rewards cannot be transferred, assigned, or pledged.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Rewards have no cash value.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">We are not responsible for disputes about this program or about the redemption of a Target GiftCard that you may have with a joint accountholder or an authorized user of your Target Circle Card account.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Target Corporation can discontinue or alter the terms of the program at any time.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Select items may require a minimum purchase threshold before the order will be shipped for free shipping.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Orders delivered by Shipt may have a delivery fee, even with a Target Circle Card.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The free shipping offer is not valid on previous orders or where otherwise prohibited by law.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Target Circle Rewards will expire after one year if you have not earned or redeemed any Target Circle Rewards for one year.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The 5% Target Circle Card discount does not apply to prescriptions, certain Target Optical services, various gift cards (Target, Visa, Mastercard, Amex, sports betting, Starbucks in-store), previous purchases, account payments, cash reloads/advances, Shipt/Target Circle 360 membership fees, alcohol in Indiana, wireless protection program purchases, gift wrapping, taxes, shipping, delivery, handling, and other fees.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The extended returns benefit (additional 30 days) does not apply to Target Optical purchases, non-returnable items, contract mobile phones, or online purchases of SNAP eligible items using both EBT and a Target Circle Card.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The Target Mastercard 1% and 2% reward program has specific merchant category code (MCC) requirements for gas and dining, and merchants not primarily selling automotive gasoline (e.g., truck stops, boat marinas) or food/beverages within larger establishments (e.g., theme parks, casinos) may not qualify for the higher reward rate.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Target Mastercard rewards are not earned on purchases at Target or Target.com (where the 5% discount applies instead), cash advances, ATM withdrawals, money orders, cash-like transactions, account fees, interest charges, unauthorized/fraudulent charges, or purchases/reloads of gift cards or prepaid cards.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The $50 offer for both credit and debit cards is redeemable through Target Circle and requires spending within the first 60 days following approval.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Free 2-day shipping is available on &#39;eligible items&#39; and requires placing the order by a specific cutoff time for select ZIP codes.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/circlecard</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The &#39;no price markups&#39; benefit for same-day delivery excludes select alcohol retailers and items.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Potential $300 savings are based on specific assumptions (two Same-day Delivery orders per month at $9.99 each, plus annual Shipt membership at $99 per year); actual savings will vary and depend upon shopping behavior.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Same-day delivery applies only to orders over $35.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Free 2-day shipping eligibility and assortment vary by market and are determined by the location of the item and the destination ZIP code. Orders must be placed by the order cutoff time to receive 2-day shipping on select items to select ZIP codes.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">For &#39;No Markups&#39;, product prices are generally the same as in-store, except for alcohol and non-alcohol items where alcohol is predominantly sold, where prices are generally not the same as in-store.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Pricing and availability are subject to change without notice, delays, data limitations, adjustments, and/or errors. In-store deals may not apply to online orders.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Extended returns do not apply to Target Optical purchases, non-returnable items, contract mobile phones, or online purchases of Supplemental Nutrition Assistance Program (SNAP) eligible items using Electronic Benefits Transfer (EBT), or both EBT and a Target Circle Card for payment.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Membership discounts (e.g., Target Circle Card, college student, government assistance) cannot be applied to previous purchases or combined with other promotions.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">For college student and government assistance monthly membership discounts, if status cannot be verified, the standard monthly subscription fee ($10.99/month) will be charged.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Gifting a one-year membership is subject to terms &amp; conditions.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">General offer details, restrictions, pricing, promotions, and availability may vary by location and at Target.com.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/l/target-circle-360/-/N-2rguk</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The provided URL content is a list of product categories and subcategories from a retail website (Target). It does not contain any information related to &#39;issues&#39; or &#39;recommendations&#39; in the context of problems, advice, or suggestions.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/store-locator/find-stores</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Redundant category listings (e.g., &#39;Baby&#39; appears as a sub-category and a main category), which can lead to a cluttered feel and potential user confusion.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Placeholder SVG images are used for &#39;Deals&#39;, &#39;Weekly Ad&#39;, and &#39;Clearance&#39; in the footer&#39;s &#39;Deals&#39; section, indicating a potential issue with image loading or a design choice that lacks visual appeal.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The &#39;Sponsored&#39; section is generic and only contains an email sign-up, which might be misleading if users expect sponsored product content.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">The &#39;New &amp; featured&#39; section is truncated with a &#39;Show 2 more&#39; link, potentially hiding relevant content from immediate view.</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true</code>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="issue-item">
+        <i class="fas fa-times-circle issue-icon"></i>
+        <div class="issue-content">
+            <h4>UX Issue</h4>
+            <div class="issue-description">Offers error icon: Oops - our bad!</div>
+            
+            <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                <strong style="color: #742a2a;">Page:</strong> 
+                <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true</code>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- UX Recommendations -->
+
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-lightbulb"></i>
+        UX Recommendations
+    </h2>
+    <div class="section-description">
+        Actionable recommendations to improve user experience.
+    </div>
+    
+    <!-- High Priority Recommendations -->
+    
+    
+    
+    <!-- Medium Priority Recommendations -->
+    
+    
+    
+    <!-- Low Priority Recommendations -->
+    
+    
+</div>
+
+
+
+        </main>
+    </div>
+
+    
+    
+    <script>
+        // Basic JavaScript for interactivity
+        function showTab(tabName, element) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            if (element) {
+                element.classList.add('active');
+            }
+        }
+
+        // Lightbox functionality for screenshots
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+            if (lightbox && lightboxImage) {
+                lightboxImage.src = imageSrc;
+                lightbox.classList.add('active');
+            }
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.classList.remove('active');
+            }
+        }
+
+        // Toggle collapsible sections
+        function toggleSection(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.toggle-icon');
+            
+            if (content.style.display === 'none' || !content.style.display) {
+                content.style.display = 'block';
+                if (icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+            } else {
+                content.style.display = 'none';
+                if (icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close lightbox on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                }
+            });
+
+            // Close lightbox on click outside image
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.addEventListener('click', function(e) {
+                    if (e.target === lightbox) {
+                        closeLightbox();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

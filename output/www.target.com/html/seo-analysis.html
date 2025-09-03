@@ -1,0 +1,2193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Analysis - Target : Expect More. Pay Less.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Inline CSS for better GitHub Pages compatibility */
+        /* Neeva-Crawler Analysis Dashboard Styles - Numos Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Numos-web color scheme */
+    --primary: #4A90E2;
+    --primary-dark: #357ABD;
+    --primary-light: #6BA3E9;
+    --background: #FAFBFC;
+    --foreground: #1A202C;
+    --card: #FFFFFF;
+    --border: #E2E8F0;
+    --muted: #F7FAFC;
+    --muted-foreground: #64748B;
+    --success: #10B981;
+    --destructive: #EF4444;
+    --warning: #F59E0B;
+    --accent: #8B5CF6;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    color: var(--foreground);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border: 1px solid var(--border);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 12px;
+    background: var(--muted);
+    border-radius: 6px;
+    color: var(--foreground);
+    font-weight: 500;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    color: var(--foreground);
+    margin-bottom: 32px;
+    padding: 24px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--foreground);
+}
+
+.header p {
+    font-size: 1.125rem;
+    color: var(--muted-foreground);
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+    display: flex;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.nav-tab {
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+    background: var(--card);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted-foreground);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid var(--border);
+}
+
+.nav-tab:last-child {
+    border-right: none;
+}
+
+.nav-tab:hover {
+    background: var(--muted);
+    color: var(--foreground);
+}
+
+.nav-tab.active {
+    background: var(--primary);
+    color: white;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.stat-card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.stat-card:hover, .clickable-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.clickable-card {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.clickable-card:hover .stat-value {
+    color: var(--primary);
+}
+
+.stat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: white;
+    background: var(--primary);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.stat-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* Content Sections */
+.content-section {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 16px;
+}
+
+.data-table th,
+.data-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+    background: var(--muted);
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.data-table td {
+    font-size: 0.875rem;
+    color: var(--foreground);
+}
+
+.data-table tr:hover td {
+    background: var(--muted);
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    display: inline-block;
+}
+
+.status-pass {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.status-fail {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.status-pending {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-high {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.priority-medium {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-low {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+/* Screenshot Gallery */
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.screenshot-item {
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.screenshot-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.screenshot-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+}
+
+.screenshot-info {
+    padding: 16px;
+}
+
+.screenshot-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.screenshot-meta {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+}
+
+/* Sitemap Styles */
+.sitemap-container {
+    background: var(--muted);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-help {
+    text-align: center;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    padding: 8px;
+    background: var(--card);
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-wrapper {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: grab;
+    position: relative;
+    background: white;
+}
+
+.sitemap-wrapper:active {
+    cursor: grabbing;
+}
+
+.sitemap-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+/* Charts and Metrics */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 16px 0;
+}
+
+.metric-item {
+    text-align: center;
+    padding: 20px;
+    background: var(--muted);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    line-height: 1.2;
+}
+
+.metric-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Issue Lists */
+.issue-list {
+    list-style: none;
+    margin: 16px 0;
+}
+
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background: var(--muted);
+    border-radius: 10px;
+    border-left: 4px solid var(--destructive);
+}
+
+.issue-item.severity-medium {
+    border-left-color: var(--warning);
+}
+
+.issue-item.severity-low {
+    border-left-color: var(--success);
+}
+
+.issue-icon {
+    color: var(--destructive);
+    margin-top: 2px;
+}
+
+.issue-content h4 {
+    margin-bottom: 4px;
+    color: var(--foreground);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.issue-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.issue-guideline {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+/* Test Phases */
+.test-phase {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.phase-header {
+    background: var(--muted);
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phase-title {
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.phase-content {
+    padding: 16px;
+    background: var(--card);
+}
+
+.assertion-list {
+    list-style: none;
+}
+
+.assertion-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.assertion-item:last-child {
+    border-bottom: none;
+}
+
+.assertion-id {
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    min-width: 150px;
+}
+
+.assertion-description {
+    flex: 1;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-tabs {
+        flex-direction: column;
+    }
+    
+    .nav-tab {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .nav-tab:last-child {
+        border-bottom: none;
+    }
+    
+    .header h1 {
+        font-size: 1.875rem;
+    }
+    
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
+}
+
+/* Lightbox for screenshots */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.lightbox-close:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+            <div class="breadcrumb">
+                <span class="breadcrumb-item">Target : Expect More. Pay Less.</span>
+            </div>
+        </div>
+
+        <div class="header">
+            <h1><i class="fas fa-chart-line"></i> Target : Expect More. Pay Less. Analysis</h1>
+            <p>Search engine optimization analysis with detailed insights and recommendations</p>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="seo-analysis.html" class="nav-tab active">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="accessibility.html" class="nav-tab">
+                <i class="fas fa-universal-access"></i> Accessibility
+            </a>
+            <a href="qa-tests.html" class="nav-tab">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="ux-analysis.html" class="nav-tab">
+                <i class="fas fa-user-check"></i> UX Analysis
+            </a>
+            <a href="screenshots.html" class="nav-tab">
+                <i class="fas fa-images"></i> Screenshots
+            </a>
+        </div>
+
+        <main>
+            
+<!-- SEO Summary Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">10</div>
+                <div class="stat-label">Pages Analyzed</div>
+                <div class="card-description">Total pages included in SEO analysis</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-globe"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">14</div>
+                <div class="stat-label">Issues Found</div>
+                <div class="card-description">SEO issues requiring attention</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">27</div>
+                <div class="stat-label">Avg Title Length</div>
+                <div class="card-description">Characters in title tags (optimal: 30-60)</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-heading"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">131</div>
+                <div class="stat-label">Avg Description Length</div>
+                <div class="card-description">Characters in meta descriptions (optimal: 120-160)</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-align-left"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page Analysis -->
+
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-search"></i>
+        Page-by-Page SEO Analysis
+    </h2>
+    
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target : Expect More. Pay Less. 
+                            (31 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today. 
+                            (150 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Homepage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>18 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (18 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Rep your team
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        FreshNFLlooks
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        NewNCAAstyles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Gearup towatch
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Shop allgame-daysupplies
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Autumn’s almost here
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Can’t-miss savings
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        5050% off
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Ready for the night
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Featured categories
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        The easiest wayto shop &amp; save
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/ - Score: 100%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target : Expect More. Pay Less. 
+                            (31 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today. 
+                            (150 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Homepage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>18 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+
+            <!-- Recommendations -->
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (18 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Rep your team
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        FreshNFLlooks
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        NewNCAAstyles
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Gearup towatch
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Shop allgame-daysupplies
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Autumn’s almost here
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Can’t-miss savings
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        5050% off
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Ready for the night
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Featured categories
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        The easiest wayto shop &amp; save
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/circle - Score: 80%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target Circle™ 
+                            (14 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Join Target Circle™ to get perks, deals &amp; a whole lot more every time you shop at Target. 
+                            (89 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Target Circle™</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>12 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (14 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too short (89 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand meta description to 120-160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (12 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Get a monthly freebie, on us!
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/circlecard - Score: 65%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target Circle™️ Card: Save 5% at Target 
+                            (39 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Save 5% every day at Target with the Target Circle™️ Card. Discover all the Target Circle™️ Card benefits and apply online today to save on your Target purchases. 
+                            (162 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Not found</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>10 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too long (162 chars)</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Missing H1 tag</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten meta description to under 160 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Add H1 tag for better content structure</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (10 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Instant extra 5%1offat checkout with any
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Different cards, same great benefits
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Find the card right for you
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Get more as a¬Circle Card holder
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Ready to start saving?
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Target Circle Card benefits &amp; program rules
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Additional information
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/l/target-circle-360/-/N-2rguk - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target Circle 360™ : Target 
+                            (27 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Join Target Circle 360™ for $99/year or $10.99/month &amp; get unlimited same-day delivery, free 2-day shipping no-rush returns &amp; access to Shipt Marketplace. 
+                            (154 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Target Circle 360™</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>15 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (27 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (15 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Members can save over$300/year1
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        NEW! Get same-day delivery from Target &amp; other stores — now without price markups*.
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        And the benefits don’t stop there…
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Get a monthly freebie, on us!
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Save even more on a membership
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        holders
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        college students6
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        govt. assistance recipients7
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Gift a one-year membership**for
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Explore
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/gift-registry - Score: 90%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Gift Registry &amp; Wish lists : Target 
+                            (35 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Create or find a wedding, baby, college, or housewarming registry or a wish list for any special occasion. Create a registry or wish list so your kids can get the fun holiday and birthday gifts they want. 
+                            (204 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Registry &amp; Wish List</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>9 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too long (204 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten meta description to under 160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (9 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Celebrate any milestone
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Create or manage your registry and wish list
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Find a registry or wish list
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Easy for everyone
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Download the Target App
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Registry &amp; Wish List help
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/weekly-ad - Score: 65%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Target Weekly Ad 
+                            (16 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Not found 
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Weekly Ad</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>3 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (16 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Missing meta description</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Add meta description tag for better search snippets</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (3 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/store-locator/find-stores - Score: 80%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Shop All Categories : Target 
+                            (28 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Shop Target online and in-store for everything you need, from groceries and essentials to clothing and electronics. 
+                            (115 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Shop All Categories</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>17 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (28 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too short (115 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand meta description to 120-160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (17 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Clothing, Shoes &amp; Accessories
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Home &amp; Patio
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Baby
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electronics
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        School &amp; Office
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Toys
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Sports, Fitness &amp; Outdoors
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Entertainment
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Beauty &amp; Personal Care
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Health
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Household Essentials
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Pets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Grocery
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Celebrations &amp; more
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Deals &amp; more
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Services
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true - Score: 80%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Shop All Categories : Target 
+                            (28 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Shop Target online and in-store for everything you need, from groceries and essentials to clothing and electronics. 
+                            (115 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Shop All Categories</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>19 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (28 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too short (115 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand meta description to 120-160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (19 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Clothing, Shoes &amp; Accessories
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Home &amp; Patio
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Baby
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Electronics
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        School &amp; Office
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Toys
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Sports, Fitness &amp; Outdoors
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Entertainment
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Beauty &amp; Personal Care
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Health
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Household Essentials
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Pets
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Grocery
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Celebrations &amp; more
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Deals &amp; more
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Services
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="test-phase">
+        <div class="phase-header" onclick="toggleSection(this)">
+            <div class="phase-title">
+                https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true - Score: 80%
+            </div>
+            <i class="fas fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="phase-content">
+            <!-- Page Details -->
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">Page Information</h4>
+                <table class="data-table">
+                    <tr>
+                        <td><strong>Title Tag</strong></td>
+                        <td>Top Deals at Target 
+                            (19 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meta Description</strong></td>
+                        <td>Shop Target&#39;s top deals for savings on toys, electronics, home decor and more. Shop seamlessly with order drive up, same day delivery &amp; free delivery with $35+ orders. 
+                            (167 chars)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>H1 Tag</strong></td>
+                        <td>Top Deals</td>
+                    </tr>
+                    <tr>
+                        <td><strong>H2 Elements</strong></td>
+                        <td>9 found</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Issues -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #e53e3e; margin-bottom: 0.5rem;">Issues Found</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Title too short (19 chars) - should be 30-60 characters</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item">
+                        <i class="fas fa-exclamation-circle issue-icon"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Meta description too long (167 chars)</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- Recommendations -->
+            
+            <div style="margin-bottom: 1.5rem;">
+                <h4 style="color: #38a169; margin-bottom: 0.5rem;">Recommendations</h4>
+                <ul class="issue-list">
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Expand title tag to be more descriptive</div>
+                        </div>
+                    </li>
+                    
+                    <li class="issue-item severity-low">
+                        <i class="fas fa-lightbulb issue-icon" style="color: #38a169;"></i>
+                        <div class="issue-content">
+                            <div class="issue-description">Shorten meta description to under 160 characters</div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+
+            <!-- H2 Elements -->
+            
+            <div>
+                <h4 style="color: #2d3748; margin-bottom: 0.5rem;">H2 Elements (9 found)</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem;">
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Want to save even more?
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Shop by category
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Featured deals
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Empty H2
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Shop more deals
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Oops - our bad!
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Footer
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Menu
+                    </div>
+                    
+                    <div style="background: #f7fafc; padding: 0.5rem; border-radius: 4px; font-size: 0.9rem;">
+                        Categories
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+        </main>
+    </div>
+
+    
+    
+    <script>
+        // Basic JavaScript for interactivity
+        function showTab(tabName, element) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            if (element) {
+                element.classList.add('active');
+            }
+        }
+
+        // Lightbox functionality for screenshots
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+            if (lightbox && lightboxImage) {
+                lightboxImage.src = imageSrc;
+                lightbox.classList.add('active');
+            }
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.classList.remove('active');
+            }
+        }
+
+        // Toggle collapsible sections
+        function toggleSection(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.toggle-icon');
+            
+            if (content.style.display === 'none' || !content.style.display) {
+                content.style.display = 'block';
+                if (icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+            } else {
+                content.style.display = 'none';
+                if (icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close lightbox on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                }
+            });
+
+            // Close lightbox on click outside image
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.addEventListener('click', function(e) {
+                    if (e.target === lightbox) {
+                        closeLightbox();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

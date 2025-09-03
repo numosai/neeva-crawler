@@ -1,0 +1,27 @@
+name: Customer Success and Case Study Review
+qa_plan:
+  title: Customer Success and Case Study Review
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://stage.bluebirds.com/
+    assertions:
+    - verificationId: flow_2_phase_1_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/
+  - phaseNumber: 2
+    objective: Click 'Our Customers' link in the main navigation bar.
+    assertions:
+    - verificationId: flow_2_phase_2_assertion_1
+      description: Verify that verify navigation to the 'Our Customers' page.
+    - verificationId: flow_2_phase_2_assertion_2
+      description: Verify that verify the 'InterSystems' customer entry is visible
+        on the page.
+  - phaseNumber: 3
+    objective: Navigate to On the 'Customers' page, click the 'Read case study' button
+      associated with 'InterSystems'.
+    assertions:
+    - verificationId: flow_2_phase_3_assertion_1
+      description: Verify that verify navigation to the 'InterSystems' specific case
+        study page.
+    - verificationId: flow_2_phase_3_assertion_2
+      description: Verify that verify the 'InterSystems' case study title or key content
+        is present.

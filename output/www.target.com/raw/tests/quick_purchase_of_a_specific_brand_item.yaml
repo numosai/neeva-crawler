@@ -1,0 +1,51 @@
+name: Quick Purchase of a Specific Brand Item
+qa_plan:
+  title: Quick Purchase of a Specific Brand Item
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com
+    assertions:
+    - verificationId: flow1_phase1_1
+      description: Verify that verify the current URL is 'https://www.target.com'.
+    - verificationId: flow1_phase1_2
+      description: 'Verify that verify the page title is ''Target : Expect More. Pay
+        Less.''.'
+  - phaseNumber: 2
+    objective: Type 'Stanley' into the search bar and press Enter.
+    assertions:
+    - verificationId: flow1_phase2_1
+      description: Verify that verify the URL contains 'searchTerm=Stanley'.
+    - verificationId: flow1_phase2_2
+      description: Verify that search results for 'Stanley' are displayed on the page.
+  - phaseNumber: 3
+    objective: Click on the 'Stanley' brand link from search results, leading to https://www.target.com/b/stanley/-/N-5vhrz.
+    assertions:
+    - verificationId: flow1_phase3_1
+      description: Verify that verify the current URL is 'https://www.target.com/b/stanley/-/N-5vhrz'.
+    - verificationId: flow1_phase3_2
+      description: Verify that verify the page heading or title confirms it's the
+        'Stanley' brand page.
+  - phaseNumber: 4
+    objective: Navigate to On the Stanley brand page, click on a specific product
+      listing (e.g., 'Stanley Quencher FlowState Tumbler') to view its detail page.
+    assertions:
+    - verificationId: flow1_phase4_1
+      description: Verify that verify the current URL is a product detail page (e.g.,
+        'https://www.target.com/p/...' or similar structure).
+    - verificationId: flow1_phase4_2
+      description: Verify that product-specific details (name, price, description)
+        are displayed.
+  - phaseNumber: 5
+    objective: Click the 'Add to Cart' button on the product detail page.
+    assertions:
+    - verificationId: flow1_phase5_1
+      description: Verify that verify a confirmation message or visual indicator (e.g.,
+        mini-cart update) shows the item has been added to cart.
+  - phaseNumber: 6
+    objective: Click the 'View Cart' or 'Go to Cart' button to proceed to https://www.target.com/cart?prehydrateclick=true.
+    assertions:
+    - verificationId: flow1_phase6_1
+      description: Verify that verify the current URL is 'https://www.target.com/cart?prehydrateclick=true'.
+    - verificationId: flow1_phase6_2
+      description: Verify that verify the previously added item is present in the
+        shopping cart.

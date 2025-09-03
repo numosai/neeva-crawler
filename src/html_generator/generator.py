@@ -136,9 +136,9 @@ class HTMLGenerator:
             print(f"📸 Copied {len(list(screenshots_src.glob('*.jpg')))} screenshots")
         
         # Copy sitemap image if it exists
-        sitemap_src = self.raw_dir / "sitemap.png"
+        sitemap_src = self.raw_dir / "sitemap.svg"
         if sitemap_src.exists():
-            shutil.copy2(sitemap_src, assets_dir / "sitemap.png")
+            shutil.copy2(sitemap_src, assets_dir / "sitemap.svg")
             print("🗺️ Copied sitemap visualization")
         
         # Copy any other assets that might be useful
@@ -246,7 +246,7 @@ This website works with any static hosting service including:
 ├── screenshots.html       # Visual gallery
 ├── assets/
 │   ├── screenshots/       # Page screenshots
-│   ├── sitemap.png       # Site structure visualization
+│   ├── sitemap.svg       # Site structure visualization
 │   └── data/             # Raw analysis data
 └── README.md             # This file
 ```

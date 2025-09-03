@@ -1,0 +1,61 @@
+name: Legal and Compliance Review
+qa_plan:
+  title: Legal and Compliance Review
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://stage.bluebirds.com/
+    assertions:
+    - verificationId: flow_4_phase_1_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/
+  - phaseNumber: 2
+    objective: Scroll to the footer section of the page.
+    assertions:
+    - verificationId: flow_4_phase_2_assertion_1
+      description: Verify that verify the footer section, containing legal links,
+        is visible in the viewport.
+  - phaseNumber: 3
+    objective: Click the 'Privacy Policy' link.
+    assertions:
+    - verificationId: flow_4_phase_3_assertion_1
+      description: Verify that verify navigation to the Privacy Policy page.
+    - verificationId: flow_4_phase_3_assertion_2
+      description: Verify that verify the presence of Privacy Policy related content
+        or title on the page.
+  - phaseNumber: 4
+    objective: Navigate back to the homepage (https://stage.bluebirds.com/).
+    assertions:
+    - verificationId: flow_4_phase_4_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/.
+  - phaseNumber: 5
+    objective: Scroll to the footer section of the page.
+    assertions:
+    - verificationId: flow_4_phase_5_assertion_1
+      description: Verify that verify the footer section, containing legal links,
+        is visible in the viewport.
+  - phaseNumber: 6
+    objective: Click the 'Terms & Conditions' link.
+    assertions:
+    - verificationId: flow_4_phase_6_assertion_1
+      description: Verify that verify navigation to the Terms & Conditions page.
+    - verificationId: flow_4_phase_6_assertion_2
+      description: Verify that verify the presence of Terms & Conditions related content
+        or title on the page.
+  - phaseNumber: 7
+    objective: Navigate back to the homepage (https://stage.bluebirds.com/).
+    assertions:
+    - verificationId: flow_4_phase_7_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/.
+  - phaseNumber: 8
+    objective: Scroll to the footer section of the page.
+    assertions:
+    - verificationId: flow_4_phase_8_assertion_1
+      description: Verify that verify the footer section, containing legal links,
+        is visible in the viewport.
+  - phaseNumber: 9
+    objective: Click the 'Trust Center' link.
+    assertions:
+    - verificationId: flow_4_phase_9_assertion_1
+      description: Verify that verify navigation to the Trust Center page (expected
+        to be external, e.g., Vanta).
+    - verificationId: flow_4_phase_9_assertion_2
+      description: Verify that verify the page contains security or compliance information.

@@ -63,9 +63,22 @@ uv run python main.py https://example.com --git-push
 uv run python main.py https://example.com --model gemini/gemini-1.5-pro
 
 # Individual analysis modes
-uv run python main.py https://example.com --html-only
+uv run python main.py https://example.com --html-only  # Regenerate HTML from existing data
 uv run python main.py https://example.com --qa-only
-uv run python main.py https://example.com --accessibility-only
+uv run python main.py https://example.com --sitemap-only  # Regenerate sitemap only
+
+# Note: Always use full URL with protocol (https://) even when regenerating HTML
+```
+
+**Viewing HTML Reports Locally:**
+```bash
+# The HTML reports use JavaScript and require a web server to work properly
+# To view locally without CORS issues:
+cd output/example.com/html
+uv run python -m http.server 9999
+
+# Then open: http://localhost:9999
+# This enables interactive features like zoom/pan on the sitemap
 ```
 
 ## Output Structure
@@ -89,7 +102,7 @@ output/example.com/
     ├── seo.json                # SEO metadata
     ├── ux.json                 # UX recommendations
     ├── flows.json              # Site navigation graph
-    └── sitemap.png             # Visual site map
+    └── sitemap.svg             # Interactive visual site map
 ```
 
 ## Configuration
@@ -104,9 +117,9 @@ python main.py <url> [options]
 Options:
   --model MODEL           LLM model (default: gemini/gemini-2.5-flash)
   --git-push             Auto commit and push results
-  --html-only            Generate HTML from existing data
+  --html-only            Regenerate HTML from existing data (use full URL with https://)
   --qa-only              Run QA analysis only
-  --accessibility-only   Run accessibility analysis only
+  --sitemap-only         Regenerate sitemap from existing data
   --seo-only             Run SEO analysis only
 ```
 

@@ -27,23 +27,52 @@ class SitemapAnalyzer:
             bool: True if successful, False otherwise
         """
         try:
+            # Validate inputs
+            if not isinstance(flows_data, dict):
+                print("❌ flows_data must be a dictionary")
+                return False
+                
+            if not isinstance(crawled_pages, list):
+                print("❌ crawled_pages must be a list")
+                return False
+            
             # Create NetworkX graph from flow data
             graph = nx.DiGraph()
             url_titles = {}
             
             # Add nodes from flow data
-            for node_id, node_data in flows_data.get("nodes", []):
-                if isinstance(node_data, dict) and 'url' in node_data:
+            nodes_data = flows_data.get("nodes", [])
+            if not nodes_data:
+                print("⚠️  No nodes found in flows data")
+                return False
+            
+            print(f"📊 Processing {len(nodes_data)} nodes from flows data")
+                
+            for node_item in nodes_data:
+                if not isinstance(node_item, (list, tuple)) or len(node_item) < 2:
+                    continue
+                    
+                node_id, node_data = node_item[0], node_item[1]
+                if isinstance(node_data, dict) and node_data and 'url' in node_data:
                     url = node_data['url']
-                    title = node_data.get('title', urlparse(url).path)
+                    title = node_data.get('title', urlparse(url).path) or urlparse(url).path or 'Unknown'
                     url_titles[url] = title[:50]  # Truncate long titles
                     graph.add_node(url, title=title, node_id=node_id)
             
             # Add edges from flow data
-            for edge in flows_data.get("edges", []):
+            edges_data = flows_data.get("edges", [])
+            print(f"🔗 Processing {len(edges_data)} edges from flows data")
+            
+            for edge in edges_data:
+                if not isinstance(edge, dict):
+                    continue
+                    
                 # Convert page node IDs back to URLs if needed
                 from_node = edge.get("from")
                 to_node = edge.get("to")
+                
+                if not from_node or not to_node:
+                    continue
                 
                 # Find URLs for page nodes
                 from_url = from_node
@@ -51,7 +80,7 @@ class SitemapAnalyzer:
                 
                 # If these are page node IDs, find corresponding URLs
                 if isinstance(from_node, str) and from_node.startswith("page_"):
-                    from_url = self._find_url_for_page_node(from_node, flows_data.get("nodes", []))
+                    from_url = self._find_url_for_page_node(from_node, nodes_data)
                 if isinstance(to_node, str) and not to_node.startswith("http"):
                     to_url = to_node  # Assume it's already a URL
                 
@@ -71,22 +100,59 @@ class SitemapAnalyzer:
             return True
             
         except Exception as e:
+            import traceback
             print(f"❌ Error generating sitemap: {e}")
+            print(f"Full traceback: {traceback.format_exc()}")
             return False
     
     def _find_url_for_page_node(self, page_node: str, nodes: list) -> str:
         """Find URL for a given page node ID"""
-        for node_id, node_data in nodes:
-            if node_id == page_node and isinstance(node_data, dict):
+        if not nodes:
+            return ''
+            
+        for node_item in nodes:
+            if not isinstance(node_item, (list, tuple)) or len(node_item) < 2:
+                continue
+                
+            node_id, node_data = node_item[0], node_item[1]
+            if node_id == page_node and isinstance(node_data, dict) and node_data:
                 return node_data.get('url', '')
         return ''
     
     def _create_visual_sitemap(self, graph: nx.DiGraph, output_dir: Path) -> None:
         """Create visual PNG sitemap"""
-        plt.figure(figsize=(15, 10))
+        original_size = len(graph.nodes())
+        
+        if original_size > 50:
+            print(f"📊 Large sitemap ({original_size} nodes) - creating simplified view")
+            # Create subgraph with only high-importance nodes
+            important_nodes = []
+            for node in graph.nodes():
+                in_degree = graph.in_degree(node)
+                out_degree = graph.out_degree(node)
+                # Include nodes that are major hubs (high connectivity)
+                if in_degree >= 5 or out_degree >= 15:
+                    important_nodes.append(node)
+            
+            # If we filtered too aggressively, use top nodes by degree
+            if len(important_nodes) < 15:
+                all_nodes_by_degree = sorted(graph.nodes(), 
+                    key=lambda n: graph.in_degree(n) + graph.out_degree(n), 
+                    reverse=True)
+                important_nodes = all_nodes_by_degree[:20]
+            elif len(important_nodes) > 30:
+                # Sort by total degree and take top 30
+                important_nodes = sorted(important_nodes, 
+                    key=lambda n: graph.in_degree(n) + graph.out_degree(n), 
+                    reverse=True)[:30]
+            
+            graph = graph.subgraph(important_nodes)
+            print(f"📊 Simplified to {len(graph.nodes())} key nodes")
+        
+        plt.figure(figsize=(20, 15))
         
         # Use spring layout for better visualization
-        pos = nx.spring_layout(graph, k=2, iterations=50, seed=42)
+        pos = nx.spring_layout(graph, k=3, iterations=100, seed=42)
         
         # Draw nodes
         nx.draw_networkx_nodes(graph, pos, 
@@ -117,9 +183,9 @@ class SitemapAnalyzer:
         plt.axis('off')
         plt.tight_layout()
         
-        # Save the visual sitemap
-        sitemap_path = output_dir / 'sitemap.png'
-        plt.savefig(sitemap_path, dpi=300, bbox_inches='tight', 
+        # Save as SVG for better interactivity and scalability
+        sitemap_path = output_dir / 'sitemap.svg'
+        plt.savefig(sitemap_path, format='svg', bbox_inches='tight', 
                    facecolor='white', edgecolor='none')
         plt.close()  # Close to free memory
         
@@ -141,6 +207,9 @@ class SitemapAnalyzer:
             f.write("-" * 30 + "\n\n")
             
             for i, page in enumerate(crawled_pages, 1):
+                if not isinstance(page, dict):
+                    continue
+                    
                 url = page.get('url', 'Unknown URL')
                 title = page.get('title', 'No title')
                 page_id = page.get('id', f'page_{i}')
@@ -231,7 +300,13 @@ class SitemapAnalyzer:
             
             # Reconstruct crawled pages from flow data
             crawled_pages = []
-            for node_id, node_data in flows_data.get("nodes", []):
+            nodes_data = flows_data.get("nodes", [])
+            
+            for node_item in nodes_data:
+                if not isinstance(node_item, (list, tuple)) or len(node_item) < 2:
+                    continue
+                    
+                node_id, node_data = node_item[0], node_item[1]
                 if isinstance(node_data, dict) and isinstance(node_id, str) and node_id.startswith("page_"):
                     crawled_pages.append({
                         "id": node_id,

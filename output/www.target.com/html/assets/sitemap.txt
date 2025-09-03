@@ -1,0 +1,26 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 0
+Total Unique URLs: 253
+Total Links: 784
+
+PAGE DETAILS
+------------------------------
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  N-5xsxf: 163 outgoing links
+  find-stores: 148 outgoing links
+  circle: 71 outgoing links
+  homepage: 66 outgoing links
+  homepage: 66 outgoing links
+
+Most Referenced Pages (most incoming links):
+  homepage: 10 incoming links
+  circle: 10 incoming links
+  circlecard: 10 incoming links
+  N-2rguk: 10 incoming links
+  gift-registry: 10 incoming links

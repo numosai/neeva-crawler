@@ -1,0 +1,16 @@
+name: Quick Service Inquiry
+qa_plan:
+  title: Quick Service Inquiry
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://stage.bluebirds.com/
+    assertions:
+    - verificationId: flow_1_phase_1_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/
+  - phaseNumber: 2
+    objective: Click the 'Get started' call-to-action button prominently displayed
+      on the homepage.
+    assertions:
+    - verificationId: flow_1_phase_2_assertion_1
+      description: Verify that a contact or inquiry form/page is displayed after clicking
+        'Get started'.

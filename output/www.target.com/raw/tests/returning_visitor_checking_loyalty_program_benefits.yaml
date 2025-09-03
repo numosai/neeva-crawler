@@ -1,0 +1,44 @@
+name: Returning Visitor Checking Loyalty Program Benefits
+qa_plan:
+  title: Returning Visitor Checking Loyalty Program Benefits
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com
+    assertions:
+    - verificationId: flow4_phase1_1
+      description: Verify that verify the current URL is 'https://www.target.com'.
+    - verificationId: flow4_phase1_2
+      description: 'Verify that verify the page title is ''Target : Expect More. Pay
+        Less.''.'
+  - phaseNumber: 2
+    objective: "Click on the 'Target Circle\u2122' link in the top header navigation\
+      \ (https://www.target.com/circle)."
+    assertions:
+    - verificationId: flow4_phase2_1
+      description: Verify that verify the current URL is 'https://www.target.com/circle'.
+    - verificationId: flow4_phase2_2
+      description: Verify that verify the page heading or title confirms it's the
+        'Target Circle' landing page.
+  - phaseNumber: 3
+    objective: Navigate to Read the overview and benefits described on the Target
+      Circle landing page.
+    assertions:
+    - verificationId: flow4_phase3_1
+      description: Verify that key Target Circle benefits (e.g., 'Earn 1% on every
+        Target run') are visible on the page.
+  - phaseNumber: 4
+    objective: "Navigate to Locate and click on the 'Target Circle\u2122 Card' link\
+      \ (https://www.target.com/circlecard) to learn about additional card-specific\
+      \ benefits."
+    assertions:
+    - verificationId: flow4_phase4_1
+      description: Verify that verify the current URL is 'https://www.target.com/circlecard'.
+    - verificationId: flow4_phase4_2
+      description: Verify that verify the page heading or title confirms it's the
+        'Target Circle Card' details page.
+  - phaseNumber: 5
+    objective: Navigate to Review the details of the Target Circle Card program.
+    assertions:
+    - verificationId: flow4_phase5_1
+      description: Verify that specific Target Circle Card benefits (e.g., '5% off
+        every day') are prominently displayed.

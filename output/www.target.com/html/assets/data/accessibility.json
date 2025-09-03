@@ -1,0 +1,460 @@
+{
+  "issues": [
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [],
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/gift-registry"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/gift-registry"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/weekly-ad"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/weekly-ad"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/store-locator/find-stores"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/store-locator/find-stores"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
+    },
+    {
+      "type": "Unlabeled Buttons",
+      "severity": "high",
+      "description": "1 buttons without accessible labels",
+      "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+      "count": 1,
+      "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.target.com",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com"
+        }
+      ],
+      "score": 70,
+      "total_images": 59,
+      "total_links": 86,
+      "total_buttons": 22
+    },
+    {
+      "url": "https://www.target.com/",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/"
+        }
+      ],
+      "score": 70,
+      "total_images": 59,
+      "total_links": 86,
+      "total_buttons": 22
+    },
+    {
+      "url": "https://www.target.com/circle",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/circle"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.target.com/circle"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/circle"
+        }
+      ],
+      "score": 60,
+      "total_images": 80,
+      "total_links": 118,
+      "total_buttons": 20
+    },
+    {
+      "url": "https://www.target.com/circlecard",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/circlecard"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/circlecard"
+        }
+      ],
+      "score": 70,
+      "total_images": 34,
+      "total_links": 109,
+      "total_buttons": 22
+    },
+    {
+      "url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [],
+          "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+        }
+      ],
+      "score": 60,
+      "total_images": 43,
+      "total_links": 111,
+      "total_buttons": 14
+    },
+    {
+      "url": "https://www.target.com/gift-registry",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/gift-registry"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/gift-registry"
+        }
+      ],
+      "score": 70,
+      "total_images": 35,
+      "total_links": 54,
+      "total_buttons": 23
+    },
+    {
+      "url": "https://www.target.com/weekly-ad",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/weekly-ad"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/weekly-ad"
+        }
+      ],
+      "score": 70,
+      "total_images": 57,
+      "total_links": 99,
+      "total_buttons": 78
+    },
+    {
+      "url": "https://www.target.com/store-locator/find-stores",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/store-locator/find-stores"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/store-locator/find-stores"
+        }
+      ],
+      "score": 70,
+      "total_images": 134,
+      "total_links": 154,
+      "total_buttons": 37
+    },
+    {
+      "url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
+        }
+      ],
+      "score": 70,
+      "total_images": 155,
+      "total_links": 183,
+      "total_buttons": 41
+    },
+    {
+      "url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+      "issues": [
+        {
+          "type": "Unlabeled Buttons",
+          "severity": "high",
+          "description": "1 buttons without accessible labels",
+          "wcag_guideline": "WCAG 2.1 AA - 4.1.2 Name, Role, Value",
+          "count": 1,
+          "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true"
+        }
+      ],
+      "score": 70,
+      "total_images": 48,
+      "total_links": 75,
+      "total_buttons": 14
+    }
+  ],
+  "summary": {
+    "total_issues": 22,
+    "score": 68.0,
+    "total_images": 704,
+    "total_links": 1075,
+    "total_buttons": 293,
+    "total_pages": 10
+  }
+}

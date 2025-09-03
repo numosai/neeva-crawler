@@ -92,8 +92,91 @@
         Visual representation of the website structure showing page relationships and internal linking structure.
     </div>
     <div class="sitemap-container">
-        <img src="assets/sitemap.png" alt="Website Sitemap - Visual representation showing page relationships and internal linking structure" class="sitemap-image">
+        <div class="sitemap-help">
+            Click and drag to pan • Mouse wheel to zoom
+        </div>
+        <div id="sitemap-wrapper" class="sitemap-wrapper">
+            <div id="sitemap-svg" class="sitemap-image">
+                <!-- SVG content will be loaded here -->
+            </div>
+        </div>
     </div>
+    
+    <script>
+        let currentScale = 1;
+        let currentX = 0;
+        let currentY = 0;
+        let isDragging = false;
+        let dragStart = { x: 0, y: 0 };
+        
+        const wrapper = document.getElementById('sitemap-wrapper');
+        const sitemapContainer = document.getElementById('sitemap-svg');
+        
+        // Load SVG content directly
+        fetch('assets/sitemap.svg')
+            .then(response => response.text())
+            .then(svgText => {
+                sitemapContainer.innerHTML = svgText;
+                const svgElement = sitemapContainer.querySelector('svg');
+                if (svgElement) {
+                    svgElement.style.width = '100%';
+                    svgElement.style.height = '100%';
+                }
+            })
+            .catch(error => {
+                sitemapContainer.innerHTML = '<p>Unable to load sitemap</p>';
+            });
+        
+        function updateTransform() {
+            const svgElement = sitemapContainer.querySelector('svg');
+            if (svgElement) {
+                svgElement.style.transform = `scale(${currentScale}) translate(${currentX/currentScale}px, ${currentY/currentScale}px)`;
+            }
+        }
+        
+        // Mouse wheel zoom
+        wrapper.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const rect = wrapper.getBoundingClientRect();
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+            
+            const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
+            const newScale = currentScale * zoomFactor;
+            
+            // Zoom towards mouse position
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+            
+            currentX += (mouseX - centerX) * (1 - zoomFactor);
+            currentY += (mouseY - centerY) * (1 - zoomFactor);
+            currentScale = newScale;
+            
+            updateTransform();
+        });
+        
+        // Pan with mouse drag
+        wrapper.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            dragStart.x = e.clientX - currentX;
+            dragStart.y = e.clientY - currentY;
+            wrapper.style.cursor = 'grabbing';
+            e.preventDefault();
+        });
+        
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                currentX = e.clientX - dragStart.x;
+                currentY = e.clientY - dragStart.y;
+                updateTransform();
+            }
+        });
+        
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+            wrapper.style.cursor = 'grab';
+        });
+    </script>
 </div>
 
 {% endblock %}

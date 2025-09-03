@@ -1,0 +1,305 @@
+{
+  "pages": [
+    {
+      "url": "https://www.target.com",
+      "title": "Target : Expect More. Pay Less.",
+      "description": "Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today.",
+      "h1": "Homepage",
+      "h2_elements": [
+        "Rep your team",
+        "FreshNFLlooks",
+        "NewNCAAstyles",
+        "Gearup towatch",
+        "Shop allgame-daysupplies",
+        "",
+        "Autumn\u2019s almost here",
+        "",
+        "Can\u2019t-miss savings",
+        "50\ue01750% off",
+        "Ready for the night",
+        "",
+        "",
+        "Featured categories",
+        "The easiest wayto shop & save",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 18,
+      "issues": [],
+      "recommendations": [],
+      "score": 100
+    },
+    {
+      "url": "https://www.target.com/",
+      "title": "Target : Expect More. Pay Less.",
+      "description": "Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today.",
+      "h1": "Homepage",
+      "h2_elements": [
+        "Rep your team",
+        "FreshNFLlooks",
+        "NewNCAAstyles",
+        "Gearup towatch",
+        "Shop allgame-daysupplies",
+        "",
+        "Autumn\u2019s almost here",
+        "",
+        "Can\u2019t-miss savings",
+        "50\ue01750% off",
+        "Ready for the night",
+        "",
+        "",
+        "Featured categories",
+        "The easiest wayto shop & save",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 18,
+      "issues": [],
+      "recommendations": [],
+      "score": 100
+    },
+    {
+      "url": "https://www.target.com/circle",
+      "title": "Target Circle\u2122",
+      "description": "Join Target Circle\u2122 to get perks, deals & a whole lot more every time you shop at Target.",
+      "h1": "Target Circle\u2122",
+      "h2_elements": [
+        "",
+        "",
+        "",
+        "Get a monthly freebie, on us!",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 12,
+      "issues": [
+        "Title too short (14 chars) - should be 30-60 characters",
+        "Meta description too short (89 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters"
+      ],
+      "score": 80
+    },
+    {
+      "url": "https://www.target.com/circlecard",
+      "title": "Target Circle\u2122\ufe0f Card: Save 5% at Target",
+      "description": "Save 5% every day at Target with the Target Circle\u2122\ufe0f Card. Discover all the Target Circle\u2122\ufe0f Card benefits and apply online today to save on your Target purchases.",
+      "h1": "",
+      "h2_elements": [
+        "Instant extra 5%1offat checkout with any",
+        "Different cards, same great benefits",
+        "Find the card right for you",
+        "Get more as a\u00acCircle Card holder",
+        "Ready to start saving?",
+        "Target Circle Card benefits & program rules",
+        "Additional information",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 10,
+      "issues": [
+        "Meta description too long (162 chars)",
+        "Missing H1 tag"
+      ],
+      "recommendations": [
+        "Shorten meta description to under 160 characters",
+        "Add H1 tag for better content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
+      "title": "Target Circle 360\u2122 : Target",
+      "description": "Join Target Circle 360\u2122 for $99/year or $10.99/month & get unlimited same-day delivery, free 2-day shipping no-rush returns & access to Shipt Marketplace.",
+      "h1": "Target Circle 360\u2122",
+      "h2_elements": [
+        "Members can save over$300/year1",
+        "NEW! Get same-day delivery from Target & other stores \u2014 now without price markups*.",
+        "And the benefits don\u2019t stop there\u2026",
+        "Get a monthly freebie, on us!",
+        "",
+        "",
+        "Save even more on a membership",
+        "holders",
+        "college students6",
+        "govt. assistance recipients7",
+        "Gift a one-year membership**for",
+        "Explore",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 15,
+      "issues": [
+        "Title too short (27 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.target.com/gift-registry",
+      "title": "Gift Registry & Wish lists : Target",
+      "description": "Create or find a wedding, baby, college, or housewarming registry or a wish list for any special occasion. Create a registry or wish list so your kids can get the fun holiday and birthday gifts they want.",
+      "h1": "Registry & Wish List",
+      "h2_elements": [
+        "Celebrate any milestone",
+        "Create or manage your registry and wish list",
+        "Find a registry or wish list",
+        "Easy for everyone",
+        "Download the Target App",
+        "Registry & Wish List help",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 9,
+      "issues": [
+        "Meta description too long (204 chars)"
+      ],
+      "recommendations": [
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://www.target.com/weekly-ad",
+      "title": "Target Weekly Ad",
+      "description": "",
+      "h1": "Weekly Ad",
+      "h2_elements": [
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 3,
+      "issues": [
+        "Title too short (16 chars) - should be 30-60 characters",
+        "Missing meta description"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://www.target.com/store-locator/find-stores",
+      "title": "Shop All Categories : Target",
+      "description": "Shop Target online and in-store for everything you need, from groceries and essentials to clothing and electronics.",
+      "h1": "Shop All Categories",
+      "h2_elements": [
+        "Clothing, Shoes & Accessories",
+        "Home & Patio",
+        "Baby",
+        "Electronics",
+        "School & Office",
+        "Toys",
+        "Sports, Fitness & Outdoors",
+        "Entertainment",
+        "Beauty & Personal Care",
+        "Health",
+        "Household Essentials",
+        "Pets",
+        "Grocery",
+        "Celebrations & more",
+        "Deals & more",
+        "Services",
+        "Footer"
+      ],
+      "h2_count": 17,
+      "issues": [
+        "Title too short (28 chars) - should be 30-60 characters",
+        "Meta description too short (115 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters"
+      ],
+      "score": 80
+    },
+    {
+      "url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
+      "title": "Shop All Categories : Target",
+      "description": "Shop Target online and in-store for everything you need, from groceries and essentials to clothing and electronics.",
+      "h1": "Shop All Categories",
+      "h2_elements": [
+        "Clothing, Shoes & Accessories",
+        "Home & Patio",
+        "Baby",
+        "Electronics",
+        "School & Office",
+        "Toys",
+        "Sports, Fitness & Outdoors",
+        "Entertainment",
+        "Beauty & Personal Care",
+        "Health",
+        "Household Essentials",
+        "Pets",
+        "Grocery",
+        "Celebrations & more",
+        "Deals & more",
+        "Services",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 19,
+      "issues": [
+        "Title too short (28 chars) - should be 30-60 characters",
+        "Meta description too short (115 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters"
+      ],
+      "score": 80
+    },
+    {
+      "url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+      "title": "Top Deals at Target",
+      "description": "Shop Target's top deals for savings on toys, electronics, home decor and more. Shop seamlessly with order drive up, same day delivery & free delivery with $35+ orders.",
+      "h1": "Top Deals",
+      "h2_elements": [
+        "Want to save even more?",
+        "Shop by category",
+        "Featured deals",
+        "",
+        "Shop more deals",
+        "Oops - our bad!",
+        "Footer",
+        "Menu",
+        "Categories"
+      ],
+      "h2_count": 9,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "Meta description too long (167 chars)"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Shorten meta description to under 160 characters"
+      ],
+      "score": 80
+    }
+  ],
+  "summary": {
+    "total_pages": 10,
+    "total_issues": 14,
+    "avg_title_length": 27,
+    "avg_desc_length": 131,
+    "avg_score": 83.0
+  }
+}

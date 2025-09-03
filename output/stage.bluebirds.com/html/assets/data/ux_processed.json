@@ -2,179 +2,232 @@
   "issues": [
     {
       "text": "Reps spend their day finding prospects instead of talking to them.",
-      "page_url": "https://stage.bluebirds.com"
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Difficulty in finding best-fit accounts from a large number of accounts.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "Difficulty in finding the best fit accounts from a vast number of accounts (e.g., 7 million).",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Difficulty in prioritizing accounts based on custom buying signals and compelling events.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "Difficulty in prioritizing accounts effectively.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Manual and inefficient prospecting for finding the right people and their contact data.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "Challenges in automating prospecting and enriching buyer circles with comprehensive contact data.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Reps lacking a clear, prioritized shortlist of prospects with context and personalized messaging.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "Reps lack a clear explanation for why a prospect is a good fit or timely.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "AI-generated sequences often sounding generic or unpersonalized.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "Reps need personalized messaging for prospects.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Inconsistent outbound performance and difficulty in scaling sales team's prospecting efforts.",
-      "page_url": "https://stage.bluebirds.com"
+      "text": "AI-generated sequences often sound generic or lack personalization.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Navigation links 'Blog' and 'Our Customers' are duplicated in the footer, leading to redundancy.",
-      "page_url": "https://stage.bluebirds.com/customers"
+      "text": "Inconsistent outbound sales efforts across a sales team.",
+      "page_url": "https://stage.bluebirds.com/"
     },
     {
-      "text": "Only two of the seven customer logos on the page have explicit 'Read case study' links, creating an inconsistent user experience for accessing detailed information.",
-      "page_url": "https://stage.bluebirds.com/customers"
-    },
-    {
-      "text": "These customer logos lack direct 'Read case study' links, contributing to the inconsistent user experience for accessing detailed information.",
-      "page_url": "https://stage.bluebirds.com/customers"
-    },
-    {
-      "text": "Navigation links 'Blog' and 'Our Customers' are duplicated from the header, leading to redundancy.",
-      "page_url": "https://stage.bluebirds.com/customers"
-    },
-    {
-      "text": "The 'Get started' call to action from the header is not present in the footer, which is a common practice for improving conversion.",
-      "page_url": "https://stage.bluebirds.com/customers"
-    },
-    {
-      "text": "Provider can update Product pricing with at least 30 days notice, and the change will apply in the next Subscription Period.",
+      "text": "The non-renewal notice period (30 days) is equal to the subscription period (1 month), requiring customers to decide on non-renewal almost immediately upon starting the service to avoid automatic renewal for the next month.",
       "page_url": "https://stage.bluebirds.com/terms"
     },
     {
-      "text": "A non-renewal notice period of at least 30 days before the end of the current Subscription Period is required, otherwise, the subscription may auto-renew.",
+      "text": "The provider can update pricing with 30 days notice, which will apply to the next subscription period, meaning monthly fees are subject to change with relatively short notice.",
       "page_url": "https://stage.bluebirds.com/terms"
     },
     {
-      "text": "The Provider's liability (General Cap Amount) is limited to the fees paid or payable by Customer in the 12-month period immediately before a claim.",
+      "text": "A very short payment period of 5 days from the invoice date is specified, which could easily lead to late payment penalties if not managed carefully.",
       "page_url": "https://stage.bluebirds.com/terms"
     },
     {
-      "text": "Provider has the right to identify Customer and use Customer's logo and trademarks on Provider's website and in marketing materials.",
+      "text": "Customers are explicitly liable for intellectual property infringement by their content and for breaching the 'Restrictions on Customer' (Section 2.1).",
       "page_url": "https://stage.bluebirds.com/terms"
     },
     {
-      "text": "The privacy policy states that 'Bluebirds is now part of Salesforce!' but the policy itself is for 'Inspo Labs Inc.' and 'bluebirds.ai'. This creates ambiguity regarding the current data controller and the applicability of this specific policy post-acquisition.",
+      "text": "The provider's general liability is capped at the fees paid or payable by the customer in the 12 months immediately preceding a claim.",
+      "page_url": "https://stage.bluebirds.com/terms"
+    },
+    {
+      "text": "The provider is automatically granted the right to use the customer's name, logo, and trademarks on their website and in marketing materials without explicit prior consent for each use.",
+      "page_url": "https://stage.bluebirds.com/terms"
+    },
+    {
+      "text": "**Broad Data Collection Categories:** The policy uses very broad terms for data collection, such as \"information from your customer relationship management and other platforms and systems\" and \"publicly available information on the internet, from our partners, service providers and other third parties, and through our independent research.\" This lacks specificity regarding the types of personal information collected, making it difficult for users to understand the full scope of data collection.",
       "page_url": "https://stage.bluebirds.com/privacy-policy"
     },
     {
-      "text": "The description of data collected from 'publicly available information on the internet, from our partners, service providers and other third parties, and through our independent research' is very broad and lacks specificity regarding the types of data and the exact sources, which could be seen as non-transparent.",
+      "text": "**Contradiction/Ambiguity on Data Sale/Sharing (CCPA):** Section 5 states, \"We do not sell any personal information collected from your use of or interactions with the bluebirds.ai service,\" yet Section 9, under \"Personal Information We Sold, Shared or Disclosed,\" explicitly lists categories of personal information \"sold or shared to third parties,\" including \"Bluebirds.ai Customers.\" This creates a significant contradiction or at least ambiguity regarding the company's data sharing practices under CCPA's broad definition of \"sale\" and \"sharing.\"",
       "page_url": "https://stage.bluebirds.com/privacy-policy"
     },
     {
-      "text": "The policy mentions the use of cookies for automatic data collection but does not include information about a dedicated cookie policy or a mechanism (e.g., a cookie banner or preference center) for users to manage their cookie preferences, which is a common requirement under various privacy regulations.",
+      "text": "**Unclear Role of \"Bluebirds.ai Customers\" in Data Sharing:** The table in Section 9 indicates that personal information is \"sold or shared\" with \"Bluebirds.ai Customers\" for the purpose of \"Providing Services.\" The nature of this sharing with the company's own customers is not clearly explained, raising questions about whether Bluebirds.ai is facilitating data sharing between its users or with its users for their own independent purposes, and the implications for data subjects.",
       "page_url": "https://stage.bluebirds.com/privacy-policy"
     },
     {
-      "text": "The policy does not explicitly state the legal basis for processing personal data for each purpose (e.g., contractual necessity, legitimate interest, consent) as required by comprehensive privacy regulations like GDPR.",
+      "text": "**Reliance on \"Legitimate Interest\" for Promotional Communications:** The policy states a \"legitimate interest\" for promotional communications, implying consent is not usually needed. While valid in some contexts (e.g., existing customer relationships for similar products), this broad reliance might not comply with stricter opt-in consent requirements for direct marketing in certain jurisdictions (e.g., for new contacts or specific types of electronic marketing).",
       "page_url": "https://stage.bluebirds.com/privacy-policy"
     },
     {
-      "text": "The policy states reliance on 'legitimate interest' for sending promotional communications, which may not align with consent requirements for electronic marketing in certain jurisdictions (e.g., EU/UK under the ePrivacy Directive).",
+      "text": "**Broad \"Third Parties and Connected Services\" Sharing:** Section 5 mentions sharing with \"Third parties and connected services, including instant messaging and social media platforms you choose to utilize as part of the service\" without specifying the types of data shared or the exact purpose beyond the general \"as part of the service.\"",
       "page_url": "https://stage.bluebirds.com/privacy-policy"
     },
     {
-      "text": "While categories of third-party recipients are listed, more specific examples or types of service providers (beyond payment service providers) would enhance transparency regarding data sharing.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "The policy does not mention international data transfers or the safeguards in place for such transfers, which is a critical omission if data is processed or stored outside the user's jurisdiction (e.g., for EU/UK users).",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "The policy states that 'Different retention periods apply for different types of personal information' but does not provide any examples or general timeframes, lacking specificity on data retention.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "The policy focuses heavily on CCPA rights for California residents but does not explicitly outline data subject rights applicable under other major privacy regulations (e.g., GDPR rights like erasure, portability, objection) for a broader global audience.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "There is a contradiction in Section 9: the table header includes 'Categories of personal information sold or shared to third parties', but the text above the table and in Section 5 explicitly states 'We do not sell any personal information collected from your use of or interactions with the bluebirds.ai service.' This needs clarification.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "The policy uses two different email addresses for privacy-related inquiries (rohan@bluebirds.ai and support@bluebirds.ai), which can be confusing for users.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "The 'last updated' date (October 18, 2024) in Section 13 appears to be a future date, indicating a typo.",
-      "page_url": "https://stage.bluebirds.com/privacy-policy"
-    },
-    {
-      "text": "Complex buyer personas across target customers (e.g. healthcare)",
+      "text": "Complex buyer personas across target customers (e.g., healthcare).",
       "page_url": "https://stage.bluebirds.com/customers/intersystems"
     },
     {
-      "text": "Large account lists with limited information",
+      "text": "Large account lists with limited information.",
       "page_url": "https://stage.bluebirds.com/customers/intersystems"
     },
     {
-      "text": "Increasing goals to build larger pipeline at a faster rate",
+      "text": "Increasing goals to build larger pipeline at a faster rate.",
       "page_url": "https://stage.bluebirds.com/customers/intersystems"
     },
     {
-      "text": "Incomplete and inaccurate account data",
+      "text": "Need to become a more proactive selling organization.",
+      "page_url": "https://stage.bluebirds.com/customers/intersystems"
+    },
+    {
+      "text": "Sales reps historically spending significant manual time researching the best person/persona.",
+      "page_url": "https://stage.bluebirds.com/customers/intersystems"
+    },
+    {
+      "text": "Difficulty getting sellers in front of their target personas more effectively.",
+      "page_url": "https://stage.bluebirds.com/customers/intersystems"
+    },
+    {
+      "text": "Long sales cycles.",
+      "page_url": "https://stage.bluebirds.com/customers/intersystems"
+    },
+    {
+      "text": "Incomplete and inaccurate account data, leading to a lack of distinct account lists with territories and complete data on account size and employee numbers.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Manual, time-consuming research processes for account and people signals (company tech stack, LinkedIn profiles, social engagements, job postings, recent funding)",
+      "text": "Manual, time-consuming research processes by ADRs to identify specific signals like company tech stack, LinkedIn profiles, social engagements, job postings, and recent venture funding.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Inconsistent criteria for account targeting, often relying on 'vibes-based' prioritization",
+      "text": "Inconsistent criteria for account targeting, often resorting to 'vibes-based' prioritization due to limited account information.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Inability to identify their ideal customer profile (ICP) effectively due to insufficient data from existing sources (Clearbit, ZoomInfo)",
+      "text": "Inability to effectively identify their ideal customer profile (ICP) and specific requirements, such as accounts implementing large Kafka workflows, using existing data sources like Clearbit and ZoomInfo.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Difficulty identifying accounts with specific requirements like 'implementing large Kafka workflows'",
+      "text": "Difficulty in scalably tracking various signals like champion movement, job changes, recent hires, responsibilities, and tech stack.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Fear that existing data sources couldn't identify all potential customers with available filters",
+      "text": "Point-solution tools for data retrieval required significant manual work for integration into Salesforce and often did not allow for building comprehensive account lists.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     },
     {
-      "text": "Point-solutions for data points required significant manual work to integrate into Salesforce and power automation",
-      "page_url": "https://stage.bluebirds.com/customers/redpanda"
-    },
-    {
-      "text": "Point-solution tools often didn't allow building comprehensive account lists",
-      "page_url": "https://stage.bluebirds.com/customers/redpanda"
-    },
-    {
-      "text": "Data accuracy issues with some industry classifications, leading to lack of trust from the sales team",
+      "text": "Concerns about data accuracy and trust from the sales team, with errors noted in industry classifications.",
       "page_url": "https://stage.bluebirds.com/customers/redpanda"
     }
   ],
   "recommendations": [
     {
       "text": {
-        "text": "Consider consolidating redundant navigation links or ensuring distinct purposes for their repetition across header and footer.",
-        "page_url": "https://stage.bluebirds.com/customers",
-        "priority": "low"
+        "text": "AI Agents sequence the best leads for your reps.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
       },
       "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Ensure the 'Get started' call to action is prominent and potentially repeated in other key areas for conversion.",
+        "text": "Bluebirds researches accounts for compelling events, enriches your buyer circle, then writes relevant messaging.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use pristine Firmographics and customizable Technographics to find the best fit Accounts from 7 million accounts in minutes.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Prioritize Accounts 8x more likely to convert by combining signals from trusted public data sources, CRM, and third-party intent.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Automate prospecting by finding the best people and enriching with state-of-the-art contact data from 15+ data vendors.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide reps with a shortlist of prospects every week, each with a clear explanation of timing and personalized messaging.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Personalize existing sequences with relevant buying signals, allowing reps to just review and send.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Scale your entire sales team with consistent outbound by leveraging intelligence that learns like your best reps.",
+        "page_url": "https://stage.bluebirds.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Bluebirds is incredibly powerful. It gives us a visibility into everything we would want to know about our target accounts, allowing us to be more impactful in allocating resources.\u201d Roman - Redpanda",
         "page_url": "https://stage.bluebirds.com/customers",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Bluebirds helps us stay ahead by allowing us to target specific and niche data points at scale, integrating firmographic, technographic, contact, signal and event data in one place.\u201d Patrick - Tipalti",
+        "page_url": "https://stage.bluebirds.com/customers",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Customers should be aware of the 30-day non-renewal notice period relative to the 1-month subscription and plan any cancellation well in advance, potentially immediately after signing up if unsure about long-term commitment.",
+        "page_url": "https://stage.bluebirds.com/terms",
         "priority": "high"
       },
       "priority": "High",
@@ -182,8 +235,8 @@
     },
     {
       "text": {
-        "text": "Ensure consistent access to case studies for all featured customers, either by adding direct links to each logo or by providing a clear 'View all case studies' link.",
-        "page_url": "https://stage.bluebirds.com/customers",
+        "text": "Customers should regularly check for pricing updates from the provider (via email or in-product notifications) to anticipate changes to their monthly fees.",
+        "page_url": "https://stage.bluebirds.com/terms",
         "priority": "medium"
       },
       "priority": "High",
@@ -191,8 +244,8 @@
     },
     {
       "text": {
-        "text": "Add direct 'Read case study' links for these customer logos or a clear call to action to view all case studies.",
-        "page_url": "https://stage.bluebirds.com/customers",
+        "text": "Customers should establish a robust process to ensure invoices are paid within the strict 5-day payment period to avoid late fees.",
+        "page_url": "https://stage.bluebirds.com/terms",
         "priority": "medium"
       },
       "priority": "High",
@@ -200,241 +253,151 @@
     },
     {
       "text": {
-        "text": "Add a 'Get started' or 'Sign up' call to action in the footer to improve conversion opportunities.",
-        "page_url": "https://stage.bluebirds.com/customers",
+        "text": "Customers must ensure all content they use with the service respects intellectual property rights and that their use of the product strictly adheres to all specified restrictions (Section 2.1).",
+        "page_url": "https://stage.bluebirds.com/terms",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Customers should understand the financial limits of the provider's liability, which is capped at 12 months of fees, as this may affect potential recovery in case of a claim.",
+        "page_url": "https://stage.bluebirds.com/terms",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Customers who prefer not to have their logo or name used for marketing should proactively contact the provider to discuss potential opt-out or specific usage agreements, as the terms grant this right by default.",
+        "page_url": "https://stage.bluebirds.com/terms",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Enhance Specificity of Data Collection:** Provide more granular details and examples for the broad categories of personal information collected, especially from CRM platforms, public sources, partners, and third parties, to improve transparency and allow users to better understand what data is being gathered.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Clarify Data Sale/Sharing Practices under CCPA:** Reconcile the statement about not selling personal information with the detailed table of \"sold or shared\" data in Section 9. Clearly define what constitutes \"sale\" or \"sharing\" in the context of Bluebirds.ai's operations and ensure the policy accurately reflects these practices, especially concerning \"Bluebirds.ai Customers.\" If data is indeed \"sold\" or \"shared\" under CCPA, ensure a clear and accessible \"Do Not Sell/Share My Personal Information\" mechanism is provided.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Detail Data Sharing with \"Bluebirds.ai Customers\":** Provide a comprehensive explanation of the nature, purpose, and scope of sharing personal information with \"Bluebirds.ai Customers.\" Clarify if this involves sharing data *between* users, or with users for their own independent processing, and the mechanisms for data subjects to control such sharing.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Refine Legal Basis for Promotional Communications:** Clearly articulate the specific legal basis (e.g., consent, legitimate interest) for different types of promotional communications and for different user groups/jurisdictions. Ensure that opt-in consent is obtained where legally required and that opt-out mechanisms are prominent and easy to use.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Specify Third-Party Sharing Details:** For \"third parties and connected services,\" provide more specific examples of these entities, the exact categories of personal information shared with them, and the precise purposes of such sharing, to give users a clearer understanding of data flow.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Address Global Privacy Regulations:** Consider expanding the policy to explicitly address compliance with other major global privacy regulations (e.g., GDPR, LGPD, other US state privacy laws like VCDPA, CPA, CTDPA, UCPA) beyond CCPA, given the company's potential international user base and acquisition by Salesforce.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "low"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "**Improve Data Minimization Transparency:** Briefly explain how data minimization principles are applied, ensuring that only necessary data is collected for stated purposes, and that data is not retained longer than required.",
+        "page_url": "https://stage.bluebirds.com/privacy-policy",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Bluebirds' messaging and trigger-based approach helps identify and reach the right personas within complex organizations.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "The platform builds account lists, adds signals, enriches with buyer circles, and loads data into the CRM for BDR teams.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Bluebirds' AI persona model maps titles and responsibilities to find lookalike best-fit prospects, reducing manual research time.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enhances persona targeting, evolving from solely technical personas to include business-side decision-makers.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Improves signal identification by going beyond standard LinkedIn filters to identify buyers based on attitudes and openness to change.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Increases BDR efficiency by saving time on manual signal finding and boosting confidence on calls, leading to higher outbound conversion rates.",
+        "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "high"
       },
-      "priority": "High",
+      "priority": "Low",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Consider consolidating redundant navigation links or ensuring distinct purposes for their repetition across header and footer.",
-        "page_url": "https://stage.bluebirds.com/customers",
-        "priority": "low"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Customers should review the Common Paper Cloud Service Agreement Standard Terms Version 1.0, as it is an integral part of this Agreement.",
-        "page_url": "https://stage.bluebirds.com/terms",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Customers should be aware of the 30-day non-renewal notice period to avoid automatic subscription renewals.",
-        "page_url": "https://stage.bluebirds.com/terms",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Customers should monitor notifications (email or within the Product) for any updates to Product pricing.",
-        "page_url": "https://stage.bluebirds.com/terms",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Customers should understand the limitations on Provider's liability as defined by the General Cap Amount.",
-        "page_url": "https://stage.bluebirds.com/terms",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Customers should ensure their main email address on the account is current, as it is the designated notice address for Customer.",
-        "page_url": "https://stage.bluebirds.com/terms",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clarify the relationship between Inspo Labs Inc., bluebirds.ai, and Salesforce, explicitly stating who the data controller is and if this policy remains fully in effect post-acquisition, or if a new Salesforce policy applies. If it's a transition, explain the implications.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Provide more specific examples or categories of data collected from 'publicly available information,' 'partners,' 'service providers,' and 'independent research' to enhance transparency.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Implement a clear cookie policy and a mechanism (e.g., a cookie banner or preference center) that allows users to consent to or manage their cookie preferences, especially for non-essential cookies.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Explicitly state the legal basis for processing personal data for each purpose (e.g., contractual necessity for service provision, legitimate interest for operational reasons, consent for promotional communications where applicable) to comply with broader privacy regulations.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Re-evaluate the legal basis for promotional communications, especially for individuals in regions requiring explicit consent (e.g., EU/UK). Consider implementing an opt-in mechanism for marketing communications to ensure broader compliance and user trust.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "low"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Provide more specific examples or categories of third-party service providers (e.g., cloud hosting, analytics, customer support software, email marketing platforms) to give users a clearer picture of who their data might be shared with.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "If data is transferred internationally, include information about the safeguards in place for such transfers (e.g., Standard Contractual Clauses, Privacy Shield successor mechanisms, Binding Corporate Rules).",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Provide examples of retention periods for different categories of data (e.g., account data, transactional data, marketing data) or explain the criteria used to determine retention periods more clearly.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Include a section outlining data subject rights applicable under other relevant privacy regulations (e.g., GDPR, LGPD, PIPEDA) for a broader audience, or clearly state that the policy primarily addresses CCPA for California residents and direct other users to contact for their specific rights.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clarify the 'sold or shared' terminology in the table header in Section 9. If data is only 'shared' and not 'sold' (as stated elsewhere), then the 'sold' part of the header should be removed or explicitly defined as 'shared for business purposes' to avoid confusion and contradiction.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Consolidate contact points to a single, clear email address for all privacy-related inquiries, or clearly explain the purpose of each email address at the beginning of the policy.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Correct the 'last updated' date in Section 13 to reflect the actual last update.",
-        "page_url": "https://stage.bluebirds.com/privacy-policy",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Help ramp up BDRs more efficiently",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Get sellers in front of their target personas more effectively",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shorten the sales cycle",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Support full-cycle sellers in seeing opportunities from inception to completion",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Identify and reach the right personas within complex organizations",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Build an Account list, add signals, enrich with their buyer circle, and load into the CRM",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Enrichment of people using AI persona model to map out titles + responsibilities and find lookalike best-fit prospects",
-        "page_url": "https://stage.bluebirds.com/customers/intersystems",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Enhanced Persona Targeting, including technical buyers and business-side decision-makers",
+        "text": "Enables faster messaging iteration by aggregating data and allowing for quicker adjustments to outreach strategies.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -443,7 +406,7 @@
     },
     {
       "text": {
-        "text": "Improved Signal Identification beyond standard LinkedIn filters, based on attitudes and openness to change",
+        "text": "Helps ramp up BDRs more efficiently.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -452,7 +415,7 @@
     },
     {
       "text": {
-        "text": "Increased BDR Efficiency by saving time on manual sourcing and increasing confidence on calls",
+        "text": "Gets sellers in front of their target personas more effectively.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -461,7 +424,7 @@
     },
     {
       "text": {
-        "text": "Better Messaging Iteration by quickly aggregating data and reading between the lines",
+        "text": "Supports full-cycle sellers in seeing opportunities from inception to completion.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -470,7 +433,7 @@
     },
     {
       "text": {
-        "text": "Provides flexibility and scalability for BDRs to act effectively",
+        "text": "Provides flexibility and scalability needed for BDR operations.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -479,7 +442,7 @@
     },
     {
       "text": {
-        "text": "Offers deep insights and enables data-driven outbound at scale",
+        "text": "Offers deep insights and enables data-driven outbound at scale.",
         "page_url": "https://stage.bluebirds.com/customers/intersystems",
         "priority": "medium"
       },
@@ -488,7 +451,7 @@
     },
     {
       "text": {
-        "text": "Bluebirds enabled scalable tracking of champion movement, job changes, recent hires, responsibilities, tech stack, and other signals.",
+        "text": "Bluebirds enabled Redpanda to quickly build out their Target Account list, identifying 3,000 new accounts that fit their ICP and were previously unknown.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -497,7 +460,7 @@
     },
     {
       "text": {
-        "text": "Allowed Redpanda to quickly build out their Target Account list and identify 3,000 new ICP accounts.",
+        "text": "The platform enriched the Account list with relevant signals for prioritization and loaded enriched buyer personas directly into Salesforce for the ADR team.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -506,7 +469,7 @@
     },
     {
       "text": {
-        "text": "Enriched account lists with relevant signals for prioritization.",
+        "text": "Bluebirds provided person-level contextual information, allowing reps to scale personalization and create more impactful outbound outreach.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -515,7 +478,7 @@
     },
     {
       "text": {
-        "text": "Enriched buyer personas and loaded them directly into Salesforce for ADRs.",
+        "text": "Eliminated the need for ADRs to manually research signals, leading to increased overall activities and rep output.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -524,7 +487,7 @@
     },
     {
       "text": {
-        "text": "Enabled reps to scale personalization in outreach by providing contextual information on the person level.",
+        "text": "Improved marketing efficiency by providing a tighter, high-signal account list, resulting in higher engagements and lower click-through rates.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -533,7 +496,7 @@
     },
     {
       "text": {
-        "text": "Eliminated the need for ADRs to manually research signals, increasing their overall activities and output.",
+        "text": "Reduced total data budget by consolidating the need for multiple point-solution providers.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -542,25 +505,7 @@
     },
     {
       "text": {
-        "text": "Improved ad spend efficiency across marketing channels, leading to higher engagements and lower click-through rates.",
-        "page_url": "https://stage.bluebirds.com/customers/redpanda",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Reduced total data budget by consolidating point-solution providers.",
-        "page_url": "https://stage.bluebirds.com/customers/redpanda",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Provided deep insights and enabled data-driven decision-making at scale.",
+        "text": "Offered comprehensive data intelligence, enabling data-driven decision-making and strategic allocation of resources for sales and marketing efforts.",
         "page_url": "https://stage.bluebirds.com/customers/redpanda",
         "priority": "medium"
       },
@@ -569,10 +514,10 @@
     }
   ],
   "summary": {
-    "total_issues": 40,
-    "total_recommendations": 45,
-    "high_priority": 15,
-    "medium_priority": 15,
-    "low_priority": 15
+    "total_issues": 33,
+    "total_recommendations": 42,
+    "high_priority": 14,
+    "medium_priority": 14,
+    "low_priority": 14
   }
 }

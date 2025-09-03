@@ -1,0 +1,18 @@
+name: Returning User Login
+qa_plan:
+  title: Returning User Login
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://stage.bluebirds.com/
+    assertions:
+    - verificationId: flow_5_phase_1_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/
+  - phaseNumber: 2
+    objective: Click the 'Log in' link in the top right corner of the navigation bar.
+    assertions:
+    - verificationId: flow_5_phase_2_assertion_1
+      description: Verify that verify navigation to the user login page or a login
+        modal appears.
+    - verificationId: flow_5_phase_2_assertion_2
+      description: Verify that verify input fields for email/username and password
+        are visible.

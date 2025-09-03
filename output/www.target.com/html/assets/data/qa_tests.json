@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "total_test_files": 5,
+    "total_phases": 27,
+    "total_assertions": 42,
+    "avg_phases_per_file": 5.4,
+    "avg_assertions_per_file": 8.4
+  },
+  "test_files": [
+    {
+      "filename": "discovering_deals_in_a_specific_home_category.yaml",
+      "name": "Discovering Deals in a Specific Home Category",
+      "title": "Discovering Deals in a Specific Home Category",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.target.com",
+          "assertions": [
+            {
+              "id": "flow3_phase1_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase1_2",
+              "description": "Verify that verify the page title is 'Target : Expect More. Pay Less.'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Deals' link in the main navigation (https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateClick=true).",
+          "assertions": [
+            {
+              "id": "flow3_phase2_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateClick=true'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase2_2",
+              "description": "Verify that verify the page heading or title confirms it's a 'Deals' or 'Weekly Deals' page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to On the 'Weekly Deals' page, locate and click on a banner or link for 'Kitchen & Dining Deals' (https://www.target.com/c/kitchen-dining/all-deals/-/N-hz89jZakkos).",
+          "assertions": [
+            {
+              "id": "flow3_phase3_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/c/kitchen-dining/all-deals/-/N-hz89jZakkos'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase3_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Kitchen & Dining Deals' section.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Browse through the list of kitchen and dining products on sale.",
+          "assertions": []
+        },
+        {
+          "phase_number": 5,
+          "objective": "Click on a specific product listing (e.g., product with ID 445416468, leading to https://www.target.com/pl/445416468) to view its details and discount information.",
+          "assertions": [
+            {
+              "id": "flow3_phase5_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/pl/445416468'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow3_phase5_2",
+              "description": "Verify that the product detail page displays a discounted price or deal indicator for the item.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 8
+    },
+    {
+      "filename": "mobile_user_browsing_for_seasonal_inspiration.yaml",
+      "name": "Mobile User Browsing for Seasonal Inspiration",
+      "title": "Mobile User Browsing for Seasonal Inspiration",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.target.com",
+          "assertions": [
+            {
+              "id": "flow5_phase1_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow5_phase1_2",
+              "description": "Verify that verify the page title is 'Target : Expect More. Pay Less.'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Scroll down the homepage to quickly scan for prominent seasonal promotions or banners.",
+          "assertions": []
+        },
+        {
+          "phase_number": 3,
+          "objective": "Click on the 'Halloween' promotional link or banner (https://www.target.com/c/halloween/-/N-5xt2o).",
+          "assertions": [
+            {
+              "id": "flow5_phase3_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/c/halloween/-/N-5xt2o'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow5_phase3_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Halloween' hub page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Scroll through the 'Halloween' hub page, scanning for different categories like costumes, decor, or candy, and general themes.",
+          "assertions": []
+        }
+      ],
+      "phase_count": 4,
+      "assertion_count": 4
+    },
+    {
+      "filename": "quick_purchase_of_a_specific_brand_item.yaml",
+      "name": "Quick Purchase of a Specific Brand Item",
+      "title": "Quick Purchase of a Specific Brand Item",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.target.com",
+          "assertions": [
+            {
+              "id": "flow1_phase1_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase1_2",
+              "description": "Verify that verify the page title is 'Target : Expect More. Pay Less.'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Type 'Stanley' into the search bar and press Enter.",
+          "assertions": [
+            {
+              "id": "flow1_phase2_1",
+              "description": "Verify that verify the URL contains 'searchTerm=Stanley'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase2_2",
+              "description": "Verify that search results for 'Stanley' are displayed on the page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Click on the 'Stanley' brand link from search results, leading to https://www.target.com/b/stanley/-/N-5vhrz.",
+          "assertions": [
+            {
+              "id": "flow1_phase3_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/b/stanley/-/N-5vhrz'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase3_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Stanley' brand page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to On the Stanley brand page, click on a specific product listing (e.g., 'Stanley Quencher FlowState Tumbler') to view its detail page.",
+          "assertions": [
+            {
+              "id": "flow1_phase4_1",
+              "description": "Verify that verify the current URL is a product detail page (e.g., 'https://www.target.com/p/...' or similar structure).",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase4_2",
+              "description": "Verify that product-specific details (name, price, description) are displayed.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Click the 'Add to Cart' button on the product detail page.",
+          "assertions": [
+            {
+              "id": "flow1_phase5_1",
+              "description": "Verify that verify a confirmation message or visual indicator (e.g., mini-cart update) shows the item has been added to cart.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Click the 'View Cart' or 'Go to Cart' button to proceed to https://www.target.com/cart?prehydrateclick=true.",
+          "assertions": [
+            {
+              "id": "flow1_phase6_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/cart?prehydrateclick=true'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow1_phase6_2",
+              "description": "Verify that verify the previously added item is present in the shopping cart.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 6,
+      "assertion_count": 11
+    },
+    {
+      "filename": "detailed_research_of_a_product_category_with_filters.yaml",
+      "name": "Detailed Research of a Product Category with Filters",
+      "title": "Detailed Research of a Product Category with Filters",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.target.com",
+          "assertions": [
+            {
+              "id": "flow2_phase1_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase1_2",
+              "description": "Verify that verify the page title is 'Target : Expect More. Pay Less.'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Categories' link in the main navigation (https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true).",
+          "assertions": [
+            {
+              "id": "flow2_phase2_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase2_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'All Categories' page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to From the categories page, click on the 'Women' category link (https://www.target.com/c/women/-/N-5xtd3).",
+          "assertions": [
+            {
+              "id": "flow2_phase3_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/c/women/-/N-5xtd3'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase3_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Women's' category page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to On the Women's page, click on the 'Jeans' subcategory link (https://www.target.com/c/jeans-women-s-clothing/-/N-5xtc8Z1vs54Zo267dZ54zprZe6p1m).",
+          "assertions": [
+            {
+              "id": "flow2_phase4_1",
+              "description": "Verify that verify the current URL contains '/c/jeans-women-s-clothing/'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase4_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Women's Jeans' page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Locate the 'Price' filter section on the Women's Jeans page and select the range '$20-$100' (this updates the URL to include '?maxprice=100&minprice=20&type=products').",
+          "assertions": [
+            {
+              "id": "flow2_phase5_1",
+              "description": "Verify that verify the current URL contains 'maxprice=100&minprice=20'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow2_phase5_2",
+              "description": "Verify that displayed products fall within the $20-$100 price range.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 6,
+          "objective": "Navigate to Locate the 'Sort By' dropdown menu and select 'Newest'.",
+          "assertions": [
+            {
+              "id": "flow2_phase6_1",
+              "description": "Verify that verify the 'Sort By' dropdown selection visually updates to 'Newest'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 7,
+          "objective": "Scroll down the page to browse the filtered and sorted products.",
+          "assertions": []
+        }
+      ],
+      "phase_count": 7,
+      "assertion_count": 11
+    },
+    {
+      "filename": "returning_visitor_checking_loyalty_program_benefits.yaml",
+      "name": "Returning Visitor Checking Loyalty Program Benefits",
+      "title": "Returning Visitor Checking Loyalty Program Benefits",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://www.target.com",
+          "assertions": [
+            {
+              "id": "flow4_phase1_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow4_phase1_2",
+              "description": "Verify that verify the page title is 'Target : Expect More. Pay Less.'.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Target Circle\u2122' link in the top header navigation (https://www.target.com/circle).",
+          "assertions": [
+            {
+              "id": "flow4_phase2_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/circle'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow4_phase2_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Target Circle' landing page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 3,
+          "objective": "Navigate to Read the overview and benefits described on the Target Circle landing page.",
+          "assertions": [
+            {
+              "id": "flow4_phase3_1",
+              "description": "Verify that key Target Circle benefits (e.g., 'Earn 1% on every Target run') are visible on the page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 4,
+          "objective": "Navigate to Locate and click on the 'Target Circle\u2122 Card' link (https://www.target.com/circlecard) to learn about additional card-specific benefits.",
+          "assertions": [
+            {
+              "id": "flow4_phase4_1",
+              "description": "Verify that verify the current URL is 'https://www.target.com/circlecard'.",
+              "status": "pending"
+            },
+            {
+              "id": "flow4_phase4_2",
+              "description": "Verify that verify the page heading or title confirms it's the 'Target Circle Card' details page.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 5,
+          "objective": "Navigate to Review the details of the Target Circle Card program.",
+          "assertions": [
+            {
+              "id": "flow4_phase5_1",
+              "description": "Verify that specific Target Circle Card benefits (e.g., '5% off every day') are prominently displayed.",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 5,
+      "assertion_count": 8
+    }
+  ]
+}

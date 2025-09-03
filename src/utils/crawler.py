@@ -12,7 +12,7 @@ from .screenshot import ScreenshotProcessor
 class WebCrawler:
     """Handles web crawling and site mapping"""
     
-    def __init__(self, max_depth: int = 2, max_pages: int = 20):
+    def __init__(self, max_depth: int = 5, max_pages: int = 15):
         self.max_depth = max_depth
         self.max_pages = max_pages
         self.screenshot_processor = ScreenshotProcessor()
@@ -48,7 +48,11 @@ class WebCrawler:
                     current_url,
                     config=CrawlerRunConfig(
                         screenshot=True,
-                        only_text=False
+                        only_text=False,
+                        wait_until="domcontentloaded",
+                        delay_before_return_html=2.0,
+                        simulate_user=True,
+                        magic=True
                     )
                 )
                 

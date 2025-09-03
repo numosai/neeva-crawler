@@ -1,0 +1,28 @@
+name: Mobile User Browsing for Seasonal Inspiration
+qa_plan:
+  title: Mobile User Browsing for Seasonal Inspiration
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com
+    assertions:
+    - verificationId: flow5_phase1_1
+      description: Verify that verify the current URL is 'https://www.target.com'.
+    - verificationId: flow5_phase1_2
+      description: 'Verify that verify the page title is ''Target : Expect More. Pay
+        Less.''.'
+  - phaseNumber: 2
+    objective: Scroll down the homepage to quickly scan for prominent seasonal promotions
+      or banners.
+    assertions: []
+  - phaseNumber: 3
+    objective: Click on the 'Halloween' promotional link or banner (https://www.target.com/c/halloween/-/N-5xt2o).
+    assertions:
+    - verificationId: flow5_phase3_1
+      description: Verify that verify the current URL is 'https://www.target.com/c/halloween/-/N-5xt2o'.
+    - verificationId: flow5_phase3_2
+      description: Verify that verify the page heading or title confirms it's the
+        'Halloween' hub page.
+  - phaseNumber: 4
+    objective: Scroll through the 'Halloween' hub page, scanning for different categories
+      like costumes, decor, or candy, and general themes.
+    assertions: []

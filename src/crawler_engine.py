@@ -95,6 +95,33 @@ class CrawlerEngine:
         
         return success_count > 0
     
+    async def regenerate_sitemap_only(self, url: str) -> bool:
+        """Regenerate sitemap only from existing crawl data"""
+        output_dir = self._get_output_dir(url)
+        raw_dir = output_dir / "raw"
+        flows_file = raw_dir / "flows.json"
+        
+        if not flows_file.exists():
+            print(f"❌ No crawl data found for {url}")
+            print(f"Expected flows.json at: {flows_file}")
+            return False
+        
+        print(f"🗺️ Regenerating sitemap for {url}")
+        
+        import json
+        with open(flows_file, 'r') as f:
+            flows_data = json.load(f)
+        
+        sitemap_success = self.sitemap_analyzer.generate_sitemap(
+            [], flows_data, raw_dir
+        )
+        
+        if sitemap_success:
+            print("✅ Sitemap regenerated successfully")
+        else:
+            print("❌ Failed to regenerate sitemap")
+        
+        return sitemap_success
     
     async def analyze_and_html(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
         """Run all analyses and generate HTML from existing crawl data"""

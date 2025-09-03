@@ -1,0 +1,43 @@
+name: Company Background and Acquisition News Research
+qa_plan:
+  title: Company Background and Acquisition News Research
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://stage.bluebirds.com/
+    assertions:
+    - verificationId: flow_3_phase_1_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/
+  - phaseNumber: 2
+    objective: Click 'Blog' link in the main navigation bar.
+    assertions:
+    - verificationId: flow_3_phase_2_assertion_1
+      description: Verify that verify navigation to the blog page.
+    - verificationId: flow_3_phase_2_assertion_2
+      description: Verify that verify blog posts are listed on the page.
+  - phaseNumber: 3
+    objective: Navigate to Read the blog post titled 'Bluebirds Raises $5M Seed Round
+      Led by Lightspeed to fix outbound sales'.
+    assertions:
+    - verificationId: flow_3_phase_3_assertion_1
+      description: Verify that verify the specific blog post content is displayed.
+    - verificationId: flow_3_phase_3_assertion_2
+      description: Verify that verify the blog post title 'Bluebirds Raises $5M Seed
+        Round Led by Lightspeed to fix outbound sales' is visible.
+  - phaseNumber: 4
+    objective: Navigate back to the homepage (https://stage.bluebirds.com/).
+    assertions:
+    - verificationId: flow_3_phase_4_assertion_1
+      description: Verify that verify the current URL is https://stage.bluebirds.com/.
+    - verificationId: flow_3_phase_4_assertion_2
+      description: Verify that verify the 'Bluebirds is now part of Salesforce!' announcement
+        is visible.
+  - phaseNumber: 5
+    objective: Click the 'Learn more' link next to the 'Bluebirds is now part of Salesforce!'
+      announcement.
+    assertions:
+    - verificationId: flow_3_phase_5_assertion_1
+      description: Verify that verify navigation to the Salesforce acquisition news
+        page (expected to be an external link).
+    - verificationId: flow_3_phase_5_assertion_2
+      description: Verify that verify the page contains content related to the Salesforce
+        acquisition.
