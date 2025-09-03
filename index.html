@@ -6,7 +6,7 @@
     <title>Neeva Crawler - Website Analysis Reports</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        /* Neeva-Crawler Main Index Styles - Matching domain pages */
+        /* Neeva-Crawler Main Index Styles - Matching numos-web theme */
         
         * {
             margin: 0;
@@ -15,74 +15,114 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+            background: #fafbfc;
             min-height: 100vh;
-            color: #333;
+            color: #0f172a;
         }
 
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 24px;
         }
 
         /* Header Styles */
         .header {
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
+            background: white;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            margin-bottom: 32px;
+            border-left: 4px solid #3b82f6;
         }
 
         .header h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 2rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header h1 i {
+            color: #3b82f6;
+            font-size: 1.75rem;
         }
 
         .header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
+            font-size: 0.875rem;
+            color: #64748b;
+            line-height: 1.5;
         }
 
         /* Domain Grid */
         .domain-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin-bottom: 40px;
+            gap: 24px;
+            margin-bottom: 32px;
         }
 
         .domain-card {
             background: white;
-            border-radius: 16px;
-            padding: 24px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            transition: all 0.2s ease;
             text-decoration: none;
             color: inherit;
             display: block;
             cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .domain-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #3b82f6;
+            transform: scaleY(0);
+            transition: transform 0.2s ease;
         }
 
         .domain-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 48px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            border-color: #3b82f6;
             text-decoration: none;
             color: inherit;
         }
 
+        .domain-card:hover::before {
+            transform: scaleY(1);
+        }
+
         .domain-card h3 {
             margin-top: 0;
-            margin-bottom: 12px;
-            color: #2d3748;
-            font-size: 1.3rem;
+            margin-bottom: 8px;
+            color: #0f172a;
+            font-size: 1.125rem;
             font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .domain-card h3 i {
+            color: #3b82f6;
+            font-size: 1rem;
         }
 
         .domain-card p {
-            color: #4a5568;
-            font-size: 0.95rem;
+            color: #64748b;
+            font-size: 0.875rem;
             line-height: 1.5;
             margin-bottom: 16px;
         }
@@ -94,37 +134,45 @@
         }
 
         .link-item {
-            padding: 6px 12px;
-            background: #f7fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            color: #4a5568;
-            font-size: 0.8rem;
+            padding: 4px 10px;
+            background: #f1f5f9;
+            border-radius: 6px;
+            color: #475569;
+            font-size: 0.75rem;
             font-weight: 500;
-            transition: all 0.2s ease;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .link-item i {
+            font-size: 0.625rem;
+            opacity: 0.7;
         }
 
         .domain-card:hover .link-item {
-            background: #edf2f7;
-            border-color: #cbd5e0;
-            transform: translateY(-1px);
+            background: #e0f2fe;
+            color: #0369a1;
         }
 
         /* Footer */
         .footer {
-            margin-top: 3rem;
+            margin-top: 48px;
             text-align: center;
-            color: rgba(255, 255, 255, 0.8);
+            color: #64748b;
             font-size: 0.875rem;
+            padding: 24px;
         }
 
         .footer a {
-            color: rgba(255, 255, 255, 0.9);
+            color: #3b82f6;
             text-decoration: none;
+            font-weight: 500;
         }
 
         .footer a:hover {
-            color: white;
+            color: #2563eb;
             text-decoration: underline;
         }
 
@@ -210,6 +258,19 @@
         // Auto-discover domains from output directory structure
         // This will be enhanced to dynamically list available domains
         console.log('Neeva Crawler Reports loaded');
+        
+        // Send HOME_PAGE message when on index
+        (function() {
+            // Notify parent that we're on the home page
+            if (window.parent && window.parent !== window) {
+                window.parent.postMessage({
+                    type: 'HOME_PAGE',
+                    timestamp: new Date().toISOString(),
+                    url: window.location.href
+                }, '*');
+                console.log('Home page notification sent');
+            }
+        })();
         
         // Domain Change Tracking for Main Index
         (function() {
