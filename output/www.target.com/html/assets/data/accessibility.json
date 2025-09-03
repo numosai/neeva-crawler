@@ -201,9 +201,9 @@
         }
       ],
       "score": 70,
-      "total_images": 59,
-      "total_links": 86,
-      "total_buttons": 22
+      "total_images": 104,
+      "total_links": 176,
+      "total_buttons": 72
     },
     {
       "url": "https://www.target.com/",
@@ -226,9 +226,9 @@
         }
       ],
       "score": 70,
-      "total_images": 59,
-      "total_links": 86,
-      "total_buttons": 22
+      "total_images": 104,
+      "total_links": 174,
+      "total_buttons": 74
     },
     {
       "url": "https://www.target.com/circle",
@@ -345,8 +345,8 @@
       ],
       "score": 70,
       "total_images": 35,
-      "total_links": 54,
-      "total_buttons": 23
+      "total_links": 52,
+      "total_buttons": 25
     },
     {
       "url": "https://www.target.com/weekly-ad",
@@ -444,17 +444,17 @@
         }
       ],
       "score": 70,
-      "total_images": 48,
+      "total_images": 66,
       "total_links": 75,
-      "total_buttons": 14
+      "total_buttons": 59
     }
   ],
   "summary": {
     "total_issues": 22,
     "score": 68.0,
-    "total_images": 704,
-    "total_links": 1075,
-    "total_buttons": 293,
+    "total_images": 812,
+    "total_links": 1251,
+    "total_buttons": 442,
     "total_pages": 10
   }
 }

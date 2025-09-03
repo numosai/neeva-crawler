@@ -1,0 +1,38 @@
+name: Deal Hunter's Journey
+qa_plan:
+  title: Deal Hunter's Journey Test Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com and perform Navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.target.com/c/deals and perform Click on 'Deals'
+      to view current promotions
+    assertions:
+    - verificationId: flow_3_phase_2_assertion_1
+      description: Verify that deals page displays current promotions and discounted
+        items
+  - phaseNumber: 3
+    objective: Navigate to https://www.target.com/product-detail and perform Browse
+      the deals and select any featured deal item
+    assertions:
+    - verificationId: flow_3_phase_3_assertion_1
+      description: Verify that product details page shows the deal item with its discounted
+        price and add-to-cart option
+  - phaseNumber: 4
+    objective: Navigate to https://www.target.com/product-detail and perform Add the
+      selected deal item to the shopping cart
+    assertions:
+    - verificationId: flow_3_phase_4_assertion_1
+      description: Verify that any deal item can be added to the shopping cart
+    - verificationId: flow_3_phase_4_assertion_2
+      description: Verify that cart item count updates
+  - phaseNumber: 5
+    objective: Navigate to https://www.target.com/cart and perform View the shopping
+      cart to review the item
+    assertions:
+    - verificationId: flow_3_phase_5_assertion_1
+      description: Verify that cart displays the added deal item with its discounted
+        price
+    - verificationId: flow_3_phase_5_assertion_2
+      description: Verify that cart total reflects the discounted price

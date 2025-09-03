@@ -1,112 +1,116 @@
 {
   "flows": [
     {
-      "id": "flow_1",
-      "title": "Quick Purchase of a Specific Brand Item",
-      "description": "A quick action-taker user who knows they want a product from a specific brand and aims to purchase it rapidly.",
+      "id": "flow_1_quick_purchase",
+      "title": "Quick Purchase Path",
+      "description": "A quick action taker who knows roughly what they want, searches for a product category, adds an item to the cart, and initiates the checkout process.",
       "page_sequence": [
         "page_1",
-        "https://www.target.com/b/stanley/-/N-5vhrz",
-        "https://www.target.com/cart?prehydrateclick=true"
+        "search_results_page",
+        "item_detail_page",
+        "cart_page"
       ],
       "user_goals": [
-        "Purchase a Stanley brand product.",
-        "Add item to cart efficiently."
+        "Find and purchase a general product",
+        "Verify checkout functionality"
       ],
       "browser_actions": [
-        "Navigate to https://www.target.com",
-        "Type 'Stanley' into the search bar and press Enter.",
-        "Click on the 'Stanley' brand link from search results, leading to https://www.target.com/b/stanley/-/N-5vhrz.",
-        "On the Stanley brand page, click on a specific product listing (e.g., 'Stanley Quencher FlowState Tumbler') to view its detail page.",
-        "Click the 'Add to Cart' button on the product detail page.",
-        "Click the 'View Cart' or 'Go to Cart' button to proceed to https://www.target.com/cart?prehydrateclick=true."
+        "Navigate to homepage",
+        "Use the search bar to search for a broad product category (e.g., 'electronics')",
+        "Select the first available product from the search results",
+        "Add the selected item to the shopping cart",
+        "Proceed to the checkout process from the cart"
       ]
     },
     {
-      "id": "flow_2",
-      "title": "Detailed Research of a Product Category with Filters",
-      "description": "A detailed researcher who is looking for a specific type of clothing (women's jeans) and wants to filter by price and sort by newest arrivals.",
+      "id": "flow_2_detailed_category_research",
+      "title": "Detailed Category Exploration and Filtering",
+      "description": "A detailed researcher who explores a specific product category, applies filters to narrow down options, and then views an individual product's details.",
       "page_sequence": [
         "page_1",
-        "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true",
-        "https://www.target.com/c/women/-/N-5xtd3",
-        "https://www.target.com/c/jeans-women-s-clothing/-/N-5xtc8Z1vs54Zo267dZ54zprZe6p1m?maxprice=100&minprice=20&type=products"
+        "category_list_page",
+        "product_category_page",
+        "filtered_results_page",
+        "item_detail_page"
       ],
       "user_goals": [
-        "Find women's jeans within a specific price range.",
-        "Discover the newest styles available.",
-        "Compare different jean options."
+        "Explore products within a chosen category",
+        "Utilize filtering options to refine search",
+        "Access detailed product information"
       ],
       "browser_actions": [
-        "Navigate to https://www.target.com",
-        "Click on the 'Categories' link in the main navigation (https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true).",
-        "From the categories page, click on the 'Women' category link (https://www.target.com/c/women/-/N-5xtd3).",
-        "On the Women's page, click on the 'Jeans' subcategory link (https://www.target.com/c/jeans-women-s-clothing/-/N-5xtc8Z1vs54Zo267dZ54zprZe6p1m).",
-        "Locate the 'Price' filter section on the Women's Jeans page and select the range '$20-$100' (this updates the URL to include '?maxprice=100&minprice=20&type=products').",
-        "Locate the 'Sort By' dropdown menu and select 'Newest'.",
-        "Scroll down the page to browse the filtered and sorted products."
+        "Navigate to homepage",
+        "Click on 'Categories' to view all product categories",
+        "Select any major product category (e.g., 'Home Goods')",
+        "Apply any available filter (e.g., 'price range', 'brand', or 'color') to the results",
+        "Select any product from the filtered results to view its details"
       ]
     },
     {
-      "id": "flow_3",
-      "title": "Discovering Deals in a Specific Home Category",
-      "description": "A price-conscious user actively looking for discounts and sales on kitchen and dining items.",
+      "id": "flow_3_deal_hunter_journey",
+      "title": "Deal Hunter's Journey",
+      "description": "A price/feature comparer looking for discounts or special offers, browsing the deals section, and potentially adding a promotional item to their cart.",
       "page_sequence": [
         "page_1",
-        "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateClick=true",
-        "https://www.target.com/c/kitchen-dining/all-deals/-/N-hz89jZakkos",
-        "https://www.target.com/pl/445416468"
+        "deals_page",
+        "item_detail_page",
+        "cart_page"
       ],
       "user_goals": [
-        "Find discounted kitchen and dining products.",
-        "Evaluate specific product deals."
+        "Discover current promotions and sales",
+        "Add a discounted item to the cart"
       ],
       "browser_actions": [
-        "Navigate to https://www.target.com",
-        "Click on the 'Deals' link in the main navigation (https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateClick=true).",
-        "On the 'Weekly Deals' page, locate and click on a banner or link for 'Kitchen & Dining Deals' (https://www.target.com/c/kitchen-dining/all-deals/-/N-hz89jZakkos).",
-        "Browse through the list of kitchen and dining products on sale.",
-        "Click on a specific product listing (e.g., product with ID 445416468, leading to https://www.target.com/pl/445416468) to view its details and discount information."
+        "Navigate to homepage",
+        "Click on 'Deals' to view current promotions",
+        "Browse the deals and select any featured deal item",
+        "Add the selected deal item to the shopping cart",
+        "View the shopping cart to review the item"
       ]
     },
     {
-      "id": "flow_4",
-      "title": "Returning Visitor Checking Loyalty Program Benefits",
-      "description": "A returning customer who wants to understand or review the benefits of their Target loyalty programs, specifically Target Circle and its associated card.",
+      "id": "flow_4_information_seeking",
+      "title": "Information Seeking for Services",
+      "description": "An information seeker researching non-product related company details, such as store locations or weekly advertisements, without the intent of immediate purchase.",
       "page_sequence": [
         "page_1",
-        "https://www.target.com/circle",
-        "https://www.target.com/circlecard"
+        "store_locator_page",
+        "weekly_ad_page"
       ],
       "user_goals": [
-        "Understand Target Circle benefits.",
-        "Compare Target Circle with Target Circle Card benefits."
+        "Find store locations",
+        "Access current weekly promotions and ads"
       ],
       "browser_actions": [
-        "Navigate to https://www.target.com",
-        "Click on the 'Target Circle\u2122' link in the top header navigation (https://www.target.com/circle).",
-        "Read the overview and benefits described on the Target Circle landing page.",
-        "Locate and click on the 'Target Circle\u2122 Card' link (https://www.target.com/circlecard) to learn about additional card-specific benefits.",
-        "Review the details of the Target Circle Card program."
+        "Navigate to homepage",
+        "Click on 'Find Stores'",
+        "Navigate back to the homepage (using browser back or direct navigation)",
+        "Click on 'Weekly Ad' to view current advertisements"
       ]
     },
     {
-      "id": "flow_5",
-      "title": "Mobile User Browsing for Seasonal Inspiration",
-      "description": "A user on a mobile device with limited time, looking for quick inspiration related to an upcoming seasonal event like Halloween.",
+      "id": "flow_5_convenience_shopping",
+      "title": "Convenience Shopping (Pickup & Delivery)",
+      "description": "A mobile user or convenience-focused shopper exploring available fulfillment options like pickup or delivery, and then searching for items that can be ordered using these methods.",
       "page_sequence": [
         "page_1",
-        "https://www.target.com/c/halloween/-/N-5xt2o"
+        "pickup_delivery_landing_page",
+        "category_or_search_results_page",
+        "item_detail_page",
+        "cart_page"
       ],
       "user_goals": [
-        "Get ideas for Halloween costumes or decorations.",
-        "Quickly see what Halloween products are available."
+        "Understand and select a preferred order fulfillment method",
+        "Search for products compatible with selected fulfillment",
+        "Add items to cart using convenience options"
       ],
       "browser_actions": [
-        "Navigate to https://www.target.com",
-        "Scroll down the homepage to quickly scan for prominent seasonal promotions or banners.",
-        "Click on the 'Halloween' promotional link or banner (https://www.target.com/c/halloween/-/N-5xt2o).",
-        "Scroll through the 'Halloween' hub page, scanning for different categories like costumes, decor, or candy, and general themes."
+        "Navigate to homepage",
+        "Click on 'Pickup & delivery'",
+        "Confirm or select any available pickup/delivery option (e.g., 'Ship to address' or 'Store Pickup')",
+        "Use the search bar to search for a general product (e.g., 'household essentials')",
+        "Select any product from the results that appears available for the chosen fulfillment method",
+        "Add the selected item to the shopping cart"
       ]
     }
   ]

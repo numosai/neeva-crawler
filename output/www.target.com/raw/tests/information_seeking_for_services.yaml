@@ -1,0 +1,27 @@
+name: Information Seeking for Services
+qa_plan:
+  title: Information Seeking for Services Test Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com and perform Navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.target.com/store-locator and perform Click
+      on 'Find Stores'
+    assertions:
+    - verificationId: flow_4_phase_2_assertion_1
+      description: Verify that store locator page loads with options to find nearby
+        stores
+  - phaseNumber: 3
+    objective: Navigate to https://www.target.com and perform Navigate back to the
+      homepage (using browser back or direct navigation)
+    assertions: []
+  - phaseNumber: 4
+    objective: Navigate to https://www.target.com/weekly-ad and perform Click on 'Weekly
+      Ad' to view current advertisements
+    assertions:
+    - verificationId: flow_4_phase_4_assertion_1
+      description: Verify that weekly Ad page displays current advertisements and
+        promotions
+    - verificationId: flow_4_phase_4_assertion_2
+      description: Verify that ad content is accessible and readable

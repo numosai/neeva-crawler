@@ -1,31 +1,67 @@
 {
   "issues": [
     {
-      "text": "Many benefits (5% discount, free 2-day shipping, extended returns, same-day delivery) are subject to various restrictions, exclusions, and eligibility criteria, which could lead to user confusion or disappointment.",
+      "text": "Unusual characters (e.g., '\ue017', '\u00ac') appear in several deal descriptions (e.g., '50\ue017 50% off', '$5\u00acGiftCard', 'BOGO30\ue017', '30\ue017 30% off', 'Up to35\ue017'), indicating potential character encoding or rendering problems.",
+      "page_url": "https://www.target.com/"
+    },
+    {
+      "text": "Multiple sections display 'Loading...' placeholders, suggesting dynamic content failed to load or is missing from the static HTML (e.g., after 'Ready for the night' and after 'Trick or treat... or sip?').",
+      "page_url": "https://www.target.com/"
+    },
+    {
+      "text": "Asterisks ('*') are used next to some offers (e.g., 'Ulta Beauty at Target*', 'kitchen & dining items*') implying terms and conditions or disclaimers, but the corresponding disclaimer text is not immediately visible on the page.",
+      "page_url": "https://www.target.com/"
+    },
+    {
+      "text": "Monthly freebie is valid for annual and monthly members with a membership, trials excluded.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "The 5% Target Circle Card discount has a long list of exclusions, including prescriptions, gift cards, clinic services, and other specific items/services.",
+      "text": "Same-day delivery has exclusions that apply.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "Free 2-day shipping eligibility varies by item, market, and destination ZIP code, and requires specific order cutoff times.",
+      "text": "Restrictions apply for the 5% Target Circle Card Discount.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "Extended returns do not apply to certain categories like Target Optical, non-returnable items, contract mobile phones, or online SNAP/EBT purchases.",
+      "text": "The 5% discount does not apply to prescriptions and other CVS pharmacy products; Target GiftCards; Visa, Mastercard and American Express prepaid cards; Game On, DraftKings and other sports betting gift cards; Starbucks gift cards purchased at Starbucks locations within Target stores; previous purchases; clinic services at Target; Target Optical eye exams and protection plans; Target Circle 360\u2122 memberships; Shipt memberships; alcohol purchases in IN; some independent businesses in Target stores; wireless protection programs and mobile carrier deposits; gift wrapping services; and taxes, shipping, delivery, handling and all other fees or charges.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "Target Circle 360 monthly freebies are not available to trial members.",
+      "text": "The 5% discount applies to eligible purchases minus any other discounts and the value of any promotional Target GiftCards received in the transaction.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "Target\u2122 Mastercard\u00ae requires a minimum of $10 in rewards for redemption, and rewards are forfeited if the account is closed or more than one month past due.",
+      "text": "New cards are subject to application approval and identity verification.",
       "page_url": "https://www.target.com/circle"
     },
     {
-      "text": "The existence of multiple Target Circle Card types (debit, credit, Mastercard, reloadable) with slightly different features and benefits could be complex for users to navigate.",
+      "text": "Item eligibility and assortment for 2-day shipping vary by market and are determined by the location of the item and the destination ZIP code.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "Extended returns do not apply to Target Optical purchases; non-returnable items; contract mobile phones; or online purchases of Supplemental Nutrition Assistance Program (SNAP) eligible items using Electronic Benefits Transfer (EBT), or both EBT and a Target Circle Card for payment.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "Target reserves the right to discontinue or alter the terms of the extended returns program at any time.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "For Target\u2122 Mastercard\u00ae 1% and 2% Reward, to qualify for rewards redemption, you must earn a minimum of $10 in rewards and your Target Mastercard account cannot be more than one month past due. Rewards are forfeited if your Target Mastercard is closed. Additional restrictions apply.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "Target Circle 360\u2122 same-day delivery applies to orders over $35.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "The $99 annual membership fee discounted to $49 when you have a Target Circle Card cannot be applied to previous purchases or combined with other promotions.",
+      "page_url": "https://www.target.com/circle"
+    },
+    {
+      "text": "Restrictions apply for Community support votes.",
       "page_url": "https://www.target.com/circle"
     },
     {
@@ -33,31 +69,31 @@
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "If we determine there is fraud, misuse or abuse of the program, we may take away rewards; prevent you from redeeming rewards or earning additional rewards; deactivate any Target GiftCard reward; and/or suspend or close your Target Circle Card.",
+      "text": "Rewards may be taken away, redemption/earning prevented, any Target GiftCard reward deactivated, and/or Target Circle Card suspended or closed if fraud, misuse or abuse of the program is determined.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "If your Target Circle Card account is closed for any reason, you will have 135 days from the date the account was closed to redeem your available rewards, after which you will forfeit all accumulated, unredeemed rewards.",
+      "text": "If your Target Circle Card account is closed for any reason, you will have 135 days to redeem available rewards, after which all accumulated, unredeemed rewards will be forfeited.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "You will not be able to redeem rewards if our records indicate that mail is undeliverable to the mailing address we have on file for your Target Circle Card.",
+      "text": "You will not be able to redeem rewards if our records indicate that mail is undeliverable to the mailing address on file for your Target Circle Card until you update it.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "You will not be able to redeem rewards if your account is restricted or suspended, for example if your card is lost or we\u2019re investigating fraud on your account.",
+      "text": "You will not be able to redeem rewards if your account is restricted or suspended (e.g., if your card is lost or Target is investigating fraud on your account).",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "We are not responsible for lost or stolen Target GiftCards.",
+      "text": "Target is not responsible for lost or stolen Target GiftCards.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "We are not responsible if a Target GiftCard is not delivered to you.",
+      "text": "Target is not responsible if a Target GiftCard is not delivered to you.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "Rewards are not your property and you have no property rights or other legal interest in the Rewards.",
+      "text": "Rewards are not your property and you have no property rights or other legal interest in them.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
@@ -69,23 +105,11 @@
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "We are not responsible for disputes about this program or about the redemption of a Target GiftCard that you may have with a joint accountholder or an authorized user of your Target Circle Card account.",
+      "text": "Target is not responsible for disputes about this program or about the redemption of a Target GiftCard that you may have with a joint accountholder or an authorized user of your Target Circle Card account.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "Target Corporation can discontinue or alter the terms of the program at any time.",
-      "page_url": "https://www.target.com/circlecard"
-    },
-    {
-      "text": "Select items may require a minimum purchase threshold before the order will be shipped for free shipping.",
-      "page_url": "https://www.target.com/circlecard"
-    },
-    {
-      "text": "Orders delivered by Shipt may have a delivery fee, even with a Target Circle Card.",
-      "page_url": "https://www.target.com/circlecard"
-    },
-    {
-      "text": "The free shipping offer is not valid on previous orders or where otherwise prohibited by law.",
+      "text": "Target can discontinue or alter the terms of the program at any time.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
@@ -93,63 +117,291 @@
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "The 5% Target Circle Card discount does not apply to prescriptions, certain Target Optical services, various gift cards (Target, Visa, Mastercard, Amex, sports betting, Starbucks in-store), previous purchases, account payments, cash reloads/advances, Shipt/Target Circle 360 membership fees, alcohol in Indiana, wireless protection program purchases, gift wrapping, taxes, shipping, delivery, handling, and other fees.",
+      "text": "Offer applies only on standard shipping to all 50 states and the District of Columbia as well as APO/FPO addresses and Puerto Rico.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "The extended returns benefit (additional 30 days) does not apply to Target Optical purchases, non-returnable items, contract mobile phones, or online purchases of SNAP eligible items using both EBT and a Target Circle Card.",
+      "text": "If you upgrade your shipping method, shipping fees will apply (unless Target offers promotions for free shipping on upgraded methods).",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "The Target Mastercard 1% and 2% reward program has specific merchant category code (MCC) requirements for gas and dining, and merchants not primarily selling automotive gasoline (e.g., truck stops, boat marinas) or food/beverages within larger establishments (e.g., theme parks, casinos) may not qualify for the higher reward rate.",
+      "text": "Select items may require a minimum purchase threshold before the order will be shipped.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "Target Mastercard rewards are not earned on purchases at Target or Target.com (where the 5% discount applies instead), cash advances, ATM withdrawals, money orders, cash-like transactions, account fees, interest charges, unauthorized/fraudulent charges, or purchases/reloads of gift cards or prepaid cards.",
+      "text": "Orders delivered by Shipt may have a delivery fee.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "The $50 offer for both credit and debit cards is redeemable through Target Circle and requires spending within the first 60 days following approval.",
+      "text": "This offer is not valid on previous orders or where otherwise prohibited by law.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "Free 2-day shipping is available on 'eligible items' and requires placing the order by a specific cutoff time for select ZIP codes.",
+      "text": "Target reserves the right to discontinue or alter the terms of this program at any time.",
       "page_url": "https://www.target.com/circlecard"
     },
     {
-      "text": "The 'no price markups' benefit for same-day delivery excludes select alcohol retailers and items.",
+      "text": "Every exclusive extra may not be available to every Target Circle Card holder.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The selection of Target Circle Card holders for a specific exclusive extra may be based on criteria, such as previous purchases or geographic location.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Exclusive extras are planned throughout the year at Target's sole discretion and may vary from year to year.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Exclusive extras may have limitations and restrictions.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "No credit check is subject to identity verification.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "You'll be considered for a Target Mastercard based on your creditworthiness.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "If you don't qualify for a Target Mastercard, you'll be considered for a Target Circle Credit Card.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The offer is for Target Circle Rewards when using a Target Circle Debit or Credit card.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "You must spend $50 or more on qualifying purchases within 60 days of approval.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Terms apply to Target Circle Rewards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "This offer does not apply to mail-in applications.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Qualifying purchases exclude alcohol, Target GiftCards, Visa, American Express and Mastercard gift cards/prepaid cards, CVS pharmacy, clinic, and Target Optical.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target Circle Rewards will expire after one year if you have not earned or redeemed any Target Circle Rewards for one year.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Offer for $50 credit card bonus is redeemable through Target Circle and requires spending within the first 60 days following approval.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Offer for $50 debit card bonus is redeemable through Target Circle and requires spending within the first 60 days following approval.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Some restrictions apply to the benefits listed.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Cash withdrawal of up to $40 at checkout is not available with the credit card.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Earning 2% on dining and gas purchases and 1% everywhere else outside of Target is not available with the debit card (exclusive to Target Mastercard).",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Some restrictions apply to the Target Mastercard rewards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Same-day delivery from Target & more local stores with no markups excludes select alcohol retailers and items.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target reserves the right to discontinue or alter the terms of the 5% discount program at any time.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount applies only to the purchase amount tendered to your Target Circle Card if used in the same transaction with another form of payment.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount applies to eligible purchases minus any other discounts and the value of any promotional Target gift cards received in the transaction.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Prescriptions, over-the-counter items located behind the pharmacy counter and clinic services at Target.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Target Optical\u2122 eye exams and protection plans (Target Optical products, such as glasses and contact lenses, do receive the 5% discount).",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Target GiftCards; Visa, Mastercard and American Express prepaid cards; Game On, DraftKings, and other sports betting gift cards; and Starbucks gift cards purchased at Starbucks locations within Target stores.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Previous purchases.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Target credit account payments, Target Circle Card Account cash reloads, Target Debit Card cash back and cash advances on the Target Mastercard.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Shipt and Target Circle 360\u2122 membership fees.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Alcohol purchases in Indiana.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Wireless protection program purchases and deposits required by mobile carrier.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Gift wrapping services.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Taxes, shipping, delivery, handling and all other fees or charges.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The 5% discount does not apply to: Where otherwise prohibited by law.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Free 2-day shipping applies to most items and eligible items, not all items.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "To receive 2-day shipping, orders must be placed by the order cutoff time for select items to select ZIP codes.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The $50 off Target Circle 360 is subject to the terms and conditions of the membership.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The $50 off Target Circle 360 cannot be applied to previous purchases or combined with other promotions.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target reserves the right to discontinue or alter the terms of the extended return program at any time.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target Circle\u2122 Card extended returns do not apply to: Target Optical purchases.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target Circle\u2122 Card extended returns do not apply to: Non-returnable items.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target Circle\u2122 Card extended returns do not apply to: Contract mobile phones.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target Circle\u2122 Card extended returns do not apply to: Online purchases of Supplemental Nutrition Assistance Program (SNAP) eligible items using both Electronic Benefits Transfer (EBT) and a Target Circle Card for payment.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Gas merchants are assigned an MCC of 5541 or 5542; merchants that do not specialize in selling automotive gasoline, such as truck stops and boat marinas, are not eligible gas merchants for 2% rewards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Dining merchants are assigned an MCC of 5812, 5813 or 5814; merchants selling food and beverages within larger establishments such as theme parks, casinos and stadiums are not eligible dining merchants for 2% rewards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Individual merchants and their credit card processors are responsible for designating MCCs, and Target does not have control over which MCC is assigned to a merchant.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Purchases made at merchants that do not process transactions using one of the specified MCCs will only qualify for 1% rewards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Target is not responsible if you believe a purchase should be categorized as a gas or dining purchase and it is not.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "You will not earn 1% rewards when you shop at Target or Target.com (the 5% Target Circle Card Discount program applies to those purchases instead).",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The following types of transactions are not considered eligible purchases for rewards: Cash advances, ATM withdrawals, money orders and other cash or cash-like transactions.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The following types of transactions are not considered eligible purchases for rewards: Target Circle Card account fees and interest charges.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The following types of transactions are not considered eligible purchases for rewards: Unauthorized or fraudulent charges.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The following types of transactions are not considered eligible purchases for rewards: Transactions not allowed by your Target Mastercard Agreement.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "The following types of transactions are not considered eligible purchases for rewards: Purchases or reloads of gift cards or prepaid cards.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "If an item is returned or if credits or adjustments are made to your Target Circle Card purchase balance, your reward amount will be adjusted accordingly, which may cause your reward amount to be eliminated or create a negative reward amount.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "If you have a negative reward amount, any new reward amounts will be applied to the negative reward amount until it reaches zero.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Rewards can be lost, even though they do not expire.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "You can only redeem rewards if you have earned at least $10 in rewards and otherwise qualify for rewards redemption.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "To redeem rewards for a physical Target GiftCard, you need a valid mailing address on file for your Target Circle Card.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "To redeem rewards for a Target eGiftCard, you need a Manage my Target Circle Card account and a valid mailing address and email address on file for your Target Circle Card.",
+      "page_url": "https://www.target.com/circlecard"
+    },
+    {
+      "text": "Same-day delivery 'no price markups' excludes select alcohol retailers & items.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "Potential $300 savings are based on specific assumptions (two Same-day Delivery orders per month at $9.99 each, plus annual Shipt membership at $99 per year); actual savings will vary and depend upon shopping behavior.",
+      "text": "Potential $300 savings are based on assumptions and actual savings will vary depending on shopping behavior.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "Same-day delivery applies only to orders over $35.",
+      "text": "Same-day delivery applies to orders over $35.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "Free 2-day shipping eligibility and assortment vary by market and are determined by the location of the item and the destination ZIP code. Orders must be placed by the order cutoff time to receive 2-day shipping on select items to select ZIP codes.",
+      "text": "Free 2-day shipping eligibility and assortment vary by market and destination ZIP code.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "For 'No Markups', product prices are generally the same as in-store, except for alcohol and non-alcohol items where alcohol is predominantly sold, where prices are generally not the same as in-store.",
+      "text": "Extended returns do not apply to Target Optical purchases, non-returnable items, contract mobile phones, or online purchases of SNAP/EBT eligible items using EBT and/or a Target Circle Card.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "Pricing and availability are subject to change without notice, delays, data limitations, adjustments, and/or errors. In-store deals may not apply to online orders.",
-      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
-    },
-    {
-      "text": "Extended returns do not apply to Target Optical purchases, non-returnable items, contract mobile phones, or online purchases of Supplemental Nutrition Assistance Program (SNAP) eligible items using Electronic Benefits Transfer (EBT), or both EBT and a Target Circle Card for payment.",
-      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
-    },
-    {
-      "text": "Membership discounts (e.g., Target Circle Card, college student, government assistance) cannot be applied to previous purchases or combined with other promotions.",
-      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
-    },
-    {
-      "text": "For college student and government assistance monthly membership discounts, if status cannot be verified, the standard monthly subscription fee ($10.99/month) will be charged.",
+      "text": "Membership discounts (Target Circle Card, college student, govt. assistance) cannot be applied to previous purchases or combined with other promotions.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
@@ -157,605 +409,50 @@
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "General offer details, restrictions, pricing, promotions, and availability may vary by location and at Target.com.",
+      "text": "Alcohol prices, and prices on non-alcohol items where alcohol is predominantly sold, are generally not the same as in-store, despite 'no markups' claim.",
       "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "The provided URL content is a list of product categories and subcategories from a retail website (Target). It does not contain any information related to 'issues' or 'recommendations' in the context of problems, advice, or suggestions.",
-      "page_url": "https://www.target.com/store-locator/find-stores"
+      "text": "Pricing and availability are subject to change without notice, delays, data limitations, adjustments, and/or errors.",
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
     },
     {
-      "text": "Redundant category listings (e.g., 'Baby' appears as a sub-category and a main category), which can lead to a cluttered feel and potential user confusion.",
+      "text": "In-store deals may not apply to same-day delivery.",
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "text": "Monthly freebies are valid for annual and monthly members with a membership; trials are excluded.",
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "text": "Discounted monthly memberships for college students and government assistance recipients require verification of status; otherwise, the standard monthly fee will be charged.",
+      "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk"
+    },
+    {
+      "text": "Redundant navigation links are present in multiple sections (header, main content, footer), leading to clutter.",
       "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
     },
     {
-      "text": "Placeholder SVG images are used for 'Deals', 'Weekly Ad', and 'Clearance' in the footer's 'Deals' section, indicating a potential issue with image loading or a design choice that lacks visual appeal.",
+      "text": "Inconsistent presentation of category links is observed; some categories use image-based links while others are simple text lists (e.g., 'Electronics' section).",
       "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
     },
     {
-      "text": "The 'Sponsored' section is generic and only contains an email sign-up, which might be misleading if users expect sponsored product content.",
+      "text": "The 'Baby' category is listed twice, once as a sub-category under 'Clothing, Shoes & Accessories' and again as a top-level category, which could cause confusion.",
       "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
     },
     {
-      "text": "The 'New & featured' section is truncated with a 'Show 2 more' link, potentially hiding relevant content from immediate view.",
+      "text": "There are empty or non-descriptive links (e.g., `[](/)`) that do not provide clear navigation.",
       "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
     },
     {
-      "text": "Offers error icon: Oops - our bad!",
-      "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true"
+      "text": "The 'Sponsored' content section interrupts the flow of category listings, potentially disrupting user browsing.",
+      "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true"
     }
   ],
   "recommendations": [
     {
       "text": {
-        "text": "Rep your team Fan fits from $5 for game-day looks that really stand out.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Fresh NFL looks",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "New NCAA styles",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Gear up to watch",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop all game-day supplies",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Women\u2019s denim from $28",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Fall flavors under $5",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Fall home trends from $5",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "50% off Daily & Weekly Beauty Steals\u00ae during the 21 Days of Beauty Event at Ulta Beauty at Target* Ends 9/18.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "$5 Target gift card when you spend $30 on select health care items",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "BOGO 30% off Fan Central team licensed items",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "30% off when you buy 3 12-pk. sodas",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Up to 35% off kitchen & dining items*",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Celebrate Halloween your way with costumes, decor, candy & more.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "New & Trending",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "New from Hearth & Hand\u2122 with Magnolia Explore all the latest designs to refresh your space.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Now in orbit: Space Camp lip care",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Just-arrived fall dresses Find Wild Fable\u2122 looks for homecoming, hangouts & beyond.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Trick or treat... or sip? Cute and a little haunted\u2014Stanley + CharCharms drop 9/7.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop all categories",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Back to School",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "College",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Game Day",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Women\u2019s",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Men\u2019s",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Kids\u2019",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Baby",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Home",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Kitchen & Dining",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Electronics",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Video Games",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Apple",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Toys",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Health",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Beauty",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Household Essentials",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Grocery",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clearance",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Download the Target app & get more Target in one place.",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Get top deals, latest trends, and more. (Email signup)",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Grocery",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Household Essentials",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Beauty",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Baby",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clothing, Shoes & Accessories",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Home",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Toys",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Electronics",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Deals",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Weekly Ad",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clearance",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Target New Arrivals",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Target Finds",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "#TargetStyle",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Halloween",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Store Events",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Asian-Owned Brands at Target",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Black Beyond Measure",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "M\u00e1s Que",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Women-Owned Brands at Target",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "LGBTQIA+ Shop",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Pickup Order ahead & pick up in-store",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Delivery Brought to your door by Shipt",
-        "page_url": "https://www.target.com",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Select your store",
+        "text": "Review and correct character encoding or rendering for special characters in deal descriptions to ensure proper display.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -764,7 +461,7 @@
     },
     {
       "text": {
-        "text": "Explore Target Circle\u2122 benefits",
+        "text": "Investigate and fix the 'Loading...' issues to ensure all dynamic content is displayed correctly, or provide appropriate fallback content.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -773,7 +470,7 @@
     },
     {
       "text": {
-        "text": "Apply for Target Circle\u2122 Card",
+        "text": "Ensure that all disclaimers and terms associated with asterisked offers are clearly visible and easily accessible to users.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -782,7 +479,7 @@
     },
     {
       "text": {
-        "text": "Learn about Target Circle 360\u2122",
+        "text": "Rep your team with fan fits starting from $5 for game-day looks.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -791,7 +488,7 @@
     },
     {
       "text": {
-        "text": "Create a Registry & Wish List",
+        "text": "Explore fresh NFL looks.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -800,7 +497,7 @@
     },
     {
       "text": {
-        "text": "View the Weekly Ad",
+        "text": "Discover new NCAA styles.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -809,101 +506,11 @@
     },
     {
       "text": {
-        "text": "Find nearby Stores",
+        "text": "Gear up to watch games.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
       "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Browse Categories",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check out Deals",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "High",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Discover New & featured items",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Utilize Pickup & delivery services",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Manage your Account",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "View your Cart",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Rep your team with Fan fits from $5 for game-day looks that really stand out.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check out Fresh NFL looks.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Explore New NCAA styles.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Gear up to watch.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
       "category": "User Experience"
     },
     {
@@ -912,43 +519,457 @@
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Shop Women\u2019s denim from $28.",
+        "text": "Get snacks fast with same-day delivery.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Discover Fall flavors under $5.",
+        "text": "Purchase Village Hot Salsa - 15oz for $5.79.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Explore Fall home trends from $5.",
+        "text": "Purchase Calidad Yellow Corn Tortilla Chips - 11oz for $2.49.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Get 50% off Daily & Weekly Beauty Steals\u00ae during the 21 Days of Beauty Event at Ulta Beauty at Target (Ends 9/18).",
+        "text": "Purchase Homestyle Guacamole - 10oz - Good & Gather\u2122 for $3.59.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Frozen Parmesan Pastry Wrapped Mini Uncured Beef Hot Dogs - 8.7oz/10ct - Good & Gather\u2122 for $5.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Naturally Flavored Cheddar and Sour Cream Ripple Potato Chips - 8oz - Market Pantry\u2122 for $2.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Hormel Original Pepperoni Slices - 6oz for $3.69 (new lower price).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Jack's Original Thin Crust Frozen Pizza - 15.8oz for $3.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Planters Heart Healthy Dry Roasted Peanuts - 16oz for $2.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Queso Blanco 15oz - Good & Gather\u2122 for $2.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Doritos Nacho Cheese Flavored Party Size Tortilla Chips - 14.5oz for $6.69.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Bachan's Original Dipping Sauce - 16oz for $8.29.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Ball Park Hamburger Buns - 15oz/8ct for $2.99 (buy 2 for $5).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Ground Beef Patties 80% lean 20% fat 10ct/32oz - Good & Gather\u2122 for $10.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Pepper Jack, Colby Jack, Swiss & Cheddar Cheese Slice Party Tray - 28ct/16oz - Good & Gather\u2122 for $5.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Liquid Death Severed Lime Sparkling Water - 6pk/12 fl oz Cans for $6.89.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Doritos Cool Ranch Tortilla Chips - 9.25oz for $5.19.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Waterloo Raspberry Nectarine Sparkling Water - 8pk/12 fl oz Cans for $4.49.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Totino's Pepperoni Frozen Pizza Rolls - 24.8oz for $4.49 (on sale).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Just Bare Lightly Breaded Chicken Breast Bites - Frozen - 24oz for $11.49.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Oscar Mayer Original Wieners Hot Dogs - 16oz/10ct for $2.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Hot Dog Buns - 11oz/8ct - Market Pantry\u2122 for $1.59.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Chick-Fil-A Dipping Sauce - 16 fl oz for $3.49 (on sale).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Mini Pretzel Twists - 25oz - Market Pantry\u2122 for $4.59.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Hormel Gatherings Hard Salami, Pepperoni, Cheese & Crackers Charcuterie Party Tray - 28oz for $14.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Shop women\u2019s denim starting from $28.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Discover fall flavors under $5.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Explore fall home trends starting from $5.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 18\"x18\" Stripe Square Toss Pillow Brown/Tan - Hearth & Hand\u2122 with Magnolia for $24.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Small Glass Pumpkin Champagne - Threshold\u2122 for $10.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Naturally Flavored PUMPKIN SPICE Light Roast Ground Coffee - 12oz - Good & Gather\u2122 for $7.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 21oz Fluted Glass Tumbler with Wood Lid Green - Hearth & Hand\u2122 with Magnolia for $9.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Women's Game Day Denim Flare Mini Skirt - Wild Fable\u2122 Blue 2 for $25.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Women\u2019s Marlowe Hiker Ankle Boots with Memory Foam Insole \u2013 Wild Fable\u2122 Tan 7 for $45.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Women's Relaxed Bomber Denim Jacket - Universal Thread\u2122 Medium Wash M for $65.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase cocokind Ceramide Lip Blur Balm - Be You - 0.37 fl oz for $11.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Studded Oversized Clutch - A New Day\u2122 Brown for $30.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Being Frenshe Shea Butter with Jojoba and Radiance Oil for Dry Skin & Hair - Cashmere Vanilla - 4 fl oz for $16.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Lidded Jar Candle - Threshold\u2122 for $7.00 - $14.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 24\" Mixed Leaf Artificial Fall Wreath Red - Threshold\u2122 designed with Studio McGee for $35.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase C&F Home 50\" x 60\" Dunmore Plaid Pumpkin Orange Plaid Woven Accent Throw Blanket With Fringe Tassels for $39.99 (on sale).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Full/Queen Heavyweight Linen Blend Comforter & Sham Set Warm Brown - Casaluna\u2122 for $145.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 10oz Carved Edge Ceramic Mug Green - Hearth & Hand\u2122 with Magnolia for $5.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 24\" Artificial Maple Leaves Autumn Wreath with Pumpkins, Berries and Ivy - National Tree Company for $55.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Set of 2 Faux Stitched Grid Oven Mitts Green - Hearth & Hand\u2122 with Magnolia for $12.99.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase 188oz Wood Signature Serving Bowl - Threshold\u2122 for $30.00.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Staub Ceramic 24-oz Pumpkin Cocotte - Burnt Orange for $49.99 (on sale).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Pumpkin Spice Chai Granola - 11oz - Good & Gather\u2122 for $4.49.",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Purchase Kate Aurora Festive Fall Autumn Leaves Bristled Outdoor All Season Welcome Mat - 18\"x30\" for $28.00 (on sale).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Take advantage of 50% off Daily & Weekly Beauty Steals\u00ae during the 21 Days of Beauty Event at Ulta Beauty at Target (ends 9/18).",
+        "page_url": "https://www.target.com/",
+        "priority": "medium"
+      },
+      "priority": "High",
       "category": "User Experience"
     },
     {
@@ -957,7 +978,7 @@
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
@@ -966,7 +987,7 @@
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
@@ -975,12 +996,12 @@
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
-      "priority": "Medium",
+      "priority": "High",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Save Up to 35% off kitchen & dining items.",
+        "text": "Save up to 35% off kitchen & dining items.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -998,7 +1019,7 @@
     },
     {
       "text": {
-        "text": "Check out New & Trending items.",
+        "text": "Explore all the latest designs from Hearth & Hand\u2122 with Magnolia to refresh your space.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -1007,7 +1028,7 @@
     },
     {
       "text": {
-        "text": "Explore new designs from Hearth & Hand\u2122 with Magnolia to refresh your space.",
+        "text": "Check out Space Camp lip care.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -1016,7 +1037,7 @@
     },
     {
       "text": {
-        "text": "Discover Space Camp lip care.",
+        "text": "Find just-arrived fall dresses from Wild Fable\u2122 for homecoming, hangouts & beyond.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -1025,7 +1046,7 @@
     },
     {
       "text": {
-        "text": "Find Just-arrived fall dresses from Wild Fable\u2122 for homecoming, hangouts & beyond.",
+        "text": "Look out for the Stanley + CharCharms drop on 9/7.",
         "page_url": "https://www.target.com/",
         "priority": "medium"
       },
@@ -1034,560 +1055,425 @@
     },
     {
       "text": {
-        "text": "Check out Stanley + CharCharms dropping 9/7.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop all categories.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Back to School items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop College items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Game Day items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Women\u2019s clothing.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Men\u2019s clothing.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Kids\u2019 items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Baby items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Home items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Kitchen & Dining items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Electronics.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Video Games.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Apple products.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Toys.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Health products.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Beauty products.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Household Essentials.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Grocery items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Clearance items.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Download the Target app to shop & save.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Sign up for email to get top deals, latest trends, and more.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Grocery.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Household Essentials.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Beauty.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Baby.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Clothing, Shoes & Accessories.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Home.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Toys.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Electronics.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check Deals.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check the Weekly Ad.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Clearance.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check Target New Arrivals.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Discover Target Finds.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Explore #TargetStyle.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Halloween.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Find Store Events.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Asian-Owned Brands at Target.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Black Beyond Measure.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Explore M\u00e1s Que.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop Women-Owned Brands at Target.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Shop LGBTQIA+ Shop.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Use Pickup: Order ahead & pick up in-store.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Use Delivery: Brought to your door by Shipt.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Use Target Circle\u2122.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Use Target Circle\u2122 Card.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Use Target Circle 360\u2122.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Create a Registry & Wish List.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Check the Weekly Ad.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Medium",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Find Stores.",
-        "page_url": "https://www.target.com/",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Sign in or create a Target account to access full Target Circle benefits.",
+        "text": "Sign in or create account to get more Target.",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Consider joining Target Circle 360 for unlimited same-day delivery and other premium benefits.",
-        "page_url": "https://www.target.com/circle",
-        "priority": "low"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Utilize the 14-day free trial for Target Circle 360 to experience the service before committing to a paid plan.",
+        "text": "Join Target Circle 360 (monthly $10.99/month, annual $99/yr, or 14-day free trial).",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Explore discounted Target Circle 360 memberships for college students or those receiving government assistance ($4.99/month).",
+        "text": "Learn more about Target Circle 360.",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Apply for a Target Circle Card (credit, debit, or reloadable) to receive an additional 5% discount on eligible purchases and a $50 discount on the Target Circle 360 annual membership.",
+        "text": "Gift a membership.",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "For those who shop outside Target, consider the Target\u2122 Mastercard\u00ae to earn rewards toward a Target GiftCard.",
-        "page_url": "https://www.target.com/circle",
-        "priority": "low"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Join the free Target Circle program to access automatic deals, personalized bonuses, and partner perks.",
+        "text": "Check Frequently asked questions about Target Circle 360.",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Actively browse Target Circle deals and personalized bonuses to maximize savings.",
+        "text": "Save over 50% as a college student (get a monthly membership for $4.99/month by verifying student status).",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Participate in community support votes to help direct Target's charitable giving.",
+        "text": "Save over 50% with government assistance (get a monthly membership for $4.99/month by verifying status).",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Sign up for email updates to receive information on top deals and latest trends.",
+        "text": "Save $50 as a Target Circle Card holder (get an annual membership for $49/year).",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Review the detailed terms and conditions for all benefits (e.g., 5% discount, shipping, returns) to understand specific restrictions and exclusions.",
+        "text": "Get a monthly freebie (choose from gifts & exclusive discounts on the first of every month).",
         "page_url": "https://www.target.com/circle",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get early access to big sales, brand collabs & members-only items.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Order from nearby grocers, pet stores & many more with no markups (same-day delivery).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enjoy free, fast shipping on hundreds of thousands of items (free 2-day shipping).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get an extra 30 days to return your items (no-rush returns).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get all the benefits of Target Circle (automatic deals, personalized bonuses, partner perks).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Save 5% more your way, every day.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Find a card right for you (explore credit, debit and reloadable options).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Learn more about your Target Circle Card (Frequently asked questions).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Save an extra 5% instantly, in store & online.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Stack these savings with other Target Circle deals.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enjoy fast, free shipping on hundreds of thousands of items at Target.com (free 2-day shipping).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Find a card right for you (credit or debit, save an extra 5% with any option).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Earn more with Target\u2122 Circle Mastercard\u00ae (earn toward a Target GiftCard when you shop outside Target).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get an extra 30 days to return your items (no-rush returns).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get $50 off Target Circle 360\u2122 (get same-day delivery & more for just $49 a year when you have a Target Circle\u2122 Card).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get all the benefits of Target Circle.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Join Target Circle (free & easy way to get the most deals at Target).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get access to automatic deals and more.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See today's Target Circle deals (browse a variety of deals or choose personalized bonuses).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Learn how to earn and save even more (Target Circle Bonuses).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See the partner perks you'll enjoy from your favorite brands (Target Circle Partners).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Learn how you can help direct where Target gives in your community (Community support votes).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Learn more about the loyalty program (Frequently asked questions about Target Circle).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Access to automatic deals (shop as a member and they\u2019ll apply at checkout).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Earn Target Circle Rewards and save with personalized deals (Just-for-you bonuses).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Redeem free trials, link to other reward programs and so much more (Exclusive partner perks).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Spread the love and help direct where Target gives in your community (Community support).",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See full program rules in store or at Target.com/CircleCard for details on the 5% Target Circle Card Discount.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Place your order by the order cutoff time to receive 2-day shipping on select items to select ZIP codes.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Refer to the product detail page for estimated delivery dates for 2-day shipping.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Visit Target.com/2dayshipping for general delivery guidelines.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See \"Extended returns program\" below for details.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See \"Target Circle Card\" below for details.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See the program rules at Target.com/CircleCard for complete details on Target\u2122 Mastercard\u00ae rewards.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See Target.com/circle for more details on Target Circle 360\u2122.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See Terms & Conditions for details on Community support votes.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Sign up with your email address to get top deals, latest trends, and more.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "See offer details for pricing, promotions and availability.",
+        "page_url": "https://www.target.com/circle",
+        "priority": "medium"
+      },
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
@@ -1596,7 +1482,34 @@
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "You can redeem rewards if you have earned at least $10 in rewards and otherwise qualify for rewards redemption.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "When redeeming rewards, choose the amount of rewards you want to redeem ($10 minimum).",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "When redeeming rewards, choose whether to receive a physical Target GiftCard or a Target eGiftCard.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
@@ -1605,16 +1518,16 @@
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "To redeem rewards for a Target eGiftCard you need a Manage my Target Circle Card account and a valid mailing address and email address on file for your Target Circle Card.",
+        "text": "To redeem rewards for a Target eGiftCard, you need a Manage my Target Circle Card account and a valid mailing address and email address on file for your Target Circle Card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
@@ -1623,12 +1536,30 @@
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
-      "priority": "Low",
+      "priority": "Medium",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "If our records indicate that mail is undeliverable to the mailing address we have on file for your Target Circle Card, you will need to update your mailing address before you can redeem rewards.",
+        "text": "If mail is undeliverable to your mailing address on file, you will need to update your mailing address before you can redeem rewards.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "If your Target Circle Card account is closed, redeem your available rewards within 135 days from the date the account was closed.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "You agree that Target or its agents may call or text you regarding the program using an automatic dialing/announcing device, including to a mobile telephone.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1637,7 +1568,43 @@
     },
     {
       "text": {
-        "text": "Target Circle Card holders may need to be fully enrolled in Target Circle\u2122 to redeem exclusive extras offers.",
+        "text": "You agree that Target may, for training purposes or to evaluate the quality of service, listen to and record phone conversations you have with them.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Use your Target Circle Card Account, Target Debit Card, Target Credit Card or Target\u2122 Mastercard\u00ae on Target.com to receive free shipping on your Target.com purchases.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Target Circle Card holders may need to be fully enrolled in Target Circle\u2122 to redeem offers.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "You are applying for a Target credit card issued by TD Bank, USA, N.A.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Get $50 in Target Circle Rewards when you spend $50 or more on qualifying purchases in-store or at Target.com with your Target Circle Debit or Credit card within 60 days of approval.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1655,7 +1622,7 @@
     },
     {
       "text": {
-        "text": "Apply for a Target Circle Card (Credit or Debit) to receive an instant extra 5% off at checkout on eligible purchases.",
+        "text": "Apply for credit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1664,7 +1631,7 @@
     },
     {
       "text": {
-        "text": "Choose the Credit card for flexible spending with no monthly or annual fees, and a $50 offer upon approval and spending within 60 days.",
+        "text": "Apply for debit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1673,7 +1640,7 @@
     },
     {
       "text": {
-        "text": "Opt for the Debit card for no bills, no credit check, direct linking to your existing checking account, and a $50 offer upon approval and spending within 60 days.",
+        "text": "Compare cards to find the right one for you.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1682,7 +1649,7 @@
     },
     {
       "text": {
-        "text": "Utilize the card for free 2-day shipping on hundreds of thousands of items at Target.com.",
+        "text": "Apply for credit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1691,7 +1658,7 @@
     },
     {
       "text": {
-        "text": "Take advantage of the extended returns policy, granting an additional 30 days for returns and exchanges on most items.",
+        "text": "Apply for debit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1700,7 +1667,7 @@
     },
     {
       "text": {
-        "text": "Stack your 5% discount on top of existing Target Circle deals for maximum savings.",
+        "text": "Learn about Target Circle 360.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1709,7 +1676,7 @@
     },
     {
       "text": {
-        "text": "Save 5% on purchases at any in-store Starbucks location within Target.",
+        "text": "Apply for a Target Circle Card today.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1718,7 +1685,7 @@
     },
     {
       "text": {
-        "text": "Get 5% off specialty gift cards for travel, dining, and other categories.",
+        "text": "Apply for credit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1727,7 +1694,7 @@
     },
     {
       "text": {
-        "text": "For Target Mastercard holders, earn 2% rewards on eligible gas and dining purchases and 1% everywhere else outside of Target.",
+        "text": "Apply for debit card.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1736,7 +1703,7 @@
     },
     {
       "text": {
-        "text": "Debit card users can withdraw up to $40 cash at checkout.",
+        "text": "Visit Target.com/2dayshipping for general delivery guidelines.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1745,7 +1712,16 @@
     },
     {
       "text": {
-        "text": "Save $50 annually on a Target Circle 360\u2122 subscription, reducing the fee to $49/year for unlimited same-day delivery and other benefits.",
+        "text": "Visit the Manage my Target Circle Card webpage at www.target.com/mycirclecard to redeem rewards.",
+        "page_url": "https://www.target.com/circlecard",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Call the telephone number on the back of your card to redeem rewards.",
         "page_url": "https://www.target.com/circlecard",
         "priority": "medium"
       },
@@ -1763,7 +1739,7 @@
     },
     {
       "text": {
-        "text": "Sign in or create an account to join Target Circle 360.",
+        "text": "Join Target Circle 360 to get a monthly freebie.",
         "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
         "priority": "medium"
       },
@@ -1772,7 +1748,7 @@
     },
     {
       "text": {
-        "text": "Join Target Circle 360 to get a monthly freebie, choosing from gifts and exclusive discounts on the first of every month.",
+        "text": "Sign in or create an account to sign up for Target Circle 360.",
         "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
         "priority": "medium"
       },
@@ -1781,25 +1757,7 @@
     },
     {
       "text": {
-        "text": "Save more on a Target Circle 360 membership by using a Target Circle Card ($50 off annual membership, making it $49/year).",
-        "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Save more on a Target Circle 360 membership if you are a college student (50% off monthly membership, making it $4.99/month).",
-        "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Save more on a Target Circle 360 membership if you are a government assistance recipient (50% off monthly membership, making it $4.99/month).",
+        "text": "Sign up for email updates to get top deals, latest trends, and more.",
         "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
         "priority": "medium"
       },
@@ -1817,7 +1775,7 @@
     },
     {
       "text": {
-        "text": "Explore the free Target Circle program to get the most deals, personalized bonuses, and partner perks.",
+        "text": "Explore the free Target Circle program for deals, personalized bonuses, and partner perks.",
         "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
         "priority": "medium"
       },
@@ -1826,7 +1784,7 @@
     },
     {
       "text": {
-        "text": "Sign up for email updates to receive top deals, latest trends, and more.",
+        "text": "Refer to the Frequently Asked Questions for more details about Target Circle 360.",
         "page_url": "https://www.target.com/l/target-circle-360/-/N-2rguk",
         "priority": "medium"
       },
@@ -1835,259 +1793,7 @@
     },
     {
       "text": {
-        "text": "Deals",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Weekly Ad",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Clearance",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Target New Arrivals",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Target Finds",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "#TargetStyle",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Halloween",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Store Events",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Asian-Owned Brands at Target",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Black Beyond Measure",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "M\u00e1s Que",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Women-Owned Brands at Target",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "LGBTQIA+ Shop",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Beverage",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Grocery",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "SNC",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Sporting Goods",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Household Essentials",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Electronics",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "School & Office Supplies",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Entertainment",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Toys",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Home",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Kitchen & Dining",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Pets",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Beauty",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Health",
-        "page_url": "https://www.target.com/weekly-ad",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "To extract 'issues' and 'recommendations', please provide content that discusses problems, challenges, advice, or suggestions. The current content is a navigation structure.",
-        "page_url": "https://www.target.com/store-locator/find-stores",
-        "priority": "medium"
-      },
-      "priority": "Low",
-      "category": "User Experience"
-    },
-    {
-      "text": {
-        "text": "Streamline the category structure to avoid redundancy and improve navigation clarity. For instance, consolidate 'Baby' clothing under the main 'Baby' category.",
+        "text": "Consolidate and standardize the placement of global navigation links to avoid redundancy and improve page clarity.",
         "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
         "priority": "medium"
       },
@@ -2096,7 +1802,7 @@
     },
     {
       "text": {
-        "text": "Ensure that all image assets, especially for prominent sections like 'Deals' and 'Weekly Ad', are properly loaded and visually engaging, replacing placeholder SVGs with actual images.",
+        "text": "Apply a consistent visual style (e.g., all image-based or all text-based) across all main category listings for better user experience and visual coherence.",
         "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
         "priority": "medium"
       },
@@ -2105,7 +1811,7 @@
     },
     {
       "text": {
-        "text": "Rename the 'Sponsored' section to something more descriptive like 'Email Sign-up' or 'Stay Connected' if its primary purpose is to collect email addresses, or populate it with actual sponsored content if intended for product promotion.",
+        "text": "Clarify the category hierarchy to prevent confusion from duplicate listings, perhaps by distinguishing between 'Baby Clothing' and a broader 'All Baby Products' category.",
         "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
         "priority": "medium"
       },
@@ -2114,16 +1820,295 @@
     },
     {
       "text": {
-        "text": "Consider expanding the 'New & featured' section by default or making the 'Show 2 more' link more prominent and descriptive to encourage user engagement with new content.",
+        "text": "Ensure all links are functional and provide clear, descriptive text or alt attributes for improved accessibility and usability.",
         "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
-        "priority": "low"
+        "priority": "high"
       },
       "priority": "Low",
       "category": "User Experience"
     },
     {
       "text": {
-        "text": "Try refreshing the page or come back later.",
+        "text": "Relocate promotional or sponsored content to a less intrusive area, such as a dedicated sidebar or the page footer, to maintain the flow of category browsing.",
+        "page_url": "https://www.target.com/c/shop-all-categories/-/N-5xsxf?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Sale $8.99 Frito-Lay 18-ct. multipack snacks with same-day delivery or pickup*",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "30% off when you buy 3 12-pk. sodas",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$5 Target gift card when you spend $30 on select health care items",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Up to 50% off puzzles, board & card games* Online only.",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Kitchen & Dining Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Baby Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Video Games Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Outdoor Living & Garden Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Sports & Outdoor Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Entertainment Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Pet Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Health Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Luggage Deals",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Value bundles",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$5 Target GiftCard when you spend $30 on select personal care items with Target Circle",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$2.99 sale select Five Star 100pg notebooks",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$4.59 sale Scrubbing Bubbles cleaning items",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Save 30% when you buy 3 select sodas with Target Circle",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "20% off select markers, pens & highlighters with Target Circle",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$0.50 sale select up&up\u2122 plastic folders",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Buy 1, get 1 25% off select nail & lash essentials with Target Circle",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$8.99 sale select Frito-Lay snacks",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "20% off select Mission flour tortillas with Target Circle",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Buy 2 for $5 select Hillshire Farm snacks",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Buy 5 for $12 select Alani Nu energy drinks",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "25% off select kids' bedding & decor",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Buy 2 for $7 on select Frito-Lay snacks & dips",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$5.79 sale select Tyson frozen food",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$0.50 sale Crayola 24ct kids' crayons",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "25% off select up&up\u2122 alkaline batteries",
+        "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "$0.50 sale select Elmer's washable glue",
         "page_url": "https://www.target.com/c/weekly-deals/-/N-4xw74?prehydrateclick=true",
         "priority": "medium"
       },
@@ -2132,10 +2117,10 @@
     }
   ],
   "summary": {
-    "total_issues": 46,
-    "total_recommendations": 216,
-    "high_priority": 72,
-    "medium_priority": 72,
-    "low_priority": 72
+    "total_issues": 112,
+    "total_recommendations": 185,
+    "high_priority": 61,
+    "medium_priority": 62,
+    "low_priority": 62
   }
 }

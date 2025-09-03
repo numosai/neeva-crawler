@@ -1,0 +1,37 @@
+name: Detailed Category Exploration and Filtering
+qa_plan:
+  title: Detailed Category Exploration and Filtering Test Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com and perform Navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.target.com/c/categories and perform Click on
+      'Categories' to view all product categories
+    assertions:
+    - verificationId: flow_2_phase_2_assertion_1
+      description: Verify that a list of major product categories is displayed
+  - phaseNumber: 3
+    objective: Navigate to https://www.target.com/c/home-goods and perform Select
+      any major product category (e.g., 'Home Goods')
+    assertions:
+    - verificationId: flow_2_phase_3_assertion_1
+      description: Verify that category page displays a list of products with pricing
+    - verificationId: flow_2_phase_3_assertion_2
+      description: Verify that products displayed are relevant to the selected category
+  - phaseNumber: 4
+    objective: Navigate to https://www.target.com/c/home-goods and perform Apply any
+      available filter (e.g., 'price range', 'brand', or 'color') to the results
+    assertions:
+    - verificationId: flow_2_phase_4_assertion_1
+      description: Verify that filter application updates the displayed product list
+        and count
+    - verificationId: flow_2_phase_4_assertion_2
+      description: Verify that applied filters are visibly active
+  - phaseNumber: 5
+    objective: Navigate to https://www.target.com/product-detail and perform Select
+      any product from the filtered results to view its details
+    assertions:
+    - verificationId: flow_2_phase_5_assertion_1
+      description: Verify that product details page for the selected item loads with
+        price and add-to-cart option

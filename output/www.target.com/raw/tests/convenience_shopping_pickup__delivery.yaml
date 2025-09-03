@@ -1,0 +1,52 @@
+name: Convenience Shopping (Pickup & Delivery)
+qa_plan:
+  title: Convenience Shopping (Pickup & Delivery) Test Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com and perform Navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.target.com/c/order-pickup and perform Click
+      on 'Pickup & delivery'
+    assertions:
+    - verificationId: flow_5_phase_2_assertion_1
+      description: Verify that options for order pickup and delivery are presented
+  - phaseNumber: 3
+    objective: Navigate to https://www.target.com/c/order-pickup and perform Confirm
+      or select any available pickup/delivery option (e.g., 'Ship to address' or 'Store
+      Pickup')
+    assertions:
+    - verificationId: flow_5_phase_3_assertion_1
+      description: Verify that selected fulfillment method is confirmed and active
+    - verificationId: flow_5_phase_3_assertion_2
+      description: Verify that product search or browsing reflects the chosen fulfillment
+        option
+  - phaseNumber: 4
+    objective: Navigate to https://www.target.com/search and perform Use the search
+      bar to search for a general product (e.g., 'household essentials')
+    assertions:
+    - verificationId: flow_5_phase_4_assertion_1
+      description: Verify that search results display products available for the selected
+        fulfillment method
+    - verificationId: flow_5_phase_4_assertion_2
+      description: Verify that product results include pricing information
+  - phaseNumber: 5
+    objective: Navigate to https://www.target.com/product-detail and perform Select
+      any product from the results that appears available for the chosen fulfillment
+      method
+    assertions:
+    - verificationId: flow_5_phase_5_assertion_1
+      description: Verify that product details page loads, indicating availability
+        for the chosen fulfillment method
+    - verificationId: flow_5_phase_5_assertion_2
+      description: Verify that add-to-cart option is present for the product
+  - phaseNumber: 6
+    objective: Navigate to https://www.target.com/product-detail and perform Add the
+      selected item to the shopping cart
+    assertions:
+    - verificationId: flow_5_phase_6_assertion_1
+      description: Verify that any product available for the chosen fulfillment can
+        be added to cart
+    - verificationId: flow_5_phase_6_assertion_2
+      description: Verify that cart reflects the added item and its association with
+        the chosen fulfillment method

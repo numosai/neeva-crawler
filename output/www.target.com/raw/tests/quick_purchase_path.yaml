@@ -1,0 +1,40 @@
+name: Quick Purchase Path
+qa_plan:
+  title: Quick Purchase Path Test Journey
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://www.target.com and perform Navigate to homepage
+    assertions: []
+  - phaseNumber: 2
+    objective: Navigate to https://www.target.com/search and perform Use the search
+      bar to search for a broad product category (e.g., 'electronics')
+    assertions:
+    - verificationId: flow_1_phase_2_assertion_1
+      description: Verify that search returns relevant products with prices displayed
+    - verificationId: flow_1_phase_2_assertion_2
+      description: Verify that product list updates based on search query
+  - phaseNumber: 3
+    objective: Navigate to https://www.target.com/product-detail and perform Select
+      the first available product from the search results
+    assertions:
+    - verificationId: flow_1_phase_3_assertion_1
+      description: Verify that product details page displays product name, price,
+        and add-to-cart option
+  - phaseNumber: 4
+    objective: Navigate to https://www.target.com/product-detail and perform Add the
+      selected item to the shopping cart
+    assertions:
+    - verificationId: flow_1_phase_4_assertion_1
+      description: Verify that any selected product can be added to cart
+    - verificationId: flow_1_phase_4_assertion_2
+      description: Verify that cart item count updates
+  - phaseNumber: 5
+    objective: Navigate to https://www.target.com/cart and perform Proceed to the
+      checkout process from the cart
+    assertions:
+    - verificationId: flow_1_phase_5_assertion_1
+      description: Verify that cart displays added items with quantities and total
+        price
+    - verificationId: flow_1_phase_5_assertion_2
+      description: Verify that checkout initiation navigates to the first step of
+        the checkout flow
