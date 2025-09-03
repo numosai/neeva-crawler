@@ -153,7 +153,7 @@
         </div>
 
         <div class="domain-grid">
-            <a href="output/stage.bluebirds.com/html/index.html" class="domain-card">
+                        <a href="output/stage.bluebirds.com/html/index.html" class="domain-card">
                 <h3><i class="fas fa-globe"></i> stage.bluebirds.com</h3>
                 <p>Staging environment analysis - development website testing and validation</p>
                 <div class="quick-links">
@@ -165,7 +165,7 @@
                     <span class="link-item"><i class="fas fa-images"></i> Screenshots</span>
                 </div>
             </a>
-            <a href="output/www.goodbill.com/html/index.html" class="domain-card">
+                        <a href="output/www.goodbill.com/html/index.html" class="domain-card">
                 <h3><i class="fas fa-globe"></i> www.goodbill.com</h3>
                 <p>Healthcare billing optimization service - hospital bill negotiations and savings analysis</p>
                 <div class="quick-links">
@@ -178,7 +178,7 @@
                 </div>
             </a>
         
-            <a href="output/www.atob.com/html/index.html" class="domain-card">
+                                    <a href="output/www.atob.com/html/index.html" class="domain-card">
                 <h3><i class="fas fa-globe"></i> www.atob.com</h3>
                 <p>Fleet fuel card and logistics solutions - comprehensive business services analysis</p>
                 <div class="quick-links">
@@ -191,7 +191,7 @@
                 </div>
             </a>
 
-            <a href="output/www.target.com/html/index.html" class="domain-card">
+                        <a href="output/www.target.com/html/index.html" class="domain-card">
                 <h3><i class="fas fa-globe"></i> www.target.com</h3>
                 <p>Website analysis for Target : Expect More. Pay Less. - comprehensive QA testing and recommendations</p>
                 <div class="quick-links">
@@ -210,6 +210,82 @@
         // Auto-discover domains from output directory structure
         // This will be enhanced to dynamically list available domains
         console.log('Neeva Crawler Reports loaded');
+        
+        // Domain Change Tracking for Main Index
+        (function() {
+            'use strict';
+            
+            /**
+             * Extract domain from URL path
+             * Expected format: /output/DOMAIN/html/... or https://numosai.github.io/neeva-crawler/output/DOMAIN/html/...
+             */
+            function extractDomainFromURL(url) {
+                try {
+                    // Handle both local paths and full URLs
+                    let path = url;
+                    if (url.startsWith('http')) {
+                        const urlObj = new URL(url);
+                        path = urlObj.pathname;
+                    }
+                    
+                    // Match pattern: /output/DOMAIN/html or neeva-crawler/output/DOMAIN/html
+                    const match = path.match(/\/output\/([^\/]+)\/html/);
+                    return match ? match[1] : null;
+                } catch (error) {
+                    console.warn('Error extracting domain from URL:', error);
+                    return null;
+                }
+            }
+            
+            /**
+             * Send domain change message to parent window
+             */
+            function notifyDomainChange(domain, targetUrl) {
+                if (!domain) return;
+                
+                const message = {
+                    type: 'DOMAIN_CHANGE',
+                    domain: domain,
+                    timestamp: new Date().toISOString(),
+                    url: targetUrl || window.location.href
+                };
+                
+                try {
+                    // Send to parent window (if embedded in iframe)
+                    if (window.parent && window.parent !== window) {
+                        window.parent.postMessage(message, '*');
+                        console.log('Domain change notification sent:', message);
+                    }
+                    
+                    // Also send to top window (if nested)
+                    if (window.top && window.top !== window) {
+                        window.top.postMessage(message, '*');
+                    }
+                } catch (error) {
+                    console.warn('Error sending domain change notification:', error);
+                }
+            }
+            
+            // Monitor clicks on domain cards
+            document.addEventListener('click', function(event) {
+                const domainCard = event.target.closest('.domain-card');
+                if (domainCard && domainCard.href) {
+                    const targetDomain = extractDomainFromURL(domainCard.href);
+                    if (targetDomain) {
+                        // Send notification immediately before navigation
+                        notifyDomainChange(targetDomain, domainCard.href);
+                        console.log('Navigating to domain:', targetDomain);
+                    }
+                }
+            });
+            
+            // Expose functions for debugging
+            window.neevaMainTracker = {
+                extractDomain: extractDomainFromURL,
+                notifyChange: notifyDomainChange
+            };
+            
+        })();
     </script>
 </body>
 </html>

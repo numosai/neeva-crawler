@@ -59,6 +59,11 @@
 
     {% block extra_js %}{% endblock %}
     
+    <!-- Domain Change Tracking Script -->
+    <script>
+        {{ domain_tracker_js }}
+    </script>
+    
     <script>
         // Basic JavaScript for interactivity
         function showTab(tabName, element) {

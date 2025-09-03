@@ -34,6 +34,12 @@ class HTMLGenerator:
         css_text = css_file.read_text() if css_file.exists() else ""
         # Mark CSS as safe to prevent HTML escaping
         self.css_content = Markup(css_text)
+        
+        # Load domain tracker JavaScript for inline embedding
+        js_file = Path(__file__).parent / "static" / "js" / "domain-tracker.js"
+        js_text = js_file.read_text() if js_file.exists() else ""
+        # Mark JS as safe to prevent HTML escaping
+        self.domain_tracker_js = Markup(js_text)
     
     def generate_site(self, site_title: str = "Website Analysis") -> bool:
         """
@@ -105,7 +111,8 @@ class HTMLGenerator:
                 site_title=site_title,
                 data=data,
                 current_page=current_page,
-                css_content=self.css_content
+                css_content=self.css_content,
+                domain_tracker_js=self.domain_tracker_js
             )
             
             output_path = self.html_dir / output_file
