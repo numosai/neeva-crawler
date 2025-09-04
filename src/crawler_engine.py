@@ -74,6 +74,12 @@ class CrawlerEngine:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
+        # Check if output directory already exists
+        if output_dir.exists():
+            print(f"⚠️  Output directory already exists: {output_dir}")
+            print("Delete the directory if you want to recrawl and reanalyze.")
+            return True  # Return True to indicate graceful completion
+        
         # Crawl the website
         print(f"🚀 Starting full analysis of {url}")
         crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir)

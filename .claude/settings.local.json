@@ -21,8 +21,12 @@
       "Bash(find:*)",
       "Bash(rm:*)",
       "Bash(mv:*)",
-      "WebFetch(domain:goodbill.com)"
+      "WebFetch(domain:goodbill.com)",
+      "Bash(chmod:*)"
     ],
-    "defaultMode": "acceptEdits"
+    "defaultMode": "acceptEdits",
+    "additionalDirectories": [
+      "/Users/pcadabam/Projects/numos/numos-web"
+    ]
   }
 }

@@ -54,10 +54,26 @@ jobs:
       run: |
         uv run python main.py "${{ inputs.url }}" --model "${{ inputs.model }}" --git-push
         
+    - name: Check for changes
+      id: git-check
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected - analysis completed with updates"
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes detected - analysis completed (output directory already exists)"
+        fi
+        
     - name: Display results summary
       run: |
-        echo "✅ Analysis completed for ${{ inputs.url }}"
-        echo "📊 Generated reports available in the repository"
+        if [ "${{ steps.git-check.outputs.changes }}" = "true" ]; then
+          echo "✅ Analysis completed for ${{ inputs.url }} with new changes"
+          echo "📊 Generated reports available in the repository"
+        else
+          echo "✅ Analysis completed for ${{ inputs.url }} (no new changes)"
+          echo "📊 Reports already exist - delete output directory to recrawl"
+        fi
         if [ -d "output" ]; then
           echo "📁 Output directories:"
           ls -la output/
