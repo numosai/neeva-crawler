@@ -1,0 +1,448 @@
+<!DOCTYPE html><html lang="en"><head><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style><style>:root {
+  --litepicker-mobilefriendly-backdrop-color-bg: #000;
+}
+
+.litepicker-backdrop {
+  display: none;
+  background-color: var(--litepicker-mobilefriendly-backdrop-color-bg);
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.litepicker-open {
+  overflow: hidden;
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] {
+  transform: translate(-50%, -50%);
+  font-size: 1.1rem;
+  --litepicker-container-months-box-shadow-color: #616161;
+}
+.litepicker.mobilefriendly-portrait {
+  --litepicker-day-width: 13.5vw;
+  --litepicker-month-width: calc(var(--litepicker-day-width) * 7);
+}
+.litepicker.mobilefriendly-landscape {
+  --litepicker-day-width: 5.5vw;
+  --litepicker-month-width: calc(var(--litepicker-day-width) * 7);
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months {
+  overflow: hidden;
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] .container__months .month-item-header {
+  height: var(--litepicker-day-width);
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] .container__days > div {
+  height: var(--litepicker-day-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item {
+  transform-origin: center;
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item.touch-target-next {
+  animation-name: lp-bounce-target-next;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item.touch-target-prev {
+  animation-name: lp-bounce-target-prev;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+
+@keyframes lp-bounce-target-next {
+  from {
+    transform: translateX(100px) scale(0.5);
+  }
+  to {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes lp-bounce-target-prev {
+  from {
+    transform: translateX(-100px) scale(0.5);
+  }
+  to {
+    transform: translateX(0px) scale(1);
+  }
+}</style><base href="/"><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta name="keywords" content="Console, dashboard, reporting platform, build reports, best reporting platform, Zerodha reporting engine, Zerodha reports, Zerodha console, Rainmatter"><meta name="referrer" content="origin"><title id="page_title">My account / Console</title><!--[if IE]><link rel="shortcut icon" href="static/images/favicon.ico"><![endif]--><link rel="apple-touch-icon-precomposed" href="/static/images/favicon.png"><link rel="icon" href="/static/images/favicon48.png"><link rel="image_src" href="https://console.zerodha.com/static/images/logo.png"><meta property="og:title" content="Console Login: Zerodha"><meta property="og:description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta property="og:image" content="https://console.zerodha.com/static/images/logo.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Console Login: Zerodha"><meta name="twitter:description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta name="twitter:image" content="https://console.zerodha.com/static/images/logo.png"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Inter:400,500,600"><link rel="stylesheet" href="/static/fonts/console-icons.min.css"><style>.loader {
+				text-align: center;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 62px;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 99999;
+				background: #fff;
+			}
+			.spinner {
+				position: relative;
+				top: 45vh;
+			}
+			.spinner img {
+				width: 100px;
+				display: block;
+				margin: auto;
+			}
+			.dot-spinner {
+				margin-left: 5px;
+				display: inline-block;
+			}
+
+			.dot-spinner i {
+				display: inline-block;
+				width: 6px;
+				height: 6px;
+
+				border-radius: 50%;
+				background: #9b9b9b;
+				vertical-align: middle;
+			}
+
+			.dot-spinner i:first-child {
+				transform: translate(-5px);
+				animation: dot-spinner-ani2 .5s linear infinite;
+
+				opacity: 0;
+			}
+
+			.dot-spinner i:nth-child(2),
+			.dot-spinner i:nth-child(3) {
+				animation: dot-spinner-ani3 .5s linear infinite;
+			}
+
+			.dot-spinner i:last-child {
+				animation: dot-spinner-ani1 .5s linear infinite;
+			}
+
+			@keyframes dot-spinner-ani1 {
+				100% {
+					transform: translate(10px);
+					opacity: 0;
+				}
+			}
+			@keyframes dot-spinner-ani2 {
+				100% {
+					transform: translate(5px);
+					opacity: 1;
+				}
+			}
+			@keyframes dot-spinner-ani3 {
+				100% {
+					transform: translate(5px);
+				}
+			}</style><link rel="stylesheet" data-src="/static/css/app.97f63f6d.css" data-key="app-0.css" data-hash="static/css/app.97f63f6d.css" href="blob:https://console.zerodha.com/135493a4-41fa-47ad-820f-9bcaa5b9a9ed" data-indexed="true"><script charset="utf-8" data-src="/static/js/chunk-7e025ad5.3bca512d.js" data-hash="/static/js/chunk-7e025ad5.3bca512d.js" data-key="chunk-5.js" src="blob:https://console.zerodha.com/4da82fa4-47ec-44b5-9d9d-16b5e3158f8c" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-5d49cdca.bff149ed.js" data-hash="/static/js/chunk-5d49cdca.bff149ed.js" data-key="chunk-4.js" src="blob:https://console.zerodha.com/67c82f3f-e1ff-493a-be5e-56b50cff2248" data-indexed="true"></script><link rel="stylesheet" type="text/css" data-src="/static/css/chunk-e9b53a58.c92cda2f.css" data-hash="/static/css/chunk-e9b53a58.c92cda2f.css" data-key="chunk-0.css" href="blob:https://console.zerodha.com/3e0973eb-bdce-4e7f-8361-d5e17923c613" data-indexed="true"><script charset="utf-8" data-src="/static/js/chunk-e9b53a58.047c3abd.js" data-hash="/static/js/chunk-e9b53a58.047c3abd.js" data-key="chunk-7.js" src="blob:https://console.zerodha.com/2e3f44b3-5f74-48c7-af09-8d7673f63b83" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-2e9fcfd2.28966b42.js" data-hash="/static/js/chunk-2e9fcfd2.28966b42.js" data-key="chunk-3.js" src="blob:https://console.zerodha.com/8cd8a98e-600a-48ef-b0e0-4286e1eb98f3" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-042c43c5.2bdeaf3d.js" data-hash="/static/js/chunk-042c43c5.2bdeaf3d.js" data-key="chunk-0.js" src="blob:https://console.zerodha.com/8cd79180-a733-45f2-88e2-498f674e4c9a" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js" data-hash="/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js" data-key="account~downloads~pnl~portfolio~positions~statement~trades-0.js" src="blob:https://console.zerodha.com/a63f1009-f25b-448d-bbb7-717fc3fcf06d" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/account.b4466cc7.js" data-hash="/static/js/account.b4466cc7.js" data-key="account-0.js" src="blob:https://console.zerodha.com/29e184e8-ad44-48c4-b7ac-88c52e809207" data-indexed="true"></script><style type="text/css">@charset "UTF-8";
+.mx-datepicker {
+  position: relative;
+  display: inline-block;
+  width: 210px;
+  color: #73879c;
+  font: 14px/1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif; }
+  .mx-datepicker * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .mx-datepicker.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+
+.mx-datepicker-range {
+  width: 320px; }
+
+.mx-datepicker-popup {
+  position: absolute;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  z-index: 1000; }
+
+.mx-input-wrapper {
+  position: relative; }
+  .mx-input-wrapper .mx-clear-wrapper {
+    display: none; }
+  .mx-input-wrapper:hover .mx-clear-wrapper {
+    display: block; }
+
+.mx-input {
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  .mx-input:disabled, .mx-input.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .mx-input:focus {
+    outline: none; }
+
+.mx-input-append {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  padding: 6px;
+  background-color: #fff;
+  background-clip: content-box; }
+
+.mx-input-icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  color: #555;
+  text-align: center;
+  cursor: pointer; }
+
+.mx-calendar-icon {
+  width: 100%;
+  height: 100%;
+  color: #555;
+  stroke-width: 8px;
+  stroke: currentColor;
+  fill: currentColor; }
+
+.mx-clear-icon::before {
+  display: inline-block;
+  content: '\2716';
+  vertical-align: middle; }
+
+.mx-clear-icon::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle; }
+
+.mx-range-wrapper {
+  width: 496px;
+  overflow: hidden; }
+
+.mx-shortcuts-wrapper {
+  text-align: left;
+  padding: 0 12px;
+  line-height: 34px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  .mx-shortcuts-wrapper .mx-shortcuts {
+    background: none;
+    outline: none;
+    border: 0;
+    color: #48576a;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    cursor: pointer; }
+    .mx-shortcuts-wrapper .mx-shortcuts:hover {
+      color: #419dec; }
+    .mx-shortcuts-wrapper .mx-shortcuts:after {
+      content: ''; }
+    .mx-shortcuts-wrapper .mx-shortcuts:first-child:after {
+      content: '|';
+      margin: 0 10px;
+      color: #48576a; }
+  .mx-shortcuts-wrapper .mx-apply:hover {
+    cursor: pointer; }
+
+.mx-datepicker-footer {
+  padding: 4px;
+  clear: both;
+  text-align: right;
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+
+.mx-datepicker-btn {
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 3px; }
+
+.mx-datepicker-btn-confirm {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #73879c; }
+  .mx-datepicker-btn-confirm:hover {
+    color: #1284e7;
+    border-color: #1284e7; }
+
+/* 日历组件 */
+.mx-calendar {
+  float: left;
+  color: #73879c;
+  padding: 6px 12px;
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,sans-serif; }
+  .mx-calendar * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.mx-calendar-header {
+  padding: 0 4px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  overflow: hidden; }
+  .mx-calendar-header > a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer; }
+    .mx-calendar-header > a:hover {
+      color: #419dec; }
+  .mx-icon-last-month, .mx-icon-last-year,
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    padding: 0 6px;
+    font-size: 20px;
+    line-height: 30px; }
+  .mx-icon-last-month, .mx-icon-last-year {
+    float: left; }
+  
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    float: right; }
+
+.mx-calendar-content {
+  width: 224px;
+  height: 224px; }
+  .mx-calendar-content .cell {
+    vertical-align: middle;
+    cursor: pointer; }
+    .mx-calendar-content .cell:hover {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.actived {
+      color: #fff;
+      background-color: #1284e7; }
+    .mx-calendar-content .cell.inrange {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.disabled {
+      cursor: not-allowed;
+      color: #ccc;
+      background-color: #f3f3f3; }
+
+.mx-panel {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.mx-panel-date {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  .mx-panel-date td, .mx-panel-date th {
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; }
+  .mx-panel-date td.today {
+    color: #2a90e9; }
+  .mx-panel-date td.last-month, .mx-panel-date td.next-month {
+    color: #ddd; }
+
+.mx-panel-year {
+  padding: 7px 0; }
+  .mx-panel-year .cell {
+    display: inline-block;
+    width: 40%;
+    margin: 1px 5%;
+    line-height: 40px; }
+
+.mx-panel-month .cell {
+  display: inline-block;
+  width: 30%;
+  line-height: 40px;
+  margin: 8px 1.5%; }
+
+.mx-time-list {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  /* 滚动条滑块 */ }
+  .mx-time-list .mx-time-picker-item {
+    display: block;
+    text-align: left;
+    padding-left: 10px; }
+  .mx-time-list:first-child {
+    border-left: 0; }
+  .mx-time-list .cell {
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px; }
+  .mx-time-list::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; }
+  .mx-time-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1); }
+  .mx-time-list:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); }
+</style><style type="text/css">a[data-v-82963a40]{cursor:pointer}</style></head><body><div id="init_loader" class="loader" style="display: none;"><div class="spinner"><img src="/static/images/logo.png"><div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></div></div><!----><script data-src="/static/js/chunk-vendors.6e4430de.js" data-key="chunk-vendors-0.js" data-hash="static/js/chunk-vendors.6e4430de.js" src="blob:https://console.zerodha.com/b61de7a9-32c5-4652-abbf-6d8a49fe8fa3" data-indexed="true"></script><script data-src="/static/js/app.52119353.js" data-key="app-0.js" data-hash="static/js/app.52119353.js" src="blob:https://console.zerodha.com/ee946f45-165a-4f06-895c-bda4c4b00fcc" data-indexed="true"></script><script>// List of all assets which can be loaded via Indexed cache.
+			window.CONSOLE_SCRIPTS = {
+				// all app chunks
+				"/static/js/account.b4466cc7.js": "account-0.js","/static/js/account_utils.35214389.js": "account_utils-0.js","/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js": "account~downloads~pnl~portfolio~positions~statement~trades-0.js","/static/js/challenge.31755e0e.js": "challenge-0.js","/static/js/chunk-042c43c5.2bdeaf3d.js": "chunk-0.js","/static/js/chunk-2d0b93e8.0ea6b53b.js": "chunk-1.js","/static/js/chunk-2d0d74a7.00a25be3.js": "chunk-2.js","/static/js/chunk-2e9fcfd2.28966b42.js": "chunk-3.js","/static/js/chunk-5d49cdca.bff149ed.js": "chunk-4.js","/static/js/chunk-7e025ad5.3bca512d.js": "chunk-5.js","/static/js/chunk-b3c0b518.88d10190.js": "chunk-6.js","/static/js/chunk-e9b53a58.047c3abd.js": "chunk-7.js","/static/js/dashboard.ee6c51c9.js": "dashboard-0.js","/static/js/dashboard~pnl~portfolio~trades~verified.6009e0c3.js": "dashboard~pnl~portfolio~trades~verified-0.js","/static/js/downloads.bdb0fd4d.js": "downloads-0.js","/static/js/family.84762605.js": "family-0.js","/static/js/funds.5ad5171c.js": "funds-0.js","/static/js/gift.acb2483f.js": "gift-0.js","/static/js/loans.baed645a.js": "loans-0.js","/static/js/login.301a810d.js": "login-0.js","/static/js/pnl.50b6df4c.js": "pnl-0.js","/static/js/portfolio.a8aad159.js": "portfolio-0.js","/static/js/positions.81987c08.js": "positions-0.js","/static/js/statement.1cbf2001.js": "statement-0.js","/static/js/tagmanager.da898456.js": "tagmanager-0.js","/static/js/tags.b85e89d8.js": "tags-0.js","/static/js/tax.689e4ce1.js": "tax-0.js","/static/js/trades.54a17f65.js": "trades-0.js","/static/js/verified.205e8d7c.js": "verified-0.js",
+				// js except app chunks
+				"/static/js/chunk-vendors.6e4430de.js": "chunk-vendors-0.js","/static/js/app.52119353.js": "app-0.js",
+				// all css
+				"/static/css/chunk-e9b53a58.c92cda2f.css": "chunk-0.css","/static/css/app.97f63f6d.css": "app-0.css",
+			};</script><script nomodule="" src="/static/js/indexed-cache.legacy.min.js"></script><script nomodule="">// Load Index cache.
+			window.INDEXED_CACHE = new IndexedCache();
+			window.INDEXED_CACHE.init().then(function() {
+				window.INDEXED_CACHE.load().then(function() {
+					var keys = [];
+					for (var k in window.CONSOLE_SCRIPTS) {
+						keys.push(window.CONSOLE_SCRIPTS[k]);
+					}
+					window.INDEXED_CACHE.prune(keys);
+				}).catch(function(err) {
+					console.log("error loading indexed cache legacy", err);
+				});
+			}).catch(function(err) {
+				console.log("error initializing indexed cache legacy", err);
+			})</script><script type="module">import IndexedCache from "/static/js/indexed-cache.esm.min.js";
+
+			// Load Index cache.
+			(async function() {
+				window.INDEXED_CACHE = new IndexedCache();
+				await window.INDEXED_CACHE.init();
+				window.INDEXED_CACHE.load();
+				window.INDEXED_CACHE.prune(Object.values(window.CONSOLE_SCRIPTS));
+			})();</script><script defer="" src="https://um.zerodha.com/an.js" data-website-id="4eb3bcf9-6488-470a-ad32-e27825f1fbfd"></script><div class="su-toast-groups"><div class="su-toast-group su-toast-top-left"><div></div></div><div class="su-toast-group su-toast-top-center"><div></div></div><div class="su-toast-group su-toast-top-right"><div></div></div><div class="su-toast-group su-toast-bottom-left"><div></div></div><div class="su-toast-group su-toast-bottom-center"><div></div></div><div class="su-toast-group su-toast-bottom-right"><div></div></div></div><link rel="stylesheet" href="https://kite.zerodha.com/static/build/css/publisher.min.css"></body></html>

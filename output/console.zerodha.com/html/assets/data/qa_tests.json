@@ -1,0 +1,132 @@
+{
+  "summary": {
+    "total_test_files": 5,
+    "total_phases": 6,
+    "total_assertions": 8,
+    "avg_phases_per_file": 1.2,
+    "avg_assertions_per_file": 1.6
+  },
+  "test_files": [
+    {
+      "filename": "quick_dashboard_overview.yaml",
+      "name": "Quick Dashboard Overview",
+      "title": "Quick Dashboard Overview",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://console.zerodha.com/dashboard and verify dashboard elements.",
+          "assertions": [
+            {
+              "id": "quick_overview_v1",
+              "description": "Verify that key performance indicators like account value, equity holdings, and cash balance are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "quick_overview_v2",
+              "description": "Verify that account summary information loads successfully",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 1,
+      "assertion_count": 2
+    },
+    {
+      "filename": "explore_portfolio_positions_and_trade_history.yaml",
+      "name": "Explore Portfolio Positions and Trade History",
+      "title": "Explore Portfolio Positions and Trade History",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://console.zerodha.com/dashboard and click on the 'Portfolio' navigation link.",
+          "assertions": [
+            {
+              "id": "portfolio_reports_v1",
+              "description": "Verify that portfolio positions section loads",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "phase_number": 2,
+          "objective": "Click on the 'Reports' navigation link and select 'Tradebook' from the options.",
+          "assertions": [
+            {
+              "id": "portfolio_reports_v2",
+              "description": "Verify that trade history table loads with data or a prompt to build a report",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 2,
+      "assertion_count": 2
+    },
+    {
+      "filename": "review_account_information_and_activation_options.yaml",
+      "name": "Review Account Information and Activation Options",
+      "title": "Review Account Information and Activation Options",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://console.zerodha.com/account and click on the 'Segment Activation' link.",
+          "assertions": [
+            {
+              "id": "account_info_v1",
+              "description": "Verify that segment activation page loads with options for different trading segments",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 1,
+      "assertion_count": 1
+    },
+    {
+      "filename": "filter_and_analyze_report_data.yaml",
+      "name": "Filter and Analyze Report Data",
+      "title": "Filter and Analyze Report Data",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate directly to https://console.zerodha.com/reports/tradebook and apply segment and date range filters.",
+          "assertions": [
+            {
+              "id": "report_analysis_v1",
+              "description": "Verify that report data updates according to applied segment and date range filters",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 1,
+      "assertion_count": 1
+    },
+    {
+      "filename": "quick_funds_balance_check.yaml",
+      "name": "Quick Funds Balance Check",
+      "title": "Quick Funds Balance Check",
+      "phases": [
+        {
+          "phase_number": 1,
+          "objective": "Navigate to https://console.zerodha.com/funds to check available balances and fund actions.",
+          "assertions": [
+            {
+              "id": "funds_check_v1",
+              "description": "Verify that available fund balances (e.g., cash, collateral) are displayed",
+              "status": "pending"
+            },
+            {
+              "id": "funds_check_v2",
+              "description": "Verify that options for adding or withdrawing funds are readily accessible",
+              "status": "pending"
+            }
+          ]
+        }
+      ],
+      "phase_count": 1,
+      "assertion_count": 2
+    }
+  ]
+}

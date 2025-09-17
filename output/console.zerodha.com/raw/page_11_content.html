@@ -1,0 +1,503 @@
+<!DOCTYPE html><html lang="en"><head><style>:root{--litepicker-container-months-color-bg: #fff;--litepicker-container-months-box-shadow-color: #ddd;--litepicker-footer-color-bg: #fafafa;--litepicker-footer-box-shadow-color: #ddd;--litepicker-tooltip-color-bg: #fff;--litepicker-month-header-color: #333;--litepicker-button-prev-month-color: #9e9e9e;--litepicker-button-next-month-color: #9e9e9e;--litepicker-button-prev-month-color-hover: #2196f3;--litepicker-button-next-month-color-hover: #2196f3;--litepicker-month-width: calc(var(--litepicker-day-width) * 7);--litepicker-month-weekday-color: #9e9e9e;--litepicker-month-week-number-color: #9e9e9e;--litepicker-day-width: 38px;--litepicker-day-color: #333;--litepicker-day-color-hover: #2196f3;--litepicker-is-today-color: #f44336;--litepicker-is-in-range-color: #bbdefb;--litepicker-is-locked-color: #9e9e9e;--litepicker-is-start-color: #fff;--litepicker-is-start-color-bg: #2196f3;--litepicker-is-end-color: #fff;--litepicker-is-end-color-bg: #2196f3;--litepicker-button-cancel-color: #fff;--litepicker-button-cancel-color-bg: #9e9e9e;--litepicker-button-apply-color: #fff;--litepicker-button-apply-color-bg: #2196f3;--litepicker-button-reset-color: #909090;--litepicker-button-reset-color-hover: #2196f3;--litepicker-highlighted-day-color: #333;--litepicker-highlighted-day-color-bg: #ffeb3b}.show-week-numbers{--litepicker-month-width: calc(var(--litepicker-day-width) * 8)}.litepicker{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:0.8em;display:none}.litepicker button{border:none;background:none}.litepicker .container__main{display:-webkit-box;display:-ms-flexbox;display:flex}.litepicker .container__months{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;background-color:var(--litepicker-container-months-color-bg);border-radius:5px;-webkit-box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);box-shadow:0 0 5px var(--litepicker-container-months-box-shadow-color);width:calc(var(--litepicker-month-width) + 10px);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months.columns-2{width:calc((var(--litepicker-month-width) * 2) + 20px)}.litepicker .container__months.columns-3{width:calc((var(--litepicker-month-width) * 3) + 30px)}.litepicker .container__months.columns-4{width:calc((var(--litepicker-month-width) * 4) + 40px)}.litepicker .container__months.split-view .month-item-header .button-previous-month,.litepicker .container__months.split-view .month-item-header .button-next-month{visibility:visible}.litepicker .container__months .month-item{padding:5px;width:var(--litepicker-month-width);-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__months .month-item-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;font-weight:500;padding:10px 5px;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:var(--litepicker-month-header-color)}.litepicker .container__months .month-item-header div{-webkit-box-flex:1;-ms-flex:1;flex:1}.litepicker .container__months .month-item-header div>.month-item-name{margin-right:5px}.litepicker .container__months .month-item-header div>.month-item-year{padding:0}.litepicker .container__months .month-item-header .reset-button{color:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button>svg{fill:var(--litepicker-button-reset-color)}.litepicker .container__months .month-item-header .reset-button *{pointer-events:none}.litepicker .container__months .month-item-header .reset-button:hover{color:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .reset-button:hover>svg{fill:var(--litepicker-button-reset-color-hover)}.litepicker .container__months .month-item-header .button-previous-month,.litepicker .container__months .month-item-header .button-next-month{visibility:hidden;text-decoration:none;padding:3px 5px;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__months .month-item-header .button-previous-month *,.litepicker .container__months .month-item-header .button-next-month *{pointer-events:none}.litepicker .container__months .month-item-header .button-previous-month{color:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month>svg,.litepicker .container__months .month-item-header .button-previous-month>img{fill:var(--litepicker-button-prev-month-color)}.litepicker .container__months .month-item-header .button-previous-month:hover{color:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-previous-month:hover>svg{fill:var(--litepicker-button-prev-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month{color:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month>svg,.litepicker .container__months .month-item-header .button-next-month>img{fill:var(--litepicker-button-next-month-color)}.litepicker .container__months .month-item-header .button-next-month:hover{color:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-header .button-next-month:hover>svg{fill:var(--litepicker-button-next-month-color-hover)}.litepicker .container__months .month-item-weekdays-row{display:-webkit-box;display:-ms-flexbox;display:flex;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;color:var(--litepicker-month-weekday-color)}.litepicker .container__months .month-item-weekdays-row>div{padding:5px 0;font-size:85%;-webkit-box-flex:1;-ms-flex:1;flex:1;width:var(--litepicker-day-width);text-align:center}.litepicker .container__months .month-item:first-child .button-previous-month{visibility:visible}.litepicker .container__months .month-item:last-child .button-next-month{visibility:visible}.litepicker .container__months .month-item.no-previous-month .button-previous-month{visibility:hidden}.litepicker .container__months .month-item.no-next-month .button-next-month{visibility:hidden}.litepicker .container__days{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-self:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;text-align:center;-webkit-box-sizing:content-box;box-sizing:content-box}.litepicker .container__days>div,.litepicker .container__days>a{padding:5px 0;width:var(--litepicker-day-width)}.litepicker .container__days .day-item{color:var(--litepicker-day-color);text-align:center;text-decoration:none;border-radius:3px;-webkit-transition:color 0.3s, border 0.3s;transition:color 0.3s, border 0.3s;cursor:default}.litepicker .container__days .day-item:hover{color:var(--litepicker-day-color-hover);-webkit-box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover);box-shadow:inset 0 0 0 1px var(--litepicker-day-color-hover)}.litepicker .container__days .day-item.is-today{color:var(--litepicker-is-today-color)}.litepicker .container__days .day-item.is-locked{color:var(--litepicker-is-locked-color)}.litepicker .container__days .day-item.is-locked:hover{color:var(--litepicker-is-locked-color);-webkit-box-shadow:none;box-shadow:none;cursor:default}.litepicker .container__days .day-item.is-in-range{background-color:var(--litepicker-is-in-range-color);border-radius:0}.litepicker .container__days .day-item.is-start-date{color:var(--litepicker-is-start-color);background-color:var(--litepicker-is-start-color-bg);border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-flipped{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date{color:var(--litepicker-is-end-color);background-color:var(--litepicker-is-end-color-bg);border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-end-date.is-flipped{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:0;border-bottom-right-radius:0}.litepicker .container__days .day-item.is-start-date.is-end-date{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5px;border-bottom-right-radius:5px}.litepicker .container__days .day-item.is-highlighted{color:var(--litepicker-highlighted-day-color);background-color:var(--litepicker-highlighted-day-color-bg)}.litepicker .container__days .week-number{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;color:var(--litepicker-month-week-number-color);font-size:85%}.litepicker .container__footer{text-align:right;padding:10px 5px;margin:0 5px;background-color:var(--litepicker-footer-color-bg);-webkit-box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);box-shadow:inset 0px 3px 3px 0px var(--litepicker-footer-box-shadow-color);border-bottom-left-radius:5px;border-bottom-right-radius:5px}.litepicker .container__footer .preview-date-range{margin-right:10px;font-size:90%}.litepicker .container__footer .button-cancel{background-color:var(--litepicker-button-cancel-color-bg);color:var(--litepicker-button-cancel-color);border:0;padding:3px 7px 4px;border-radius:3px}.litepicker .container__footer .button-cancel *{pointer-events:none}.litepicker .container__footer .button-apply{background-color:var(--litepicker-button-apply-color-bg);color:var(--litepicker-button-apply-color);border:0;padding:3px 7px 4px;border-radius:3px;margin-left:10px;margin-right:10px}.litepicker .container__footer .button-apply:disabled{opacity:0.7}.litepicker .container__footer .button-apply *{pointer-events:none}.litepicker .container__tooltip{position:absolute;margin-top:-4px;padding:4px 8px;border-radius:4px;background-color:var(--litepicker-tooltip-color-bg);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);white-space:nowrap;font-size:11px;pointer-events:none;visibility:hidden}.litepicker .container__tooltip:before{position:absolute;bottom:-5px;left:calc(50% - 5px);border-top:5px solid rgba(0,0,0,0.12);border-right:5px solid transparent;border-left:5px solid transparent;content:""}.litepicker .container__tooltip:after{position:absolute;bottom:-4px;left:calc(50% - 4px);border-top:4px solid var(--litepicker-tooltip-color-bg);border-right:4px solid transparent;border-left:4px solid transparent;content:""}
+</style><style>:root {
+  --litepicker-mobilefriendly-backdrop-color-bg: #000;
+}
+
+.litepicker-backdrop {
+  display: none;
+  background-color: var(--litepicker-mobilefriendly-backdrop-color-bg);
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.litepicker-open {
+  overflow: hidden;
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] {
+  transform: translate(-50%, -50%);
+  font-size: 1.1rem;
+  --litepicker-container-months-box-shadow-color: #616161;
+}
+.litepicker.mobilefriendly-portrait {
+  --litepicker-day-width: 13.5vw;
+  --litepicker-month-width: calc(var(--litepicker-day-width) * 7);
+}
+.litepicker.mobilefriendly-landscape {
+  --litepicker-day-width: 5.5vw;
+  --litepicker-month-width: calc(var(--litepicker-day-width) * 7);
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months {
+  overflow: hidden;
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] .container__months .month-item-header {
+  height: var(--litepicker-day-width);
+}
+
+.litepicker.mobilefriendly[data-plugins*="mobilefriendly"] .container__days > div {
+  height: var(--litepicker-day-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item {
+  transform-origin: center;
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item.touch-target-next {
+  animation-name: lp-bounce-target-next;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+
+.litepicker[data-plugins*="mobilefriendly"] .container__months .month-item.touch-target-prev {
+  animation-name: lp-bounce-target-prev;
+  animation-duration: .5s;
+  animation-timing-function: ease;
+}
+
+@keyframes lp-bounce-target-next {
+  from {
+    transform: translateX(100px) scale(0.5);
+  }
+  to {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes lp-bounce-target-prev {
+  from {
+    transform: translateX(-100px) scale(0.5);
+  }
+  to {
+    transform: translateX(0px) scale(1);
+  }
+}</style><base href="/"><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta name="keywords" content="Console, dashboard, reporting platform, build reports, best reporting platform, Zerodha reporting engine, Zerodha reports, Zerodha console, Rainmatter"><meta name="referrer" content="origin"><title id="page_title">My account / Console</title><!--[if IE]><link rel="shortcut icon" href="static/images/favicon.ico"><![endif]--><link rel="apple-touch-icon-precomposed" href="/static/images/favicon.png"><link rel="icon" href="/static/images/favicon48.png"><link rel="image_src" href="https://console.zerodha.com/static/images/logo.png"><meta property="og:title" content="Console Login: Zerodha"><meta property="og:description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta property="og:image" content="https://console.zerodha.com/static/images/logo.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Console Login: Zerodha"><meta name="twitter:description" content="Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more"><meta name="twitter:image" content="https://console.zerodha.com/static/images/logo.png"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Inter:400,500,600"><link rel="stylesheet" href="/static/fonts/console-icons.min.css"><style>.loader {
+				text-align: center;
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				top: 62px;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 99999;
+				background: #fff;
+			}
+			.spinner {
+				position: relative;
+				top: 45vh;
+			}
+			.spinner img {
+				width: 100px;
+				display: block;
+				margin: auto;
+			}
+			.dot-spinner {
+				margin-left: 5px;
+				display: inline-block;
+			}
+
+			.dot-spinner i {
+				display: inline-block;
+				width: 6px;
+				height: 6px;
+
+				border-radius: 50%;
+				background: #9b9b9b;
+				vertical-align: middle;
+			}
+
+			.dot-spinner i:first-child {
+				transform: translate(-5px);
+				animation: dot-spinner-ani2 .5s linear infinite;
+
+				opacity: 0;
+			}
+
+			.dot-spinner i:nth-child(2),
+			.dot-spinner i:nth-child(3) {
+				animation: dot-spinner-ani3 .5s linear infinite;
+			}
+
+			.dot-spinner i:last-child {
+				animation: dot-spinner-ani1 .5s linear infinite;
+			}
+
+			@keyframes dot-spinner-ani1 {
+				100% {
+					transform: translate(10px);
+					opacity: 0;
+				}
+			}
+			@keyframes dot-spinner-ani2 {
+				100% {
+					transform: translate(5px);
+					opacity: 1;
+				}
+			}
+			@keyframes dot-spinner-ani3 {
+				100% {
+					transform: translate(5px);
+				}
+			}</style><link rel="stylesheet" data-src="/static/css/app.97f63f6d.css" data-key="app-0.css" data-hash="static/css/app.97f63f6d.css" href="blob:https://console.zerodha.com/f8194471-6fb7-425b-9b48-c1aa8f406ca8" data-indexed="true"><script charset="utf-8" data-src="/static/js/chunk-7e025ad5.3bca512d.js" data-hash="/static/js/chunk-7e025ad5.3bca512d.js" data-key="chunk-5.js" src="blob:https://console.zerodha.com/34fe9897-457e-48ea-97c0-8bf1b26dbf47" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-5d49cdca.bff149ed.js" data-hash="/static/js/chunk-5d49cdca.bff149ed.js" data-key="chunk-4.js" src="blob:https://console.zerodha.com/0db30661-2413-4cb2-99e2-94ccf0387b97" data-indexed="true"></script><link rel="stylesheet" type="text/css" data-src="/static/css/chunk-e9b53a58.c92cda2f.css" data-hash="/static/css/chunk-e9b53a58.c92cda2f.css" data-key="chunk-0.css" href="blob:https://console.zerodha.com/df426d22-cdb8-486a-9e14-edd35f57f39d" data-indexed="true"><script charset="utf-8" data-src="/static/js/chunk-e9b53a58.047c3abd.js" data-hash="/static/js/chunk-e9b53a58.047c3abd.js" data-key="chunk-7.js" src="blob:https://console.zerodha.com/b534ced7-c31d-4a73-b0e6-94be952e1ed1" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-2e9fcfd2.28966b42.js" data-hash="/static/js/chunk-2e9fcfd2.28966b42.js" data-key="chunk-3.js" src="blob:https://console.zerodha.com/0d37ffbd-4a00-4ea4-8aef-b773b88f6242" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/chunk-042c43c5.2bdeaf3d.js" data-hash="/static/js/chunk-042c43c5.2bdeaf3d.js" data-key="chunk-0.js" src="blob:https://console.zerodha.com/ac5fefa4-771a-46e0-b3cd-a7635008c633" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js" data-hash="/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js" data-key="account~downloads~pnl~portfolio~positions~statement~trades-0.js" src="blob:https://console.zerodha.com/9a021dd9-5b9f-46a1-a1cf-0da3c5869b38" data-indexed="true"></script><script charset="utf-8" data-src="/static/js/account.b4466cc7.js" data-hash="/static/js/account.b4466cc7.js" data-key="account-0.js" src="blob:https://console.zerodha.com/5ae8ce0f-8732-48ea-8898-465ed407bb6b" data-indexed="true"></script><style type="text/css">@charset "UTF-8";
+.mx-datepicker {
+  position: relative;
+  display: inline-block;
+  width: 210px;
+  color: #73879c;
+  font: 14px/1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei', sans-serif; }
+  .mx-datepicker * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .mx-datepicker.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+
+.mx-datepicker-range {
+  width: 320px; }
+
+.mx-datepicker-popup {
+  position: absolute;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  z-index: 1000; }
+
+.mx-input-wrapper {
+  position: relative; }
+  .mx-input-wrapper .mx-clear-wrapper {
+    display: none; }
+  .mx-input-wrapper:hover .mx-clear-wrapper {
+    display: block; }
+
+.mx-input {
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  .mx-input:disabled, .mx-input.disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .mx-input:focus {
+    outline: none; }
+
+.mx-input-append {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  padding: 6px;
+  background-color: #fff;
+  background-clip: content-box; }
+
+.mx-input-icon {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  color: #555;
+  text-align: center;
+  cursor: pointer; }
+
+.mx-calendar-icon {
+  width: 100%;
+  height: 100%;
+  color: #555;
+  stroke-width: 8px;
+  stroke: currentColor;
+  fill: currentColor; }
+
+.mx-clear-icon::before {
+  display: inline-block;
+  content: '\2716';
+  vertical-align: middle; }
+
+.mx-clear-icon::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle; }
+
+.mx-range-wrapper {
+  width: 496px;
+  overflow: hidden; }
+
+.mx-shortcuts-wrapper {
+  text-align: left;
+  padding: 0 12px;
+  line-height: 34px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+  .mx-shortcuts-wrapper .mx-shortcuts {
+    background: none;
+    outline: none;
+    border: 0;
+    color: #48576a;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    cursor: pointer; }
+    .mx-shortcuts-wrapper .mx-shortcuts:hover {
+      color: #419dec; }
+    .mx-shortcuts-wrapper .mx-shortcuts:after {
+      content: ''; }
+    .mx-shortcuts-wrapper .mx-shortcuts:first-child:after {
+      content: '|';
+      margin: 0 10px;
+      color: #48576a; }
+  .mx-shortcuts-wrapper .mx-apply:hover {
+    cursor: pointer; }
+
+.mx-datepicker-footer {
+  padding: 4px;
+  clear: both;
+  text-align: right;
+  border-top: 1px solid rgba(0, 0, 0, 0.05); }
+
+.mx-datepicker-btn {
+  font-size: 12px;
+  line-height: 1;
+  padding: 7px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 3px; }
+
+.mx-datepicker-btn-confirm {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #73879c; }
+  .mx-datepicker-btn-confirm:hover {
+    color: #1284e7;
+    border-color: #1284e7; }
+
+/* 日历组件 */
+.mx-calendar {
+  float: left;
+  color: #73879c;
+  padding: 6px 12px;
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,sans-serif; }
+  .mx-calendar * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.mx-calendar-header {
+  padding: 0 4px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  overflow: hidden; }
+  .mx-calendar-header > a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer; }
+    .mx-calendar-header > a:hover {
+      color: #419dec; }
+  .mx-icon-last-month, .mx-icon-last-year,
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    padding: 0 6px;
+    font-size: 20px;
+    line-height: 30px; }
+  .mx-icon-last-month, .mx-icon-last-year {
+    float: left; }
+  
+  .mx-icon-next-month,
+  .mx-icon-next-year {
+    float: right; }
+
+.mx-calendar-content {
+  width: 224px;
+  height: 224px; }
+  .mx-calendar-content .cell {
+    vertical-align: middle;
+    cursor: pointer; }
+    .mx-calendar-content .cell:hover {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.actived {
+      color: #fff;
+      background-color: #1284e7; }
+    .mx-calendar-content .cell.inrange {
+      background-color: #eaf8fe; }
+    .mx-calendar-content .cell.disabled {
+      cursor: not-allowed;
+      color: #ccc;
+      background-color: #f3f3f3; }
+
+.mx-panel {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.mx-panel-date {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  .mx-panel-date td, .mx-panel-date th {
+    font-size: 12px;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; }
+  .mx-panel-date td.today {
+    color: #2a90e9; }
+  .mx-panel-date td.last-month, .mx-panel-date td.next-month {
+    color: #ddd; }
+
+.mx-panel-year {
+  padding: 7px 0; }
+  .mx-panel-year .cell {
+    display: inline-block;
+    width: 40%;
+    margin: 1px 5%;
+    line-height: 40px; }
+
+.mx-panel-month .cell {
+  display: inline-block;
+  width: 30%;
+  line-height: 40px;
+  margin: 8px 1.5%; }
+
+.mx-time-list {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  /* 滚动条滑块 */ }
+  .mx-time-list .mx-time-picker-item {
+    display: block;
+    text-align: left;
+    padding-left: 10px; }
+  .mx-time-list:first-child {
+    border-left: 0; }
+  .mx-time-list .cell {
+    width: 100%;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px; }
+  .mx-time-list::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; }
+  .mx-time-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1); }
+  .mx-time-list:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); }
+</style><style type="text/css">a[data-v-82963a40]{cursor:pointer}</style><script src="https://otp.zerodha.com/static/otp.js" id="otpgateway-script"></script><script src="https://ext.digio.in/sdk/v11/digio.js"></script><link rel="stylesheet" type="text/css" href="https://otp.zerodha.com/static/otp.css"></head><body style="overflow-y: scroll;"><div id="init_loader" class="loader" style="display: none;"><div class="spinner"><img src="/static/images/logo.png"><div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></div></div><div id="app"><div class="header"><div class="wrapper"><div class="header-right menu-closed"><a href="/dashboard" class="logo"><img src="/static/images/logo.svg"></a> <!----> <a href="#" class="toggle-mobile-menu"><div id="nav-icon4"><span></span> <span></span> <span></span></div></a> <!----> <div class="app-nav hide-on-mobile"><a href="/dashboard" class=""><span>Dashboard</span></a> <a href="" class="dropdown-label portfolio-label"><span class="portfolio-id">Portfolio</span></a> <!----> <a href="" class="dropdown-label reports-label"><span class="reports-id">Reports</span></a> <!----> <a href="" class="dropdown-label funds-label"><span class="funds-id">Funds</span></a> <!----> <a href="/account" class="router-link-active"><span>Account</span></a></div> <div class="right-nav hide-on-mobile"><div class="user-nav perspective"><a href="" class="dropdown-label user-id"><div id="avatar-17" class="profile-avatar"><div class="avatar" style="width: 25px; height: 25px; border-radius: 50%; text-align: center; vertical-align: middle; background-color: rgba(156, 39, 176, 0.1); font-size: 9px; font-weight: 300; color: rgb(156, 39, 176); line-height: 26px;"><span>NP</span></div> <!----></div> <span id="userDetails" name="Nagesh">SIL558</span></a> <!----></div></div></div></div></div> <div class="wrapper"><div class="page-content "><div class="page-container profile-content"><h1>
+		Account
+	</h1> <hr><br> <!----> <div><!----> <div class="section"><div class="row"><div class="four columns profile-avatar-container"><div id="avatar-22" class="profile-avatar"><div class="avatar" style="width: 25px; height: 25px; border-radius: 50%; text-align: center; vertical-align: middle; background-color: rgba(156, 39, 176, 0.1); font-size: 9px; font-weight: 300; color: rgb(156, 39, 176); line-height: 26px;"><span>NP</span></div> <!----></div> <div class="profile-name"><label>Name</label> <h3>Nagesh Pradhan Cadabam</h3></div></div> <div id="profile_client_id" class="two columns"><label>Client ID</label> <h3>SIL558</h3></div> <div id="profile_zpin" class="two columns"><label data-balloon="Telephone support code" data-balloon-pos="up">
+						Support code
+					</label> <div><h3>
+							••••
+							<a href="#" data-balloon="View code" data-balloon-pos="up">
+								View
+							</a></h3></div></div> <div class="two columns"><label>
+						CKYC no.
+					</label> <h3>30073283990110</h3></div></div></div> <div id="profile_basic" class="section"><span class="open-side-nav show-inline-on-mobile"><span class="icon icon-chevron-right closed"></span> <span class="icon icon-chevron-left opened"></span></span> <div class="row profile-container"><div id="mobile-side-nav" class="four columns"><a href="javascript:void(0)" class="close-side-nav show-on-mobile">×</a> <hr class="no-bottom"> <div class="profile-list personal">Personal</div> <div class="profile-list nominee">Nominees</div> <div class="profile-list bank">Bank</div> <div class="profile-list demat">Demat</div> <div class="profile-list segment-activation">Segments</div> <div class="active profile-list mtf">Margin Trading Facility (MTF)</div> <div class="profile-list documents">Documents</div> <div class="profile-list comm-clasify">Commodity declaration</div> <div class="profile-list comm-clasify">Family</div> <div class="profile-list comm-clasify">Verified P&amp;L</div></div> <div class="eight columns"><div class="profile-info personal"><h1>Personal</h1> <hr><br> <div class="row"><div class="six columns"><label>
+									E-mail
+									<div class="edit-email" data-balloon="Edit e-mail" data-balloon-pos="up"><span class="icon icon-edit"></span></div> <!----></label> <h3>PRADHANCN@GMAIL.COM</h3></div> <div class="six columns"><label>
+									Mobile
+									<div class="edit-mobile" data-balloon="Edit mobile" data-balloon-pos="up"><span class="icon icon-edit"></span></div> <!----></label> <h3>*8460</h3></div></div> <div class="row"><div class="six columns"><label>PAN</label> <h3>*496K</h3></div></div><br> <!----></div> <div class="profile-info nominee"><h1>
+							Nominees
+							<p class="text-grey text-small">
+								We will notify your nominee(s) in case your account becomes dormant due to inactivity for more than a year, and you do not come back and do a reKYC. <a target="_blank" href="https://support.zerodha.com/category/account-opening/online-account-opening/articles/what-is-inactivity-alert">Learn more</a>.
+							</p></h1> <hr><br> <span><label>Choice of nomination: </label> <span>1 nominee(s) (Submitted)</span></span><br> <div class="row"><div class="six columns"><h3 class="nominee-name">Deepa Baliga Bantwal <span> (100% share)</span></h3></div> <!----></div><br> <!----> <p class="hide">
+							{
+  "bank_modification": {},
+  "segment_addition": {},
+  "DDPI": {},
+  "mtf_modification": {}
+}
+							
+						</p> <div><!----><!----> <!----> <!----></div> <!----> <!----></div> <div class="profile-info bank"><h1>
+							Bank
+						</h1> <hr><br> <div class="bank-details"><div class="row"><div class="four columns"><label>
+										Account
+										<span class="account-flag">Primary</span> <div class="edit-bank" data-balloon="Modify bank account" data-balloon-pos="up"><span class="icon icon-edit"></span></div> <!----> <div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></label> <div class="bank-account-number"><p>●●●●●●●●8493</p> <a href="" data-balloon="Show account number" data-balloon-pos="up"><img src="/static/images/eye-show.svg" alt="Show account number"></a></div></div> <div class="four columns"><label>Bank</label> <p>ICICI BANK</p> <!----></div> <div class="four columns"><label>Branch</label> <p>KALIDASA ROAD</p></div></div> <!----> <hr><br></div><div class="bank-details"><div class="row"><div class="four columns"><label>
+										Account
+										<!----> <div class="edit-bank" data-balloon="Modify bank account" data-balloon-pos="up"><span class="icon icon-edit"></span></div> <div class="edit-bank" data-balloon="Delete bank account" data-balloon-pos="up"><img src="/static/images/delete-icon.svg"></div> <div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></label> <div class="bank-account-number"><p>●●●●●●●●2020</p> <a href="" data-balloon="Show account number" data-balloon-pos="up"><img src="/static/images/eye-show.svg" alt="Show account number"></a></div></div> <div class="four columns"><label>Bank</label> <p>ICICI BANK</p> <!----></div> <div class="four columns"><label>Branch</label> <p>ICICI BANK</p></div></div> <a href="" class="set-primary">+ Set as primary</a> <hr><br></div> <p><button type="button" class="btn btn-blue">Add bank account <!----></button></p><br> <!----></div> <div class="profile-info segment-activation"><h1>
+							Manage segments
+							<a href="https://support.zerodha.com/category/trading-and-markets/nudge/killswitch/articles/what-is-the-kill-switch" class="segment-kill-icon"><img src="/static/images/killswitch.svg"></a></h1> <hr><br> <div><p class="text-grey">
+								Activate or deactivate trading segments on your account. Once a segment is deactivated, it cannot be activated for the next 12 hours. <a target="_blank" href="https://support.zerodha.com/category/trading-and-markets/nudge/killswitch/articles/what-is-the-kill-switch">Learn more</a>.
+							</p><br> <div class="segment-tabs"><!----><!----></div> <div><!----></div> <div><!----></div> <button type="button" class="btn btn-blue" disabled="disabled"><!----> <div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></button></div><br> <!----> <div id="account_closure" class="account-closure-section"><h2 class="account-closure-header">
+								Account closure
+								<span class="icon icon-chevron-down"></span></h2> <hr> <!----></div></div> <div class="active profile-info mtf"><h1>Margin Trading Facility</h1> <hr><br> <p>Buy stocks for delivery with lesser margins using the Margin Trading Facility. <a target="_blank" href="https://support.zerodha.com/category/trading-and-markets/corporate-actions/general/articles/mtf-faqs">Read more</a>.</p> <p><a href="https://zerodha.com/tos/mtf" target="_blank">Terms and conditions</a></p> <button type="submit" class="btn-blue" disabled="disabled"><!----> <div class="su-loader"><span class="dot-spinner"><i></i><i></i><i></i><i></i></span></div></button> <!----></div> <div class="profile-info demat"><h1>Demat</h1> <hr><br> <div class="demat-tabs"><span class="active tab primary">
+							Primary</span><span class="tab secondary">
+							Secondary</span></div> <div><label>
+								Demat ID <br> <span class="text-light-grey text-small">(For IPO application and CDSL TPIN authorisation)</span></label> <h3>1208160156050363</h3> <div class="row"><div class="six columns"><label>DP ID</label> <h3>12081601</h3></div> <div class="six columns"><label>BO ID</label> <h3>56050363</h3></div></div> <div class="row"><div class="six columns"><label>Depository Participant (DP)</label> <h3>Zerodha Broking Limited</h3></div> <div class="six columns"><label>Depository</label> <h3>CDSL</h3></div></div></div> <br> <div class="upfront-amc-section"><p><a href="">Pay AMC upfront <span class="icon icon-arrow-right"></span></a></p></div> <!----> <a href="">Shareholder e-voting <span class="icon icon-arrow-right"></span></a> <form id="evoting_form" type="hidden" target="_blank" name="evoting_form" method="POST" class="hide" action="https://evoting.cdslindia.com/EVoting/EvotingRequest"><input type="hidden" name="dpid" value="81600"> <input type="hidden" name="request_id" value="SIL558-928028"> <input type="hidden" name="encdata" value="MTIzNDU2Nzg5MDEyMzQ1Ng==:KBWhJ1q8+teRdJXIi4XaJThjPXggg6lgFXpSVlri/yDaCW+QSI6rx58iIYYPCjuQ5geCgLvGuv8526FxKUdwMq1Sngsykl79YSfM6uHdq+k="> <input type="submit" value="Submit"></form> <br> <!----> <br> <!----></div> <div class="profile-info documents"><h1>Documents</h1> <hr><br> <div class="text-center"><!--function(e,n,r,o){return vn(t,e,n,r,o,!0)}--></div></div> <div class="profile-info proofs"><h1>Update financial proof</h1> <p class="notice-new"><span class="icon icon-info"></span> Financial details along with proofs are required to be reviewed by Brokers / Trading members on a periodic basis, to allow clients to continue trading in the derivatives segment, as per Exchange guidelines. Please share your financial information below so that you may continue trading in Equity &amp; Commodity derivatives seamlessly.
+						</p> <hr><br> <div><form class="financial-upload-form su-input-group su-static-label inputcontainer"><label class="su-input-label">Income range</label> <select><option value="">Select range</option> <option value="1">Below ₹ 1 Lac</option> <option value="2">₹ 1 Lac to ₹ 5 Lacs</option> <option value="3">₹ 5 Lacs to ₹ 10 Lacs</option> <option value="4">₹ 10 Lacs to ₹ 25 Lacs</option> <option value="5">₹ 25 Lacs to ₹ 1 Crore</option> <option value="6">Above ₹ 1 Crore</option></select> <div class="income-proof-aa-container"><button type="submit" class="btn-blue">Continue <!----></button> <span><span class="icon icon-info"></span> Continue to fetch your income proof.</span> <!----></div> <div class="row"><div class="four columns"><label class="file-input-label">
+											Upload
+										</label> <input id="financial_proof_file" type="file"><br> <div class="text-small text-grey">Supported format: PDF | Max: 5 MB</div></div> <div class="four columns"><div class="file-pwd su-input-group" dynamic-label=""><label class="su-input-label su-dynamic-label">File password</label> <div class=""><input type="text" placeholder="File password" autocorrect="off" maxlength="20" step="1" noerror="true" animate="true" label="File password" rules="" class=""> <!----> <!----></div> <!----></div> <div class="text-small text-grey">*Required if income proof file is password protected</div></div> <div class="two columns"><label>&nbsp;</label><br> <button type="submit" class="btn-blue">Upload <!----></button></div></div> <p><a href="https://support.zerodha.com/category/your-zerodha-account/your-profile/articles/financial-proof-console">Need help?</a></p></form></div></div> <div class="profile-info mcx-classification"><h1>Commodity declaration – Type of trader</h1> <hr><br> <div class="mcx-classify-form"><h4>Please select the appropriate option for the commodities you intend to trade. (If you're a retail trader who doesn't fall into any of the listed categories, select "Others")</h4> <form id="mcx_classification_form" class="pagination"><div class="row"><div class="four columns mcx-names"><p data="aluminium">aluminium</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="brass">brass</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="mcxbulldex">bullion index</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="cardamom">cardamom</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="castorseed">castorseed</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="copper">copper</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="cotton">cotton</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="cottoncndy">cotton candy</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="cotton_seed_wash_oil">cotton oil</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="04">Domestic Financial Institutional Investors</option><option value="05">Foreign Participants</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="cpo">crude palm_oil</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="crude_oil">crude oil</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="mcxenrgdex">energy index</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="gold">gold</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="kapas">kapas</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="lead">lead</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="mcxmetldex">metals index</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="methanol">methanol</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="natural_gas">natural gas</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="nickel">nickel</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="pepper">pepper</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="rbdpmolein">RBD palmolein</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="rubber">rubber</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="01">Farmer Producer Organization</option><option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="silver">silver</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="steelrebar">steelrebar</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div><div class="row"><div class="four columns mcx-names"><p data="zinc">zinc</p></div> <div class="five columns mcx-values"><select required="required"><option value="" selected="selected" disabled="disabled">Select status/type</option> <option value="02">Value Chain Participant</option><option value="06">Others</option></select></div></div> <div class="text-left"><button type="submit" class="btn-blue">Submit <!----></button></div></form></div></div> <div class="profile-info slb"><h1>
+							Stock lending &amp; borrowing
+							<!----></h1> <hr><br> <div class="slb"><div><h4>Equity</h4> <form><p><div class="su-checkbox-group"><input id="checkbox-33" type="checkbox" label="I wish to enable Securities Lending &amp; Borrowing (SLB) segment for my account - SIL558. I have read the &lt;a target=_blank href=https://zerodha-common.s3.ap-south-1.amazonaws.com/Docs/Rights%20and%20obligation%20SLB%20Zerodha.pdf&gt;Rights &amp; Obligations&lt;/a&gt; and the &lt;a target=_blank href=https://zerodha-common.s3.ap-south-1.amazonaws.com/Docs/Schedule%20of%20Charges-%20SLB%20Zerodha.pdf&gt;Schedule of Charges&lt;/a&gt; document for the same." class="su-checkbox" value="false"> <label for="checkbox-33" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">I wish to enable Securities Lending &amp; Borrowing (SLB) segment for my account - SIL558. I have read the <a target="_blank" href="https://zerodha-common.s3.ap-south-1.amazonaws.com/Docs/Rights%20and%20obligation%20SLB%20Zerodha.pdf">Rights &amp; Obligations</a> and the <a target="_blank" href="https://zerodha-common.s3.ap-south-1.amazonaws.com/Docs/Schedule%20of%20Charges-%20SLB%20Zerodha.pdf">Schedule of Charges</a> document for the same.</span></label></div></p> <button disabled="disabled" type="button" class="btn-blue">Submit <!----></button></form></div></div></div> <div class="profile-info family"><h1><span class="icon icon-users-outline"></span> Family
+							<!----></h1> <hr> <div class="family"><p class="inc-margin">Link your family's Zerodha accounts as sub-accounts to view combined portfolios. <a target="_blank" href="https://support.zerodha.com/category/console/profile/account/articles/family-account">Learn more</a>.</p> <button type="button" class="btn btn-blue">Link a sub-account <!----></button> <p class=" text-small">Family accounts not with Zerodha?<br>Transfer them to Zerodha to link them. <a target="_blank" href="https://support.zerodha.com/category/account-opening/getting-started/other-queries/articles/how-do-i-transfer-shares-from-another-demat-account-to-my-zerodha-demat">Learn more</a>.</p> <br> <!----> <!----></div></div> <div class="profile-info verifiedpnl"><h1>
+							Verified P&amp;L
+							<!----></h1> <div><p>
+								Share your P&amp;L and trades publicly, verified by Zerodha. <a href="https://zrd.sh/verified-pnl" target="_blank">Read more</a>.
+								<!----></p> <hr> <!----> <form><!----> <div class="row"><div class="six columns"><label class="standalone-label">Personal information</label> <div class="su-radio-group"><div class="su-radio-wrap"><input id="radio-42" type="radio" label="Full name" class="su-radio" value="FULL"> <label for="radio-42" class="su-radio-label">Full name</label> <!----></div> <div class="su-radio-wrap"><input id="radio-43" type="radio" label="Short name" class="su-radio" value="SHORT"> <label for="radio-43" class="su-radio-label">Short name</label> <!----></div> <div class="su-radio-wrap"><input id="radio-44" type="radio" label="Masked" class="su-radio" value="MASKED"> <label for="radio-44" class="su-radio-label">Masked</label> <!----></div></div> <span class="error-state verified-pnl-validation-name text-xxsmall">Name is required</span> <div class="su-checkbox-group kite-image-verified"><input id="checkbox-45" type="checkbox" label="Use my Kite's avatar image" class="su-checkbox" value="true"> <label for="checkbox-45" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Use my Kite's avatar image</span></label></div> <div class="su-input-group su-static-label"><label class="su-input-label">Description or profile (optional)</label> <textarea type="textarea" placeholder="" maxlength="140" step="1" rows="5" cols="60" staticlabel="true" animate="true" label="Description or profile (optional)" rules=""></textarea> <!----></div> <div class="su-input-group su-static-label"><label class="su-input-label">Personal webpage (optional)</label> <div class=""><input type="text" placeholder="" autocorrect="off" maxlength="255" step="1" staticlabel="true" animate="true" label="Personal webpage (optional)" rules="" class=""> <!----> <!----></div> <!----></div> <div class="segment-selection"><label class="standalone-label">Segments to share</label> <div class="row"><div class="six columns"><div class="su-checkbox-group"><input id="checkbox-48" type="checkbox" label="Equity" class="su-checkbox" value="false"> <label for="checkbox-48" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Equity</span></label></div></div> <div class="six columns"><div class="su-checkbox-group"><input id="checkbox-49" type="checkbox" label="Futures &amp; Options" class="su-checkbox" value="false"> <label for="checkbox-49" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Futures &amp; Options</span></label></div></div></div> <div class="row"><div class="six columns"><div class="su-checkbox-group"><input id="checkbox-50" type="checkbox" label="Currency" class="su-checkbox" value="false"> <label for="checkbox-50" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Currency</span></label></div></div> <div class="six columns"><div class="su-checkbox-group"><input id="checkbox-51" type="checkbox" label="Commodity" class="su-checkbox" value="false"> <label for="checkbox-51" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Commodity</span></label></div></div></div> <span class="error-state verified-pnl-validation-segment text-xxsmall">Segment selection is required</span></div></div> <div class="six columns"><div class="personal-box v-align"><div class="verified-dp"><div id="avatar-52" class="profile-avatar"><div class="avatar" style="width: 50px; height: 50px; border-radius: 50%; text-align: center; vertical-align: middle; background-color: rgba(156, 39, 176, 0.1); font-size: 18px; font-weight: 300; color: rgb(156, 39, 176); line-height: 52px;"><span>NP</span></div> <!----></div></div> <div class="verified-name">
+												Nagesh Pradhan Cadabam
+											</div></div> <div class="date-selection-container inputcontainer"><label class="standalone-label">Timeline to share</label> <div class="days-verified"><span>Live P&amp;L (updates everyday)</span> <div class="su-switch-group"><input id="is_live_pnl" type="checkbox" class="su-switch"> <label for="is_live_pnl" class="su-switch-control"></label></div></div> <select id="verified_date_range"><option value="30">30 days</option> <option value="90">90 days</option> <option value="180">180 days</option> <option value="360">360 days</option></select> <p class="text-small text-grey">2025-08-17 ~ 2025-09-17</p></div> <div class="verified-pnl-switch"><div class="su-checkbox-group"><input id="checkbox-53" type="checkbox" label="Display trades" class="su-checkbox" value="true"> <label for="checkbox-53" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">Display trades</span></label></div></div></div></div> <button type="submit" class="btn btn-blue verified-submit">Save <!----></button></form></div></div> <div class="profile-info cp-code"><h1>
+							Custodian participant
+							<!----></h1> <hr><br> <div><div><form><p><div class="su-checkbox-group"><input id="checkbox-38" type="checkbox" label="I wish to generate a CP Code with NSE Clearing Ltd. and link it to my account - SIL558.&lt;br&gt; I have read the &lt;a target=https://zerodha-common.s3.ap-south-1.amazonaws.com/Downloads-and-resources/ZBLCM-CP-Code.pdf target=_blank&gt;application form&lt;/a&gt; and declare that I fulfil the networth requirement criteria." class="su-checkbox" value="false"> <label for="checkbox-38" class="su-checkbox-label"><span class="su-checkbox-box"><span class="su-checkbox-tick"></span></span> <span class="su-checkbox-value">I wish to generate a CP Code with NSE Clearing Ltd. and link it to my account - SIL558.<br> I have read the <a target="https://zerodha-common.s3.ap-south-1.amazonaws.com/Downloads-and-resources/ZBLCM-CP-Code.pdf">application form</a> and declare that I fulfil the networth requirement criteria.</span></label></div></p> <button disabled="disabled" type="button" class="btn-blue">Submit <!----></button></form></div></div></div></div></div> <div class="console-footer-note">For any complaints, you can visit: <a href="https://scores.sebi.gov.in/" target="_blank">SCORES</a></div></div></div> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----></div></div></div> <div class="footer"><div class="footer-section"><div class="footer-container"><div class="row text-grey"><div class="six columns nomargin-mobile"><a href="https://zerodha.com"><img src="/static/images/zerodha-grey-logo.svg"></a> <span class="text-light-grey">© 2025. All rights reserved.</span></div> <div class="nomargin-mobile six columns text-right"><a target="_blank" href="https://support.zerodha.com" class="text-light-grey hide-on-mobile">Support</a></div></div> <p class="text-light-grey hide-on-mobile">NSE​ &amp;​ BSE – SEBI Registration no.: INZ000031633 | MCX - SEBI Registration no.: INZ000038238 | CDSL - SEBI Registration no.: IN-DP-431-2019</p> <p class="text-light-grey hide-on-mobile">Disclaimer: The P&amp;L report/Holdings/Positions data is prepared based on the trades and information available with us, at the time of report generation. Zerodha Broking Ltd., does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity, and completeness of the data presented in this report/data. To double check your P&amp;L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.</p></div></div></div> <!----></div><script data-src="/static/js/chunk-vendors.6e4430de.js" data-key="chunk-vendors-0.js" data-hash="static/js/chunk-vendors.6e4430de.js" src="blob:https://console.zerodha.com/de506973-c08b-407a-9d1a-a7acd29caa3b" data-indexed="true"></script><script data-src="/static/js/app.52119353.js" data-key="app-0.js" data-hash="static/js/app.52119353.js" src="blob:https://console.zerodha.com/4689e08c-2013-4628-8c1b-18b173ab0d14" data-indexed="true"></script><script>// List of all assets which can be loaded via Indexed cache.
+			window.CONSOLE_SCRIPTS = {
+				// all app chunks
+				"/static/js/account.b4466cc7.js": "account-0.js","/static/js/account_utils.35214389.js": "account_utils-0.js","/static/js/account~downloads~pnl~portfolio~positions~statement~trades.6f7be0b0.js": "account~downloads~pnl~portfolio~positions~statement~trades-0.js","/static/js/challenge.31755e0e.js": "challenge-0.js","/static/js/chunk-042c43c5.2bdeaf3d.js": "chunk-0.js","/static/js/chunk-2d0b93e8.0ea6b53b.js": "chunk-1.js","/static/js/chunk-2d0d74a7.00a25be3.js": "chunk-2.js","/static/js/chunk-2e9fcfd2.28966b42.js": "chunk-3.js","/static/js/chunk-5d49cdca.bff149ed.js": "chunk-4.js","/static/js/chunk-7e025ad5.3bca512d.js": "chunk-5.js","/static/js/chunk-b3c0b518.88d10190.js": "chunk-6.js","/static/js/chunk-e9b53a58.047c3abd.js": "chunk-7.js","/static/js/dashboard.ee6c51c9.js": "dashboard-0.js","/static/js/dashboard~pnl~portfolio~trades~verified.6009e0c3.js": "dashboard~pnl~portfolio~trades~verified-0.js","/static/js/downloads.bdb0fd4d.js": "downloads-0.js","/static/js/family.84762605.js": "family-0.js","/static/js/funds.5ad5171c.js": "funds-0.js","/static/js/gift.acb2483f.js": "gift-0.js","/static/js/loans.baed645a.js": "loans-0.js","/static/js/login.301a810d.js": "login-0.js","/static/js/pnl.50b6df4c.js": "pnl-0.js","/static/js/portfolio.a8aad159.js": "portfolio-0.js","/static/js/positions.81987c08.js": "positions-0.js","/static/js/statement.1cbf2001.js": "statement-0.js","/static/js/tagmanager.da898456.js": "tagmanager-0.js","/static/js/tags.b85e89d8.js": "tags-0.js","/static/js/tax.689e4ce1.js": "tax-0.js","/static/js/trades.54a17f65.js": "trades-0.js","/static/js/verified.205e8d7c.js": "verified-0.js",
+				// js except app chunks
+				"/static/js/chunk-vendors.6e4430de.js": "chunk-vendors-0.js","/static/js/app.52119353.js": "app-0.js",
+				// all css
+				"/static/css/chunk-e9b53a58.c92cda2f.css": "chunk-0.css","/static/css/app.97f63f6d.css": "app-0.css",
+			};</script><script nomodule="" src="/static/js/indexed-cache.legacy.min.js"></script><script nomodule="">// Load Index cache.
+			window.INDEXED_CACHE = new IndexedCache();
+			window.INDEXED_CACHE.init().then(function() {
+				window.INDEXED_CACHE.load().then(function() {
+					var keys = [];
+					for (var k in window.CONSOLE_SCRIPTS) {
+						keys.push(window.CONSOLE_SCRIPTS[k]);
+					}
+					window.INDEXED_CACHE.prune(keys);
+				}).catch(function(err) {
+					console.log("error loading indexed cache legacy", err);
+				});
+			}).catch(function(err) {
+				console.log("error initializing indexed cache legacy", err);
+			})</script><script type="module">import IndexedCache from "/static/js/indexed-cache.esm.min.js";
+
+			// Load Index cache.
+			(async function() {
+				window.INDEXED_CACHE = new IndexedCache();
+				await window.INDEXED_CACHE.init();
+				window.INDEXED_CACHE.load();
+				window.INDEXED_CACHE.prune(Object.values(window.CONSOLE_SCRIPTS));
+			})();</script><script defer="" src="https://um.zerodha.com/an.js" data-website-id="4eb3bcf9-6488-470a-ad32-e27825f1fbfd"></script><div class="su-toast-groups"><div class="su-toast-group su-toast-top-left"><div></div></div><div class="su-toast-group su-toast-top-center"><div></div></div><div class="su-toast-group su-toast-top-right"><div></div></div><div class="su-toast-group su-toast-bottom-left"><div></div></div><div class="su-toast-group su-toast-bottom-center"><div></div></div><div class="su-toast-group su-toast-bottom-right"><div></div></div></div><link rel="stylesheet" href="https://kite.zerodha.com/static/build/css/publisher.min.css"></body></html>

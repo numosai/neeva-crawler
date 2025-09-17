@@ -1,0 +1,1194 @@
+{
+  "issues": [
+    {
+      "text": "Your commodity account is inactive/dormant",
+      "page_url": "https://console.zerodha.com"
+    },
+    {
+      "text": "Your commodity account is inactive/dormant",
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "text": "Zerodha Broking Ltd., does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity, and completeness of the data presented in this report/data.",
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "text": "Report's empty: We couldn't find any results for your query.",
+      "page_url": "https://console.zerodha.com/portfolio/positions"
+    },
+    {
+      "text": "The P&L report/Holdings/Positions data is prepared based on the trades and information available at the time of report generation.",
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "text": "Zerodha Broking Ltd. does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity and completeness of the data presented in this report/data.",
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "text": "Withdrawable balance is negative: \u20b9-89.87",
+      "page_url": "https://console.zerodha.com/funds/overview"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year if reKYC is not done.",
+      "page_url": "https://console.zerodha.com/account"
+    },
+    {
+      "text": "Account can become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Income proof file might be password protected.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Segment selection is required for sharing Verified P&L.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Primary bank account modification request was rejected.",
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "text": "The bank account attempted to be linked is either a 3rd party account or a joint account where the user is not the first holder.",
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "text": "Account can become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Once a segment is deactivated, it cannot be activated for the next 12 hours.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "File password is required if income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Family accounts not with Zerodha cannot be linked directly.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Segment selection is required to share P&L.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "The P&L report/Holdings/Positions data may not be authentic and complete.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/segment-activation"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Financial proof may be outdated or missing.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Commodity declaration may be pending or incomplete.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Missing 'alt' attribute for the image, which impacts accessibility and SEO.",
+      "page_url": "https://console.zerodha.com/"
+    }
+  ],
+  "recommendations": [
+    {
+      "text": "Activate commodity segment",
+      "page_url": "https://console.zerodha.com",
+      "priority": "medium"
+    },
+    {
+      "text": "Activate segment",
+      "page_url": "https://console.zerodha.com/dashboard",
+      "priority": "medium"
+    },
+    {
+      "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+      "page_url": "https://console.zerodha.com/dashboard",
+      "priority": "medium"
+    },
+    {
+      "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+      "page_url": "https://console.zerodha.com/portfolio/positions",
+      "priority": "medium"
+    },
+    {
+      "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+      "page_url": "https://console.zerodha.com/reports/tradebook",
+      "priority": "medium"
+    },
+    {
+      "text": "Deposit funds to clear the negative balance.",
+      "page_url": "https://console.zerodha.com/funds/overview",
+      "priority": "medium"
+    },
+    {
+      "text": "Do a reKYC if account becomes dormant due to inactivity.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Upload financial proof in PDF format (Max: 5 MB).",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide file password if income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Select the appropriate option for the commodities you intend to trade.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "If you're a retail trader who doesn't fall into any listed categories, select 'Others'.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "For any complaints, visit SCORES.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement.",
+      "page_url": "https://console.zerodha.com/account",
+      "priority": "medium"
+    },
+    {
+      "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can set a secondary bank account as primary.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can add a new bank account.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can activate or deactivate trading segments on their account.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can enable Margin Trading Facility (MTF).",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can pay AMC upfront for Demat.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can use shareholder e-voting.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can email documents to themselves.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide the file password if the uploaded income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User needs to select appropriate options for the commodities they intend to trade.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can enable Securities Lending & Borrowing (SLB) segment after reading the Rights & Obligations and the Schedule of Charges document.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can transfer family accounts not with Zerodha to Zerodha to link them.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "Select segments to share when setting up Verified P&L.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "User can generate a CP Code with NSE Clearing Ltd. and link it to their account after reading the application form and declaring that they fulfil the networth requirement criteria.",
+      "page_url": "https://console.zerodha.com/account/nominee",
+      "priority": "medium"
+    },
+    {
+      "text": "To link a joint account where you are not the first holder, send a physical account modification form along with a bank proof to Zerodha's office in Bangalore.",
+      "page_url": "https://console.zerodha.com/account/bank",
+      "priority": "medium"
+    },
+    {
+      "text": "Do a reKYC to prevent account dormancy.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Set the second bank account as primary.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Add a new bank account.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Continue to manage segments.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read more about Margin Trading Facility (MTF).",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read MTF Terms and conditions.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Enable MTF.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Pay AMC upfront.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Shareholder e-voting.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Select income range.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Upload financial proof (Supported format: PDF | Max: 5 MB).",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide file password if income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Select the appropriate option for the commodities you intend to trade.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Select 'Others' if you're a retail trader who doesn't fall into any of the listed categories.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Submit commodity declaration.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read the Rights & Obligations document for Securities Lending & Borrowing (SLB).",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read the Schedule of Charges document for SLB.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Submit to enable SLB segment.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Link a sub-account.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Transfer family accounts to Zerodha to link them.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read more about Verified P&L.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Select segments to share.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Save Verified P&L settings.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Read the application form for CP Code.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Declare that you fulfil the networth requirement criteria.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Submit to generate a CP Code with NSE Clearing Ltd.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Verify P&L report/Holdings/Positions data with the Tradebook, Contract Notes and the Funds Statement.",
+      "page_url": "https://console.zerodha.com/account/demat",
+      "priority": "medium"
+    },
+    {
+      "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Update financial proof by selecting an income range and uploading a supported document (PDF, max 5 MB).",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Provide a file password if the income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Select the appropriate option for the commodities you intend to trade.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Share your P&L and trades publicly, verified by Zerodha.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "For any complaints, visit SCORES.",
+      "page_url": "https://console.zerodha.com/account/segment-activation",
+      "priority": "medium"
+    },
+    {
+      "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Update financial proof by selecting income range and uploading a PDF file (max 5 MB, password required if applicable).",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Select the appropriate status/type for the commodities you intend to trade.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Enable Securities Lending & Borrowing (SLB) segment if desired, after reading the Rights & Obligations and Schedule of Charges documents.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Transfer family accounts not with Zerodha to Zerodha to link them.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Generate a CP Code with NSE Clearing Ltd. and link it to your account if desired, after reading the application form and fulfilling networth requirements.",
+      "page_url": "https://console.zerodha.com/account/mtf",
+      "priority": "medium"
+    },
+    {
+      "text": "Add a descriptive 'alt' attribute to the image tag to improve accessibility for screen readers and provide context if the image fails to load.",
+      "page_url": "https://console.zerodha.com/",
+      "priority": "high"
+    },
+    {
+      "text": "Ensure the image path '/static/images/logo.png' is correct and the image file exists at that location.",
+      "page_url": "https://console.zerodha.com/",
+      "priority": "medium"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://console.zerodha.com",
+      "raw_data": [
+        {
+          "issues": [
+            "Your commodity account is inactive/dormant"
+          ],
+          "recommendations": [
+            "Activate commodity segment"
+          ]
+        }
+      ],
+      "issues": [
+        "Your commodity account is inactive/dormant"
+      ],
+      "recommendations": [
+        "Activate commodity segment"
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/dashboard",
+      "raw_data": [
+        {
+          "issues": [
+            "Your commodity account is inactive/dormant"
+          ],
+          "recommendations": [
+            "Activate segment"
+          ]
+        },
+        {
+          "issues": [
+            "Zerodha Broking Ltd., does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity, and completeness of the data presented in this report/data."
+          ],
+          "recommendations": [
+            "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+          ]
+        }
+      ],
+      "issues": [
+        "Your commodity account is inactive/dormant",
+        "Zerodha Broking Ltd., does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity, and completeness of the data presented in this report/data."
+      ],
+      "recommendations": [
+        "Activate segment",
+        "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/portfolio/positions",
+      "raw_data": [
+        {
+          "issues": [
+            "Report's empty: We couldn't find any results for your query."
+          ],
+          "recommendations": [
+            "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+          ]
+        }
+      ],
+      "issues": [
+        "Report's empty: We couldn't find any results for your query."
+      ],
+      "recommendations": [
+        "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/reports/tradebook",
+      "raw_data": [
+        {
+          "issues": [
+            "The P&L report/Holdings/Positions data is prepared based on the trades and information available at the time of report generation.",
+            "Zerodha Broking Ltd. does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity and completeness of the data presented in this report/data."
+          ],
+          "recommendations": [
+            "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+          ]
+        }
+      ],
+      "issues": [
+        "The P&L report/Holdings/Positions data is prepared based on the trades and information available at the time of report generation.",
+        "Zerodha Broking Ltd. does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity and completeness of the data presented in this report/data."
+      ],
+      "recommendations": [
+        "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/funds/overview",
+      "raw_data": [
+        {
+          "issues": [
+            "Withdrawable balance is negative: \u20b9-89.87"
+          ],
+          "recommendations": [
+            "Deposit funds to clear the negative balance."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        }
+      ],
+      "issues": [
+        "Withdrawable balance is negative: \u20b9-89.87"
+      ],
+      "recommendations": [
+        "Deposit funds to clear the negative balance."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "Account may become dormant due to inactivity for more than a year if reKYC is not done."
+          ],
+          "recommendations": [
+            "Do a reKYC if account becomes dormant due to inactivity."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Upload financial proof in PDF format (Max: 5 MB).",
+            "Provide file password if income proof file is password protected."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Select the appropriate option for the commodities you intend to trade.",
+            "If you're a retail trader who doesn't fall into any listed categories, select 'Others'."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+            "Transfer family accounts to Zerodha to link them if they are not already with Zerodha."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "For any complaints, visit SCORES.",
+            "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement."
+          ]
+        }
+      ],
+      "issues": [
+        "Account may become dormant due to inactivity for more than a year if reKYC is not done."
+      ],
+      "recommendations": [
+        "Do a reKYC if account becomes dormant due to inactivity.",
+        "Upload financial proof in PDF format (Max: 5 MB).",
+        "Provide file password if income proof file is password protected.",
+        "Select the appropriate option for the commodities you intend to trade.",
+        "If you're a retail trader who doesn't fall into any listed categories, select 'Others'.",
+        "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+        "For any complaints, visit SCORES.",
+        "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/nominee",
+      "raw_data": [
+        {
+          "issues": [
+            "Account can become dormant due to inactivity for more than a year."
+          ],
+          "recommendations": [
+            "Perform reKYC if the account becomes dormant due to inactivity."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can set a secondary bank account as primary.",
+            "User can add a new bank account."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can activate or deactivate trading segments on their account."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can enable Margin Trading Facility (MTF)."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can pay AMC upfront for Demat.",
+            "User can use shareholder e-voting."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can email documents to themselves."
+          ]
+        },
+        {
+          "issues": [
+            "Income proof file might be password protected."
+          ],
+          "recommendations": [
+            "Provide the file password if the uploaded income proof file is password protected."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User needs to select appropriate options for the commodities they intend to trade."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can enable Securities Lending & Borrowing (SLB) segment after reading the Rights & Obligations and the Schedule of Charges document."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+            "User can transfer family accounts not with Zerodha to Zerodha to link them."
+          ]
+        },
+        {
+          "issues": [
+            "Segment selection is required for sharing Verified P&L."
+          ],
+          "recommendations": [
+            "Select segments to share when setting up Verified P&L."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "User can generate a CP Code with NSE Clearing Ltd. and link it to their account after reading the application form and declaring that they fulfil the networth requirement criteria."
+          ]
+        }
+      ],
+      "issues": [
+        "Account can become dormant due to inactivity for more than a year.",
+        "Income proof file might be password protected.",
+        "Segment selection is required for sharing Verified P&L."
+      ],
+      "recommendations": [
+        "Perform reKYC if the account becomes dormant due to inactivity.",
+        "User can set a secondary bank account as primary.",
+        "User can add a new bank account.",
+        "User can activate or deactivate trading segments on their account.",
+        "User can enable Margin Trading Facility (MTF).",
+        "User can pay AMC upfront for Demat.",
+        "User can use shareholder e-voting.",
+        "User can email documents to themselves.",
+        "Provide the file password if the uploaded income proof file is password protected.",
+        "User needs to select appropriate options for the commodities they intend to trade.",
+        "User can enable Securities Lending & Borrowing (SLB) segment after reading the Rights & Obligations and the Schedule of Charges document.",
+        "User can link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "User can transfer family accounts not with Zerodha to Zerodha to link them.",
+        "Select segments to share when setting up Verified P&L.",
+        "User can generate a CP Code with NSE Clearing Ltd. and link it to their account after reading the application form and declaring that they fulfil the networth requirement criteria."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/bank",
+      "raw_data": [
+        {
+          "issues": [
+            "Primary bank account modification request was rejected.",
+            "The bank account attempted to be linked is either a 3rd party account or a joint account where the user is not the first holder."
+          ],
+          "recommendations": [
+            "To link a joint account where you are not the first holder, send a physical account modification form along with a bank proof to Zerodha's office in Bangalore."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Primary bank account modification request was rejected.",
+        "The bank account attempted to be linked is either a 3rd party account or a joint account where the user is not the first holder."
+      ],
+      "recommendations": [
+        "To link a joint account where you are not the first holder, send a physical account modification form along with a bank proof to Zerodha's office in Bangalore."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/demat",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "Account can become dormant due to inactivity for more than a year."
+          ],
+          "recommendations": [
+            "Do a reKYC to prevent account dormancy."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Set the second bank account as primary.",
+            "Add a new bank account."
+          ]
+        },
+        {
+          "issues": [
+            "Once a segment is deactivated, it cannot be activated for the next 12 hours."
+          ],
+          "recommendations": [
+            "Continue to manage segments."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Read more about Margin Trading Facility (MTF).",
+            "Read MTF Terms and conditions.",
+            "Enable MTF."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Pay AMC upfront.",
+            "Shareholder e-voting."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "File password is required if income proof file is password protected."
+          ],
+          "recommendations": [
+            "Select income range.",
+            "Upload financial proof (Supported format: PDF | Max: 5 MB).",
+            "Provide file password if income proof file is password protected."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Select the appropriate option for the commodities you intend to trade.",
+            "Select 'Others' if you're a retail trader who doesn't fall into any of the listed categories.",
+            "Submit commodity declaration."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Read the Rights & Obligations document for Securities Lending & Borrowing (SLB).",
+            "Read the Schedule of Charges document for SLB.",
+            "Submit to enable SLB segment."
+          ]
+        },
+        {
+          "issues": [
+            "Family accounts not with Zerodha cannot be linked directly."
+          ],
+          "recommendations": [
+            "Link a sub-account.",
+            "Transfer family accounts to Zerodha to link them."
+          ]
+        },
+        {
+          "issues": [
+            "Segment selection is required to share P&L."
+          ],
+          "recommendations": [
+            "Read more about Verified P&L.",
+            "Select segments to share.",
+            "Save Verified P&L settings."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Read the application form for CP Code.",
+            "Declare that you fulfil the networth requirement criteria.",
+            "Submit to generate a CP Code with NSE Clearing Ltd."
+          ]
+        },
+        {
+          "issues": [
+            "The P&L report/Holdings/Positions data may not be authentic and complete."
+          ],
+          "recommendations": [
+            "Verify P&L report/Holdings/Positions data with the Tradebook, Contract Notes and the Funds Statement."
+          ]
+        }
+      ],
+      "issues": [
+        "Account can become dormant due to inactivity for more than a year.",
+        "Once a segment is deactivated, it cannot be activated for the next 12 hours.",
+        "File password is required if income proof file is password protected.",
+        "Family accounts not with Zerodha cannot be linked directly.",
+        "Segment selection is required to share P&L.",
+        "The P&L report/Holdings/Positions data may not be authentic and complete."
+      ],
+      "recommendations": [
+        "Do a reKYC to prevent account dormancy.",
+        "Set the second bank account as primary.",
+        "Add a new bank account.",
+        "Continue to manage segments.",
+        "Read more about Margin Trading Facility (MTF).",
+        "Read MTF Terms and conditions.",
+        "Enable MTF.",
+        "Pay AMC upfront.",
+        "Shareholder e-voting.",
+        "Select income range.",
+        "Upload financial proof (Supported format: PDF | Max: 5 MB).",
+        "Provide file password if income proof file is password protected.",
+        "Select the appropriate option for the commodities you intend to trade.",
+        "Select 'Others' if you're a retail trader who doesn't fall into any of the listed categories.",
+        "Submit commodity declaration.",
+        "Read the Rights & Obligations document for Securities Lending & Borrowing (SLB).",
+        "Read the Schedule of Charges document for SLB.",
+        "Submit to enable SLB segment.",
+        "Link a sub-account.",
+        "Transfer family accounts to Zerodha to link them.",
+        "Read more about Verified P&L.",
+        "Select segments to share.",
+        "Save Verified P&L settings.",
+        "Read the application form for CP Code.",
+        "Declare that you fulfil the networth requirement criteria.",
+        "Submit to generate a CP Code with NSE Clearing Ltd.",
+        "Verify P&L report/Holdings/Positions data with the Tradebook, Contract Notes and the Funds Statement."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/segment-activation",
+      "raw_data": [
+        {
+          "issues": [
+            "Account may become dormant due to inactivity for more than a year."
+          ],
+          "recommendations": [
+            "Perform reKYC if the account becomes dormant due to inactivity."
+          ],
+          "error": false
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Update financial proof by selecting an income range and uploading a supported document (PDF, max 5 MB).",
+            "Provide a file password if the income proof file is password protected."
+          ],
+          "error": false
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Select the appropriate option for the commodities you intend to trade."
+          ],
+          "error": false
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+            "Transfer family accounts to Zerodha to link them if they are not already with Zerodha."
+          ],
+          "error": false
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Share your P&L and trades publicly, verified by Zerodha."
+          ],
+          "error": false
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "For any complaints, visit SCORES."
+          ],
+          "error": false
+        }
+      ],
+      "issues": [
+        "Account may become dormant due to inactivity for more than a year."
+      ],
+      "recommendations": [
+        "Perform reKYC if the account becomes dormant due to inactivity.",
+        "Update financial proof by selecting an income range and uploading a supported document (PDF, max 5 MB).",
+        "Provide a file password if the income proof file is password protected.",
+        "Select the appropriate option for the commodities you intend to trade.",
+        "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+        "Share your P&L and trades publicly, verified by Zerodha.",
+        "For any complaints, visit SCORES."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/mtf",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "Account may become dormant due to inactivity for more than a year."
+          ],
+          "recommendations": [
+            "Perform reKYC if the account becomes dormant due to inactivity."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [
+            "Financial proof may be outdated or missing."
+          ],
+          "recommendations": [
+            "Update financial proof by selecting income range and uploading a PDF file (max 5 MB, password required if applicable)."
+          ]
+        },
+        {
+          "issues": [
+            "Commodity declaration may be pending or incomplete."
+          ],
+          "recommendations": [
+            "Select the appropriate status/type for the commodities you intend to trade."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Enable Securities Lending & Borrowing (SLB) segment if desired, after reading the Rights & Obligations and Schedule of Charges documents."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+            "Transfer family accounts not with Zerodha to Zerodha to link them."
+          ]
+        },
+        {
+          "issues": [],
+          "recommendations": []
+        },
+        {
+          "issues": [],
+          "recommendations": [
+            "Generate a CP Code with NSE Clearing Ltd. and link it to your account if desired, after reading the application form and fulfilling networth requirements."
+          ]
+        }
+      ],
+      "issues": [
+        "Account may become dormant due to inactivity for more than a year.",
+        "Financial proof may be outdated or missing.",
+        "Commodity declaration may be pending or incomplete."
+      ],
+      "recommendations": [
+        "Perform reKYC if the account becomes dormant due to inactivity.",
+        "Update financial proof by selecting income range and uploading a PDF file (max 5 MB, password required if applicable).",
+        "Select the appropriate status/type for the commodities you intend to trade.",
+        "Enable Securities Lending & Borrowing (SLB) segment if desired, after reading the Rights & Obligations and Schedule of Charges documents.",
+        "Link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "Transfer family accounts not with Zerodha to Zerodha to link them.",
+        "Generate a CP Code with NSE Clearing Ltd. and link it to your account if desired, after reading the application form and fulfilling networth requirements."
+      ]
+    },
+    {
+      "url": "https://console.zerodha.com/account/documents",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [],
+          "error": false
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://console.zerodha.com/account/mcx-classification",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [],
+          "error": false
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://console.zerodha.com/account/family",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": [],
+          "error": false
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://console.zerodha.com/account/verifiedpnl",
+      "raw_data": [
+        {
+          "issues": [],
+          "recommendations": []
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://console.zerodha.com/",
+      "raw_data": [
+        {
+          "issues": [
+            "Missing 'alt' attribute for the image, which impacts accessibility and SEO."
+          ],
+          "recommendations": [
+            "Add a descriptive 'alt' attribute to the image tag to improve accessibility for screen readers and provide context if the image fails to load.",
+            "Ensure the image path '/static/images/logo.png' is correct and the image file exists at that location."
+          ]
+        }
+      ],
+      "issues": [
+        "Missing 'alt' attribute for the image, which impacts accessibility and SEO."
+      ],
+      "recommendations": [
+        "Add a descriptive 'alt' attribute to the image tag to improve accessibility for screen readers and provide context if the image fails to load.",
+        "Ensure the image path '/static/images/logo.png' is correct and the image file exists at that location."
+      ]
+    }
+  ],
+  "summary": {
+    "total_issues": 24,
+    "total_recommendations": 75,
+    "high_priority": 1,
+    "medium_priority": 74,
+    "low_priority": 0,
+    "total_pages": 16
+  }
+}

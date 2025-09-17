@@ -1,0 +1,850 @@
+{
+  "issues": [
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "6 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 6,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/quicko-banner.png",
+        "/static/images/clock.svg",
+        "/static/images/segment-disabled.svg"
+      ],
+      "page_url": "https://console.zerodha.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "6 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 6,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/quicko-banner.png",
+        "/static/images/clock.svg",
+        "/static/images/segment-disabled.svg"
+      ],
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 4 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/noresults.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/portfolio/positions"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/portfolio/positions"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 5 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/zerodha-logo.svg",
+        "/static/images/init.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 4 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/clock-dark.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/funds/overview"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/funds/overview"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 7 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/killswitch.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 7 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/killswitch.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "6 out of 8 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 6,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/clock-dark.svg",
+        "/static/images/killswitch.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "6 out of 8 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 6,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/killswitch.svg",
+        "/static/images/clock-dark.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 7 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/killswitch.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account/segment-activation"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/segment-activation"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 7 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        "/static/images/logo.png",
+        "/static/images/logo.svg",
+        "/static/images/delete-icon.svg",
+        "/static/images/killswitch.svg",
+        "/static/images/zerodha-grey-logo.svg"
+      ],
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 1 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        "/static/images/logo.png"
+      ],
+      "page_url": "https://console.zerodha.com/account/documents"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/documents"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 1 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        "/static/images/logo.png"
+      ],
+      "page_url": "https://console.zerodha.com/account/mcx-classification"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/mcx-classification"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 1 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        "/static/images/logo.png"
+      ],
+      "page_url": "https://console.zerodha.com/account/family"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/family"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 1 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        "/static/images/logo.png"
+      ],
+      "page_url": "https://console.zerodha.com/account/verifiedpnl"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/account/verifiedpnl"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 1 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        "/static/images/logo.png"
+      ],
+      "page_url": "https://console.zerodha.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://console.zerodha.com/"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://console.zerodha.com",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "6 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 6,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/quicko-banner.png",
+            "/static/images/clock.svg",
+            "/static/images/segment-disabled.svg"
+          ],
+          "page_url": "https://console.zerodha.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com"
+        }
+      ],
+      "score": 70,
+      "total_images": 9,
+      "total_links": 13,
+      "total_buttons": 4
+    },
+    {
+      "url": "https://console.zerodha.com/dashboard",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "6 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 6,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/quicko-banner.png",
+            "/static/images/clock.svg",
+            "/static/images/segment-disabled.svg"
+          ],
+          "page_url": "https://console.zerodha.com/dashboard"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/dashboard"
+        }
+      ],
+      "score": 70,
+      "total_images": 9,
+      "total_links": 13,
+      "total_buttons": 4
+    },
+    {
+      "url": "https://console.zerodha.com/portfolio/positions",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 4 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/noresults.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/portfolio/positions"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/portfolio/positions"
+        }
+      ],
+      "score": 70,
+      "total_images": 4,
+      "total_links": 18,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://console.zerodha.com/reports/tradebook",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 5 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/zerodha-logo.svg",
+            "/static/images/init.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/reports/tradebook"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/reports/tradebook"
+        }
+      ],
+      "score": 70,
+      "total_images": 5,
+      "total_links": 26,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://console.zerodha.com/funds/overview",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 4 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/clock-dark.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/funds/overview"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/funds/overview"
+        }
+      ],
+      "score": 70,
+      "total_images": 4,
+      "total_links": 16,
+      "total_buttons": 2
+    },
+    {
+      "url": "https://console.zerodha.com/account",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 7 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/killswitch.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account"
+        }
+      ],
+      "score": 70,
+      "total_images": 7,
+      "total_links": 30,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://console.zerodha.com/account/nominee",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 7 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/killswitch.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account/nominee"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/nominee"
+        }
+      ],
+      "score": 70,
+      "total_images": 7,
+      "total_links": 30,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://console.zerodha.com/account/bank",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "6 out of 8 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 6,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/clock-dark.svg",
+            "/static/images/killswitch.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account/bank"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/bank"
+        }
+      ],
+      "score": 70,
+      "total_images": 8,
+      "total_links": 30,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://console.zerodha.com/account/demat",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "6 out of 8 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 6,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/killswitch.svg",
+            "/static/images/clock-dark.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account/demat"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/demat"
+        }
+      ],
+      "score": 70,
+      "total_images": 8,
+      "total_links": 30,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://console.zerodha.com/account/segment-activation",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 7 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/killswitch.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account/segment-activation"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/segment-activation"
+        }
+      ],
+      "score": 70,
+      "total_images": 7,
+      "total_links": 30,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://console.zerodha.com/account/mtf",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 7 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            "/static/images/logo.png",
+            "/static/images/logo.svg",
+            "/static/images/delete-icon.svg",
+            "/static/images/killswitch.svg",
+            "/static/images/zerodha-grey-logo.svg"
+          ],
+          "page_url": "https://console.zerodha.com/account/mtf"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/mtf"
+        }
+      ],
+      "score": 70,
+      "total_images": 7,
+      "total_links": 30,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://console.zerodha.com/account/documents",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 1 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            "/static/images/logo.png"
+          ],
+          "page_url": "https://console.zerodha.com/account/documents"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/documents"
+        }
+      ],
+      "score": 70,
+      "total_images": 1,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://console.zerodha.com/account/mcx-classification",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 1 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            "/static/images/logo.png"
+          ],
+          "page_url": "https://console.zerodha.com/account/mcx-classification"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/mcx-classification"
+        }
+      ],
+      "score": 70,
+      "total_images": 1,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://console.zerodha.com/account/family",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 1 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            "/static/images/logo.png"
+          ],
+          "page_url": "https://console.zerodha.com/account/family"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/family"
+        }
+      ],
+      "score": 70,
+      "total_images": 1,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://console.zerodha.com/account/verifiedpnl",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 1 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            "/static/images/logo.png"
+          ],
+          "page_url": "https://console.zerodha.com/account/verifiedpnl"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/account/verifiedpnl"
+        }
+      ],
+      "score": 70,
+      "total_images": 1,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://console.zerodha.com/",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 1 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            "/static/images/logo.png"
+          ],
+          "page_url": "https://console.zerodha.com/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://console.zerodha.com/"
+        }
+      ],
+      "score": 70,
+      "total_images": 1,
+      "total_links": 0,
+      "total_buttons": 0
+    }
+  ],
+  "summary": {
+    "total_issues": 32,
+    "score": 70.0,
+    "total_images": 80,
+    "total_links": 266,
+    "total_buttons": 82,
+    "total_pages": 16
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "nodes": [
+    [
+      "page_1",
+      {
+        "url": "https://console.zerodha.com",
+        "title": "Dashboard / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/dashboard)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/dashboard) [Reports](https://console.zerodha.com/dashboard) [Funds](https://console.zerodha.com/dashboard) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/dashboard)\n# Hi Nagesh\n[![](https://console.zerodha.com/static/images/quicko-banner.png)](https://join.quicko.com/zerodha-console)\nPortfolio performance Beta [](https://support.zerodha.com/category/console/portfolio/holdings/articles/performance-curve)\n![](https://console.zerodha.com/static/images/add-icon.svg) Compare \n![](https://console.zerodha.com/static/images/gear-icon.svg)\n![](https://console.zerodha.com/static/images/fullscreen-icon.svg)\n|  |   \n---|---|---  \n|  |   \nAccount overview ![](https://console.ze"
+      }
+    ],
+    [
+      "https://console.zerodha.com/dashboard",
+      {}
+    ],
+    [
+      "https://console.zerodha.com/",
+      {}
+    ],
+    [
+      "https://console.zerodha.com/account",
+      {}
+    ],
+    [
+      "https://console.zerodha.com/account/segment-activation",
+      {}
+    ],
+    [
+      "page_2",
+      {
+        "url": "https://console.zerodha.com/dashboard",
+        "title": "Dashboard / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/dashboard)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/dashboard) [Reports](https://console.zerodha.com/dashboard) [Funds](https://console.zerodha.com/dashboard) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/dashboard)\n# Hi Nagesh\n[![](https://console.zerodha.com/static/images/quicko-banner.png)](https://join.quicko.com/zerodha-console)\nPortfolio performance Beta [](https://support.zerodha.com/category/console/portfolio/holdings/articles/performance-curve)\n![](https://console.zerodha.com/static/images/add-icon.svg) Compare \n![](https://console.zerodha.com/static/images/gear-icon.svg)\n![](https://console.zerodha.com/static/images/fullscreen-icon.svg)\n|  |   \n---|---|---  \n|  |   \nAccount overview ![](https://console.ze"
+      }
+    ],
+    [
+      "page_3",
+      {
+        "url": "https://console.zerodha.com/portfolio/positions",
+        "title": "Positions / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/portfolio/positions)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/portfolio/positions) [Reports](https://console.zerodha.com/portfolio/positions) [Funds](https://console.zerodha.com/portfolio/positions) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/portfolio/positions)\n* * *\nSegment Select segment Futures & Options Currency Commodity\nDate\n17\n\u00ab \u2039 \u00bb \u203a Sep 2025 2020 ~ 2029 2025-09-17\nSun | Mon | Tue | Wed | Thu | Fri | Sat  \n---|---|---|---|---|---|---  \n31 | 1 | 2 | 3 | 4 | 5 | 6  \n7 | 8 | 9 | 10 | 11 | 12 | 13  \n14 | 15 | 16 | 17 | 18 | 19 | 20  \n21 | 22 | 23 | 24 | 25 | 26 | 27  \n28 | 29 | 30 | 1 | 2 | 3 | 4  \n5 | 6 | 7 | 8 | 9 | 10 | 11  \n2020202120222023202420252026202720282029\nJanFebMarAprMayJunJulAugSepOctNovDec\n  "
+      }
+    ],
+    [
+      "page_4",
+      {
+        "url": "https://console.zerodha.com/reports/tradebook",
+        "title": "Tradebook / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/reports/tradebook)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/reports/tradebook) [Reports](https://console.zerodha.com/reports/tradebook) [Funds](https://console.zerodha.com/reports/tradebook) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/reports/tradebook)\n* * *\nSegment Equity Futures & Options Currency Commodity Mutual funds Equity (external trades) MF (external trades)\nSymbol\nDate range\n17\nlast 7 dayslast 30 daysprev. FYcurrent FY Apply\n**From**\n\u00ab \u2039 \u00bb \u203a Aug 2025 2020 ~ 2029 2025-08-17\nSun | Mon | Tue | Wed | Thu | Fri | Sat  \n---|---|---|---|---|---|---  \n27 | 28 | 29 | 30 | 31 | 1 | 2  \n3 | 4 | 5 | 6 | 7 | 8 | 9  \n10 | 11 | 12 | 13 | 14 | 15 | 16  \n17 | 18 | 19 | 20 | 21 | 22 | 23  \n24 | 25 | 26 | 27 | 28 | 29 | "
+      }
+    ],
+    [
+      "page_5",
+      {
+        "url": "https://console.zerodha.com/funds/overview",
+        "title": "Funds / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/funds/overview)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/funds/overview) [Reports](https://console.zerodha.com/funds/overview) [Funds](https://console.zerodha.com/funds/overview) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/funds/overview)\n* * *\n  \n\n## \nLast updated: 2025-09-17 05:17:00 \nNext quarterly settlement on 2025-10-03. [Learn more](https://support.zerodha.com/category/console/profile/articles/what-is-quarterly-settlement). \nAmount to withdraw\nContinue \nRegular (24-48 hours)\nInstant (Max: \u20b9200000)\nClosing balance \n\u20b9-89.87\nUnsettled credits (-) \n\u20b90.00\nPayin (-) \n\u20b90.00\nCollateral utilised (+) \n\u20b90.00\nWithdrawable balance [](https://support.zerodha.com/category/funds/fund-withdrawal/articles/withdrawable-balan"
+      }
+    ],
+    [
+      "page_6",
+      {
+        "url": "https://console.zerodha.com/account",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account) [Reports](https://console.zerodha.com/account) [Funds](https://console.zerodha.com/account) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n### *496K\n  \n\n#  Nominees \nWe will notify your nominee(s) in case your account becomes dormant due to inactivity f"
+      }
+    ],
+    [
+      "page_7",
+      {
+        "url": "https://console.zerodha.com/account/nominee",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account/nominee)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account/nominee) [Reports](https://console.zerodha.com/account/nominee) [Funds](https://console.zerodha.com/account/nominee) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account/nominee)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account/nominee)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n### *496K\n  \n\n#  Nominees \nWe will notify your nominee(s) in case "
+      }
+    ],
+    [
+      "page_8",
+      {
+        "url": "https://console.zerodha.com/account/bank",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account/bank)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account/bank) [Reports](https://console.zerodha.com/account/bank) [Funds](https://console.zerodha.com/account/bank) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account/bank)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account/bank)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n### *496K\n  \n\n#  Nominees \nWe will notify your nominee(s) in case your account becom"
+      }
+    ],
+    [
+      "page_9",
+      {
+        "url": "https://console.zerodha.com/account/demat",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account/demat)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account/demat) [Reports](https://console.zerodha.com/account/demat) [Funds](https://console.zerodha.com/account/demat) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account/demat)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account/demat)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n### *496K\n  \n\n#  Nominees \nWe will notify your nominee(s) in case your account"
+      }
+    ],
+    [
+      "page_10",
+      {
+        "url": "https://console.zerodha.com/account/segment-activation",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account/segment-activation)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account/segment-activation) [Reports](https://console.zerodha.com/account/segment-activation) [Funds](https://console.zerodha.com/account/segment-activation) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account/segment-activation)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account/segment-activation)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n"
+      }
+    ],
+    [
+      "page_11",
+      {
+        "url": "https://console.zerodha.com/account/mtf",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n[![](https://console.zerodha.com/static/images/logo.svg)](https://console.zerodha.com/dashboard) [](https://console.zerodha.com/account/mtf)\n[Dashboard](https://console.zerodha.com/dashboard) [Portfolio](https://console.zerodha.com/account/mtf) [Reports](https://console.zerodha.com/account/mtf) [Funds](https://console.zerodha.com/account/mtf) [Account](https://console.zerodha.com/account)\n[ NP SIL558](https://console.zerodha.com/account/mtf)\n#  Account \n* * *\n  \n\nNP\nName\n### Nagesh Pradhan Cadabam\nClient ID\n### SIL558\nSupport code \n###  \u2022\u2022\u2022\u2022 [ View ](https://console.zerodha.com/account/mtf)\nCKYC no. \n### 30073283990110\n[\u00d7](javascript:void\\(0\\))\n* * *\nPersonal\nNominees\nBank\nDemat\nSegments\nMargin Trading Facility (MTF)\nDocuments\nCommodity declaration\nFamily\nVerified P&L\n# Personal\n* * *\n  \n\nE-mail \n### PRADHANCN@GMAIL.COM\nMobile \n### *8460\nPAN\n### *496K\n  \n\n#  Nominees \nWe will notify your nominee(s) in case your account becomes dor"
+      }
+    ],
+    [
+      "page_12",
+      {
+        "url": "https://console.zerodha.com/account/documents",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n"
+      }
+    ],
+    [
+      "page_13",
+      {
+        "url": "https://console.zerodha.com/account/mcx-classification",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n"
+      }
+    ],
+    [
+      "page_14",
+      {
+        "url": "https://console.zerodha.com/account/family",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n"
+      }
+    ],
+    [
+      "page_15",
+      {
+        "url": "https://console.zerodha.com/account/verifiedpnl",
+        "title": "My account / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n"
+      }
+    ],
+    [
+      "page_16",
+      {
+        "url": "https://console.zerodha.com/",
+        "title": "Dashboard / Console",
+        "markdown": "![](https://console.zerodha.com/static/images/logo.png)\n"
+      }
+    ]
+  ],
+  "edges": [
+    {
+      "from": "page_1",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_1",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_1",
+      "to": "https://console.zerodha.com/account/segment-activation",
+      "label": "Activate segment"
+    },
+    {
+      "from": "page_2",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_2",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_2",
+      "to": "https://console.zerodha.com/account/segment-activation",
+      "label": "Activate segment"
+    },
+    {
+      "from": "page_3",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_3",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_3",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_4",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_4",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_4",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_5",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_5",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_5",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_6",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_6",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_6",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_7",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_7",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_7",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_8",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_8",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_9",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_9",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_10",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_10",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_10",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    },
+    {
+      "from": "page_11",
+      "to": "https://console.zerodha.com/dashboard",
+      "label": ""
+    },
+    {
+      "from": "page_11",
+      "to": "https://console.zerodha.com/",
+      "label": ""
+    },
+    {
+      "from": "page_11",
+      "to": "https://console.zerodha.com/account",
+      "label": "Account"
+    }
+  ]
+}

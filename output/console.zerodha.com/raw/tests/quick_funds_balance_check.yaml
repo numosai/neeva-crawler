@@ -1,0 +1,14 @@
+name: Quick Funds Balance Check
+qa_plan:
+  title: Quick Funds Balance Check
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://console.zerodha.com/funds to check available balances
+      and fund actions.
+    assertions:
+    - verificationId: funds_check_v1
+      description: Verify that available fund balances (e.g., cash, collateral) are
+        displayed
+    - verificationId: funds_check_v2
+      description: Verify that options for adding or withdrawing funds are readily
+        accessible

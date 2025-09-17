@@ -11,7 +11,7 @@ from .analyzers import AccessibilityAnalyzer, SEOAnalyzer, QAAnalyzer, UXAnalyze
 class CrawlerEngine:
     """Main orchestrator for website analysis operations"""
     
-    def __init__(self, max_depth: int = 2, max_pages: int = 10):
+    def __init__(self, max_depth: int = 2, max_pages: int = 50):
         self.web_crawler = WebCrawler(max_depth, max_pages)
         # Use analyzers that work with cached HTML
         self.accessibility_analyzer = AccessibilityAnalyzer()
@@ -70,7 +70,7 @@ class CrawlerEngine:
             print(f"❌ Git workflow error: {e}")
             return False
     
-    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash", git_push: bool = False, use_cdp: bool = False, cdp_port: int = 9222) -> bool:
+    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash", git_push: bool = False, use_cdp: bool = False, cdp_port: int = 9222, crawl_only: bool = False, additional_urls: list = None) -> bool:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
@@ -82,11 +82,19 @@ class CrawlerEngine:
         
         # Crawl the website
         print(f"🚀 Starting full analysis of {url}")
-        crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir, use_cdp=use_cdp, cdp_port=cdp_port)
+        if additional_urls:
+            print(f"📋 Additional URLs to crawl: {additional_urls}")
+        crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir, use_cdp=use_cdp, cdp_port=cdp_port, additional_urls=additional_urls or [])
         
         if not crawled_pages:
             print("❌ No pages were successfully crawled")
             return False
+        
+        # Skip analyses if crawl_only is True
+        if crawl_only:
+            print("🚀 Crawl completed successfully! Skipping analyses (--crawl-only mode)")
+            print(f"📁 Crawl data saved to: {output_dir}")
+            return True
         
         # Run all analyses in parallel
         results = await self._run_all_analyses(url, model, output_dir, crawled_pages)

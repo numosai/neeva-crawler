@@ -1,0 +1,17 @@
+name: Explore Portfolio Positions and Trade History
+qa_plan:
+  title: Explore Portfolio Positions and Trade History
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://console.zerodha.com/dashboard and click on the
+      'Portfolio' navigation link.
+    assertions:
+    - verificationId: portfolio_reports_v1
+      description: Verify that portfolio positions section loads
+  - phaseNumber: 2
+    objective: Click on the 'Reports' navigation link and select 'Tradebook' from
+      the options.
+    assertions:
+    - verificationId: portfolio_reports_v2
+      description: Verify that trade history table loads with data or a prompt to
+        build a report

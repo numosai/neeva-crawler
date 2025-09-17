@@ -19,7 +19,8 @@ Three analysis stages:
         """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    parser.add_argument("url", help="URL to analyze")
+    parser.add_argument("url", help="Main URL to analyze")
+    parser.add_argument("--urls", nargs="+", help="Additional URLs to crawl (space-separated list)")
     parser.add_argument("--model", default="gemini/gemini-2.5-flash", 
                        help="LLM model to use (default: gemini/gemini-2.5-flash, also supports: gemini/gemini-1.5-flash, gemini/gemini-1.5-pro)")
     parser.add_argument("--analyze-and-html", action="store_true",
@@ -36,6 +37,8 @@ Three analysis stages:
                        help="Connect to existing Chrome browser via CDP (Chrome DevTools Protocol)")
     parser.add_argument("--cdp-port", type=int, default=9222,
                        help="CDP port for connecting to existing browser (default: 9222)")
+    parser.add_argument("--crawl-only", action="store_true",
+                       help="Only crawl the website, skip all analyses (QA, accessibility, SEO, etc.)")
     return parser
 
 
@@ -48,6 +51,11 @@ async def main():
     
     engine = CrawlerEngine()
     
+    # Prepare URLs list (main URL + additional URLs)
+    urls_to_crawl = [args.url]
+    if args.urls:
+        urls_to_crawl.extend(args.urls)
+    
     if args.analyze_and_html:
         await engine.analyze_and_html(args.url, model=args.model, use_cdp=args.use_cdp, cdp_port=args.cdp_port)
     elif args.html_only:
@@ -57,7 +65,7 @@ async def main():
     elif args.sitemap_only:
         await engine.regenerate_sitemap_only(args.url)
     else:
-        await engine.full_crawl_and_analyze(args.url, model=args.model, git_push=args.git_push, use_cdp=args.use_cdp, cdp_port=args.cdp_port)
+        await engine.full_crawl_and_analyze(args.url, model=args.model, git_push=args.git_push, use_cdp=args.use_cdp, cdp_port=args.cdp_port, crawl_only=args.crawl_only, additional_urls=urls_to_crawl[1:])
 
 
 if __name__ == "__main__":

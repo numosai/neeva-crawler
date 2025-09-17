@@ -1,0 +1,784 @@
+{
+  "issues": [
+    {
+      "text": "Your commodity account is inactive/dormant",
+      "page_url": "https://console.zerodha.com"
+    },
+    {
+      "text": "Your commodity account is inactive/dormant",
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "text": "Zerodha Broking Ltd., does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity, and completeness of the data presented in this report/data.",
+      "page_url": "https://console.zerodha.com/dashboard"
+    },
+    {
+      "text": "Report's empty: We couldn't find any results for your query.",
+      "page_url": "https://console.zerodha.com/portfolio/positions"
+    },
+    {
+      "text": "The P&L report/Holdings/Positions data is prepared based on the trades and information available at the time of report generation.",
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "text": "Zerodha Broking Ltd. does not make any warranty, express or implied, or assume any legal/consequential liability, or responsibility for the authenticity and completeness of the data presented in this report/data.",
+      "page_url": "https://console.zerodha.com/reports/tradebook"
+    },
+    {
+      "text": "Withdrawable balance is negative: \u20b9-89.87",
+      "page_url": "https://console.zerodha.com/funds/overview"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year if reKYC is not done.",
+      "page_url": "https://console.zerodha.com/account"
+    },
+    {
+      "text": "Account can become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Income proof file might be password protected.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Segment selection is required for sharing Verified P&L.",
+      "page_url": "https://console.zerodha.com/account/nominee"
+    },
+    {
+      "text": "Primary bank account modification request was rejected.",
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "text": "The bank account attempted to be linked is either a 3rd party account or a joint account where the user is not the first holder.",
+      "page_url": "https://console.zerodha.com/account/bank"
+    },
+    {
+      "text": "Account can become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Once a segment is deactivated, it cannot be activated for the next 12 hours.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "File password is required if income proof file is password protected.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Family accounts not with Zerodha cannot be linked directly.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Segment selection is required to share P&L.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "The P&L report/Holdings/Positions data may not be authentic and complete.",
+      "page_url": "https://console.zerodha.com/account/demat"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/segment-activation"
+    },
+    {
+      "text": "Account may become dormant due to inactivity for more than a year.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Financial proof may be outdated or missing.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Commodity declaration may be pending or incomplete.",
+      "page_url": "https://console.zerodha.com/account/mtf"
+    },
+    {
+      "text": "Missing 'alt' attribute for the image, which impacts accessibility and SEO.",
+      "page_url": "https://console.zerodha.com/"
+    }
+  ],
+  "recommendations": [
+    {
+      "text": {
+        "text": "Activate commodity segment",
+        "page_url": "https://console.zerodha.com",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Activate segment",
+        "page_url": "https://console.zerodha.com/dashboard",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+        "page_url": "https://console.zerodha.com/dashboard",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+        "page_url": "https://console.zerodha.com/portfolio/positions",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement which are available with you at all times.",
+        "page_url": "https://console.zerodha.com/reports/tradebook",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Deposit funds to clear the negative balance.",
+        "page_url": "https://console.zerodha.com/funds/overview",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Do a reKYC if account becomes dormant due to inactivity.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Upload financial proof in PDF format (Max: 5 MB).",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide file password if income proof file is password protected.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select the appropriate option for the commodities you intend to trade.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "If you're a retail trader who doesn't fall into any listed categories, select 'Others'.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "For any complaints, visit SCORES.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "To double check your P&L report/Holdings/Positions data, verify it with the Tradebook, Contract Notes and the Funds Statement.",
+        "page_url": "https://console.zerodha.com/account",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can set a secondary bank account as primary.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can add a new bank account.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can activate or deactivate trading segments on their account.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can enable Margin Trading Facility (MTF).",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can pay AMC upfront for Demat.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can use shareholder e-voting.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can email documents to themselves.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide the file password if the uploaded income proof file is password protected.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User needs to select appropriate options for the commodities they intend to trade.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "High",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can enable Securities Lending & Borrowing (SLB) segment after reading the Rights & Obligations and the Schedule of Charges document.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can transfer family accounts not with Zerodha to Zerodha to link them.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select segments to share when setting up Verified P&L.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "User can generate a CP Code with NSE Clearing Ltd. and link it to their account after reading the application form and declaring that they fulfil the networth requirement criteria.",
+        "page_url": "https://console.zerodha.com/account/nominee",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "To link a joint account where you are not the first holder, send a physical account modification form along with a bank proof to Zerodha's office in Bangalore.",
+        "page_url": "https://console.zerodha.com/account/bank",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Do a reKYC to prevent account dormancy.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Set the second bank account as primary.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Add a new bank account.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Continue to manage segments.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read more about Margin Trading Facility (MTF).",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read MTF Terms and conditions.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enable MTF.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Pay AMC upfront.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Shareholder e-voting.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select income range.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Upload financial proof (Supported format: PDF | Max: 5 MB).",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide file password if income proof file is password protected.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select the appropriate option for the commodities you intend to trade.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select 'Others' if you're a retail trader who doesn't fall into any of the listed categories.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Submit commodity declaration.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read the Rights & Obligations document for Securities Lending & Borrowing (SLB).",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read the Schedule of Charges document for SLB.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Submit to enable SLB segment.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Link a sub-account.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Medium",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Transfer family accounts to Zerodha to link them.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read more about Verified P&L.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select segments to share.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Save Verified P&L settings.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Read the application form for CP Code.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Declare that you fulfil the networth requirement criteria.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Submit to generate a CP Code with NSE Clearing Ltd.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Verify P&L report/Holdings/Positions data with the Tradebook, Contract Notes and the Funds Statement.",
+        "page_url": "https://console.zerodha.com/account/demat",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Update financial proof by selecting an income range and uploading a supported document (PDF, max 5 MB).",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Provide a file password if the income proof file is password protected.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select the appropriate option for the commodities you intend to trade.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Link your family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Transfer family accounts to Zerodha to link them if they are not already with Zerodha.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Share your P&L and trades publicly, verified by Zerodha.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "For any complaints, visit SCORES.",
+        "page_url": "https://console.zerodha.com/account/segment-activation",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Perform reKYC if the account becomes dormant due to inactivity.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Update financial proof by selecting income range and uploading a PDF file (max 5 MB, password required if applicable).",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Select the appropriate status/type for the commodities you intend to trade.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Enable Securities Lending & Borrowing (SLB) segment if desired, after reading the Rights & Obligations and Schedule of Charges documents.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Link family's Zerodha accounts as sub-accounts to view combined portfolios.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Transfer family accounts not with Zerodha to Zerodha to link them.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Generate a CP Code with NSE Clearing Ltd. and link it to your account if desired, after reading the application form and fulfilling networth requirements.",
+        "page_url": "https://console.zerodha.com/account/mtf",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Add a descriptive 'alt' attribute to the image tag to improve accessibility for screen readers and provide context if the image fails to load.",
+        "page_url": "https://console.zerodha.com/",
+        "priority": "high"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    },
+    {
+      "text": {
+        "text": "Ensure the image path '/static/images/logo.png' is correct and the image file exists at that location.",
+        "page_url": "https://console.zerodha.com/",
+        "priority": "medium"
+      },
+      "priority": "Low",
+      "category": "User Experience"
+    }
+  ],
+  "summary": {
+    "total_issues": 24,
+    "total_recommendations": 75,
+    "high_priority": 25,
+    "medium_priority": 25,
+    "low_priority": 25
+  }
+}

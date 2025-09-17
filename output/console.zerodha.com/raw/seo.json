@@ -1,0 +1,294 @@
+{
+  "pages": [
+    {
+      "url": "https://console.zerodha.com",
+      "title": "Dashboard / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "HiNagesh",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/dashboard",
+      "title": "Dashboard / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "HiNagesh",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/portfolio/positions",
+      "title": "Positions / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Positions",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/reports/tradebook",
+      "title": "Tradebook / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Tradebook",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/funds/overview",
+      "title": "Funds / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Funds",
+      "h2_elements": [
+        "EquityLast updated: 2025-09-17 05:17:00Next quarterly settlement on 2025-10-03.Learn more.",
+        "CommodityLast updated: 2025-09-17 05:17:00Next quarterly settlement on 2025-10-03.Learn more."
+      ],
+      "h2_count": 2,
+      "issues": [
+        "Title too short (15 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/nominee",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/bank",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/demat",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/segment-activation",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/mtf",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "Account",
+      "h2_elements": [
+        "Account closure"
+      ],
+      "h2_count": 1,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive"
+      ],
+      "score": 90
+    },
+    {
+      "url": "https://console.zerodha.com/account/documents",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://console.zerodha.com/account/mcx-classification",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://console.zerodha.com/account/family",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://console.zerodha.com/account/verifiedpnl",
+      "title": "My account / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (20 chars) - should be 30-60 characters",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    },
+    {
+      "url": "https://console.zerodha.com/",
+      "title": "Dashboard / Console",
+      "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (19 chars) - should be 30-60 characters",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 65
+    }
+  ],
+  "summary": {
+    "total_pages": 16,
+    "total_issues": 30,
+    "avg_title_length": 19,
+    "avg_desc_length": 151,
+    "avg_score": 82.2
+  }
+}

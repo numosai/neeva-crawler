@@ -1,0 +1,95 @@
+{
+  "flows": [
+    {
+      "id": "quick_overview_flow",
+      "title": "Quick Dashboard Overview",
+      "description": "A quick action taker who wants to see their primary financial dashboard for an immediate overview of their investment performance and account summary.",
+      "page_sequence": [
+        "page_1"
+      ],
+      "user_goals": [
+        "Access immediate financial overview",
+        "Verify core performance metrics are visible"
+      ],
+      "browser_actions": [
+        "Navigate to the main console dashboard (e.g., page_1)",
+        "Verify that key performance indicators, such as portfolio value or P&L, are displayed",
+        "Confirm the general layout and summary information load without errors"
+      ]
+    },
+    {
+      "id": "detailed_portfolio_reports_flow",
+      "title": "Explore Portfolio Positions and Trade History",
+      "description": "A detailed researcher who explores specific investment positions and delves into their historical trade data and other reports.",
+      "page_sequence": [
+        "page_1",
+        "page_3",
+        "page_4"
+      ],
+      "user_goals": [
+        "Analyze current investment holdings",
+        "Review detailed transaction records and past trades"
+      ],
+      "browser_actions": [
+        "Navigate to the main console dashboard (e.g., page_1)",
+        "Click on the 'Portfolio' navigation link to view investment positions (e.g., page_3)",
+        "Click on the 'Reports' navigation link to access various financial reports",
+        "Select the 'Tradebook' report from the available options (e.g., page_4)",
+        "Verify the trade history table loads with data"
+      ]
+    },
+    {
+      "id": "report_data_analysis_flow",
+      "title": "Filter and Analyze Report Data",
+      "description": "A user who wants to compare and analyze specific segments and date ranges within their financial reports, testing the filtering and data retrieval functionality.",
+      "page_sequence": [
+        "page_4"
+      ],
+      "user_goals": [
+        "Apply advanced filters to financial data",
+        "Generate customized views of transactions by segment and date"
+      ],
+      "browser_actions": [
+        "Navigate directly to the 'Reports' section, specifically the 'Tradebook' page (e.g., page_4)",
+        "Select any available 'Segment' filter from the dropdown (e.g., Equity, Futures & Options, Currency)",
+        "Apply any predefined 'Date range' filter (e.g., 'last 7 days', 'current FY') or select a custom date range using the calendar picker",
+        "Verify that the displayed report data updates according to the applied filters"
+      ]
+    },
+    {
+      "id": "account_info_and_options_flow",
+      "title": "Review Account Information and Activation Options",
+      "description": "An information seeker researching their account settings, profile details, and exploring available features or options like segment activation.",
+      "page_sequence": [
+        "https://console.zerodha.com/account",
+        "https://console.zerodha.com/account/segment-activation"
+      ],
+      "user_goals": [
+        "Access and review personal account details",
+        "Understand services and features like segment activation"
+      ],
+      "browser_actions": [
+        "Navigate to the 'Account' section of the console (e.g., https://console.zerodha.com/account)",
+        "Click on the 'Segment Activation' link within the account settings",
+        "Verify the segment activation page loads, displaying options for different trading segments (e.g., Futures & Options, Commodity)"
+      ]
+    },
+    {
+      "id": "mobile_quick_funds_check_flow",
+      "title": "Quick Funds Balance Check",
+      "description": "A time-constrained mobile user who needs to quickly check their available funds balance or access fund-related actions.",
+      "page_sequence": [
+        "https://console.zerodha.com/funds"
+      ],
+      "user_goals": [
+        "Rapidly view available funds",
+        "Check options for adding or withdrawing funds"
+      ],
+      "browser_actions": [
+        "Navigate to the 'Funds' section of the console (assuming a dedicated funds management page at https://console.zerodha.com/funds based on navigation menu structure)",
+        "Verify that available fund balances (e.g., cash, collateral) are displayed",
+        "Look for prominent links or buttons related to 'Add funds' or 'Withdraw funds'"
+      ]
+    }
+  ]
+}

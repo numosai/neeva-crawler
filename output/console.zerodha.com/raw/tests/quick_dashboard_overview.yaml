@@ -1,0 +1,13 @@
+name: Quick Dashboard Overview
+qa_plan:
+  title: Quick Dashboard Overview
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://console.zerodha.com/dashboard and verify dashboard
+      elements.
+    assertions:
+    - verificationId: quick_overview_v1
+      description: Verify that key performance indicators like account value, equity
+        holdings, and cash balance are displayed
+    - verificationId: quick_overview_v2
+      description: Verify that account summary information loads successfully

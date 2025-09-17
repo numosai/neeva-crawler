@@ -12,13 +12,16 @@ from .screenshot import ScreenshotProcessor
 class WebCrawler:
     """Handles web crawling and site mapping"""
     
-    def __init__(self, max_depth: int = 5, max_pages: int = 15):
+    def __init__(self, max_depth: int = 5, max_pages: int = 30):
         self.max_depth = max_depth
         self.max_pages = max_pages
         self.screenshot_processor = ScreenshotProcessor()
     
     
-    async def crawl_site(self, url: str, output_dir: Path, use_cdp: bool = False, cdp_port: int = 9222) -> tuple[list, list]:
+    
+    
+    
+    async def crawl_site(self, url: str, output_dir: Path, use_cdp: bool = False, cdp_port: int = 9222, additional_urls: list = None) -> tuple[list, list]:
         """
         Crawl a website and return pages and navigation flows
         
@@ -26,7 +29,13 @@ class WebCrawler:
             tuple: (crawled_pages, selected_flows)
         """
         parsed = urlparse(url)
-        seen, to_visit = set(), [(url, 0)]
+        
+        # Prepare initial URLs to visit
+        initial_urls = [url]
+        if additional_urls:
+            initial_urls.extend(additional_urls)
+        
+        seen, to_visit = set(), [(u, 0) for u in initial_urls]
         crawled_pages = []
         graph = nx.DiGraph()
         
@@ -67,11 +76,11 @@ class WebCrawler:
                 
                 print(f"🌐 Crawling {current_url}")
                 
-                # Build config
+                # Build basic config for crawling
                 config_params = {
                     "screenshot": True,
                     "only_text": False,
-                    "wait_until": "domcontentloaded",
+                    "wait_until": "networkidle",
                     "delay_before_return_html": 2.0,
                     "simulate_user": True,
                     "magic": True
@@ -122,10 +131,10 @@ class WebCrawler:
                     markdown=result.markdown[:1000] if result.markdown else ""
                 )
                 
-                # Process internal links
+                # Process internal links for traditional link following
                 for link in result.links.get("internal", []):
                     href = link.get("href")
-                    if not href:
+                    if not href or href in ["", "#", "javascript:void(0)", "javascript:"]:
                         continue
                     full_url = urljoin(current_url, href)
                     link_netloc = urlparse(full_url).netloc
@@ -136,7 +145,7 @@ class WebCrawler:
                     
                     if link_netloc in ["", parsed.netloc] or link_domain == base_domain:
                         graph.add_edge(page_node, full_url, label=link.get("text", "").strip())
-                        if full_url not in seen:
+                        if full_url not in seen and depth < self.max_depth:
                             to_visit.append((full_url, depth + 1))
                 
                 page_idx += 1

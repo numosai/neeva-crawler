@@ -1,0 +1,11 @@
+name: Filter and Analyze Report Data
+qa_plan:
+  title: Filter and Analyze Report Data
+  phases:
+  - phaseNumber: 1
+    objective: Navigate directly to https://console.zerodha.com/reports/tradebook
+      and apply segment and date range filters.
+    assertions:
+    - verificationId: report_analysis_v1
+      description: Verify that report data updates according to applied segment and
+        date range filters

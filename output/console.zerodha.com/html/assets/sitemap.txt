@@ -1,0 +1,154 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 16
+Total Unique URLs: 16
+Total Links: 35
+
+PAGE DETAILS
+------------------------------
+
+1. Dashboard / Console
+   URL: https://console.zerodha.com
+   Page ID: page_1
+   Outgoing Links (4):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+     → Activate segment: https://console.zerodha.com/account/segment-activation
+
+2. Dashboard / Console
+   URL: https://console.zerodha.com/dashboard
+   Page ID: page_2
+   Outgoing Links (4):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+     → Activate segment: https://console.zerodha.com/account/segment-activation
+   Incoming Links (10):
+     ← No text: https://console.zerodha.com
+     ← No text: https://console.zerodha.com/portfolio/positions
+     ← No text: https://console.zerodha.com/reports/tradebook
+     ... and 7 more
+
+3. Positions / Console
+   URL: https://console.zerodha.com/portfolio/positions
+   Page ID: page_3
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+4. Tradebook / Console
+   URL: https://console.zerodha.com/reports/tradebook
+   Page ID: page_4
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+5. Funds / Console
+   URL: https://console.zerodha.com/funds/overview
+   Page ID: page_5
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+6. My account / Console
+   URL: https://console.zerodha.com/account
+   Page ID: page_6
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+   Incoming Links (10):
+     ← Account: https://console.zerodha.com
+     ← Account: https://console.zerodha.com/dashboard
+     ← Account: https://console.zerodha.com/portfolio/positions
+     ... and 7 more
+
+7. My account / Console
+   URL: https://console.zerodha.com/account/nominee
+   Page ID: page_7
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+8. My account / Console
+   URL: https://console.zerodha.com/account/bank
+   Page ID: page_8
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+9. My account / Console
+   URL: https://console.zerodha.com/account/demat
+   Page ID: page_9
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+10. My account / Console
+   URL: https://console.zerodha.com/account/segment-activation
+   Page ID: page_10
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+   Incoming Links (2):
+     ← Activate segment: https://console.zerodha.com
+     ← Activate segment: https://console.zerodha.com/dashboard
+
+11. My account / Console
+   URL: https://console.zerodha.com/account/mtf
+   Page ID: page_11
+   Outgoing Links (3):
+     → No text: https://console.zerodha.com/dashboard
+     → No text: https://console.zerodha.com/
+     → Account: https://console.zerodha.com/account
+
+12. My account / Console
+   URL: https://console.zerodha.com/account/documents
+   Page ID: page_12
+
+13. My account / Console
+   URL: https://console.zerodha.com/account/mcx-classification
+   Page ID: page_13
+
+14. My account / Console
+   URL: https://console.zerodha.com/account/family
+   Page ID: page_14
+
+15. My account / Console
+   URL: https://console.zerodha.com/account/verifiedpnl
+   Page ID: page_15
+
+16. Dashboard / Console
+   URL: https://console.zerodha.com/
+   Page ID: page_16
+   Incoming Links (11):
+     ← No text: https://console.zerodha.com
+     ← No text: https://console.zerodha.com/dashboard
+     ← No text: https://console.zerodha.com/portfolio/positions
+     ... and 8 more
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  homepage: 4 outgoing links
+  dashboard: 4 outgoing links
+  positions: 3 outgoing links
+  tradebook: 3 outgoing links
+  overview: 3 outgoing links
+
+Most Referenced Pages (most incoming links):
+  dashboard: 11 incoming links
+  account: 11 incoming links
+  homepage: 11 incoming links
+  segment-activation: 2 incoming links
+  homepage: 0 incoming links

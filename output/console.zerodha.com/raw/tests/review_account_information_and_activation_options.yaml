@@ -1,0 +1,11 @@
+name: Review Account Information and Activation Options
+qa_plan:
+  title: Review Account Information and Activation Options
+  phases:
+  - phaseNumber: 1
+    objective: Navigate to https://console.zerodha.com/account and click on the 'Segment
+      Activation' link.
+    assertions:
+    - verificationId: account_info_v1
+      description: Verify that segment activation page loads with options for different
+        trading segments
