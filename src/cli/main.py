@@ -32,6 +32,10 @@ Three analysis stages:
                        help="Regenerate sitemap only from existing crawl data")
     parser.add_argument("--git-push", action="store_true",
                        help="Automatically git add, commit, and push results after analysis")
+    parser.add_argument("--use-cdp", action="store_true",
+                       help="Connect to existing Chrome browser via CDP (Chrome DevTools Protocol)")
+    parser.add_argument("--cdp-port", type=int, default=9222,
+                       help="CDP port for connecting to existing browser (default: 9222)")
     return parser
 
 
@@ -45,15 +49,15 @@ async def main():
     engine = CrawlerEngine()
     
     if args.analyze_and_html:
-        await engine.analyze_and_html(args.url, model=args.model)
+        await engine.analyze_and_html(args.url, model=args.model, use_cdp=args.use_cdp, cdp_port=args.cdp_port)
     elif args.html_only:
-        await engine.generate_html_only(args.url)
+        await engine.generate_html_only(args.url, use_cdp=args.use_cdp, cdp_port=args.cdp_port)
     elif args.qa_only:
         await engine.analyze_qa_only(args.url, model=args.model)
     elif args.sitemap_only:
         await engine.regenerate_sitemap_only(args.url)
     else:
-        await engine.full_crawl_and_analyze(args.url, model=args.model, git_push=args.git_push)
+        await engine.full_crawl_and_analyze(args.url, model=args.model, git_push=args.git_push, use_cdp=args.use_cdp, cdp_port=args.cdp_port)
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
 import networkx as nx
-from crawl4ai import AsyncWebCrawler, CrawlerRunConfig
+from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, BrowserConfig
 from .screenshot import ScreenshotProcessor
 
 
@@ -17,7 +17,8 @@ class WebCrawler:
         self.max_pages = max_pages
         self.screenshot_processor = ScreenshotProcessor()
     
-    async def crawl_site(self, url: str, output_dir: Path) -> tuple[list, list]:
+    
+    async def crawl_site(self, url: str, output_dir: Path, use_cdp: bool = False, cdp_port: int = 9222) -> tuple[list, list]:
         """
         Crawl a website and return pages and navigation flows
         
@@ -35,7 +36,28 @@ class WebCrawler:
         (raw_dir / "screenshots").mkdir(exist_ok=True)
         (output_dir / "html").mkdir(exist_ok=True)
         
-        async with AsyncWebCrawler() as crawler:
+        # Configure browser
+        browser_config = None
+        
+        # CDP mode configuration
+        if use_cdp:
+            # Use the base CDP endpoint - Playwright will handle the browser ID
+            cdp_url = f"http://localhost:{cdp_port}"
+            browser_config = BrowserConfig(
+                browser_mode="cdp",
+                cdp_url=cdp_url,
+                use_managed_browser=True,
+                headless=False,
+                viewport_width=1280,
+                viewport_height=720,
+                verbose=True
+            )
+            print(f"🔗 Connecting to existing Chrome browser via CDP")
+            print(f"📡 CDP endpoint: {cdp_url}")
+            print(f"💡 Make sure Chrome is running with: chrome --remote-debugging-port={cdp_port}")
+            print(f"🔑 If you need to authenticate, do so in the browser before continuing.")
+        
+        async with AsyncWebCrawler(config=browser_config) as crawler:
             page_idx = 1
             while to_visit and len(crawled_pages) < self.max_pages:
                 current_url, depth = to_visit.pop(0)
@@ -44,16 +66,20 @@ class WebCrawler:
                 seen.add(current_url)
                 
                 print(f"🌐 Crawling {current_url}")
+                
+                # Build config
+                config_params = {
+                    "screenshot": True,
+                    "only_text": False,
+                    "wait_until": "domcontentloaded",
+                    "delay_before_return_html": 2.0,
+                    "simulate_user": True,
+                    "magic": True
+                }
+                
                 result = await crawler.arun(
                     current_url,
-                    config=CrawlerRunConfig(
-                        screenshot=True,
-                        only_text=False,
-                        wait_until="domcontentloaded",
-                        delay_before_return_html=2.0,
-                        simulate_user=True,
-                        magic=True
-                    )
+                    config=CrawlerRunConfig(**config_params)
                 )
                 
                 if not result.success:

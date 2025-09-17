@@ -70,7 +70,7 @@ class CrawlerEngine:
             print(f"❌ Git workflow error: {e}")
             return False
     
-    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash", git_push: bool = False) -> bool:
+    async def full_crawl_and_analyze(self, url: str, model: str = "gemini/gemini-2.5-flash", git_push: bool = False, use_cdp: bool = False, cdp_port: int = 9222) -> bool:
         """Perform full website crawl and all analyses"""
         output_dir = self._get_output_dir(url)
         
@@ -82,7 +82,7 @@ class CrawlerEngine:
         
         # Crawl the website
         print(f"🚀 Starting full analysis of {url}")
-        crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir)
+        crawled_pages, _ = await self.web_crawler.crawl_site(url, output_dir, use_cdp=use_cdp, cdp_port=cdp_port)
         
         if not crawled_pages:
             print("❌ No pages were successfully crawled")
@@ -129,7 +129,7 @@ class CrawlerEngine:
         
         return sitemap_success
     
-    async def analyze_and_html(self, url: str, model: str = "gemini/gemini-2.5-flash") -> bool:
+    async def analyze_and_html(self, url: str, model: str = "gemini/gemini-2.5-flash", use_cdp: bool = False, cdp_port: int = 9222) -> bool:
         """Run all analyses and generate HTML from existing crawl data"""
         output_dir = self._get_output_dir(url)
         raw_dir = output_dir / "raw"
@@ -196,7 +196,7 @@ class CrawlerEngine:
         
         return success_count > 0
 
-    async def generate_html_only(self, url: str) -> bool:
+    async def generate_html_only(self, url: str, use_cdp: bool = False, cdp_port: int = 9222) -> bool:
         """Generate HTML site from existing analysis data"""
         output_dir = self._get_output_dir(url)
         raw_dir = output_dir / "raw"
