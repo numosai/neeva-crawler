@@ -8,7 +8,7 @@ Total Links: 35
 PAGE DETAILS
 ------------------------------
 
-1. Dashboard / Console
+1. Zerodha Console
    URL: https://console.zerodha.com
    Page ID: page_1
    Outgoing Links (4):
@@ -17,7 +17,7 @@ PAGE DETAILS
      → Account: https://console.zerodha.com/account
      → Activate segment: https://console.zerodha.com/account/segment-activation
 
-2. Dashboard / Console
+2. Zerodha Console
    URL: https://console.zerodha.com/dashboard
    Page ID: page_2
    Outgoing Links (4):
@@ -127,7 +127,7 @@ PAGE DETAILS
    URL: https://console.zerodha.com/account/verifiedpnl
    Page ID: page_15
 
-16. Dashboard / Console
+16. Zerodha Console
    URL: https://console.zerodha.com/
    Page ID: page_16
    Incoming Links (11):

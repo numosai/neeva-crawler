@@ -2,7 +2,7 @@
   "pages": [
     {
       "url": "https://console.zerodha.com",
-      "title": "Dashboard / Console",
+      "title": "Zerodha Console",
       "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
       "h1": "HiNagesh",
       "h2_elements": [],
@@ -19,7 +19,7 @@
     },
     {
       "url": "https://console.zerodha.com/dashboard",
-      "title": "Dashboard / Console",
+      "title": "Zerodha Console",
       "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
       "h1": "HiNagesh",
       "h2_elements": [],
@@ -266,7 +266,7 @@
     },
     {
       "url": "https://console.zerodha.com/",
-      "title": "Dashboard / Console",
+      "title": "Zerodha Console",
       "description": "Log in to Zerodha's Console to access your trading account statement, download tax ready reports, contract notes, get real-time analytics and much more",
       "h1": "",
       "h2_elements": [],

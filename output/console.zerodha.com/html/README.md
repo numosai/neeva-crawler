@@ -1,6 +1,6 @@
-# Dashboard / Console - Analysis Report
+# Zerodha Console - Analysis Report
 
-This is an automatically generated static website containing comprehensive analysis results for **Dashboard / Console**.
+This is an automatically generated static website containing comprehensive analysis results for **Zerodha Console**.
 
 > **Note:** This site uses dynamic data loading and must be served over HTTP/HTTPS to function properly. 
 > It will not work when opened directly as local files due to browser CORS restrictions. 
