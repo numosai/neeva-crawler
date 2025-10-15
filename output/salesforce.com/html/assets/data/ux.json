@@ -1,0 +1,860 @@
+{
+  "issues": [],
+  "recommendations": [],
+  "pages": [
+    {
+      "url": "https://salesforce.com",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/ai-agents",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 2,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce",
+      "raw_data": [
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/salesforce-on-salesforce-stories",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/products",
+      "raw_data": [
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/small-business/starter",
+      "raw_data": [
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/financial-services",
+      "raw_data": [
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/retail",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/healthcare-life-sciences",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/engineering-construction-real-estate",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/education",
+      "raw_data": [
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/professional-services",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/high-tech",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/manufacturing",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/industries",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/form/agentforce/maximizing-roi-with-agentforce?d=pb",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/company/our-values",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/company/pledge",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/solutions/appexchange/overview",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/company/privacy/full_privacy",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 3,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 2,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 1,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 5,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        },
+        {
+          "index": 4,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-insights-from-g2",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/revenue-cloud-keynote%3A-drive-growth-with-an-agentic-platform-_replay_",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/access-and-reinvention%3A-a-conversation-with-rob-lowe-_replay_",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/how-data-cloud-activates-data-for-the-agentic-enterprise-_replay_",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/a-conversation-with-dario-amodei-and-marc-benioff",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/voices_of_impact_at_dreamforce_2025/episode/episode-s1e10",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/the-leading-role%3A-the-chro-in-the-agentic-enterprise",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/deep-dive-into-dreamforce",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_-1",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/bring-everyone-along-in-the-agentic-era",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-it-and-hr-service%3A-what-customers-really-think",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/2-easy-ways-to-grow-with-tools-built-for-small-business",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-1",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    }
+  ],
+  "summary": {
+    "total_issues": 0,
+    "total_recommendations": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "total_pages": 50
+  }
+}

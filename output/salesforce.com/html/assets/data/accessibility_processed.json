@@ -1,0 +1,2792 @@
+{
+  "issues": [
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 47 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2369119d-6280-4275-9d61-eeab2bf95a59&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4505ca3e-8fd5-4bea-8d09-1e3946a986ef&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2369119d-6280-4275-9d61-eeab2bf95a59&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4505ca3e-8fd5-4bea-8d09-1e3946a986ef&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://salesforce.com"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://salesforce.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://salesforce.com"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 47 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d6438947-e0b8-481a-9b0f-03326cdc8c6c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0bbbf374-c8f1-416e-bd73-971fe7c0aef8&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d6438947-e0b8-481a-9b0f-03326cdc8c6c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0bbbf374-c8f1-416e-bd73-971fe7c0aef8&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2bfb6cde-2692-4b06-ae2d-edeb3ecf6adf&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2bfb6cde-2692-4b06-ae2d-edeb3ecf6adf&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=da400223-0354-471a-801e-5f3848ab9d42&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=da400223-0354-471a-801e-5f3848ab9d42&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 25 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../play.svg",
+        ".../groups.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e3b93e09-32fe-431f-95a4-983fc5263a29&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=d95dc1e8-6f37-4c52-bc38-bc10076be96a&pt=AI%20Agents%3A%20Definition%2C%20Types%2C%20Examples%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e3b93e09-32fe-431f-95a4-983fc5263a29&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=d95dc1e8-6f37-4c52-bc38-bc10076be96a&pt=AI%20Agents%3A%20Definition%2C%20Types%2C%20Examples%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 10 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../play.svg",
+        ".../groups.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=39257ede-e222-42a4-9d6c-428fb4793e47&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=df738a83-b2b7-4231-b3ef-2bb8ca31ff41&pt=Agentforce%20ROI%20Calculator%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents-roi-calculator%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=39257ede-e222-42a4-9d6c-428fb4793e47&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=df738a83-b2b7-4231-b3ef-2bb8ca31ff41&pt=Agentforce%20ROI%20Calculator%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents-roi-calculator%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "13 out of 88 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 13,
+      "details": [
+        ".../ico-agent-grid-1.svg?w=1024",
+        ".../ico-agent-grid-12.svg?w=1024",
+        ".../ico-agent-grid-3.svg?w=1024",
+        ".../ico-agent-grid-4.svg?w=1024",
+        ".../ico-agent-grid-13.svg?w=1024"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/agentforce"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 18 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../email.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a15b9f13-793d-479a-b0f0-ba339a87061b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=9d02271e-8051-44ca-b8e5-4dd83ca6c5ec&pt=Salesforce%20on%20Salesforce%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsalesforce-on-salesforce%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a15b9f13-793d-479a-b0f0-ba339a87061b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=9d02271e-8051-44ca-b8e5-4dd83ca6c5ec&pt=Salesforce%20on%20Salesforce%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsalesforce-on-salesforce%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 44 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=7fe1fb69-f124-4583-8110-c804d429a415&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=662dc916-b4e6-4aa8-b322-f0aeb80a541e&pt=Complete%20Salesforce%20Products%20%26%20Software%20Suite%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fproducts%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=7fe1fb69-f124-4583-8110-c804d429a415&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=662dc916-b4e6-4aa8-b322-f0aeb80a541e&pt=Complete%20Salesforce%20Products%20%26%20Software%20Suite%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fproducts%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/products"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/products"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/products"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 45 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../play.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=09eceba1-765a-48c5-8481-76d88e7fa8c5&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a42d7003-8fe6-444e-82d4-f38ce826af67&pt=Starter%20Suite%20CRM%3A%20Try%20Free%20Today%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsmall-business%2Fstarter%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=09eceba1-765a-48c5-8481-76d88e7fa8c5&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a42d7003-8fe6-444e-82d4-f38ce826af67&pt=Starter%20Suite%20CRM%3A%20Try%20Free%20Today%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsmall-business%2Fstarter%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/small-business/starter"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/small-business/starter"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/small-business/starter"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 8 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03d14352-4776-4924-af97-b2e78cf62543&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0b419902-4958-4dc1-bbda-ad4c99bf756e&pt=Sales%20Cloud%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-in-product%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03d14352-4776-4924-af97-b2e78cf62543&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0b419902-4958-4dc1-bbda-ad4c99bf756e&pt=Sales%20Cloud%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-in-product%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:1-800-664-9073"
+      ],
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=8720c51e-9e85-466c-b13f-5173a22b8d13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=de11f122-6377-45d7-acba-ac3fb0edbaf4&pt=Small%20Business%20Solutions%20Demo%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fdemo%2Fsmall-business%2Fsmb-overview%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=8720c51e-9e85-466c-b13f-5173a22b8d13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=de11f122-6377-45d7-acba-ac3fb0edbaf4&pt=Small%20Business%20Solutions%20Demo%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fdemo%2Fsmall-business%2Fsmb-overview%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:1-800-664-9073"
+      ],
+      "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 59 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../play.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=befce925-71ed-4337-8b91-22e52815de41&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a99d18c0-8a16-4ef9-8526-954e821add4b&pt=Financial%20Services%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Ffinancial-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=befce925-71ed-4337-8b91-22e52815de41&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a99d18c0-8a16-4ef9-8526-954e821add4b&pt=Financial%20Services%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Ffinancial-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/financial-services"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/financial-services"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/financial-services"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 48 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../play.svg",
+        ".../call.svg",
+        ".../edit_form.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=392bbcf7-54b7-46f7-95d6-6817da8a8b81&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=71833546-f790-4775-97df-b120a06ff083&pt=Best%20Retail%20CRM%20Solutions%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fretail%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=392bbcf7-54b7-46f7-95d6-6817da8a8b81&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=71833546-f790-4775-97df-b120a06ff083&pt=Best%20Retail%20CRM%20Solutions%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fretail%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/retail"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/retail"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/retail"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 42 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../play.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e7fdf92a-bc7a-4297-bc71-df240e61a18f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e3a3cd71-c285-4b0b-81f4-a46dad6a70cd&pt=Best%20Healthcare%20%26%20Life%20Sciences%20Software%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhealthcare-life-sciences%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e7fdf92a-bc7a-4297-bc71-df240e61a18f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e3a3cd71-c285-4b0b-81f4-a46dad6a70cd&pt=Best%20Healthcare%20%26%20Life%20Sciences%20Software%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhealthcare-life-sciences%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 29 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=69d83143-aef5-4269-b430-e0db7c23ab55&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c8c77ed0-961f-4ea7-aa96-944d8d17ca83&pt=Engineering%2C%20Construction%2C%20and%20Real%20Estate%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fengineering-construction-real-estate%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=69d83143-aef5-4269-b430-e0db7c23ab55&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c8c77ed0-961f-4ea7-aa96-944d8d17ca83&pt=Engineering%2C%20Construction%2C%20and%20Real%20Estate%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fengineering-construction-real-estate%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 51 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../screen.svg",
+        ".../screen.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e55e6c2b-7e15-430e-b437-70e826090260&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5312c92c-c534-4ec2-8dca-8d6e969abaec&pt=Education%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Feducation%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e55e6c2b-7e15-430e-b437-70e826090260&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5312c92c-c534-4ec2-8dca-8d6e969abaec&pt=Education%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Feducation%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/education"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/education"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/education"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 31 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../call.svg",
+        ".../email.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=ed9c0047-2b4c-43ee-b848-3cd25f827ee3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=478a119f-b43d-40ba-8edb-ac1498a284a6&pt=Best%20CRM%20Software%20for%20Professional%20Services%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fprofessional-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=ed9c0047-2b4c-43ee-b848-3cd25f827ee3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=478a119f-b43d-40ba-8edb-ac1498a284a6&pt=Best%20CRM%20Software%20for%20Professional%20Services%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fprofessional-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/professional-services"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/professional-services"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/professional-services"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 49 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../screen.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9d82c74b-9a1d-47e2-a895-33a77a9936ba&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4e1724a0-9e94-4433-9862-ce2496636db3&pt=CRM%20for%20High%20Tech%20Software%20Companies%20%7C%20SaaS%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhigh-tech%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9d82c74b-9a1d-47e2-a895-33a77a9936ba&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4e1724a0-9e94-4433-9862-ce2496636db3&pt=CRM%20for%20High%20Tech%20Software%20Companies%20%7C%20SaaS%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhigh-tech%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/high-tech"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/high-tech"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/high-tech"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/manufacturing"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/industries"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 15 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../play.svg",
+        ".../groups.svg",
+        ".../call.svg",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=74530b2a-f797-4637-b532-f2acd2fb01d7&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afdf84ce-0645-485a-aafc-d10af1b8ca2f&pt=Accelerate%20Agentic%20AI%20Development%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Faccelerate-agentic-ai%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=74530b2a-f797-4637-b532-f2acd2fb01d7&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afdf84ce-0645-485a-aafc-d10af1b8ca2f&pt=Accelerate%20Agentic%20AI%20Development%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Faccelerate-agentic-ai%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=418445d8-b527-4527-a997-13f555d8dc0a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=aa934778-9fb8-411b-9caa-b8ee0db70205&pt=G2%20names%20Sales%20Cloud%20a%20leader%20in%20CRM%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsales%2Fg2-crm-leader-grid-report%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=418445d8-b527-4527-a997-13f555d8dc0a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=aa934778-9fb8-411b-9caa-b8ee0db70205&pt=G2%20names%20Sales%20Cloud%20a%20leader%20in%20CRM%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsales%2Fg2-crm-leader-grid-report%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:1-800-664-9073"
+      ],
+      "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/form/agentforce/maximizing-roi-with-agentforce?d=pb"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 14 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03a78ac0-bbec-41ba-9ba6-8b6f4a47979e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=be145b48-52fb-4988-a27b-5a6d6c8f75dd&pt=Our%20values%20guide%20every%20decision%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Four-values%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03a78ac0-bbec-41ba-9ba6-8b6f4a47979e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=be145b48-52fb-4988-a27b-5a6d6c8f75dd&pt=Our%20values%20guide%20every%20decision%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Four-values%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/company/our-values"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/company/our-values"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/company/our-values"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 12 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=cc773ee1-b81d-4a7e-a4d3-8a3490c86cc6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=44627803-6066-46d6-aa98-8098021d1cad&pt=Our%20founders%20created%20the%201%25%20Pledge.%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Fpledge%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=cc773ee1-b81d-4a7e-a4d3-8a3490c86cc6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=44627803-6066-46d6-aa98-8098021d1cad&pt=Our%20founders%20created%20the%201%25%20Pledge.%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Fpledge%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/company/pledge"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/company/pledge"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/company/pledge"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "3 out of 18 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 3,
+      "details": [
+        ".../unip?en=page_view",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1a88bef9-478b-4fb6-9974-8ee2e1696a8d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=11255f78-e4d9-4c83-b641-ded3db315e4e&pt=Salesforce%20AppExchange%20%7C%20Leading%20Enterprise%20Cloud%20Marketplace&tw_document_href=https%3A%2F%2Fappexchange.salesforce.com%2F&tw_iframe_status=0&txn_id=o5kt4&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1a88bef9-478b-4fb6-9974-8ee2e1696a8d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=11255f78-e4d9-4c83-b641-ded3db315e4e&pt=Salesforce%20AppExchange%20%7C%20Leading%20Enterprise%20Cloud%20Marketplace&tw_document_href=https%3A%2F%2Fappexchange.salesforce.com%2F&tw_iframe_status=0&txn_id=o5kt4&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/solutions/appexchange/overview"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/solutions/appexchange/overview"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573c77f7-310c-47e7-b7dc-899806c5abf4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c584a2c2-c5a1-4034-8e56-06f6686b24c4&pt=Salesforce%20Starter%3A%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-starter%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573c77f7-310c-47e7-b7dc-899806c5abf4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c584a2c2-c5a1-4034-8e56-06f6686b24c4&pt=Salesforce%20Starter%3A%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-starter%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:1-800-664-9073"
+      ],
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "2 out of 15 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 2,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f93647c3-186f-4b59-b5a8-c61d3f52d7b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=33112724-a6a9-4680-8259-aa91c528aa24&pt=Salesforce%20Privacy%20Information%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Flegal%2Fprivacy%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f93647c3-186f-4b59-b5a8-c61d3f52d7b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=33112724-a6a9-4680-8259-aa91c528aa24&pt=Salesforce%20Privacy%20Information%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Flegal%2Fprivacy%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "tel:18006649073"
+      ],
+      "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 10 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1f2155cb-65fb-4526-a9a5-88729f75a300&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1f2155cb-65fb-4526-a9a5-88729f75a300&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=97ba7788-c19d-472c-a7e2-dc759e6729cb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=97ba7788-c19d-472c-a7e2-dc759e6729cb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd754824-03d5-472f-9061-a381b239aadd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd754824-03d5-472f-9061-a381b239aadd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d9716291-5c62-4e75-b663-1962139b9f48&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d9716291-5c62-4e75-b663-1962139b9f48&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-insights-from-g2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/revenue-cloud-keynote%3A-drive-growth-with-an-agentic-platform-_replay_"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/access-and-reinvention%3A-a-conversation-with-rob-lowe-_replay_"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/how-data-cloud-activates-data-for-the-agentic-enterprise-_replay_"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/a-conversation-with-dario-amodei-and-marc-benioff"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/voices_of_impact_at_dreamforce_2025/episode/episode-s1e10"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573a4910-ab9e-4411-aa19-d41579f7a34c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573a4910-ab9e-4411-aa19-d41579f7a34c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=212d1353-cc62-434c-bfea-a2b5b371f007&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=212d1353-cc62-434c-bfea-a2b5b371f007&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/the-leading-role%3A-the-chro-in-the-agentic-enterprise"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/deep-dive-into-dreamforce"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_-1"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/bring-everyone-along-in-the-agentic-era"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-it-and-hr-service%3A-what-customers-really-think"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e978536b-2646-48ab-9684-cdc026a79001&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e978536b-2646-48ab-9684-cdc026a79001&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=b07ac418-1cff-43bf-8220-db4ddbdced03&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=b07ac418-1cff-43bf-8220-db4ddbdced03&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/2-easy-ways-to-grow-with-tools-built-for-small-business"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd02f6a7-c457-4a9b-b375-d36f17a388a8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd02f6a7-c457-4a9b-b375-d36f17a388a8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e4e40325-cd67-4271-935c-7b34557f1548&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e4e40325-cd67-4271-935c-7b34557f1548&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9c63c272-71e0-4a8c-a719-e1ade491eb13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9c63c272-71e0-4a8c-a719-e1ade491eb13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a74cdf17-e069-4602-9169-e6d9c0d7ab92&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a74cdf17-e069-4602-9169-e6d9c0d7ab92&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-1"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=334b36bb-64c7-43e5-ac9e-4fe3402b0b05&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=334b36bb-64c7-43e5-ac9e-4fe3402b0b05&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1111ca22-9712-4f04-ae1c-b861d93328b0&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1111ca22-9712-4f04-ae1c-b861d93328b0&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "5 out of 9 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 5,
+      "details": [
+        ".../100",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=66ce8a99-fd7e-4673-9daa-64eca49df63d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=66ce8a99-fd7e-4673-9daa-64eca49df63d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f0c3e672-7bd8-455f-a135-c2744fd3608b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+        ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f0c3e672-7bd8-455f-a135-c2744fd3608b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+      ],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [],
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://salesforce.com",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 47 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2369119d-6280-4275-9d61-eeab2bf95a59&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4505ca3e-8fd5-4bea-8d09-1e3946a986ef&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2369119d-6280-4275-9d61-eeab2bf95a59&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4505ca3e-8fd5-4bea-8d09-1e3946a986ef&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://salesforce.com"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://salesforce.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://salesforce.com"
+        }
+      ],
+      "score": 60,
+      "total_images": 47,
+      "total_links": 64,
+      "total_buttons": 13
+    },
+    {
+      "url": "https://www.salesforce.com/",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 47 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d6438947-e0b8-481a-9b0f-03326cdc8c6c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0bbbf374-c8f1-416e-bd73-971fe7c0aef8&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d6438947-e0b8-481a-9b0f-03326cdc8c6c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0bbbf374-c8f1-416e-bd73-971fe7c0aef8&pt=Salesforce%3A%20The%20%231%20AI%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/"
+        }
+      ],
+      "score": 60,
+      "total_images": 47,
+      "total_links": 64,
+      "total_buttons": 13
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2bfb6cde-2692-4b06-ae2d-edeb3ecf6adf&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=2bfb6cde-2692-4b06-ae2d-edeb3ecf6adf&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=da400223-0354-471a-801e-5f3848ab9d42&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=da400223-0354-471a-801e-5f3848ab9d42&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=888407db-e410-4bdd-bfa9-e869fed4f57b&pt=Dreamforce%202025%20%7C%20Salesforce%2B&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025"
+        }
+      ],
+      "score": 70,
+      "total_images": 9,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/ai-agents",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 25 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../play.svg",
+            ".../groups.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e3b93e09-32fe-431f-95a4-983fc5263a29&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=d95dc1e8-6f37-4c52-bc38-bc10076be96a&pt=AI%20Agents%3A%20Definition%2C%20Types%2C%20Examples%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e3b93e09-32fe-431f-95a4-983fc5263a29&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=d95dc1e8-6f37-4c52-bc38-bc10076be96a&pt=AI%20Agents%3A%20Definition%2C%20Types%2C%20Examples%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents"
+        }
+      ],
+      "score": 60,
+      "total_images": 25,
+      "total_links": 67,
+      "total_buttons": 21
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 10 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../play.svg",
+            ".../groups.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=39257ede-e222-42a4-9d6c-428fb4793e47&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=df738a83-b2b7-4231-b3ef-2bb8ca31ff41&pt=Agentforce%20ROI%20Calculator%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents-roi-calculator%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=39257ede-e222-42a4-9d6c-428fb4793e47&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=df738a83-b2b7-4231-b3ef-2bb8ca31ff41&pt=Agentforce%20ROI%20Calculator%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Fai-agents-roi-calculator%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/agentforce/ai-agents-roi-calculator"
+        }
+      ],
+      "score": 60,
+      "total_images": 10,
+      "total_links": 11,
+      "total_buttons": 20
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "13 out of 88 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 13,
+          "details": [
+            ".../ico-agent-grid-1.svg?w=1024",
+            ".../ico-agent-grid-12.svg?w=1024",
+            ".../ico-agent-grid-3.svg?w=1024",
+            ".../ico-agent-grid-4.svg?w=1024",
+            ".../ico-agent-grid-13.svg?w=1024"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/agentforce"
+        }
+      ],
+      "score": 60,
+      "total_images": 88,
+      "total_links": 101,
+      "total_buttons": 24
+    },
+    {
+      "url": "https://www.salesforce.com/salesforce-on-salesforce-stories",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 18 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../email.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a15b9f13-793d-479a-b0f0-ba339a87061b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=9d02271e-8051-44ca-b8e5-4dd83ca6c5ec&pt=Salesforce%20on%20Salesforce%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsalesforce-on-salesforce%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a15b9f13-793d-479a-b0f0-ba339a87061b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=9d02271e-8051-44ca-b8e5-4dd83ca6c5ec&pt=Salesforce%20on%20Salesforce%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsalesforce-on-salesforce%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/salesforce-on-salesforce-stories"
+        }
+      ],
+      "score": 60,
+      "total_images": 18,
+      "total_links": 33,
+      "total_buttons": 21
+    },
+    {
+      "url": "https://www.salesforce.com/products",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 44 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=7fe1fb69-f124-4583-8110-c804d429a415&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=662dc916-b4e6-4aa8-b322-f0aeb80a541e&pt=Complete%20Salesforce%20Products%20%26%20Software%20Suite%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fproducts%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=7fe1fb69-f124-4583-8110-c804d429a415&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=662dc916-b4e6-4aa8-b322-f0aeb80a541e&pt=Complete%20Salesforce%20Products%20%26%20Software%20Suite%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fproducts%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/products"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/products"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/products"
+        }
+      ],
+      "score": 60,
+      "total_images": 44,
+      "total_links": 88,
+      "total_buttons": 52
+    },
+    {
+      "url": "https://www.salesforce.com/small-business/starter",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 45 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../play.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=09eceba1-765a-48c5-8481-76d88e7fa8c5&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a42d7003-8fe6-444e-82d4-f38ce826af67&pt=Starter%20Suite%20CRM%3A%20Try%20Free%20Today%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsmall-business%2Fstarter%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=09eceba1-765a-48c5-8481-76d88e7fa8c5&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a42d7003-8fe6-444e-82d4-f38ce826af67&pt=Starter%20Suite%20CRM%3A%20Try%20Free%20Today%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fsmall-business%2Fstarter%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/small-business/starter"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/small-business/starter"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/small-business/starter"
+        }
+      ],
+      "score": 60,
+      "total_images": 45,
+      "total_links": 36,
+      "total_buttons": 28
+    },
+    {
+      "url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 8 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03d14352-4776-4924-af97-b2e78cf62543&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0b419902-4958-4dc1-bbda-ad4c99bf756e&pt=Sales%20Cloud%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-in-product%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03d14352-4776-4924-af97-b2e78cf62543&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0b419902-4958-4dc1-bbda-ad4c99bf756e&pt=Sales%20Cloud%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-in-product%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:1-800-664-9073"
+          ],
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-in-product?d=pb"
+        }
+      ],
+      "score": 60,
+      "total_images": 8,
+      "total_links": 13,
+      "total_buttons": 12
+    },
+    {
+      "url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=8720c51e-9e85-466c-b13f-5173a22b8d13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=de11f122-6377-45d7-acba-ac3fb0edbaf4&pt=Small%20Business%20Solutions%20Demo%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fdemo%2Fsmall-business%2Fsmb-overview%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=8720c51e-9e85-466c-b13f-5173a22b8d13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=de11f122-6377-45d7-acba-ac3fb0edbaf4&pt=Small%20Business%20Solutions%20Demo%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fdemo%2Fsmall-business%2Fsmb-overview%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:1-800-664-9073"
+          ],
+          "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/form/demo/small-business/smb-overview?d=pb"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 10,
+      "total_buttons": 12
+    },
+    {
+      "url": "https://www.salesforce.com/financial-services",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 59 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../play.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=befce925-71ed-4337-8b91-22e52815de41&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a99d18c0-8a16-4ef9-8526-954e821add4b&pt=Financial%20Services%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Ffinancial-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=befce925-71ed-4337-8b91-22e52815de41&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=a99d18c0-8a16-4ef9-8526-954e821add4b&pt=Financial%20Services%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Ffinancial-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/financial-services"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/financial-services"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/financial-services"
+        }
+      ],
+      "score": 60,
+      "total_images": 59,
+      "total_links": 113,
+      "total_buttons": 31
+    },
+    {
+      "url": "https://www.salesforce.com/retail",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 48 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../play.svg",
+            ".../call.svg",
+            ".../edit_form.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=392bbcf7-54b7-46f7-95d6-6817da8a8b81&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=71833546-f790-4775-97df-b120a06ff083&pt=Best%20Retail%20CRM%20Solutions%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fretail%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=392bbcf7-54b7-46f7-95d6-6817da8a8b81&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=71833546-f790-4775-97df-b120a06ff083&pt=Best%20Retail%20CRM%20Solutions%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fretail%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/retail"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/retail"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/retail"
+        }
+      ],
+      "score": 60,
+      "total_images": 48,
+      "total_links": 73,
+      "total_buttons": 24
+    },
+    {
+      "url": "https://www.salesforce.com/healthcare-life-sciences",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 42 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../play.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e7fdf92a-bc7a-4297-bc71-df240e61a18f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e3a3cd71-c285-4b0b-81f4-a46dad6a70cd&pt=Best%20Healthcare%20%26%20Life%20Sciences%20Software%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhealthcare-life-sciences%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e7fdf92a-bc7a-4297-bc71-df240e61a18f&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=e3a3cd71-c285-4b0b-81f4-a46dad6a70cd&pt=Best%20Healthcare%20%26%20Life%20Sciences%20Software%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhealthcare-life-sciences%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/healthcare-life-sciences"
+        }
+      ],
+      "score": 60,
+      "total_images": 42,
+      "total_links": 60,
+      "total_buttons": 23
+    },
+    {
+      "url": "https://www.salesforce.com/engineering-construction-real-estate",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 29 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=69d83143-aef5-4269-b430-e0db7c23ab55&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c8c77ed0-961f-4ea7-aa96-944d8d17ca83&pt=Engineering%2C%20Construction%2C%20and%20Real%20Estate%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fengineering-construction-real-estate%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=69d83143-aef5-4269-b430-e0db7c23ab55&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c8c77ed0-961f-4ea7-aa96-944d8d17ca83&pt=Engineering%2C%20Construction%2C%20and%20Real%20Estate%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fengineering-construction-real-estate%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/engineering-construction-real-estate"
+        }
+      ],
+      "score": 60,
+      "total_images": 29,
+      "total_links": 37,
+      "total_buttons": 15
+    },
+    {
+      "url": "https://www.salesforce.com/education",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 51 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../screen.svg",
+            ".../screen.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e55e6c2b-7e15-430e-b437-70e826090260&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5312c92c-c534-4ec2-8dca-8d6e969abaec&pt=Education%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Feducation%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e55e6c2b-7e15-430e-b437-70e826090260&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=5312c92c-c534-4ec2-8dca-8d6e969abaec&pt=Education%20Software%20%26%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Feducation%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/education"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/education"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/education"
+        }
+      ],
+      "score": 60,
+      "total_images": 51,
+      "total_links": 84,
+      "total_buttons": 26
+    },
+    {
+      "url": "https://www.salesforce.com/professional-services",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 31 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../call.svg",
+            ".../email.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=ed9c0047-2b4c-43ee-b848-3cd25f827ee3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=478a119f-b43d-40ba-8edb-ac1498a284a6&pt=Best%20CRM%20Software%20for%20Professional%20Services%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fprofessional-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=ed9c0047-2b4c-43ee-b848-3cd25f827ee3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=478a119f-b43d-40ba-8edb-ac1498a284a6&pt=Best%20CRM%20Software%20for%20Professional%20Services%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fprofessional-services%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/professional-services"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/professional-services"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/professional-services"
+        }
+      ],
+      "score": 60,
+      "total_images": 31,
+      "total_links": 41,
+      "total_buttons": 16
+    },
+    {
+      "url": "https://www.salesforce.com/high-tech",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 49 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../screen.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9d82c74b-9a1d-47e2-a895-33a77a9936ba&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4e1724a0-9e94-4433-9862-ce2496636db3&pt=CRM%20for%20High%20Tech%20Software%20Companies%20%7C%20SaaS%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhigh-tech%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9d82c74b-9a1d-47e2-a895-33a77a9936ba&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4e1724a0-9e94-4433-9862-ce2496636db3&pt=CRM%20for%20High%20Tech%20Software%20Companies%20%7C%20SaaS%20CRM%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fhigh-tech%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/high-tech"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/high-tech"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/high-tech"
+        }
+      ],
+      "score": 60,
+      "total_images": 49,
+      "total_links": 53,
+      "total_buttons": 29
+    },
+    {
+      "url": "https://www.salesforce.com/manufacturing",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/manufacturing"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/industries",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/industries"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 15 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../play.svg",
+            ".../groups.svg",
+            ".../call.svg",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=74530b2a-f797-4637-b532-f2acd2fb01d7&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afdf84ce-0645-485a-aafc-d10af1b8ca2f&pt=Accelerate%20Agentic%20AI%20Development%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Faccelerate-agentic-ai%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=74530b2a-f797-4637-b532-f2acd2fb01d7&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=afdf84ce-0645-485a-aafc-d10af1b8ca2f&pt=Accelerate%20Agentic%20AI%20Development%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fagentforce%2Faccelerate-agentic-ai%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai"
+        }
+      ],
+      "score": 60,
+      "total_images": 15,
+      "total_links": 21,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=418445d8-b527-4527-a997-13f555d8dc0a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=aa934778-9fb8-411b-9caa-b8ee0db70205&pt=G2%20names%20Sales%20Cloud%20a%20leader%20in%20CRM%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsales%2Fg2-crm-leader-grid-report%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=418445d8-b527-4527-a997-13f555d8dc0a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=aa934778-9fb8-411b-9caa-b8ee0db70205&pt=G2%20names%20Sales%20Cloud%20a%20leader%20in%20CRM%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsales%2Fg2-crm-leader-grid-report%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:1-800-664-9073"
+          ],
+          "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/form/sales/g2-crm-leader-grid-report?d=pb"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 10,
+      "total_buttons": 12
+    },
+    {
+      "url": "https://www.salesforce.com/form/agentforce/maximizing-roi-with-agentforce?d=pb",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/form/agentforce/maximizing-roi-with-agentforce?d=pb"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/company/our-values",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 14 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03a78ac0-bbec-41ba-9ba6-8b6f4a47979e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=be145b48-52fb-4988-a27b-5a6d6c8f75dd&pt=Our%20values%20guide%20every%20decision%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Four-values%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=03a78ac0-bbec-41ba-9ba6-8b6f4a47979e&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=be145b48-52fb-4988-a27b-5a6d6c8f75dd&pt=Our%20values%20guide%20every%20decision%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Four-values%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/company/our-values"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/company/our-values"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/company/our-values"
+        }
+      ],
+      "score": 60,
+      "total_images": 14,
+      "total_links": 9,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/company/pledge",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 12 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=cc773ee1-b81d-4a7e-a4d3-8a3490c86cc6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=44627803-6066-46d6-aa98-8098021d1cad&pt=Our%20founders%20created%20the%201%25%20Pledge.%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Fpledge%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=cc773ee1-b81d-4a7e-a4d3-8a3490c86cc6&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=44627803-6066-46d6-aa98-8098021d1cad&pt=Our%20founders%20created%20the%201%25%20Pledge.%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Fpledge%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/company/pledge"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/company/pledge"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/company/pledge"
+        }
+      ],
+      "score": 60,
+      "total_images": 12,
+      "total_links": 14,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/solutions/appexchange/overview",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "3 out of 18 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 3,
+          "details": [
+            ".../unip?en=page_view",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1a88bef9-478b-4fb6-9974-8ee2e1696a8d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=11255f78-e4d9-4c83-b641-ded3db315e4e&pt=Salesforce%20AppExchange%20%7C%20Leading%20Enterprise%20Cloud%20Marketplace&tw_document_href=https%3A%2F%2Fappexchange.salesforce.com%2F&tw_iframe_status=0&txn_id=o5kt4&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1a88bef9-478b-4fb6-9974-8ee2e1696a8d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=11255f78-e4d9-4c83-b641-ded3db315e4e&pt=Salesforce%20AppExchange%20%7C%20Leading%20Enterprise%20Cloud%20Marketplace&tw_document_href=https%3A%2F%2Fappexchange.salesforce.com%2F&tw_iframe_status=0&txn_id=o5kt4&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/solutions/appexchange/overview"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/solutions/appexchange/overview"
+        }
+      ],
+      "score": 70,
+      "total_images": 18,
+      "total_links": 2,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573c77f7-310c-47e7-b7dc-899806c5abf4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c584a2c2-c5a1-4034-8e56-06f6686b24c4&pt=Salesforce%20Starter%3A%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-starter%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573c77f7-310c-47e7-b7dc-899806c5abf4&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=c584a2c2-c5a1-4034-8e56-06f6686b24c4&pt=Salesforce%20Starter%3A%20Free%20Trial%20-%20Salesforce.com&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fform%2Fsignup%2Ffreetrial-salesforce-starter%2F%3Fd%3Dpb&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:1-800-664-9073"
+          ],
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter?d=pb"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 15,
+      "total_buttons": 12
+    },
+    {
+      "url": "https://www.salesforce.com/company/privacy/full_privacy",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "2 out of 15 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 2,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f93647c3-186f-4b59-b5a8-c61d3f52d7b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=33112724-a6a9-4680-8259-aa91c528aa24&pt=Salesforce%20Privacy%20Information%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Flegal%2Fprivacy%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f93647c3-186f-4b59-b5a8-c61d3f52d7b3&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=33112724-a6a9-4680-8259-aa91c528aa24&pt=Salesforce%20Privacy%20Information%20%7C%20Salesforce&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fcompany%2Flegal%2Fprivacy%2F&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "tel:18006649073"
+          ],
+          "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/company/privacy/full_privacy"
+        }
+      ],
+      "score": 60,
+      "total_images": 15,
+      "total_links": 56,
+      "total_buttons": 20
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 10 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1f2155cb-65fb-4526-a9a5-88729f75a300&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1f2155cb-65fb-4526-a9a5-88729f75a300&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=97ba7788-c19d-472c-a7e2-dc759e6729cb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=97ba7788-c19d-472c-a7e2-dc759e6729cb&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=fde40873-e197-43f4-9115-c4d2bad5bc36&pt=Salesforce%2B%20Dreamforce%202025%20Channel%20One&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fbroadcast%2Fday-1-channel-1%3Faction%3Dregister%26eventid%3Ddreamforce_2025&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1?action=register&eventid=dreamforce_2025"
+        }
+      ],
+      "score": 60,
+      "total_images": 10,
+      "total_links": 5,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd754824-03d5-472f-9061-a381b239aadd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd754824-03d5-472f-9061-a381b239aadd&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d9716291-5c62-4e75-b663-1962139b9f48&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=d9716291-5c62-4e75-b663-1962139b9f48&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=7b40a047-a0c4-413a-b3b0-1ffc9d261313&pt=Salesforce%2B%20How%20CaixaBank%20Delivers%20Personalized%20Digital%20Banking&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e14&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e14"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 4,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-insights-from-g2",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-insights-from-g2"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/revenue-cloud-keynote%3A-drive-growth-with-an-agentic-platform-_replay_",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/revenue-cloud-keynote%3A-drive-growth-with-an-agentic-platform-_replay_"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/access-and-reinvention%3A-a-conversation-with-rob-lowe-_replay_",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/access-and-reinvention%3A-a-conversation-with-rob-lowe-_replay_"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/how-data-cloud-activates-data-for-the-agentic-enterprise-_replay_",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/how-data-cloud-activates-data-for-the-agentic-enterprise-_replay_"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/a-conversation-with-dario-amodei-and-marc-benioff",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/a-conversation-with-dario-amodei-and-marc-benioff"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 63,
+      "total_buttons": 121
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/voices_of_impact_at_dreamforce_2025/episode/episode-s1e10",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/voices_of_impact_at_dreamforce_2025/episode/episode-s1e10"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573a4910-ab9e-4411-aa19-d41579f7a34c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=573a4910-ab9e-4411-aa19-d41579f7a34c&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=212d1353-cc62-434c-bfea-a2b5b371f007&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=212d1353-cc62-434c-bfea-a2b5b371f007&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=82f95c5e-9168-4241-9508-48b9848be219&pt=Salesforce%2B%20Rewriting%20the%20Enterprise%20Playbook%20with%20AI&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fdriving_the_future_of_business_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/driving_the_future_of_business_at_dreamforce_2025/episode/episode-s1e1"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 4,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/the-leading-role%3A-the-chro-in-the-agentic-enterprise",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/the-leading-role%3A-the-chro-in-the-agentic-enterprise"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/deep-dive-into-dreamforce",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/deep-dive-into-dreamforce"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_-1",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_-1"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/data-cloud-keynote%3A-activate-trusted-data-everywhere-_replay_"
+        }
+      ],
+      "score": 90,
+      "total_images": 0,
+      "total_links": 0,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/bring-everyone-along-in-the-agentic-era",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/bring-everyone-along-in-the-agentic-era"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-it-and-hr-service%3A-what-customers-really-think",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/agentic-it-and-hr-service%3A-what-customers-really-think"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e978536b-2646-48ab-9684-cdc026a79001&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e978536b-2646-48ab-9684-cdc026a79001&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=b07ac418-1cff-43bf-8220-db4ddbdced03&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=b07ac418-1cff-43bf-8220-db4ddbdced03&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=15cc086e-c43d-4c28-9ecf-3880b592d03f&pt=Salesforce%2B%20How%20Nexo%20Is%20Transforming%20Service%20for%20the%20Agentic%20Era&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Ffinancial_services_at_dreamforce_2025%2Fepisode%2Fepisode-s1e2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/financial_services_at_dreamforce_2025/episode/episode-s1e2"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 5,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/2-easy-ways-to-grow-with-tools-built-for-small-business",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/2-easy-ways-to-grow-with-tools-built-for-small-business"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd02f6a7-c457-4a9b-b375-d36f17a388a8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=fd02f6a7-c457-4a9b-b375-d36f17a388a8&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e4e40325-cd67-4271-935c-7b34557f1548&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=e4e40325-cd67-4271-935c-7b34557f1548&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=db5957c0-a374-4a3b-9a6b-38bbb644f644&pt=Salesforce%2B%203%20Agentforce%20Innovations%20to%20Evolve%20Your%20Enterprise&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fagentforce_at_dreamforce_2025%2Fepisode%2Fepisode-s1e1&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/agentforce_at_dreamforce_2025/episode/episode-s1e1"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 5,
+      "total_buttons": 10
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9c63c272-71e0-4a8c-a719-e1ade491eb13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=9c63c272-71e0-4a8c-a719-e1ade491eb13&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a74cdf17-e069-4602-9169-e6d9c0d7ab92&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=a74cdf17-e069-4602-9169-e6d9c0d7ab92&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=64447ccf-162b-4566-84ef-fe1748ff3c28&pt=Dreamforce%20Main%20Keynote%202025%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fdreamforce-main-keynote-2025-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-2"
+        }
+      ],
+      "score": 70,
+      "total_images": 9,
+      "total_links": 2,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-1",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/dreamforce-main-keynote-2025-_r_-1"
+        }
+      ],
+      "score": 90,
+      "total_images": 4,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=334b36bb-64c7-43e5-ac9e-4fe3402b0b05&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=334b36bb-64c7-43e5-ac9e-4fe3402b0b05&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1111ca22-9712-4f04-ae1c-b861d93328b0&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=1111ca22-9712-4f04-ae1c-b861d93328b0&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=2e31c57e-e4ba-4eec-9724-1d4ac8ee1459&pt=Slack%20Keynote%3A%20Reimagining%20Work%20for%20the%20Agentic%20Enterprise%20(Replay)&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fslack-keynote%253A-reimagining-work-for-the-agentic-enterprise-_r_-2&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/slack-keynote%3A-reimagining-work-for-the-agentic-enterprise-_r_-2"
+        }
+      ],
+      "score": 70,
+      "total_images": 9,
+      "total_links": 57,
+      "total_buttons": 116
+    },
+    {
+      "url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "5 out of 9 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 5,
+          "details": [
+            ".../100",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=66ce8a99-fd7e-4673-9daa-64eca49df63d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=66ce8a99-fd7e-4673-9daa-64eca49df63d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o7f4b&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f0c3e672-7bd8-455f-a135-c2744fd3608b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34",
+            ".../adsct?bci=4&dv=UTC%26en-US%2Cen%26Google%20Inc.%26Linux%20x86_64%26255%261080%26600%264%2624%261080%26600%260%26na&eci=3&event=%7B%7D&event_id=f0c3e672-7bd8-455f-a135-c2744fd3608b&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=4cbf4004-7a1e-4b48-8cfc-cddac9542ad7&pt=Salesforce%2B%203%20Agentforce%20Service%20Secrets%20You%20Wish%20You%20Knew%20About%20Sooner&tw_document_href=https%3A%2F%2Fwww.salesforce.com%2Fplus%2Fexperience%2Fdreamforce_2025%2Fseries%2Fservice_at_dreamforce_2025%2Fepisode%2Fepisode-s1e10&tw_iframe_status=0&txn_id=o1pg8&type=javascript&version=2.3.34"
+          ],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [],
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e10"
+        }
+      ],
+      "score": 60,
+      "total_images": 9,
+      "total_links": 5,
+      "total_buttons": 10
+    }
+  ],
+  "summary": {
+    "total_issues": 112,
+    "score": 71.0,
+    "total_images": 868,
+    "total_links": 1852,
+    "total_buttons": 2048,
+    "total_pages": 50
+  }
+}
