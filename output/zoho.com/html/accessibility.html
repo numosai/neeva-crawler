@@ -1,0 +1,3464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Analysis - Zoho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Inline CSS for better GitHub Pages compatibility */
+        /* Neeva-Crawler Analysis Dashboard Styles - Numos Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Numos-web color scheme */
+    --primary: #4A90E2;
+    --primary-dark: #357ABD;
+    --primary-light: #6BA3E9;
+    --background: #FAFBFC;
+    --foreground: #1A202C;
+    --card: #FFFFFF;
+    --border: #E2E8F0;
+    --muted: #F7FAFC;
+    --muted-foreground: #64748B;
+    --success: #10B981;
+    --destructive: #EF4444;
+    --warning: #F59E0B;
+    --accent: #8B5CF6;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    background: var(--background);
+    min-height: 100vh;
+    color: var(--foreground);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Header */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border: 1px solid var(--border);
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.home-button:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
+.breadcrumb-item {
+    padding: 4px 12px;
+    background: var(--muted);
+    border-radius: 6px;
+    color: var(--foreground);
+    font-weight: 500;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    color: var(--foreground);
+    margin-bottom: 32px;
+    padding: 24px 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--foreground);
+}
+
+.header p {
+    font-size: 1.125rem;
+    color: var(--muted-foreground);
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+    display: flex;
+    background: var(--card);
+    border-radius: 12px;
+    margin-bottom: 32px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.nav-tab {
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+    background: var(--card);
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--muted-foreground);
+    transition: all 0.2s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-right: 1px solid var(--border);
+}
+
+.nav-tab:last-child {
+    border-right: none;
+}
+
+.nav-tab:hover {
+    background: var(--muted);
+    color: var(--foreground);
+}
+
+.nav-tab.active {
+    background: var(--primary);
+    color: white;
+}
+
+/* Stats Grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+}
+
+.stat-card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.stat-card:hover, .clickable-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.clickable-card {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.clickable-card:hover .stat-value {
+    color: var(--primary);
+}
+
+.stat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.stat-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: white;
+    background: var(--primary);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.stat-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* Content Sections */
+.content-section {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 16px;
+}
+
+.data-table th,
+.data-table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+    background: var(--muted);
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.data-table td {
+    font-size: 0.875rem;
+    color: var(--foreground);
+}
+
+.data-table tr:hover td {
+    background: var(--muted);
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    display: inline-block;
+}
+
+.status-pass {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+.status-fail {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.status-pending {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-high {
+    background: #FEE2E2;
+    color: #991B1B;
+}
+
+.priority-medium {
+    background: #FED7AA;
+    color: #92400E;
+}
+
+.priority-low {
+    background: #D1FAE5;
+    color: #065F46;
+}
+
+/* Screenshot Gallery */
+.screenshot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.screenshot-item {
+    background: var(--card);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid var(--border);
+}
+
+.screenshot-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.screenshot-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+}
+
+.screenshot-info {
+    padding: 16px;
+}
+
+.screenshot-title {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.screenshot-meta {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+}
+
+/* Sitemap Styles */
+.sitemap-container {
+    background: var(--muted);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-help {
+    text-align: center;
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    padding: 8px;
+    background: var(--card);
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.sitemap-wrapper {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: grab;
+    position: relative;
+    background: white;
+}
+
+.sitemap-wrapper:active {
+    cursor: grabbing;
+}
+
+.sitemap-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+}
+
+/* Charts and Metrics */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 16px 0;
+}
+
+.metric-item {
+    text-align: center;
+    padding: 20px;
+    background: var(--muted);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--foreground);
+    line-height: 1.2;
+}
+
+.metric-label {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Issue Lists */
+.issue-list {
+    list-style: none;
+    margin: 16px 0;
+}
+
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    background: var(--muted);
+    border-radius: 10px;
+    border-left: 4px solid var(--destructive);
+}
+
+.issue-item.severity-medium {
+    border-left-color: var(--warning);
+}
+
+.issue-item.severity-low {
+    border-left-color: var(--success);
+}
+
+.issue-icon {
+    color: var(--destructive);
+    margin-top: 2px;
+}
+
+.issue-content h4 {
+    margin-bottom: 4px;
+    color: var(--foreground);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.issue-description {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.issue-guideline {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+/* Test Phases */
+.test-phase {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+.phase-header {
+    background: var(--muted);
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phase-title {
+    font-weight: 600;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+.phase-content {
+    padding: 16px;
+    background: var(--card);
+}
+
+.assertion-list {
+    list-style: none;
+}
+
+.assertion-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.assertion-item:last-child {
+    border-bottom: none;
+}
+
+.assertion-id {
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 0.75rem;
+    color: var(--muted-foreground);
+    min-width: 150px;
+}
+
+.assertion-description {
+    flex: 1;
+    color: var(--foreground);
+    font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-tabs {
+        flex-direction: column;
+    }
+    
+    .nav-tab {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+    
+    .nav-tab:last-child {
+        border-bottom: none;
+    }
+    
+    .header h1 {
+        font-size: 1.875rem;
+    }
+    
+    .screenshot-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .nav-header {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px;
+    }
+    
+    .breadcrumb {
+        order: -1;
+    }
+}
+
+/* Lightbox for screenshots */
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox.active {
+    display: flex;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+.lightbox-close:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <div class="nav-header">
+            <h1><i class="fas fa-chart-line"></i> Zoho</h1>
+            <a href="../../../index.html" class="home-button">
+                <i class="fas fa-home"></i> All Reports
+            </a>
+        </div>
+
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab">
+                <i class="fas fa-tachometer-alt"></i> Overview
+            </a>
+            <a href="seo-analysis.html" class="nav-tab">
+                <i class="fas fa-search"></i> SEO Analysis
+            </a>
+            <a href="accessibility.html" class="nav-tab active">
+                <i class="fas fa-universal-access"></i> Accessibility
+            </a>
+            <a href="qa-tests.html" class="nav-tab">
+                <i class="fas fa-tasks"></i> QA Tests
+            </a>
+            <a href="ux-analysis.html" class="nav-tab">
+                <i class="fas fa-user-check"></i> UX Analysis
+            </a>
+            <a href="screenshots.html" class="nav-tab">
+                <i class="fas fa-images"></i> Screenshots
+            </a>
+        </div>
+
+        <main>
+            
+<!-- Accessibility Summary Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">76.2%</div>
+                <div class="stat-label">Accessibility Score</div>
+                <div class="card-description">Overall accessibility compliance rating</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <i class="fas fa-universal-access"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">107</div>
+                <div class="stat-label">Issues Found</div>
+                <div class="card-description">Accessibility violations requiring attention</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">Unknown</div>
+                <div class="stat-label">WCAG Level</div>
+                <div class="card-description">Current compliance level achieved</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <i class="fas fa-award"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div>
+                <div class="stat-value">0</div>
+                <div class="stat-label">Heading Elements</div>
+                <div class="card-description">Total heading elements found on page</div>
+            </div>
+            <div class="stat-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                <i class="fas fa-heading"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Element Analysis -->
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-chart-bar"></i>
+        Element Analysis Summary
+    </h2>
+    <div class="metrics-grid">
+        <div class="metric-item">
+            <div class="metric-value">2016</div>
+            <div class="metric-label">Total Images</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">13785</div>
+            <div class="metric-label">Total Links</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">388</div>
+            <div class="metric-label">Total Buttons</div>
+        </div>
+        <div class="metric-item">
+            <div class="metric-value">0</div>
+            <div class="metric-label">Heading Elements</div>
+        </div>
+    </div>
+</div>
+
+<!-- Issues Analysis -->
+
+<div class="content-section">
+    <h2 class="section-title">
+        <i class="fas fa-exclamation-triangle"></i>
+        Accessibility Issues by Severity
+    </h2>
+    <div class="section-description">
+        Issues found during WCAG 2.1 AA compliance analysis, grouped by severity level. Address high-severity issues first for maximum impact.
+    </div>
+    
+    <!-- High Severity Issues -->
+    
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #e53e3e; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-circle"></i> High Severity Issues (12)
+        </h3>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">9 out of 45 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 9 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/analytics/sparex_thumbnail.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../cs-thumbnail.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/books/hiral_pancholi.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../zcx-brigade-plus-2x.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/crmplus/images/zcp-agoda.png</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 4 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">1 out of 215 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/spark?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&amp;grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&amp;time=1761162837940</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">16 out of 36 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 16 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../ulla-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../ulla-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../vault-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../vault-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../oneauth-screen.png</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 11 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">7 out of 21 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 7 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../newsletter-thumb-us.jpg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&amp;grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../download.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../copy-to-clipboard.svg</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 2 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">1 out of 22 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/concierge?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=01a59829634f64999e0ea94219be6a669c26fdc92dd16c764c43ee909f9aed9047ad0f2672c40382c1066b7d6d5b6f98&amp;grpid=84dbf1cf67cd51c4b7426a00ab241eb297228cf7b7158be9b2da1d492d75759f</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">9 out of 45 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 9 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/analytics/sparex_thumbnail.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../cs-thumbnail.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/books/hiral_pancholi.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../zcx-brigade-plus-2x.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/sites/zweb/images/crmplus/images/zcp-agoda.png</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 4 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">1 out of 215 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/spark</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&amp;grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&amp;time=1761163209592</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">16 out of 36 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 16 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../ulla-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../ulla-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../vault-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../vault-screen.png</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../oneauth-screen.png</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 11 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">7 out of 21 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 7 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../newsletter-thumb-us.jpg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&amp;grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../download.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../copy-to-clipboard.svg</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 2 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">4 out of 54 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payroll?src=allproducts</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 4 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../close-icons.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payroll/svgs/apple-store.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payroll/svgs/play-store.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../CaptchaServlet?formId=8ceb21422eb94e7bc644e5a312e346ff3a967931dc8ef655683a45445f4b61ba970531acbdfc349f89ae0e0772ae024a&amp;grpid=b289f9ddc1b4837e0c1a05fbdcf7816b4d25806e29218951fd38c75c42b44401</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">28 out of 95 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payments?src=allproducts</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 28 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payments/svg/question.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payments/svg/comment.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payments/svg/sparkle.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payments/svg/pen.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/payments/svg/dev-document.svg</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 23 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-high">
+            <i class="fas fa-exclamation-circle issue-icon" style="color: #e53e3e;"></i>
+            <div class="issue-content">
+                <h4>Missing Alt Text <span class="status-badge priority-high">High</span></h4>
+                <div class="issue-description">10 out of 205 images missing alt text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 1.1.1 Non-text Content</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #fed7d7; border-radius: 6px; border-left: 3px solid #e53e3e;">
+                    <strong style="color: #742a2a;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/books?src=zGlobalAllProducts</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 10 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../close-icons.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/books/header-new-icons/menu-arrow.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/books/header-new-icons/menu-arrow.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/books/header-new-icons/menu-arrow.svg</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/books/header-new-icons/menu-arrow.svg</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 5 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- Medium Severity Issues -->
+    
+    
+    <div style="margin-bottom: 2rem;">
+        <h3 style="color: #dd6b20; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fas fa-exclamation-triangle"></i> Medium Severity Issues (95)
+        </h3>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://zoho.com</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://zoho.com</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/enterprise?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/enterprise?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/spark?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/affiliate?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/affiliate?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">https://www.youtube.com/@ZohoPartners</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">https://www.youtube.com/@ZohoPartners</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/blog?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/blog/general/maintenanceeu0211.html</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/blog/general/maintenanceau0211.html</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/blog?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zia?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zia?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/the-long-game?src=zGlobalTopMenu</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/the-long-game/patient-execution.html</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/the-long-game/patient-execution.html</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/the-long-game?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/concierge?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/contactus.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/contactus.html?src=zGlobalTopMenu</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/?lb=&amp;zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/?lb=&amp;zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/es-xl?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/es-xl/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/es-xl?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/pt-br?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/pt-br/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/pt-br?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/de?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/de/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/de?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/fr?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/fr/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/fr?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/nl?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/nl/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/nl?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/jp?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/jp/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/jp?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/ar?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/ar/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/ar?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/id?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/id/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/id?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/th?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/th/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/th?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/vi?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/vi/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/vi?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/fr-ca?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/fr-ca/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/fr-ca?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zh-hant?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/zh-hant/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zh-hant?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/he?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/he/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/he?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/it?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/it/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/it?zredirect=f&amp;zsrc=langdropdown</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/all-products.html</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/all-products.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/enterprise</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/enterprise</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/customers.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/spark</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/affiliate</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/affiliate</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners/work-with-partner.html</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">https://www.youtube.com/@ZohoPartners</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners/work-with-partner.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">https://www.youtube.com/@ZohoPartners</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/partners</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/security-solutions.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/blog</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/blog/general/maintenanceeu0211.html</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/blog/general/maintenanceau0211.html</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/blog</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zia</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/zia</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/newsletter.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/the-long-game</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/the-long-game/patient-execution.html</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/the-long-game/patient-execution.html</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/the-long-game</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/all-products.html?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/all-products.html?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/contactus.html</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/contactus.html</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payroll?src=allproducts</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/us/payroll/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payroll?src=allproducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">2 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payments?src=allproducts</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 2 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/payments?src=allproducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/routeiq?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/leadchain?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">1 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/solo?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">javascript:;</code></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/solo?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Empty Links <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">7 links without descriptive text</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 2.4.4 Link Purpose</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/books?src=zGlobalAllProducts</code>
+                </div>
+                
+                <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #718096;">
+                    <i class="fas fa-layer-group"></i> 7 instances found on this page
+                </div>
+                
+                
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: rgba(255,255,255,0.7); border-radius: 4px;">
+                    <strong style="font-size: 0.85rem; color: #2d3748;">Affected Items:</strong>
+                    <ul style="margin: 0.25rem 0 0 1rem; font-size: 0.8rem; color: #4a5568;">
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/books/</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/us/books/</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">/us/books/accounting-mobile-apps/</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../#scale-globally</code></li>
+                        
+                        <li style="margin-bottom: 0.2rem;"><code style="background: rgba(0,0,0,0.1); padding: 1px 3px; border-radius: 2px;">.../#collaboration</code></li>
+                        
+                        
+                        <li style="font-style: italic; color: #718096;">...and 2 more</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="issue-item severity-medium">
+            <i class="fas fa-exclamation-triangle issue-icon" style="color: #dd6b20;"></i>
+            <div class="issue-content">
+                <h4>Missing Language <span class="status-badge priority-medium">Medium</span></h4>
+                <div class="issue-description">HTML document missing lang attribute</div>
+                <div class="issue-guideline">WCAG 2.1 AA - 3.1.1 Language of Page</div>
+                <div style="margin-top: 0.5rem; padding: 0.5rem; background: #feebc8; border-radius: 6px; border-left: 3px solid #dd6b20;">
+                    <strong style="color: #744210;">Page:</strong> 
+                    <code style="background: rgba(0,0,0,0.1); padding: 2px 4px; border-radius: 3px; font-size: 0.85rem;">https://www.zoho.com/books?src=zGlobalAllProducts</code>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- Low Severity Issues -->
+    
+    
+</div>
+
+
+
+
+        </main>
+    </div>
+
+    
+    
+    <!-- Domain Change Tracking Script -->
+    <script>
+        /**
+ * Domain Change Tracker for Neeva Crawler
+ * Detects domain navigation and sends PostMessage events to parent window
+ */
+
+(function() {
+    'use strict';
+    
+    let currentDomain = null;
+    let isInitialized = false;
+    
+    /**
+     * Extract domain from URL path
+     * Expected format: /output/DOMAIN/html/... or https://numosai.github.io/neeva-crawler/output/DOMAIN/html/...
+     */
+    function extractDomainFromURL(url = window.location.href) {
+        try {
+            // Handle both local paths and full URLs
+            let path = url;
+            if (url.startsWith('http')) {
+                const urlObj = new URL(url);
+                path = urlObj.pathname;
+            }
+            
+            // Match pattern: /output/DOMAIN/html or neeva-crawler/output/DOMAIN/html
+            const match = path.match(/\/output\/([^\/]+)\/html/);
+            return match ? match[1] : null;
+        } catch (error) {
+            console.warn('Error extracting domain from URL:', error);
+            return null;
+        }
+    }
+    
+    /**
+     * Send domain change message to parent window
+     */
+    function notifyDomainChange(domain) {
+        if (!domain) return;
+        
+        const message = {
+            type: 'DOMAIN_CHANGE',
+            domain: domain,
+            timestamp: new Date().toISOString(),
+            url: window.location.href
+        };
+        
+        try {
+            // Send to parent window (if embedded in iframe)
+            if (window.parent && window.parent !== window) {
+                window.parent.postMessage(message, '*');
+                console.log('Domain change notification sent:', message);
+            }
+            
+            // Also send to top window (if nested)
+            if (window.top && window.top !== window) {
+                window.top.postMessage(message, '*');
+            }
+        } catch (error) {
+            console.warn('Error sending domain change notification:', error);
+        }
+    }
+    
+    /**
+     * Initialize domain tracking
+     */
+    function initializeDomainTracking() {
+        if (isInitialized) return;
+        
+        const domain = extractDomainFromURL();
+        if (domain && domain !== currentDomain) {
+            currentDomain = domain;
+            notifyDomainChange(domain);
+        }
+        
+        isInitialized = true;
+    }
+    
+    /**
+     * Handle navigation events (for SPA-like behavior if added later)
+     */
+    function handleNavigation() {
+        const newDomain = extractDomainFromURL();
+        if (newDomain && newDomain !== currentDomain) {
+            currentDomain = newDomain;
+            notifyDomainChange(newDomain);
+        }
+    }
+    
+    /**
+     * Monitor for URL changes
+     */
+    function setupNavigationMonitoring() {
+        // Listen for popstate (browser back/forward)
+        window.addEventListener('popstate', handleNavigation);
+        
+        // Listen for hash changes
+        window.addEventListener('hashchange', handleNavigation);
+        
+        // Monitor for programmatic navigation (if needed)
+        const originalPushState = history.pushState;
+        const originalReplaceState = history.replaceState;
+        
+        history.pushState = function() {
+            originalPushState.apply(history, arguments);
+            setTimeout(handleNavigation, 0);
+        };
+        
+        history.replaceState = function() {
+            originalReplaceState.apply(history, arguments);
+            setTimeout(handleNavigation, 0);
+        };
+        
+        // Monitor for clicks on domain navigation links
+        document.addEventListener('click', function(event) {
+            const link = event.target.closest('a');
+            if (link && link.href) {
+                const targetDomain = extractDomainFromURL(link.href);
+                if (targetDomain && targetDomain !== currentDomain) {
+                    // Slight delay to allow navigation to complete
+                    setTimeout(() => {
+                        const actualDomain = extractDomainFromURL();
+                        if (actualDomain && actualDomain !== currentDomain) {
+                            currentDomain = actualDomain;
+                            notifyDomainChange(actualDomain);
+                        }
+                    }, 100);
+                }
+            }
+        });
+    }
+    
+    /**
+     * Initialize when DOM is ready
+     */
+    function initialize() {
+        initializeDomainTracking();
+        setupNavigationMonitoring();
+    }
+    
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+    
+    // Also initialize on window load as fallback
+    window.addEventListener('load', initialize);
+    
+    // Expose functions for debugging
+    if (typeof window !== 'undefined') {
+        window.neevaTracker = {
+            getCurrentDomain: () => currentDomain,
+            extractDomain: extractDomainFromURL,
+            notifyChange: notifyDomainChange
+        };
+    }
+    
+})();
+    </script>
+    
+    <script>
+        // Basic JavaScript for interactivity
+        function showTab(tabName, element) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Add active class to clicked tab
+            if (element) {
+                element.classList.add('active');
+            }
+        }
+
+        // Lightbox functionality for screenshots
+        function openLightbox(imageSrc) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+            if (lightbox && lightboxImage) {
+                lightboxImage.src = imageSrc;
+                lightbox.classList.add('active');
+            }
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.classList.remove('active');
+            }
+        }
+
+        // Toggle collapsible sections
+        function toggleSection(element) {
+            const content = element.nextElementSibling;
+            const icon = element.querySelector('.toggle-icon');
+            
+            if (content.style.display === 'none' || !content.style.display) {
+                content.style.display = 'block';
+                if (icon) icon.classList.replace('fa-chevron-down', 'fa-chevron-up');
+            } else {
+                content.style.display = 'none';
+                if (icon) icon.classList.replace('fa-chevron-up', 'fa-chevron-down');
+            }
+        }
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Close lightbox on escape key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape') {
+                    closeLightbox();
+                }
+            });
+
+            // Close lightbox on click outside image
+            const lightbox = document.getElementById('lightbox');
+            if (lightbox) {
+                lightbox.addEventListener('click', function(e) {
+                    if (e.target === lightbox) {
+                        closeLightbox();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

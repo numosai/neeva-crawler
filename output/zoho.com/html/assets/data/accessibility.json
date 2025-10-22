@@ -1,0 +1,2632 @@
+{
+  "issues": [
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://zoho.com"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://zoho.com"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "javascript:;"
+      ],
+      "page_url": "https://www.zoho.com/enterprise?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/enterprise?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "9 out of 45 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 9,
+      "details": [
+        "/sites/zweb/images/analytics/sparex_thumbnail.png",
+        ".../cs-thumbnail.png",
+        "/sites/zweb/images/books/hiral_pancholi.png",
+        ".../zcx-brigade-plus-2x.png",
+        "/sites/zweb/images/crmplus/images/zcp-agoda.png"
+      ],
+      "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 215 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&time=1761162837940"
+      ],
+      "page_url": "https://www.zoho.com/spark?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/spark?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/affiliate?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/affiliate?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "https://www.youtube.com/@ZohoPartners",
+        ".../"
+      ],
+      "page_url": "https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "https://www.youtube.com/@ZohoPartners",
+        ".../"
+      ],
+      "page_url": "https://www.zoho.com/partners?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/partners?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "16 out of 36 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 16,
+      "details": [
+        ".../ulla-screen.png",
+        ".../ulla-screen.png",
+        ".../vault-screen.png",
+        ".../vault-screen.png",
+        ".../oneauth-screen.png"
+      ],
+      "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "/blog/general/maintenanceeu0211.html",
+        "/blog/general/maintenanceau0211.html"
+      ],
+      "page_url": "https://www.zoho.com/blog?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/blog?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/zia?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/zia?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "7 out of 21 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 7,
+      "details": [
+        ".../newsletter-thumb-us.jpg",
+        ".../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819",
+        ".../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513",
+        ".../download.svg",
+        ".../copy-to-clipboard.svg"
+      ],
+      "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "/the-long-game/patient-execution.html",
+        "/the-long-game/patient-execution.html"
+      ],
+      "page_url": "https://www.zoho.com/the-long-game?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/the-long-game?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 22 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../CaptchaServlet?formId=01a59829634f64999e0ea94219be6a669c26fdc92dd16c764c43ee909f9aed9047ad0f2672c40382c1066b7d6d5b6f98&grpid=84dbf1cf67cd51c4b7426a00ab241eb297228cf7b7158be9b2da1d492d75759f"
+      ],
+      "page_url": "https://www.zoho.com/concierge?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/concierge?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/contactus.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/contactus.html?src=zGlobalTopMenu"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/es-xl/"
+      ],
+      "page_url": "https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/pt-br/"
+      ],
+      "page_url": "https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/de/"
+      ],
+      "page_url": "https://www.zoho.com/de?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/de?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/fr/"
+      ],
+      "page_url": "https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/nl/"
+      ],
+      "page_url": "https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/jp/"
+      ],
+      "page_url": "https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/ar/"
+      ],
+      "page_url": "https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/id/"
+      ],
+      "page_url": "https://www.zoho.com/id?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/id?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/th/"
+      ],
+      "page_url": "https://www.zoho.com/th?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/th?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/vi/"
+      ],
+      "page_url": "https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/fr-ca/"
+      ],
+      "page_url": "https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/zh-hant/"
+      ],
+      "page_url": "https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/he/"
+      ],
+      "page_url": "https://www.zoho.com/he?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/he?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/it/"
+      ],
+      "page_url": "https://www.zoho.com/it?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/it?zredirect=f&zsrc=langdropdown"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/all-products.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/all-products.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "javascript:;"
+      ],
+      "page_url": "https://www.zoho.com/enterprise"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/enterprise"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "9 out of 45 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 9,
+      "details": [
+        "/sites/zweb/images/analytics/sparex_thumbnail.png",
+        ".../cs-thumbnail.png",
+        "/sites/zweb/images/books/hiral_pancholi.png",
+        ".../zcx-brigade-plus-2x.png",
+        "/sites/zweb/images/crmplus/images/zcp-agoda.png"
+      ],
+      "page_url": "https://www.zoho.com/customers.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/customers.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/customers.html"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "1 out of 215 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 1,
+      "details": [
+        ".../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&time=1761163209592"
+      ],
+      "page_url": "https://www.zoho.com/spark"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/spark"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/affiliate"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/affiliate"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "https://www.youtube.com/@ZohoPartners",
+        ".../"
+      ],
+      "page_url": "https://www.zoho.com/partners/work-with-partner.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/partners/work-with-partner.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "https://www.youtube.com/@ZohoPartners",
+        ".../"
+      ],
+      "page_url": "https://www.zoho.com/partners"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/partners"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "16 out of 36 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 16,
+      "details": [
+        ".../ulla-screen.png",
+        ".../ulla-screen.png",
+        ".../vault-screen.png",
+        ".../vault-screen.png",
+        ".../oneauth-screen.png"
+      ],
+      "page_url": "https://www.zoho.com/security-solutions.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/security-solutions.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/security-solutions.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "/blog/general/maintenanceeu0211.html",
+        "/blog/general/maintenanceau0211.html"
+      ],
+      "page_url": "https://www.zoho.com/blog"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/blog"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "javascript:;",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/zia"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/zia"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "7 out of 21 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 7,
+      "details": [
+        ".../newsletter-thumb-us.jpg",
+        ".../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819",
+        ".../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513",
+        ".../download.svg",
+        ".../copy-to-clipboard.svg"
+      ],
+      "page_url": "https://www.zoho.com/newsletter.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/newsletter.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/newsletter.html"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "/the-long-game/patient-execution.html",
+        "/the-long-game/patient-execution.html"
+      ],
+      "page_url": "https://www.zoho.com/the-long-game"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/the-long-game"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/all-products.html?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/all-products.html?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/contactus.html"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/contactus.html"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "4 out of 54 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 4,
+      "details": [
+        ".../close-icons.svg",
+        "/payroll/svgs/apple-store.svg",
+        "/payroll/svgs/play-store.svg",
+        ".../CaptchaServlet?formId=8ceb21422eb94e7bc644e5a312e346ff3a967931dc8ef655683a45445f4b61ba970531acbdfc349f89ae0e0772ae024a&grpid=b289f9ddc1b4837e0c1a05fbdcf7816b4d25806e29218951fd38c75c42b44401"
+      ],
+      "page_url": "https://www.zoho.com/payroll?src=allproducts"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "/us/payroll/"
+      ],
+      "page_url": "https://www.zoho.com/payroll?src=allproducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/payroll?src=allproducts"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "28 out of 95 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 28,
+      "details": [
+        "/payments/svg/question.svg",
+        "/payments/svg/comment.svg",
+        "/payments/svg/sparkle.svg",
+        "/payments/svg/pen.svg",
+        "/payments/svg/dev-document.svg"
+      ],
+      "page_url": "https://www.zoho.com/payments?src=allproducts"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "2 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 2,
+      "details": [
+        "/",
+        "/"
+      ],
+      "page_url": "https://www.zoho.com/payments?src=allproducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/payments?src=allproducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/routeiq?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/leadchain?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "1 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 1,
+      "details": [
+        "javascript:;"
+      ],
+      "page_url": "https://www.zoho.com/solo?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/solo?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Missing Alt Text",
+      "severity": "high",
+      "description": "10 out of 205 images missing alt text",
+      "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+      "count": 10,
+      "details": [
+        ".../close-icons.svg",
+        "/books/header-new-icons/menu-arrow.svg",
+        "/books/header-new-icons/menu-arrow.svg",
+        "/books/header-new-icons/menu-arrow.svg",
+        "/books/header-new-icons/menu-arrow.svg"
+      ],
+      "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Empty Links",
+      "severity": "medium",
+      "description": "7 links without descriptive text",
+      "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+      "count": 7,
+      "details": [
+        "/books/",
+        "/us/books/",
+        "/us/books/accounting-mobile-apps/",
+        ".../#scale-globally",
+        ".../#collaboration"
+      ],
+      "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+    },
+    {
+      "type": "Missing Language",
+      "severity": "medium",
+      "description": "HTML document missing lang attribute",
+      "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+      "count": 1,
+      "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://zoho.com",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://zoho.com"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://zoho.com"
+        }
+      ],
+      "score": 80,
+      "total_images": 38,
+      "total_links": 353,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/"
+        }
+      ],
+      "score": 80,
+      "total_images": 38,
+      "total_links": 353,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/enterprise?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "javascript:;"
+          ],
+          "page_url": "https://www.zoho.com/enterprise?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/enterprise?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 99,
+      "total_links": 319,
+      "total_buttons": 25
+    },
+    {
+      "url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "9 out of 45 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 9,
+          "details": [
+            "/sites/zweb/images/analytics/sparex_thumbnail.png",
+            ".../cs-thumbnail.png",
+            "/sites/zweb/images/books/hiral_pancholi.png",
+            ".../zcx-brigade-plus-2x.png",
+            "/sites/zweb/images/crmplus/images/zcp-agoda.png"
+          ],
+          "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/customers.html?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 60,
+      "total_images": 45,
+      "total_links": 333,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/spark?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 215 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&time=1761162837940"
+          ],
+          "page_url": "https://www.zoho.com/spark?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/spark?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 70,
+      "total_images": 215,
+      "total_links": 272,
+      "total_buttons": 8
+    },
+    {
+      "url": "https://www.zoho.com/affiliate?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/affiliate?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/affiliate?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 38,
+      "total_links": 353,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "https://www.youtube.com/@ZohoPartners",
+            ".../"
+          ],
+          "page_url": "https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 22,
+      "total_links": 285,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://www.zoho.com/partners?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "https://www.youtube.com/@ZohoPartners",
+            ".../"
+          ],
+          "page_url": "https://www.zoho.com/partners?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/partners?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 22,
+      "total_links": 285,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "16 out of 36 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 16,
+          "details": [
+            ".../ulla-screen.png",
+            ".../ulla-screen.png",
+            ".../vault-screen.png",
+            ".../vault-screen.png",
+            ".../oneauth-screen.png"
+          ],
+          "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 60,
+      "total_images": 36,
+      "total_links": 308,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/blog?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "/blog/general/maintenanceeu0211.html",
+            "/blog/general/maintenanceau0211.html"
+          ],
+          "page_url": "https://www.zoho.com/blog?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/blog?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 20,
+      "total_links": 121,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://www.zoho.com/zia?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/zia?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/zia?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 17,
+      "total_links": 285,
+      "total_buttons": 8
+    },
+    {
+      "url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "7 out of 21 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 7,
+          "details": [
+            ".../newsletter-thumb-us.jpg",
+            ".../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819",
+            ".../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513",
+            ".../download.svg",
+            ".../copy-to-clipboard.svg"
+          ],
+          "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/newsletter.html?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 60,
+      "total_images": 21,
+      "total_links": 385,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/the-long-game?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "/the-long-game/patient-execution.html",
+            "/the-long-game/patient-execution.html"
+          ],
+          "page_url": "https://www.zoho.com/the-long-game?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/the-long-game?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 15,
+      "total_links": 67,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.zoho.com/concierge?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 22 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../CaptchaServlet?formId=01a59829634f64999e0ea94219be6a669c26fdc92dd16c764c43ee909f9aed9047ad0f2672c40382c1066b7d6d5b6f98&grpid=84dbf1cf67cd51c4b7426a00ab241eb297228cf7b7158be9b2da1d492d75759f"
+          ],
+          "page_url": "https://www.zoho.com/concierge?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/concierge?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 70,
+      "total_images": 22,
+      "total_links": 203,
+      "total_buttons": 12
+    },
+    {
+      "url": "https://www.zoho.com/contactus.html?src=zGlobalTopMenu",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/contactus.html?src=zGlobalTopMenu"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/contactus.html?src=zGlobalTopMenu"
+        }
+      ],
+      "score": 80,
+      "total_images": 16,
+      "total_links": 412,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 38,
+      "total_links": 353,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/es-xl/"
+          ],
+          "page_url": "https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 265,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/pt-br/"
+          ],
+          "page_url": "https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 264,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/de?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/de/"
+          ],
+          "page_url": "https://www.zoho.com/de?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/de?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 20,
+      "total_links": 274,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/fr/"
+          ],
+          "page_url": "https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 272,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/nl/"
+          ],
+          "page_url": "https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 264,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/jp/"
+          ],
+          "page_url": "https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 22,
+      "total_links": 292,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/ar/"
+          ],
+          "page_url": "https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 265,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/id?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/id/"
+          ],
+          "page_url": "https://www.zoho.com/id?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/id?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 264,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/th?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/th/"
+          ],
+          "page_url": "https://www.zoho.com/th?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/th?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 264,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/vi/"
+          ],
+          "page_url": "https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 265,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/fr-ca/"
+          ],
+          "page_url": "https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 6,
+      "total_links": 148,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/zh-hant/"
+          ],
+          "page_url": "https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 27,
+      "total_links": 77,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/he?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/he/"
+          ],
+          "page_url": "https://www.zoho.com/he?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/he?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 98,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/it?zredirect=f&zsrc=langdropdown",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/it/"
+          ],
+          "page_url": "https://www.zoho.com/it?zredirect=f&zsrc=langdropdown"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/it?zredirect=f&zsrc=langdropdown"
+        }
+      ],
+      "score": 80,
+      "total_images": 19,
+      "total_links": 260,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/all-products.html",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/all-products.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/all-products.html"
+        }
+      ],
+      "score": 80,
+      "total_images": 20,
+      "total_links": 489,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/enterprise",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "javascript:;"
+          ],
+          "page_url": "https://www.zoho.com/enterprise"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/enterprise"
+        }
+      ],
+      "score": 80,
+      "total_images": 99,
+      "total_links": 319,
+      "total_buttons": 25
+    },
+    {
+      "url": "https://www.zoho.com/customers.html",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "9 out of 45 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 9,
+          "details": [
+            "/sites/zweb/images/analytics/sparex_thumbnail.png",
+            ".../cs-thumbnail.png",
+            "/sites/zweb/images/books/hiral_pancholi.png",
+            ".../zcx-brigade-plus-2x.png",
+            "/sites/zweb/images/crmplus/images/zcp-agoda.png"
+          ],
+          "page_url": "https://www.zoho.com/customers.html"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/customers.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/customers.html"
+        }
+      ],
+      "score": 60,
+      "total_images": 45,
+      "total_links": 333,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/spark",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "1 out of 215 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 1,
+          "details": [
+            ".../CaptchaServlet?formId=f6bddb890d9712895ae6907e8b345dad99569f7816600dd27d8dba7cb3c7eb32a8dc31aca9a8a25ef58b99db7c4b4cf2&grpid=2b979309b58c2f4ce1be6209894e76657b0c9db55ff53457819494a25a91dad7&time=1761163209592"
+          ],
+          "page_url": "https://www.zoho.com/spark"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/spark"
+        }
+      ],
+      "score": 70,
+      "total_images": 215,
+      "total_links": 272,
+      "total_buttons": 8
+    },
+    {
+      "url": "https://www.zoho.com/affiliate",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/affiliate"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/affiliate"
+        }
+      ],
+      "score": 80,
+      "total_images": 38,
+      "total_links": 353,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/partners/work-with-partner.html",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "https://www.youtube.com/@ZohoPartners",
+            ".../"
+          ],
+          "page_url": "https://www.zoho.com/partners/work-with-partner.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/partners/work-with-partner.html"
+        }
+      ],
+      "score": 80,
+      "total_images": 22,
+      "total_links": 285,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://www.zoho.com/partners",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "https://www.youtube.com/@ZohoPartners",
+            ".../"
+          ],
+          "page_url": "https://www.zoho.com/partners"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/partners"
+        }
+      ],
+      "score": 80,
+      "total_images": 22,
+      "total_links": 285,
+      "total_buttons": 11
+    },
+    {
+      "url": "https://www.zoho.com/security-solutions.html",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "16 out of 36 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 16,
+          "details": [
+            ".../ulla-screen.png",
+            ".../ulla-screen.png",
+            ".../vault-screen.png",
+            ".../vault-screen.png",
+            ".../oneauth-screen.png"
+          ],
+          "page_url": "https://www.zoho.com/security-solutions.html"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/security-solutions.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/security-solutions.html"
+        }
+      ],
+      "score": 60,
+      "total_images": 36,
+      "total_links": 308,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/blog",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "/blog/general/maintenanceeu0211.html",
+            "/blog/general/maintenanceau0211.html"
+          ],
+          "page_url": "https://www.zoho.com/blog"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/blog"
+        }
+      ],
+      "score": 80,
+      "total_images": 20,
+      "total_links": 121,
+      "total_buttons": 1
+    },
+    {
+      "url": "https://www.zoho.com/zia",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "javascript:;",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/zia"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/zia"
+        }
+      ],
+      "score": 80,
+      "total_images": 17,
+      "total_links": 285,
+      "total_buttons": 8
+    },
+    {
+      "url": "https://www.zoho.com/newsletter.html",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "7 out of 21 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 7,
+          "details": [
+            ".../newsletter-thumb-us.jpg",
+            ".../CaptchaServlet?formId=bb0dd822c571b722248f22fa647f1e8be6122f47ba6a0d2579c718e641abdc1ab94c631178f2ed8111b1d890aac2cced&grpid=6ca2ff45c7f7289bd07e81ae0b775acbda7984000feeb7aacdffef65cb942819",
+            ".../WebFormAnalyticsServlet?rid=dcbe8ecbdabe526a6fd3a62f60179822da9d1a7cbb135f4f284ef99f2d813a72gid3cc500101abee16b424d67860b5473bb33cd8ab0fd31519fb0e76a930012c594gida378f81585080d3b6fb1acbec6638b71gid5cf99212d7958dbcd176c761c6ce0a4d7e43e277bdc5d8b9c12010015418942cgid14f4ec16431e0686150daa43f3210513",
+            ".../download.svg",
+            ".../copy-to-clipboard.svg"
+          ],
+          "page_url": "https://www.zoho.com/newsletter.html"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/newsletter.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/newsletter.html"
+        }
+      ],
+      "score": 60,
+      "total_images": 21,
+      "total_links": 385,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/the-long-game",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "/the-long-game/patient-execution.html",
+            "/the-long-game/patient-execution.html"
+          ],
+          "page_url": "https://www.zoho.com/the-long-game"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/the-long-game"
+        }
+      ],
+      "score": 80,
+      "total_images": 15,
+      "total_links": 67,
+      "total_buttons": 0
+    },
+    {
+      "url": "https://www.zoho.com/all-products.html?src=zGlobalAllProducts",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/all-products.html?src=zGlobalAllProducts"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/all-products.html?src=zGlobalAllProducts"
+        }
+      ],
+      "score": 80,
+      "total_images": 20,
+      "total_links": 489,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/contactus.html",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/contactus.html"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/contactus.html"
+        }
+      ],
+      "score": 80,
+      "total_images": 16,
+      "total_links": 412,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/payroll?src=allproducts",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "4 out of 54 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 4,
+          "details": [
+            ".../close-icons.svg",
+            "/payroll/svgs/apple-store.svg",
+            "/payroll/svgs/play-store.svg",
+            ".../CaptchaServlet?formId=8ceb21422eb94e7bc644e5a312e346ff3a967931dc8ef655683a45445f4b61ba970531acbdfc349f89ae0e0772ae024a&grpid=b289f9ddc1b4837e0c1a05fbdcf7816b4d25806e29218951fd38c75c42b44401"
+          ],
+          "page_url": "https://www.zoho.com/payroll?src=allproducts"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "/us/payroll/"
+          ],
+          "page_url": "https://www.zoho.com/payroll?src=allproducts"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/payroll?src=allproducts"
+        }
+      ],
+      "score": 60,
+      "total_images": 54,
+      "total_links": 230,
+      "total_buttons": 18
+    },
+    {
+      "url": "https://www.zoho.com/payments?src=allproducts",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "28 out of 95 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 28,
+          "details": [
+            "/payments/svg/question.svg",
+            "/payments/svg/comment.svg",
+            "/payments/svg/sparkle.svg",
+            "/payments/svg/pen.svg",
+            "/payments/svg/dev-document.svg"
+          ],
+          "page_url": "https://www.zoho.com/payments?src=allproducts"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "2 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 2,
+          "details": [
+            "/",
+            "/"
+          ],
+          "page_url": "https://www.zoho.com/payments?src=allproducts"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/payments?src=allproducts"
+        }
+      ],
+      "score": 60,
+      "total_images": 95,
+      "total_links": 91,
+      "total_buttons": 19
+    },
+    {
+      "url": "https://www.zoho.com/routeiq?src=zGlobalAllProducts",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/routeiq?src=zGlobalAllProducts"
+        }
+      ],
+      "score": 90,
+      "total_images": 20,
+      "total_links": 227,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/leadchain?src=zGlobalAllProducts",
+      "issues": [
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/leadchain?src=zGlobalAllProducts"
+        }
+      ],
+      "score": 90,
+      "total_images": 42,
+      "total_links": 203,
+      "total_buttons": 6
+    },
+    {
+      "url": "https://www.zoho.com/solo?src=zGlobalAllProducts",
+      "issues": [
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "1 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 1,
+          "details": [
+            "javascript:;"
+          ],
+          "page_url": "https://www.zoho.com/solo?src=zGlobalAllProducts"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/solo?src=zGlobalAllProducts"
+        }
+      ],
+      "score": 80,
+      "total_images": 27,
+      "total_links": 240,
+      "total_buttons": 7
+    },
+    {
+      "url": "https://www.zoho.com/books?src=zGlobalAllProducts",
+      "issues": [
+        {
+          "type": "Missing Alt Text",
+          "severity": "high",
+          "description": "10 out of 205 images missing alt text",
+          "wcag_guideline": "WCAG 2.1 AA - 1.1.1 Non-text Content",
+          "count": 10,
+          "details": [
+            ".../close-icons.svg",
+            "/books/header-new-icons/menu-arrow.svg",
+            "/books/header-new-icons/menu-arrow.svg",
+            "/books/header-new-icons/menu-arrow.svg",
+            "/books/header-new-icons/menu-arrow.svg"
+          ],
+          "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+        },
+        {
+          "type": "Empty Links",
+          "severity": "medium",
+          "description": "7 links without descriptive text",
+          "wcag_guideline": "WCAG 2.1 AA - 2.4.4 Link Purpose",
+          "count": 7,
+          "details": [
+            "/books/",
+            "/us/books/",
+            "/us/books/accounting-mobile-apps/",
+            ".../#scale-globally",
+            ".../#collaboration"
+          ],
+          "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+        },
+        {
+          "type": "Missing Language",
+          "severity": "medium",
+          "description": "HTML document missing lang attribute",
+          "wcag_guideline": "WCAG 2.1 AA - 3.1.1 Language of Page",
+          "count": 1,
+          "page_url": "https://www.zoho.com/books?src=zGlobalAllProducts"
+        }
+      ],
+      "score": 60,
+      "total_images": 205,
+      "total_links": 432,
+      "total_buttons": 18
+    }
+  ],
+  "summary": {
+    "total_issues": 107,
+    "score": 76.2,
+    "total_images": 2016,
+    "total_links": 13785,
+    "total_buttons": 388,
+    "total_pages": 50
+  }
+}

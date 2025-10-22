@@ -1,0 +1,825 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 50
+Total Unique URLs: 1922
+Total Links: 7528
+
+PAGE DETAILS
+------------------------------
+
+1. Zoho | Cloud Software Suite for Businesses
+   URL: https://zoho.com
+   Page ID: page_1
+   Outgoing Links (202):
+     → Skip to main content: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Affiliate Program: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 197 more
+
+2. Zoho | Cloud Software Suite for Businesses
+   URL: https://www.zoho.com/
+   Page ID: page_2
+   Outgoing Links (202):
+     → Skip to main content: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Affiliate Program: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 197 more
+   Incoming Links (34):
+     ← Skip to main content: https://zoho.com
+     ← Zoho.com: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ← Zoho.com: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 31 more
+
+3. Advanced Business Software – Zoho for Enterprise
+   URL: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+   Page ID: page_3
+   Outgoing Links (178):
+     → Skip to product menu: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Affiliate Program: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 173 more
+   Incoming Links (19):
+     ← Enterprise: https://zoho.com
+     ← Enterprise: https://www.zoho.com/
+     ← Enterprise: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 16 more
+
+4. Zoho Customer Success Stories & Testimonials
+   URL: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+   Page ID: page_4
+   Outgoing Links (186):
+     → Skip to main content: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Affiliate Program: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 181 more
+   Incoming Links (24):
+     ← Customer Stories: https://zoho.com
+     ← Customer Stories: https://www.zoho.com/
+     ← Customer Stories: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 21 more
+
+5. Zoho Training and Certification Platform | Spark
+   URL: https://www.zoho.com/spark?src=zGlobalTopMenu
+   Page ID: page_5
+   Outgoing Links (121):
+     → Skip to product menu: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/spark?zredirect=f&zsrc=langdropdown
+     → Get Started: https://www.zoho.com/signup.html
+     → No text: https://www.zoho.com/spark
+     ... and 116 more
+   Incoming Links (30):
+     ← Training and Certification: https://zoho.com
+     ← Training and Certification: https://www.zoho.com/
+     ← Training and Certification: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+6. Zoho | Cloud Software Suite for Businesses
+   URL: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+   Page ID: page_6
+   Outgoing Links (202):
+     → Skip to main content: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 197 more
+   Incoming Links (29):
+     ← Affiliate Program: https://zoho.com
+     ← Affiliate Program: https://www.zoho.com/
+     ← Affiliate Program: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 26 more
+
+7. Zoho Partner Program | Building Success Together
+   URL: https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu
+   Page ID: page_7
+   Outgoing Links (155):
+     → Skip to product menu: https://www.zoho.com/partners/work-with-partner.html?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/partners?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br/partners?zredirect=f&zsrc=langdropdown
+     → Deutsch: https://www.zoho.com/de/partners?zredirect=f&zsrc=langdropdown
+     ... and 150 more
+   Incoming Links (21):
+     ← Work With a Partner: https://zoho.com
+     ← Work With a Partner: https://www.zoho.com/
+     ← Work With a Partner: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 18 more
+
+8. Zoho Partner Program | Building Success Together
+   URL: https://www.zoho.com/partners?src=zGlobalTopMenu
+   Page ID: page_8
+   Outgoing Links (155):
+     → Skip to product menu: https://www.zoho.com/partners?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/partners?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br/partners?zredirect=f&zsrc=langdropdown
+     → Deutsch: https://www.zoho.com/de/partners?zredirect=f&zsrc=langdropdown
+     ... and 150 more
+   Incoming Links (21):
+     ← Become a Partner: https://zoho.com
+     ← Become a Partner: https://www.zoho.com/
+     ← Become a Partner: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 18 more
+
+9. Security solutions for your workplace l Zoho
+   URL: https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu
+   Page ID: page_9
+   Outgoing Links (172):
+     → Skip to main content: https://www.zoho.com/security-solutions.html?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 167 more
+   Incoming Links (30):
+     ← Security Solutions: https://zoho.com
+     ← Security Solutions: https://www.zoho.com/
+     ← Security Solutions: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+10. Zoho Blog
+   URL: https://www.zoho.com/blog?src=zGlobalTopMenu
+   Page ID: page_10
+   Outgoing Links (68):
+     → Zoho Products: https://www.zoho.com/
+     → About us: https://www.zoho.com/aboutus.html
+     → Blog: https://www.zoho.com/blog
+     → Español: https://www.zoho.com/blog/es-xl
+     → Português (Brasil): https://www.zoho.com/blog/pt-br
+     ... and 63 more
+   Incoming Links (24):
+     ← Blog: https://zoho.com
+     ← Blog: https://www.zoho.com/
+     ← Blog: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 21 more
+
+11. Zia | Zoho's AI Assistant
+   URL: https://www.zoho.com/zia?src=zGlobalTopMenu
+   Page ID: page_11
+   Outgoing Links (172):
+     → Skip to main content: https://www.zoho.com/zia?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 167 more
+   Incoming Links (20):
+     ← Zia: https://zoho.com
+     ← Zia: https://www.zoho.com/
+     ← Zia: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 17 more
+
+12. Zoho Buzz | Newsletter
+   URL: https://www.zoho.com/newsletter.html?src=zGlobalTopMenu
+   Page ID: page_12
+   Outgoing Links (173):
+     → Skip to main content: https://www.zoho.com/newsletter.html?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 168 more
+   Incoming Links (26):
+     ← Newsletter: https://zoho.com
+     ← Newsletter: https://www.zoho.com/
+     ← Newsletter: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 23 more
+
+13. The Long Game by Zoho
+   URL: https://www.zoho.com/the-long-game?src=zGlobalTopMenu
+   Page ID: page_13
+   Outgoing Links (33):
+     → No text: https://www.zoho.com/the-long-game
+     → About TLG: https://www.zoho.com/the-long-game/aboutus.html
+     → Zoho: https://www.zoho.com
+     → People: https://www.zoho.com/the-long-game/culture-for-people
+     → Spiritual Capitalism: https://www.zoho.com/the-long-game/spiritual-capitalism
+     ... and 28 more
+   Incoming Links (31):
+     ← The Long Game: https://zoho.com
+     ← The Long Game: https://www.zoho.com/
+     ← The Long Game: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 28 more
+
+14. Zoho Concierge - Find out how Zoho can fit your business.
+   URL: https://www.zoho.com/concierge?src=zGlobalTopMenu
+   Page ID: page_14
+   Outgoing Links (125):
+     → Skip to main content: https://www.zoho.com/concierge?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 120 more
+   Incoming Links (29):
+     ← Concierge: https://zoho.com
+     ← Concierge: https://www.zoho.com/
+     ← Concierge: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 26 more
+
+15. Contact Us | Zoho
+   URL: https://www.zoho.com/contactus.html?src=zGlobalTopMenu
+   Page ID: page_15
+   Outgoing Links (183):
+     → Skip to main content: https://www.zoho.com/contactus.html?src=zGlobalTopMenu
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 178 more
+   Incoming Links (19):
+     ← Contact Us: https://zoho.com
+     ← Contact Us: https://www.zoho.com/
+     ← Contact Us: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 16 more
+
+16. Zoho | Cloud Software Suite for Businesses
+   URL: https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown
+   Page ID: page_16
+   Outgoing Links (203):
+     → Skip to main content: https://www.zoho.com/?lb=&zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 198 more
+   Incoming Links (4):
+     ← English: https://zoho.com
+     ← English: https://www.zoho.com/
+     ← English: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 1 more
+
+17. Zoho | Conjunto de software en la nube para empresas
+   URL: https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown
+   Page ID: page_17
+   Outgoing Links (155):
+     → Saltar al contenido principal: https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/es-xl
+     → Historias de clientes: https://www.zoho.com/es-xl/customers.html?src=zGlobalTopMenu
+     → Capacitación y certificación: https://www.zoho.com/es-xl/spark?src=zGlobalTopMenu
+     → Programa de afiliados: https://www.zoho.com/es-xl/affiliate?src=zGlobalTopMenu
+     ... and 150 more
+   Incoming Links (17):
+     ← Español: https://zoho.com
+     ← Español: https://www.zoho.com/
+     ← Español: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+18. Zoho | Cloud Software Suite para empresas
+   URL: https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown
+   Page ID: page_18
+   Outgoing Links (153):
+     → Pular para o conteúdo principal: https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/pt-br
+     → Histórias dos clientes: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Treinamento e certificação: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Programa de afiliados: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 148 more
+   Incoming Links (17):
+     ← Português (Brasil): https://zoho.com
+     ← Português (Brasil): https://www.zoho.com/
+     ← Português (Brasil): https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+19. Zoho | Cloud-Software-Suite für Unternehmen
+   URL: https://www.zoho.com/de?zredirect=f&zsrc=langdropdown
+   Page ID: page_19
+   Outgoing Links (158):
+     → Direkt zum Inhalt: https://www.zoho.com/de?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/de
+     → Kundengeschichten: https://www.zoho.com/de/customers.html?src=zGlobalTopMenu
+     → Ausbildung und Zertifizierung: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Partnerprogramm: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 153 more
+   Incoming Links (17):
+     ← Deutsch: https://zoho.com
+     ← Deutsch: https://www.zoho.com/
+     ← Deutsch: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+20. Zoho | Cloud Software Suite for Businesses
+   URL: https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown
+   Page ID: page_20
+   Outgoing Links (157):
+     → Aller au contenu principal: https://www.zoho.com/fr?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/fr
+     → ETI-Enterprise: https://www.zoho.com/fr/enterprise?src=zGlobalTopMenu
+     → Témoignages Clients: https://www.zoho.com/fr/customers.html?src=zGlobalTopMenu
+     → Formation et certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 152 more
+   Incoming Links (17):
+     ← Français: https://zoho.com
+     ← Français: https://www.zoho.com/
+     ← Français: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+21. Zoho | Cloud Software Suite voor bedrijven
+   URL: https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown
+   Page ID: page_21
+   Outgoing Links (153):
+     → Overslaan en naar de inhoud gaan: https://www.zoho.com/nl?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/nl
+     → Klantverhalen: https://www.zoho.com/nl/customers.html?src=zGlobalTopMenu
+     → Training en certificering: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Partnerprogramma: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 148 more
+   Incoming Links (17):
+     ← Nederlands: https://zoho.com
+     ← Nederlands: https://www.zoho.com/
+     ← Nederlands: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+22. Zoho - ビジネス向けクラウドソフトウェアとSaaSアプリケーション
+   URL: https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown
+   Page ID: page_22
+   Outgoing Links (158):
+     → メインコンテンツに移動: https://www.zoho.com/jp?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/jp?src=home-top-header-jp-index
+     → Zoho について: https://www.zoho.com/jp/aboutus.html?src=home-top-header-jp-index
+     → Zoho のストーリー: https://www.zoho.com/jp/ourstory.html?src=home-top-header-jp-index
+     → セミナー・イベント: https://www.zoho.com/jp/webinar.html?src=home-top-header-jp-index
+     ... and 153 more
+   Incoming Links (17):
+     ← 日本語: https://zoho.com
+     ← 日本語: https://www.zoho.com/
+     ← 日本語: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+23. Zoho | مجموعة البرامج السحابية للشركات
+   URL: https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown
+   Page ID: page_23
+   Outgoing Links (154):
+     → تجاوز إلى المحتوى الرئيسي: https://www.zoho.com/ar?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/ar
+     → قصص العملاء: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → التدريب والشهادات: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → برنامج المنتسبين: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 149 more
+   Incoming Links (17):
+     ← العربية: https://zoho.com
+     ← العربية: https://www.zoho.com/
+     ← العربية: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+24. Zoho | Suite Software Cloud untuk Bisnis
+   URL: https://www.zoho.com/id?zredirect=f&zsrc=langdropdown
+   Page ID: page_24
+   Outgoing Links (153):
+     → Lompat ke isi utama: https://www.zoho.com/id?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/id
+     → Cerita Pelanggan: https://www.zoho.com/id/customers.html?src=zGlobalTopMenu
+     → Pelatihan dan Sertifikasi: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Program Afiliasi: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 148 more
+   Incoming Links (17):
+     ← Bahasa Indonesia: https://zoho.com
+     ← Bahasa Indonesia: https://www.zoho.com/
+     ← Bahasa Indonesia: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+25. Zoho | ชุดซอฟต์แวร์บนระบบคลาวด์สำหรับธุรกิจ
+   URL: https://www.zoho.com/th?zredirect=f&zsrc=langdropdown
+   Page ID: page_25
+   Outgoing Links (153):
+     → ข้ามไปยังเนื้อหาหลัก: https://www.zoho.com/th?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/th
+     → ชุมชนผู้ใช้: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → การฝึกอบรมและการรับรอง: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → โปรแกรมพันธมิตร: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 148 more
+   Incoming Links (17):
+     ← ภาษาไทย: https://zoho.com
+     ← ภาษาไทย: https://www.zoho.com/
+     ← ภาษาไทย: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+26. Zoho | Bộ phần mềm đám mây dành cho doanh nghiệp
+   URL: https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown
+   Page ID: page_26
+   Outgoing Links (152):
+     → Chuyển đến nội dung chính: https://www.zoho.com/vi?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/vi
+     → Câu chuyện của khách hàng: https://www.zoho.com/vi/customers.html?src=zGlobalTopMenu
+     → Đào tạo và chứng nhận: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Chương trình liên kết: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 147 more
+   Incoming Links (17):
+     ← Tiếng Việt: https://zoho.com
+     ← Tiếng Việt: https://www.zoho.com/
+     ← Tiếng Việt: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+27. Suite de logiciels infonuagique pour les entreprises
+   URL: https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown
+   Page ID: page_27
+   Outgoing Links (89):
+     → Aller au contenu principal: https://www.zoho.com/fr-ca?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/fr-ca
+     → English: https://www.zoho.com/?lb=fr-ca&zredirect=f&zsrc=langdropdown
+     → Español: https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown
+     ... and 84 more
+   Incoming Links (17):
+     ← Français (Canada): https://zoho.com
+     ← Français (Canada): https://www.zoho.com/
+     ← Français (Canada): https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+28. Zoho | 企業用雲端軟體套裝
+   URL: https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown
+   Page ID: page_28
+   Outgoing Links (45):
+     → 跳到主要內容: https://www.zoho.com/zh-hant?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/zh-hant/index.html
+     → English: https://www.zoho.com/?lb=zh-hant&zredirect=f&zsrc=langdropdown
+     → Español: https://www.zoho.com/es-xl?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br?zredirect=f&zsrc=langdropdown
+     ... and 40 more
+   Incoming Links (17):
+     ← 繁体中文: https://zoho.com
+     ← 繁体中文: https://www.zoho.com/
+     ← 繁体中文: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+29. Zoho | חבילת תוכנות ענן לעסקים
+   URL: https://www.zoho.com/he?zredirect=f&zsrc=langdropdown
+   Page ID: page_29
+   Outgoing Links (61):
+     → דילוג אל התוכן הראשי: https://www.zoho.com/he?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/he
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Affiliate Program: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 56 more
+   Incoming Links (17):
+     ← עברית: https://zoho.com
+     ← עברית: https://www.zoho.com/
+     ← עברית: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+30. Zoho | Suite di software cloud per le aziende
+   URL: https://www.zoho.com/it?zredirect=f&zsrc=langdropdown
+   Page ID: page_30
+   Outgoing Links (150):
+     → Salta al contenuto principale: https://www.zoho.com/it?zredirect=f&zsrc=langdropdown
+     → Zoho.com: https://www.zoho.com/it
+     → Storie dei clienti: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Formazione e certificazione: https://www.zoho.com/spark?src=zGlobalTopMenu
+     → Programmi affiliati: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 145 more
+   Incoming Links (17):
+     ← Italiano: https://zoho.com
+     ← Italiano: https://www.zoho.com/
+     ← Italiano: https://www.zoho.com/affiliate?src=zGlobalTopMenu
+     ... and 14 more
+
+31. Explore All Products | Zoho
+   URL: https://www.zoho.com/all-products.html
+   Page ID: page_31
+   Outgoing Links (277):
+     → Skip to main content: https://www.zoho.com/all-products.html
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 272 more
+   Incoming Links (29):
+     ← Apps: https://zoho.com
+     ← Apps: https://www.zoho.com/
+     ← All Zoho Products: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 26 more
+
+32. Advanced Business Software – Zoho for Enterprise
+   URL: https://www.zoho.com/enterprise
+   Page ID: page_32
+   Outgoing Links (179):
+     → Skip to product menu: https://www.zoho.com/enterprise
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 174 more
+   Incoming Links (15):
+     ← Enterprise: https://zoho.com
+     ← Enterprise: https://www.zoho.com/
+     ← Enterprise: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 12 more
+
+33. Zoho Customer Success Stories & Testimonials
+   URL: https://www.zoho.com/customers.html
+   Page ID: page_33
+   Outgoing Links (186):
+     → Skip to main content: https://www.zoho.com/customers.html
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 181 more
+   Incoming Links (18):
+     ← Customer Stories: https://zoho.com
+     ← Customer Stories: https://www.zoho.com/
+     ← Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 15 more
+
+34. Zoho Training and Certification Platform | Spark
+   URL: https://www.zoho.com/spark
+   Page ID: page_34
+   Outgoing Links (120):
+     → Skip to product menu: https://www.zoho.com/spark
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/spark?zredirect=f&zsrc=langdropdown
+     → Get Started: https://www.zoho.com/signup.html
+     → College training: https://www.zoho.com/spark/college-training.html?src=headermenu
+     ... and 115 more
+   Incoming Links (25):
+     ← Training and Certification: https://zoho.com
+     ← Training and Certification: https://www.zoho.com/
+     ← Training and Certification: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 22 more
+
+35. Zoho | Cloud Software Suite for Businesses
+   URL: https://www.zoho.com/affiliate
+   Page ID: page_35
+   Outgoing Links (202):
+     → Skip to main content: https://www.zoho.com/affiliate
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 197 more
+   Incoming Links (27):
+     ← Affiliate Program: https://zoho.com
+     ← Affiliate Program: https://www.zoho.com/
+     ← Affiliate Program: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 24 more
+
+36. Zoho Partner Program | Building Success Together
+   URL: https://www.zoho.com/partners/work-with-partner.html
+   Page ID: page_36
+   Outgoing Links (154):
+     → Skip to product menu: https://www.zoho.com/partners/work-with-partner.html
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/partners?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br/partners?zredirect=f&zsrc=langdropdown
+     → Deutsch: https://www.zoho.com/de/partners?zredirect=f&zsrc=langdropdown
+     ... and 149 more
+   Incoming Links (19):
+     ← Work With a Partner: https://zoho.com
+     ← Work With a Partner: https://www.zoho.com/
+     ← Work With a Partner: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 16 more
+
+37. Zoho Partner Program | Building Success Together
+   URL: https://www.zoho.com/partners
+   Page ID: page_37
+   Outgoing Links (154):
+     → Skip to product menu: https://www.zoho.com/partners
+     → Zoho.com: https://www.zoho.com/
+     → Español: https://www.zoho.com/es-xl/partners?zredirect=f&zsrc=langdropdown
+     → Português (Brasil): https://www.zoho.com/pt-br/partners?zredirect=f&zsrc=langdropdown
+     → Deutsch: https://www.zoho.com/de/partners?zredirect=f&zsrc=langdropdown
+     ... and 149 more
+   Incoming Links (19):
+     ← Become a Partner: https://zoho.com
+     ← Become a Partner: https://www.zoho.com/
+     ← Become a Partner: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 16 more
+
+38. Security solutions for your workplace l Zoho
+   URL: https://www.zoho.com/security-solutions.html
+   Page ID: page_38
+   Outgoing Links (172):
+     → Skip to main content: https://www.zoho.com/security-solutions.html
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 167 more
+   Incoming Links (24):
+     ← Security Solutions: https://zoho.com
+     ← Security Solutions: https://www.zoho.com/
+     ← Security Solutions: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 21 more
+
+39. Zoho Blog
+   URL: https://www.zoho.com/blog
+   Page ID: page_39
+   Outgoing Links (68):
+     → Zoho Products: https://www.zoho.com/
+     → About us: https://www.zoho.com/aboutus.html
+     → Blog: https://www.zoho.com/blog
+     → Español: https://www.zoho.com/blog/es-xl
+     → Português (Brasil): https://www.zoho.com/blog/pt-br
+     ... and 63 more
+   Incoming Links (26):
+     ← Blog: https://zoho.com
+     ← Blog: https://www.zoho.com/
+     ← Blog: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 23 more
+
+40. Zia | Zoho's AI Assistant
+   URL: https://www.zoho.com/zia
+   Page ID: page_40
+   Outgoing Links (172):
+     → Skip to main content: https://www.zoho.com/zia
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 167 more
+   Incoming Links (17):
+     ← Zia: https://zoho.com
+     ← Zia: https://www.zoho.com/
+     ← Zia: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 14 more
+
+41. Zoho Buzz | Newsletter
+   URL: https://www.zoho.com/newsletter.html
+   Page ID: page_41
+   Outgoing Links (173):
+     → Skip to main content: https://www.zoho.com/newsletter.html
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 168 more
+   Incoming Links (20):
+     ← Newsletter: https://zoho.com
+     ← Newsletter: https://www.zoho.com/
+     ← Newsletter: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 17 more
+
+42. The Long Game by Zoho
+   URL: https://www.zoho.com/the-long-game
+   Page ID: page_42
+   Outgoing Links (33):
+     → No text: https://www.zoho.com/the-long-game
+     → About TLG: https://www.zoho.com/the-long-game/aboutus.html
+     → Zoho: https://www.zoho.com
+     → People: https://www.zoho.com/the-long-game/culture-for-people
+     → Spiritual Capitalism: https://www.zoho.com/the-long-game/spiritual-capitalism
+     ... and 28 more
+   Incoming Links (28):
+     ← The Long Game: https://zoho.com
+     ← The Long Game: https://www.zoho.com/
+     ← The Long Game: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     ... and 25 more
+
+43. Explore All Products | Zoho
+   URL: https://www.zoho.com/all-products.html?src=zGlobalAllProducts
+   Page ID: page_43
+   Outgoing Links (277):
+     → Skip to main content: https://www.zoho.com/all-products.html?src=zGlobalAllProducts
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 272 more
+   Incoming Links (30):
+     ← EXPLORE ALL PRODUCTS: https://zoho.com
+     ← EXPLORE ALL PRODUCTS: https://www.zoho.com/
+     ← EXPLORE ALL PRODUCTS: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+44. Contact Us | Zoho
+   URL: https://www.zoho.com/contactus.html
+   Page ID: page_44
+   Outgoing Links (183):
+     → Skip to main content: https://www.zoho.com/contactus.html
+     → Zoho.com: https://www.zoho.com/
+     → Enterprise: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     → Customer Stories: https://www.zoho.com/customers.html?src=zGlobalTopMenu
+     → Training and Certification: https://www.zoho.com/spark?src=zGlobalTopMenu
+     ... and 178 more
+   Incoming Links (31):
+     ← Connect with us: https://zoho.com
+     ← Connect with us: https://www.zoho.com/
+     ← Connect with us: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 28 more
+
+45. Online Payroll Software for USA | Zoho Payroll
+   URL: https://www.zoho.com/payroll?src=allproducts
+   Page ID: page_45
+   Outgoing Links (143):
+     → No text: https://www.zoho.com/payroll
+     → Zoho: https://www.zoho.com/
+     → People: https://www.zoho.com/people?src=zGlobalRelatedProducts
+     → Recruit: https://www.zoho.com/recruit?src=zGlobalRelatedProducts
+     → Practice: https://www.zoho.com/practice?src=zGlobalRelatedProducts
+     ... and 138 more
+   Incoming Links (30):
+     ← Try now: https://zoho.com
+     ← Try now: https://www.zoho.com/
+     ← Try now: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+46. Accept Online Payments with Zoho Payments—Your Online Payment System
+   URL: https://www.zoho.com/payments?src=allproducts
+   Page ID: page_46
+   Outgoing Links (34):
+     → here: https://www.zoho.com/privacy/cookie-policy.html?src=cp-banner
+     → cookie
+                        policy: https://www.zoho.com/privacy/cookie-policy.html?src=cp-popup
+     → Learn
+                                More: https://www.zoho.com/privacy/cookie-policy.html?src_tab=sn
+     → Learn
+                                More: https://www.zoho.com/privacy/cookie-policy.html?src_tab=fp
+     → Learn
+                                More: https://www.zoho.com/privacy/cookie-policy.html?src_tab=an
+     ... and 29 more
+   Incoming Links (31):
+     ← Try now: https://zoho.com
+     ← Try now: https://www.zoho.com/
+     ← Try now: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 28 more
+
+47. RouteIQ | Best Route Planner for Zoho CRM
+   URL: https://www.zoho.com/routeiq?src=zGlobalAllProducts
+   Page ID: page_47
+   Outgoing Links (130):
+     → Skip to product menu: https://www.zoho.com/routeiq?src=zGlobalAllProducts
+     → Zoho.com: https://www.zoho.com/
+     → CRM: https://www.zoho.com/crm?src=zGlobalRelatedProducts++aria-label%3D
+     → Thrive: https://www.zoho.com/thrive?src=zGlobalRelatedProducts++aria-label%3D
+     → Meeting: https://www.zoho.com/meeting?src=zGlobalRelatedProducts++aria-label%3D
+     ... and 125 more
+   Incoming Links (30):
+     ← RouteIQ: https://zoho.com
+     ← RouteIQ: https://www.zoho.com/
+     ← RouteIQ: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+48. Optimize lead management with LeadChain
+   URL: https://www.zoho.com/leadchain?src=zGlobalAllProducts
+   Page ID: page_48
+   Outgoing Links (119):
+     → Skip to product menu: https://www.zoho.com/leadchain?src=zGlobalAllProducts
+     → Zoho.com: https://www.zoho.com/
+     → Get Started: https://www.zoho.com/signup.html
+     → No text: https://www.zoho.com/leadchain
+     → Pricing: https://www.zoho.com/leadchain/pricing.html?src=hm
+     ... and 114 more
+   Incoming Links (30):
+     ← LeadChain: https://zoho.com
+     ← LeadChain: https://www.zoho.com/
+     ← LeadChain: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+49. Zoho Solo - The only all-in-one toolbox you need for your solo business.
+   URL: https://www.zoho.com/solo?src=zGlobalAllProducts
+   Page ID: page_49
+   Outgoing Links (126):
+     → Skip to product menu: https://www.zoho.com/solo?src=zGlobalAllProducts
+     → Zoho.com: https://www.zoho.com/
+     → Get Started: https://www.zoho.com/signup.html
+     → No text: https://www.zoho.com/solo
+     → Task Management: https://www.zoho.com/solo/features.html
+     ... and 121 more
+   Incoming Links (30):
+     ← Solo: https://zoho.com
+     ← Solo: https://www.zoho.com/
+     ← Solo: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 27 more
+
+50. Powerful Accounting Software for Your Business | Zoho Books
+   URL: https://www.zoho.com/books?src=zGlobalAllProducts
+   Page ID: page_50
+   Outgoing Links (205):
+     → No text: https://www.zoho.com/books
+     → Zoho: https://www.zoho.com/
+     → Inventory: https://www.zoho.com/inventory?src=zGlobalRelatedProducts
+     → CRM: https://www.zoho.com/crm?src=zGlobalRelatedProducts
+     → Payroll: https://www.zoho.com/payroll?src=zGlobalRelatedProducts
+     ... and 200 more
+   Incoming Links (34):
+     ← Books: https://zoho.com
+     ← Books: https://www.zoho.com/
+     ← Books: https://www.zoho.com/enterprise?src=zGlobalTopMenu
+     ... and 31 more
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  all-products.html: 277 outgoing links
+  all-products.html: 277 outgoing links
+  books: 205 outgoing links
+  homepage: 203 outgoing links
+  homepage: 202 outgoing links
+
+Most Referenced Pages (most incoming links):
+  privacy.html: 43 incoming links
+  financeplus: 42 incoming links
+  ipr-complaints.html: 42 incoming links
+  payroll: 41 incoming links
+  checkout: 41 incoming links
