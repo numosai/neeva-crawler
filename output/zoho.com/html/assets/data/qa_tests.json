@@ -1,0 +1,663 @@
+{
+  "summary": {
+    "total_test_files": 12,
+    "total_assertions": 60
+  },
+  "test_files": [
+    {
+      "title": "Core Navigation & Homepage",
+      "assertion_count": 8,
+      "phases": [
+        {
+          "objective": "TC001: Homepage loads correctly",
+          "assertions": [
+            {"description": "Open https://www.zoho.com"},
+            {"description": "Verify that the browser tab title contains 'Zoho'"},
+            {"description": "Ensure main banner, header, and footer load fully"},
+            {"description": "Confirm no broken links or images appear on page"},
+            {"description": "Expected: Homepage loads successfully with title 'Zoho' and all UI elements visible (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC002: Navigation links work",
+          "assertions": [
+            {"description": "Go to https://www.zoho.com"},
+            {"description": "Click each top navigation link (Products, Solutions, Customers, Pricing)"},
+            {"description": "Observe navigation and page title after each click"},
+            {"description": "Expected: Each navigation item redirects to the correct page without error (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC003: Products page loads",
+          "assertions": [
+            {"description": "From the homepage, click 'Products' in the main navigation"},
+            {"description": "Wait for the page to load"},
+            {"description": "Verify all Zoho product cards and logos are displayed correctly"},
+            {"description": "Expected: Products page loads all Zoho applications without broken content (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC004: Homepage logo navigation",
+          "assertions": [
+            {"description": "Visit any subpage on Zoho.com (e.g., /mail/)"},
+            {"description": "Click the Zoho logo at the top-left corner"},
+            {"description": "Observe whether it navigates to homepage"},
+            {"description": "Expected: User is redirected to https://www.zoho.com homepage (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC012: Explore All Products button navigation",
+          "assertions": [
+            {"description": "On the homepage, locate and click 'Explore All Products'"},
+            {"description": "Wait for page transition"},
+            {"description": "Observe the product list display"},
+            {"description": "Expected: 'Explore All Products' button redirects user to the Products page showing all apps (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC013: Language selection functionality",
+          "assertions": [
+            {"description": "Locate language selector in the footer or header (if present)"},
+            {"description": "Change language from English to another available language"},
+            {"description": "Observe page reload and text updates"},
+            {"description": "Expected: Website content updates to chosen language while layout remains consistent (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC014: Search functionality on homepage",
+          "assertions": [
+            {"description": "Open https://www.zoho.com"},
+            {"description": "Locate search bar or icon"},
+            {"description": "Enter the keyword 'CRM' and press Enter"},
+            {"description": "Wait for results to load"},
+            {"description": "Expected: Search results page lists CRM-related products and articles (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC015: Dropdown menu hover behavior",
+          "assertions": [
+            {"description": "Hover mouse over 'Products' and 'Solutions' in the top menu"},
+            {"description": "Observe if submenus expand"},
+            {"description": "Move the mouse away and ensure menu collapses"},
+            {"description": "Expected: Dropdown submenus expand and collapse smoothly without freezing (Priority: Low)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "User Authentication & Account Management",
+      "assertion_count": 12,
+      "phases": [
+        {
+          "objective": "TC005: Free trial signup flow",
+          "assertions": [
+            {"description": "Open https://www.zoho.com"},
+            {"description": "Click 'Free Sign Up' button"},
+            {"description": "Fill in required fields (Name, Email, Password)"},
+            {"description": "Submit the form and wait for next screen"},
+            {"description": "Expected: Signup process completes with success or verification prompt (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC006: Zoho Mail login flow",
+          "assertions": [
+            {"description": "Navigate to https://www.zoho.com/mail/"},
+            {"description": "Click 'Sign In'"},
+            {"description": "Enter valid credentials (test account)"},
+            {"description": "Click 'Sign In' and observe redirection"},
+            {"description": "Expected: User is redirected to Zoho Mail dashboard successfully (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC017: Signup with already registered email",
+          "assertions": [
+            {"description": "Navigate to Zoho signup page via https://www.zoho.com/signup.html"},
+            {"description": "Enter an email that is already registered"},
+            {"description": "Fill all fields correctly and submit"},
+            {"description": "Expected: System displays error message like 'Email already exists' (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC018: Password strength validation",
+          "assertions": [
+            {"description": "Go to signup form"},
+            {"description": "Try passwords missing lowercase, uppercase, or special characters"},
+            {"description": "Submit and observe error messages"},
+            {"description": "Expected: Form displays password policy errors until a strong password is provided (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC019: Forgot password flow",
+          "assertions": [
+            {"description": "Go to Zoho login page"},
+            {"description": "Click 'Forgot Password'"},
+            {"description": "Enter a valid registered email"},
+            {"description": "Submit form and check for confirmation message"},
+            {"description": "Expected: Password reset email is sent with confirmation on screen (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC020: Invalid login attempt handling",
+          "assertions": [
+            {"description": "Navigate to Zoho login page"},
+            {"description": "Enter invalid username and password"},
+            {"description": "Click 'Sign In'"},
+            {"description": "Observe feedback message"},
+            {"description": "Expected: Login fails and user sees appropriate error message without revealing sensitive details (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC021: Display username post-login",
+          "assertions": [
+            {"description": "Log in to Zoho.com with valid credentials"},
+            {"description": "Wait for dashboard or homepage to load"},
+            {"description": "Observe top navigation bar for the user name or avatar"},
+            {"description": "Click the profile icon to verify account menu details"},
+            {"description": "Expected: Logged-in user's name or email is displayed correctly in the top navigation (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC022: Logout functionality",
+          "assertions": [
+            {"description": "Log in to Zoho.com with valid credentials"},
+            {"description": "Click profile icon and select 'Logout'"},
+            {"description": "Verify redirection after logout"},
+            {"description": "Attempt to use browser back button to access restricted content"},
+            {"description": "Expected: User is logged out and redirected to homepage or login screen; no session retained (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC023: Session timeout validation",
+          "assertions": [
+            {"description": "Log in to Zoho.com"},
+            {"description": "Stay idle for configured timeout duration (e.g., 15–30 minutes)"},
+            {"description": "Attempt to navigate or refresh the page"},
+            {"description": "Expected: Session expires and user is prompted to re-login (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC024: Password reset via email",
+          "assertions": [
+            {"description": "Initiate 'Forgot Password' on the login screen"},
+            {"description": "Open registered email inbox"},
+            {"description": "Click the password reset link provided"},
+            {"description": "Enter and confirm new password"},
+            {"description": "Attempt login with updated credentials"},
+            {"description": "Expected: Password is successfully updated and user can log in with new credentials (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC025: Account deletion process",
+          "assertions": [
+            {"description": "Log in to Zoho.com with a valid test account"},
+            {"description": "Navigate to Account Settings > Privacy or Security section"},
+            {"description": "Click 'Delete Account' and follow confirmation steps"},
+            {"description": "Try logging in again after deletion"},
+            {"description": "Expected: Account is permanently deleted; subsequent logins fail with proper message (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC016: Request a Demo button validation",
+          "assertions": [
+            {"description": "Go to Zoho.com homepage or a product landing page (e.g., CRM)"},
+            {"description": "Click 'Request a Demo'"},
+            {"description": "Observe redirection or popup form behavior"},
+            {"description": "If a form appears, check required fields and submission behavior"},
+            {"description": "Expected: 'Request a Demo' button opens correct form or redirects user to demo booking page (Priority: Medium)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Product Discovery & Pages",
+      "assertion_count": 10,
+      "phases": [
+        {
+          "objective": "TC007: Product navigation flow (Zoho CRM)",
+          "assertions": [
+            {"description": "Open https://www.zoho.com"},
+            {"description": "Hover over 'Products' in top menu"},
+            {"description": "Select 'CRM' from dropdown"},
+            {"description": "Verify that the Zoho CRM product page loads correctly"},
+            {"description": "Expected: Zoho CRM product page loads with hero banner and call-to-action visible (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC026: Product card navigation on Products page",
+          "assertions": [
+            {"description": "Visit https://www.zoho.com/products.html or Products menu"},
+            {"description": "Click multiple product cards (e.g., CRM, Books, Mail)"},
+            {"description": "Observe page redirection and URL consistency"},
+            {"description": "Expected: Each product card links correctly to the corresponding product landing page (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC027: Zoho CRM feature tab functionality",
+          "assertions": [
+            {"description": "Go to https://www.zoho.com/crm/"},
+            {"description": "Click on feature tabs such as Overview, Features, and Pricing"},
+            {"description": "Verify content area updates with relevant data"},
+            {"description": "Scroll through each section"},
+            {"description": "Expected: Each feature tab dynamically loads correct information without page errors (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC028: Try Now button navigation",
+          "assertions": [
+            {"description": "On Zoho CRM product page, click 'Try Now' button"},
+            {"description": "Observe navigation or popup form"},
+            {"description": "Confirm it leads to signup or trial initiation process"},
+            {"description": "Expected: Clicking 'Try Now' initiates trial or redirects user to signup flow (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC029: Embedded product demo video playback",
+          "assertions": [
+            {"description": "Go to any Zoho product page containing an embedded video"},
+            {"description": "Click play on video element"},
+            {"description": "Verify playback starts and controls work (pause, mute, fullscreen)"},
+            {"description": "Observe buffering or playback quality"},
+            {"description": "Expected: Video plays without lag or error; user controls function correctly (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC030: Customer testimonial slider functionality",
+          "assertions": [
+            {"description": "Navigate to any product page with customer testimonials"},
+            {"description": "Click left/right navigation arrows"},
+            {"description": "Observe if new testimonials load"},
+            {"description": "Wait for automatic rotation if applicable"},
+            {"description": "Expected: Testimonials rotate automatically and manually with no visual glitches (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC032: Learn More links navigation",
+          "assertions": [
+            {"description": "Visit Zoho homepage or a product features section"},
+            {"description": "Click 'Learn More' under multiple feature descriptions"},
+            {"description": "Observe redirection and page content"},
+            {"description": "Expected: Each 'Learn More' link navigates to the relevant documentation or product detail page (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC033: Product screenshot gallery validation",
+          "assertions": [
+            {"description": "Visit a product page (e.g., Zoho Projects)"},
+            {"description": "Locate the image carousel or screenshot gallery"},
+            {"description": "Click or swipe through multiple images"},
+            {"description": "Observe transitions and responsiveness"},
+            {"description": "Expected: All screenshots load correctly and carousel navigation works smoothly (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC034: Back button navigation behavior",
+          "assertions": [
+            {"description": "Navigate from Products list to an individual product (e.g., CRM)"},
+            {"description": "Click the browser's back button"},
+            {"description": "Observe the navigation behavior and URL change"},
+            {"description": "Expected: User is returned to previous Products page without error or re-login prompt (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC035: Contact product team form",
+          "assertions": [
+            {"description": "Visit a specific Zoho product page (e.g., Books or Campaigns)"},
+            {"description": "Scroll to the contact or demo section"},
+            {"description": "Click 'Contact Sales' or 'Request Info'"},
+            {"description": "Fill in valid details and submit the form"},
+            {"description": "Expected: Contact form submission shows success message or confirmation prompt (Priority: Medium)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pricing & Checkout",
+      "assertion_count": 6,
+      "phases": [
+        {
+          "objective": "TC031: Compare plans table functionality",
+          "assertions": [
+            {"description": "Open the Pricing page for any Zoho product (e.g., https://www.zoho.com/crm/pricing.html)"},
+            {"description": "Scroll down to the 'Compare Plans' or 'Plan Comparison' section"},
+            {"description": "Click the button or tab labeled 'Compare Plans'"},
+            {"description": "Verify that a table with multiple plan tiers appears"},
+            {"description": "Check that scrolling and feature comparison work correctly"},
+            {"description": "Expected: Comparison table loads properly showing clear differences between plans (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC036: Pricing page content validation",
+          "assertions": [
+            {"description": "Go to a product's Pricing page (e.g., https://www.zoho.com/crm/pricing.html)"},
+            {"description": "Ensure all available plans (Free, Standard, Professional, Enterprise, etc.) are displayed"},
+            {"description": "Confirm pricing is visible for each plan tier"},
+            {"description": "Expected: All pricing tiers and details display accurately without missing data (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC037: Monthly and yearly billing toggle",
+          "assertions": [
+            {"description": "On a product Pricing page, locate billing cycle toggle (Monthly/Yearly)"},
+            {"description": "Switch between both options"},
+            {"description": "Observe price changes for each plan"},
+            {"description": "Verify displayed currency consistency"},
+            {"description": "Expected: Plan prices update correctly when toggling billing cycle (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC038: Buy Now button redirection",
+          "assertions": [
+            {"description": "On the Pricing page, click 'Buy Now' for a plan"},
+            {"description": "Wait for redirection to checkout or payment gateway"},
+            {"description": "Observe URL and SSL certificate"},
+            {"description": "Ensure form fields load correctly"},
+            {"description": "Expected: User is redirected securely to the checkout page for selected plan (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC039: Promo code field validation",
+          "assertions": [
+            {"description": "On the checkout page, locate the promo/coupon code input"},
+            {"description": "Enter a valid promo code and apply it"},
+            {"description": "Verify discount is applied to total price"},
+            {"description": "Enter an invalid code and verify error message"},
+            {"description": "Expected: Valid codes apply discounts correctly, and invalid codes display an appropriate error (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC040: Currency conversion validation",
+          "assertions": [
+            {"description": "On Pricing page, select different currencies (USD, EUR, INR)"},
+            {"description": "Observe price updates for all plans"},
+            {"description": "Check consistency in exchange rate and formatting"},
+            {"description": "Expected: Displayed plan prices update correctly to selected currency with accurate values (Priority: Medium)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Forms & User Input Validation",
+      "assertion_count": 5,
+      "phases": [
+        {
+          "objective": "TC008: Contact form submission",
+          "assertions": [
+            {"description": "Go to https://www.zoho.com/contact.html"},
+            {"description": "Fill Name, Email, and Message fields with valid data"},
+            {"description": "Click Submit"},
+            {"description": "Observe confirmation or error message"},
+            {"description": "Expected: Form submission returns success message or confirmation email (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC042: Support ticket submission",
+          "assertions": [
+            {"description": "Navigate to Zoho Support or Help Center"},
+            {"description": "Click 'Submit a Ticket' or 'Contact Support'"},
+            {"description": "Fill all required fields with valid data"},
+            {"description": "Submit the ticket and note confirmation message"},
+            {"description": "Expected: Support ticket is submitted successfully and confirmation is displayed (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC045: Error messages on invalid contact form inputs",
+          "assertions": [
+            {"description": "Go to Contact page"},
+            {"description": "Enter invalid email format or leave required fields empty"},
+            {"description": "Try submitting the form"},
+            {"description": "Expected: Proper error messages are displayed for invalid or missing inputs (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC060: Form input character limits enforcement",
+          "assertions": [
+            {"description": "On signup and contact forms, input data exceeding field length limits"},
+            {"description": "Attempt to submit the form"},
+            {"description": "Observe validation messages or input truncation"},
+            {"description": "Expected: Forms enforce character limits and prevent overflow errors (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC011: Homepage banner carousel rotation",
+          "assertions": [
+            {"description": "Open https://www.zoho.com"},
+            {"description": "Wait 10–15 seconds on the homepage"},
+            {"description": "Observe the main banner carousel"},
+            {"description": "Verify automatic rotation of slides"},
+            {"description": "Use navigation arrows or dots to switch manually"},
+            {"description": "Expected: Carousel slides change automatically and manually without lag or layout shifts (Priority: Low)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Responsive Design & Mobile Experience",
+      "assertion_count": 4,
+      "phases": [
+        {
+          "objective": "TC009: Responsive design test",
+          "assertions": [
+            {"description": "Open Zoho homepage"},
+            {"description": "Resize browser to desktop (1920x1080), tablet (768x1024), mobile (375x812)"},
+            {"description": "Observe header, text, and buttons across viewports"},
+            {"description": "Expected: Layout adjusts seamlessly without text overlap or broken layouts (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC043: Mobile navigation menu functionality",
+          "assertions": [
+            {"description": "Open Zoho.com on a mobile device or responsive emulator"},
+            {"description": "Tap on the hamburger menu icon"},
+            {"description": "Expand all menu items and submenus"},
+            {"description": "Tap to navigate to selected pages"},
+            {"description": "Expected: Mobile menu opens/closes smoothly and links navigate correctly (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC044: Mobile homepage layout validation",
+          "assertions": [
+            {"description": "Open Zoho.com homepage on mobile device"},
+            {"description": "Check header, banner, call-to-action buttons"},
+            {"description": "Scroll down and verify text and images adjust properly"},
+            {"description": "Expected: Homepage layout is responsive and user-friendly on mobile (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC049: Browser back and forward navigation test",
+          "assertions": [
+            {"description": "Navigate between multiple pages (e.g., Homepage → Products → CRM)"},
+            {"description": "Use browser back button to return to previous pages"},
+            {"description": "Use browser forward button to go ahead again"},
+            {"description": "Expected: Navigation through browser buttons works without errors or reload issues (Priority: Low)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Footer & Social Links",
+      "assertion_count": 5,
+      "phases": [
+        {
+          "objective": "TC010: Footer links validation",
+          "assertions": [
+            {"description": "Scroll to the footer of homepage"},
+            {"description": "Click each link (Privacy Policy, Terms of Service, etc.)"},
+            {"description": "Observe if links open correctly in new tab"},
+            {"description": "Expected: Each footer link opens respective policy page without broken links (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC046: Social media links validation",
+          "assertions": [
+            {"description": "Scroll to footer"},
+            {"description": "Click each social media icon (LinkedIn, Twitter, Facebook, etc.)"},
+            {"description": "Confirm links open the correct social page in a new tab"},
+            {"description": "Expected: Each social media icon redirects to Zoho's official pages correctly (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC047: Newsletter subscription with valid email",
+          "assertions": [
+            {"description": "Find newsletter subscription box on homepage or footer"},
+            {"description": "Enter a valid email and submit"},
+            {"description": "Observe confirmation or thank you message"},
+            {"description": "Expected: Subscription succeeds with confirmation displayed (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC048: Newsletter subscription with invalid email",
+          "assertions": [
+            {"description": "Enter invalid email format in subscription box"},
+            {"description": "Submit form"},
+            {"description": "Verify error message is displayed"},
+            {"description": "Expected: Proper validation prevents submission and shows error (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC050: Check 404 error page for invalid URLs",
+          "assertions": [
+            {"description": "Manually enter invalid URL (e.g., https://www.zoho.com/invalidpage)"},
+            {"description": "Observe error page content"},
+            {"description": "Look for link or button to return to homepage"},
+            {"description": "Expected: Custom 404 page loads with user-friendly message and homepage link (Priority: Low)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Support & Help Center",
+      "assertion_count": 2,
+      "phases": [
+        {
+          "objective": "TC041: Live chat support availability",
+          "assertions": [
+            {"description": "Open Zoho.com homepage"},
+            {"description": "Locate and click on the live chat icon (usually bottom right)"},
+            {"description": "Type a simple query and send"},
+            {"description": "Observe response time and chat functionality"},
+            {"description": "Expected: Live chat opens correctly and provides a response or automated message promptly (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC042: Support ticket submission",
+          "assertions": [
+            {"description": "Navigate to Zoho Support or Help Center"},
+            {"description": "Click 'Submit a Ticket' or 'Contact Support'"},
+            {"description": "Fill all required fields with valid data"},
+            {"description": "Submit the ticket and note confirmation message"},
+            {"description": "Expected: Support ticket is submitted successfully and confirmation is displayed (Priority: High)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Security & Error Handling",
+      "assertion_count": 3,
+      "phases": [
+        {
+          "objective": "TC051: HTTPS enforcement and SSL validation",
+          "assertions": [
+            {"description": "Navigate to https://www.zoho.com"},
+            {"description": "Verify the URL begins with HTTPS"},
+            {"description": "Click the padlock icon in the browser address bar"},
+            {"description": "Check certificate validity and issuer details"},
+            {"description": "Expected: Site uses valid SSL certificate and enforces HTTPS (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC052: Cross-site scripting (XSS) prevention on forms",
+          "assertions": [
+            {"description": "Access various forms (signup, contact, support ticket)"},
+            {"description": "Input common XSS payloads like `<script>alert(1)</script>` into text fields"},
+            {"description": "Submit forms and monitor page behavior"},
+            {"description": "Expected: Inputs are sanitized and no script execution occurs (Priority: High)"}
+          ]
+        },
+        {
+          "objective": "TC059: Check external link security (rel=noreferrer/noopener)",
+          "assertions": [
+            {"description": "Locate external links on site (social media, partners)"},
+            {"description": "Inspect anchor tags for rel='noopener noreferrer'"},
+            {"description": "Click links and ensure they open in new tabs securely"},
+            {"description": "Expected: External links open securely preventing potential tabnabbing (Priority: Low)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Accessibility Standards",
+      "assertion_count": 2,
+      "phases": [
+        {
+          "objective": "TC053: Keyboard navigation accessibility",
+          "assertions": [
+            {"description": "Open Zoho homepage"},
+            {"description": "Use Tab key to navigate through interactive elements"},
+            {"description": "Use Enter or Space to activate buttons and links"},
+            {"description": "Verify focus indicators are visible"},
+            {"description": "Expected: Full site navigation is possible with keyboard alone and focus states are clear (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC054: Screen reader compatibility",
+          "assertions": [
+            {"description": "Enable a screen reader (e.g., NVDA or VoiceOver)"},
+            {"description": "Navigate key pages (homepage, product page, signup)"},
+            {"description": "Verify page elements have proper ARIA labels and roles"},
+            {"description": "Listen for logical reading order"},
+            {"description": "Expected: Site content is accessible and understandable via screen readers (Priority: Medium)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Performance Optimization",
+      "assertion_count": 3,
+      "phases": [
+        {
+          "objective": "TC055: Page load time under 3 seconds",
+          "assertions": [
+            {"description": "Open Zoho homepage on a standard broadband connection"},
+            {"description": "Measure time from request initiation to full page load"},
+            {"description": "Repeat for key product pages"},
+            {"description": "Expected: Pages load fully within 3 seconds (Priority: Medium)"}
+          ]
+        },
+        {
+          "objective": "TC056: Responsive images and lazy loading",
+          "assertions": [
+            {"description": "Open product pages with many images"},
+            {"description": "Scroll through the page slowly"},
+            {"description": "Check if images load only as they come into viewport"},
+            {"description": "Expected: Images load on demand improving page performance (Priority: Low)"}
+          ]
+        },
+        {
+          "objective": "TC058: Cookie consent banner functionality",
+          "assertions": [
+            {"description": "Visit Zoho.com homepage with cleared cookies"},
+            {"description": "Observe if cookie consent banner appears"},
+            {"description": "Accept or reject cookies"},
+            {"description": "Refresh page and check banner persistence"},
+            {"description": "Expected: Cookie consent banner behaves as expected and stores user preference (Priority: Medium)"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SEO & Metadata",
+      "assertion_count": 1,
+      "phases": [
+        {
+          "objective": "TC057: Check for SEO meta tags presence",
+          "assertions": [
+            {"description": "Inspect page source for homepage and product pages"},
+            {"description": "Verify presence of title, description, keywords meta tags"},
+            {"description": "Confirm usage of canonical tags"},
+            {"description": "Expected: SEO meta tags are present and properly formatted (Priority: Low)"}
+          ]
+        }
+      ]
+    }
+  ]
+}
