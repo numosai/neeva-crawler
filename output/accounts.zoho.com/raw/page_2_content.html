@@ -1,0 +1,436 @@
+<html><head><title>Zoho Accounts</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://static.zohocdn.com/iam/v2/components/css/zohoPuvi.c86bbb480e4a4fbc379fd8e7298bbde5.css" rel="stylesheet" type="text/css"><style>
+body {
+width: 100%;
+margin: 0px;
+}
+.container {
+display: block;
+width: 70%;
+margin: auto;
+margin-top: 120px;
+}
+.zoho_logo {
+display: block;
+margin: auto;
+height: 40px;
+max-width: 200px;
+width: auto;
+background: url("https://static.zohocdn.com/iam/v2/components/images/newZoho_logo.5f6895fcb293501287eccaf0007b39a5.svg") no-repeat transparent;
+margin-bottom: 40px;
+background-position: center;
+}
+.error_img {
+display: block;
+height: 300px;
+margin-bottom: 40px;
+width: 100%;
+}
+.raodblock {
+background: url(https://static.zohocdn.com/iam/v2/components/images/roadblock.94f70c680f7cb06f480b33f958d02820.png) no-repeat transparent;
+background-size: auto 100%;
+background-position: center;
+}
+.heading {
+display: block;
+text-align: center;
+font-size: 24px;
+margin-bottom: 10px;
+line-height: 34px;
+font-weight: 600;
+}
+.discrption {
+display: block;
+width: 500px;
+margin: auto;
+text-align: center;
+font-size: 16px;
+margin-bottom: 10px;
+line-height: 24px;
+color: #444;
+}
+.refresh_btn {
+background-color: #1389E3;
+color: #fff;
+padding: 12px 30px;
+border-radius: 5px;
+font-size: 14px;
+cursor: pointer;
+width: fit-content;
+width: -moz-fit-content;
+width: -webkit-fit-content;
+font-weight: 600;
+margin: auto;
+margin-top: 30px;
+}
+.logout-wrapper {
+position: absolute;
+top: 25px;
+right: 50px;
+cursor: pointer;
+border: solid 1px #fff;
+border-radius: 8px;
+font-family: 'ZohoPuvi', sans-serif;
+font-size: 14px;
+transition: .3s width, .3s height;    
+z-index: 1;
+overflow:hidden;
+}
+.logout-wrapper:hover {
+border-color: #e0e0e0;
+background-color: #fbfcfc;
+}
+.logout-wrapper .name {
+position: absolute;
+top: 0px;
+right: 38px;
+margin: 0;
+line-height: 30px;
+display: block;
+transition: right .3s ease-out,top .3s ease-out;
+white-space:nowrap;
+}
+.logout-wrapper img {
+width: 30px;
+height: 30px;
+position: absolute;
+right: 0px;
+top: 0px;
+transition: all .3s ease-out;     
+border-radius: 50%;     
+}
+.logout-wrapper.open .name {
+font-size: 16px;
+font-weight: 500;
+top: 116px;
+line-height: 20px;
+text-overflow: unset;
+overflow:unset;
+width:260px;
+}
+.logout-wrapper.open img {
+width: 80px;
+height: 80px;
+top: 20px;
+}
+.logout-wrapper.open {
+border-color: #e0e0e0;
+background-color: #fbfcfc;
+box-shadow: 0px 0px 6px 8px #ececec85;   
+}
+p.muted {
+font-size: 12px;
+line-height: 14px;
+color: #5b6367;
+margin:0px;
+padding-top: 8px;
+}
+div.dc {
+padding: 10px 25px;
+background: #ffffff;
+border-top: solid 1px #e0e0e0;
+border-radius: 0px 0px 8px 8px;
+font-size: 10px;
+color: #5b6367;
+line-height: 16px;
+white-space: nowrap;
+}
+div.dc span {
+font-size: 16px;
+margin-right: 6px;
+vertical-align: middle;
+line-height: 1;
+}
+a.err-btn {
+background-color: #EF5E57;
+cursor: pointer;
+width: fit-content;
+width: -moz-fit-content;
+width: -webkit-fit-content;
+font-weight: 500;
+color: #fff;
+padding: 10px 30px;
+border-radius: 5px;
+font-size: 12px;
+border: none;
+margin: 20px auto;
+font-family: 'ZohoPuvi', sans-serif;
+text-decoration: none;
+display: block;
+}
+a.err-btn:focus, a.err-btn:focus-visible {
+outline: none;
+}
+.user-info {
+position: absolute;
+top: 0px;
+right: 0px;
+height: 30px;
+margin: 8px 24px;
+/* transition: all .3s; */
+}
+.more-info {
+position: absolute;
+visibility: hidden;
+top: 0px;
+text-align: center;
+transition: top .3s;    
+width: 100%;
+display: table;
+}
+.logout-wrapper.open .more-info {
+visibility: visible;
+top: 138px;
+right: 0px;
+min-width:300px;
+}
+.logout-wrapper.open .user-info {
+margin:0px;
+width:300px;
+}
+.text-ellipsis{
+width:160px;
+text-overflow:ellipsis;
+overflow:hidden;
+}
+.text-ellipsis-withoutWidth{
+text-overflow:ellipsis;
+overflow:hidden;
+}
+.logout-wrapper.open .name.white-spaces{
+white-space: break-spaces;
+text-align:center;
+}
+.max-width{
+max-width:260px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) , only screen and (
+min--moz-device-pixel-ratio: 2) , only screen and (
+-o-min-device-pixel-ratio: 2/1) , only screen and (
+min-device-pixel-ratio: 2) , only screen and ( min-resolution: 192dpi)
+, only screen and ( min-resolution: 2dppx) {
+.raodblock {
+background: url(https://static.zohocdn.com/iam/v2/components/images/roadblock@2x.91374380df32097beed18c88a3d287f2.png) no-repeat transparent;
+background-size: auto 100%;
+background-position: center;
+}
+}
+@media only screen and (max-width: 500px) {
+.container {
+width: 90%;
+margin-top: 80px;
+}
+.discrption {
+width: 100%;
+}
+.error_img {
+display: block;
+max-width: 340px;
+background-size: 100% auto;
+margin: auto;
+margin-bottom: 40px;
+}
+.heading {
+display: block;
+text-align: center;
+font-size: 20px;
+margin-bottom: 10px;
+line-height: 30px;
+font-weight: 600;
+}
+.discrption {
+display: block;
+margin: auto;
+text-align: center;
+font-size: 14px;
+margin-bottom: 10px;
+line-height: 24px;
+color: #444;
+}
+.user-info{
+margin:8px 12px;
+}
+.logout-wrapper{
+top:20px;
+right:10px;
+}
+.logout-wrapper{
+position : absolute;
+}
+.text-ellipsis{
+width:130px;
+}
+.logout-wrapper:hover {
+border-color: transparent;
+background-color: unset;
+}
+.logout-wrapper.open {
+border-color: #e0e0e0;
+background-color: #fbfcfc;
+}
+}
+</style></head>
+<body>
+<div class="logout-wrapper hide"><div class="user-info"><p class="name"></p>
+<img src="https://static.zohocdn.com/iam/v2/components/images/user_2.78c28d3c080a585ab12b5bdb1d3394f0.png"></div><div class="more-info"><p id="user-email" class="muted"></p>
+<a href="https://accounts.zoho.com/logout?servicename=AaaServer" class="err-btn">Sign Out</a></div></div><div class="container"><div class="zoho_logo"></div><div class="error_img raodblock"></div><div class="heading">Page not found</div><div class="discrption">The page you are trying to access doesn't exist. Please check if the URL is correct.</div>
+<div class="refresh_btn" id="home_redirection">Go to home page</div></div><footer id="footer" style="top: 732px;"> 
+<style>
+#footer
+{	
+width: 100%;
+height: 20px;
+font-size: 14px;
+color: #7C7C7C;
+position:absolute;
+left:0px;
+right:0px;
+margin:20px auto;
+text-align:center;
+font-size: 14px;
+bottom: 0px;
+line-height:24px;
+}
+#footer a
+{
+text-decoration:none;
+color: #7C7C7C;
+font-size: 14px;
+}
+@media only screen and (max-width: 435px) {
+#footer a,#footer,footer{	
+font-size: 12px !important;
+}
+}
+</style>
+<div style="padding:5px 0px;"><span> © 2025, <a href="http://www.zohocorp.com/" target="_blank" rel="noreferrer">Zoho Corporation Pvt. Ltd.</a> All Rights Reserved. </span></div>
+</footer> <script nonce="4xhKx9ocQrDYJBHyAcLtkw==" type="text/javascript">function setFooterPosition(){
+var container = document.getElementsByClassName("container")[0];
+var top_value = window.innerHeight-60;
+if(container && (container.offsetHeight+container.offsetTop+30)<top_value){
+document.getElementById("footer").style.top = top_value+"px"; // No I18N
+}
+else{
+document.getElementById("footer").style.top = container && (container.offsetHeight+container.offsetTop+30)+"px"; // No I18N
+}
+}
+window.addEventListener("resize",function(){
+setFooterPosition();
+});
+window.addEventListener("load",function(){
+
+document.getElementById('home_redirection').onclick=function(){window.location.href='/';}	// No I18N
+
+setFooterPosition();
+
+});
+
+function xhr() {
+var xmlhttp;
+if (window.XMLHttpRequest) {
+xmlhttp=new XMLHttpRequest();
+} else if(window.ActiveXObject) {
+try {
+xmlhttp=new ActiveXObject("Msxml2.XMLHTTP");
+}
+catch(e) {
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+}
+return xmlhttp;
+}
+function showLogout(){
+var objHTTP = xhr();
+objHTTP.open('GET', '/u/unauth/info', true);
+objHTTP.onreadystatechange=function() {
+if(objHTTP.readyState==4 && objHTTP.status === 200 ) {
+var info = objHTTP.responseText && JSON.parse(objHTTP.responseText);
+if(info && info.EMAIL_ID && info.DISPLAY_NAME){
+nameDom.innerHTML = info.DISPLAY_NAME;
+if(nameDom.offsetWidth > initialMaxWidth  ){
+overflow=true;
+nameDom.classList.add("text-ellipsis");	// No I18N
+}
+moreWrap.querySelector('#user-email').innerHTML = info.EMAIL_ID; // No I18N
+nameWidth = nameDom.offsetWidth;
+moreWrap.setAttribute('style','top:80px');
+userWrap.setAttribute('style','width:'+(nameDom.offsetWidth + 38)+'px;height:'+nameDom.offsetHeight+'px');
+if(checkIsMobile && window.innerWidth <= 500 ){
+nameDom.setAttribute('style','width:'+nameWidth+'px;height:'+(nameDom.offsetHeight)+'px;');
+userWrap.setAttribute('style','width:'+30+'px;height:'+nameDom.offsetHeight+'px');
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 24)+'px;height:'+(userWrap.offsetHeight+16)+'px;');
+nameDom.style.display="none";
+}
+else{
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 48)+'px;height:'+(userWrap.offsetHeight+16)+'px');	
+}
+logWrap.addEventListener('click', function(event) {
+event.stopPropagation();
+if(!event.target.classList.contains('err-btn')) {
+logWrap.classList.toggle('open');	// No I18N
+if(logWrap.classList.contains('open')) {
+var fullWidth =300;
+nameDom.style.display="block";
+nameDom.classList.remove("text-ellipsis");	// No I18N
+nameDom.style.width=(fullWidth-40)+'px';
+nameDom.style.right ="20px";	// No I18N
+nameDom.classList.add("white-spaces");	// No I18N
+imageWrap.style.right = ((moreWrap.offsetWidth/2) - 40) + "px";	// No I18N
+userWrap.setAttribute('style','width:'+fullWidth+'px;height:'+(138+(nameDom.offsetHeight-20))+'px');
+moreWrap.setAttribute('style','top:'+(138+(nameDom.offsetHeight-20))+'px;transition:all .3s ease-out');
+logWrap.setAttribute('style','width:'+fullWidth+'px;height:'+(userWrap.offsetHeight + moreWrap.offsetHeight)+'px');
+} else {
+moreWrap.setAttribute('style','top:80px;transition:none');
+nameDom.style.right = '38px';	// No I18N
+imageWrap.style.right = '0px';	// No I18N
+if(overflow){
+nameDom.style.width = "160px";
+nameDom.classList.add("text-ellipsis");	// No I18N
+}
+else{
+nameDom.style.width = nameWidth + 'px';
+}
+nameDom.classList.remove("white-spaces");	// No I18N
+userWrap.setAttribute('style','width:'+(nameDom.offsetWidth + 38)+'px;height:'+nameDom.offsetHeight+'px');
+if(checkIsMobile && window.innerWidth <= 500){
+nameDom.setAttribute('style','width:'+nameWidth+'px;height:'+(nameDom.offsetHeight)+'px;');
+userWrap.setAttribute('style','width:'+30+'px;height:'+nameDom.offsetHeight+'px');
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 24)+'px;height:'+(userWrap.offsetHeight+16)+'px;');
+nameDom.style.display="none";
+}
+else{
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 48)+'px;height:'+(userWrap.offsetHeight+16)+'px');	
+}
+}
+}
+});
+document.addEventListener('click', function(event) {
+if(!event.target.classList.contains('err-btn') && logWrap.classList.contains('open')) {
+moreWrap.setAttribute('style','top:80px');
+logWrap.classList.toggle('open');	// No I18N
+nameDom.style.right = '38px';		// No I18N
+imageWrap.style.right = '0px';		// No I18N
+if(overflow){
+nameDom.style.width = "160px";
+nameDom.classList.add("text-ellipsis");	// No I18N
+}
+else{
+nameDom.style.width = nameWidth + 'px';
+}
+nameDom.classList.remove("white-spaces");	// No I18N
+userWrap.setAttribute('style','width:'+(nameDom.offsetWidth + 38)+'px;height:'+nameDom.offsetHeight+'px');
+if(checkIsMobile && window.innerWidth <= 500){
+nameDom.setAttribute('style','width:'+nameWidth+'px;height:'+(nameDom.offsetHeight)+'px;');
+userWrap.setAttribute('style','width:'+30+'px;height:'+nameDom.offsetHeight+'px');
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 24)+'px;height:'+(userWrap.offsetHeight+16)+'px;');
+nameDom.style.display="none";
+}
+else{
+logWrap.setAttribute('style','width:'+(userWrap.offsetWidth + 48)+'px;height:'+(userWrap.offsetHeight+16)+'px');	
+}
+}
+});
+}
+}
+};
+objHTTP.send();
+}</script></body></html>

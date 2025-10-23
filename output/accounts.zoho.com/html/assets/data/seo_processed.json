@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "url": "https://accounts.zoho.com/signin?servicename=ZohoCRM",
+      "title": "Zoho Accounts",
+      "description": "Sign in to your Zoho account and access all your apps. If you don't have an account, you can sign up for one.",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (13 chars) - should be 30-60 characters",
+        "Meta description too short (109 chars)",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 55
+    },
+    {
+      "url": "https://accounts.zoho.com/{1}",
+      "title": "Zoho Accounts",
+      "description": "",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (13 chars) - should be 30-60 characters",
+        "Missing meta description",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Add meta description tag for better search snippets",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 40
+    },
+    {
+      "url": "https://accounts.zoho.com/logout?servicename=AaaServer",
+      "title": "Zoho Accounts",
+      "description": "Sign in to your Zoho account and access all your apps. If you don't have an account, you can sign up for one.",
+      "h1": "",
+      "h2_elements": [],
+      "h2_count": 0,
+      "issues": [
+        "Title too short (13 chars) - should be 30-60 characters",
+        "Meta description too short (109 chars)",
+        "Missing H1 tag",
+        "No H2 tags found"
+      ],
+      "recommendations": [
+        "Expand title tag to be more descriptive",
+        "Expand meta description to 120-160 characters",
+        "Add H1 tag for better content structure",
+        "Add H2 tags to improve content structure"
+      ],
+      "score": 55
+    }
+  ],
+  "summary": {
+    "total_pages": 3,
+    "total_issues": 12,
+    "avg_title_length": 13,
+    "avg_desc_length": 73,
+    "avg_score": 50.0
+  }
+}

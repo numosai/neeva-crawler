@@ -1,0 +1,49 @@
+WEBSITE SITEMAP
+==================================================
+
+Total Pages Crawled: 3
+Total Unique URLs: 4
+Total Links: 5
+
+PAGE DETAILS
+------------------------------
+
+1. Zoho Accounts
+   URL: https://accounts.zoho.com/signin?servicename=ZohoCRM
+   Page ID: page_1
+   Outgoing Links (2):
+     → No text: https://accounts.zoho.com/signin?servicename=ZohoCRM
+     → Learn more: https://accounts.zoho.com/{1}
+
+2. Zoho Accounts
+   URL: https://accounts.zoho.com/{1}
+   Page ID: page_2
+   Outgoing Links (1):
+     → Sign Out: https://accounts.zoho.com/logout?servicename=AaaServer
+   Incoming Links (2):
+     ← Learn more: https://accounts.zoho.com/signin?servicename=ZohoCRM
+     ← Learn more: https://accounts.zoho.com/logout?servicename=AaaServer
+
+3. Zoho Accounts
+   URL: https://accounts.zoho.com/logout?servicename=AaaServer
+   Page ID: page_3
+   Outgoing Links (2):
+     → No text: https://accounts.zoho.com/signin?servicename=AaaServer&serviceurl=%2Fhome
+     → Learn more: https://accounts.zoho.com/{1}
+   Incoming Links (1):
+     ← Sign Out: https://accounts.zoho.com/{1}
+
+NAVIGATION SUMMARY
+------------------------------
+
+Top Navigation Hubs (most outgoing links):
+  signin: 2 outgoing links
+  logout: 2 outgoing links
+  {1}: 1 outgoing links
+  signin: 0 outgoing links
+
+Most Referenced Pages (most incoming links):
+  {1}: 2 incoming links
+  signin: 1 incoming links
+  logout: 1 incoming links
+  signin: 1 incoming links

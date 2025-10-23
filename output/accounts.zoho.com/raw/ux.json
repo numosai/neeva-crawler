@@ -1,0 +1,59 @@
+{
+  "issues": [],
+  "recommendations": [],
+  "pages": [
+    {
+      "url": "https://accounts.zoho.com/signin?servicename=ZohoCRM",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://accounts.zoho.com/{1}",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "url": "https://accounts.zoho.com/logout?servicename=AaaServer",
+      "raw_data": [
+        {
+          "index": 0,
+          "error": true,
+          "tags": [
+            "error"
+          ],
+          "content": "litellm.AuthenticationError: GeminiException - {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"API key not valid. Please pass a valid API key.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"API_KEY_INVALID\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"service\": \"generativelanguage.googleapis.com\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.LocalizedMessage\",\n        \"locale\": \"en-US\",\n        \"message\": \"API key not valid. Please pass a valid API key.\"\n      }\n    ]\n  }\n}\n"
+        }
+      ],
+      "issues": [],
+      "recommendations": []
+    }
+  ],
+  "summary": {
+    "total_issues": 0,
+    "total_recommendations": 0,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 0,
+    "total_pages": 3
+  }
+}
