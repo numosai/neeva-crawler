@@ -1,0 +1,695 @@
+test_cases = [
+    {
+        "ID": "TC001",
+        "Title": "Homepage loads correctly",
+        "Steps": (
+            "1. Open https://www.zoho.com\n"
+            "2. Verify that the browser tab title contains 'Zoho'\n"
+            "3. Ensure main banner, header, and footer load fully\n"
+            "4. Confirm no broken links or images appear on page"
+        ),
+        "Expected Result": "Homepage loads successfully with title 'Zoho' and all UI elements visible",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC002",
+        "Title": "Navigation links work",
+        "Steps": (
+            "1. Go to https://www.zoho.com\n"
+            "2. Click each top navigation link (Products, Solutions, Customers, Pricing)\n"
+            "3. Observe navigation and page title after each click"
+        ),
+        "Expected Result": "Each navigation item redirects to the correct page without error",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC003",
+        "Title": "Products page loads",
+        "Steps": (
+            "1. From the homepage, click 'Products' in the main navigation\n"
+            "2. Wait for the page to load\n"
+            "3. Verify all Zoho product cards and logos are displayed correctly"
+        ),
+        "Expected Result": "Products page loads all Zoho applications without broken content",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC004",
+        "Title": "Homepage logo navigation",
+        "Steps": (
+            "1. Visit any subpage on Zoho.com (e.g., /mail/)\n"
+            "2. Click the Zoho logo at the top-left corner\n"
+            "3. Observe whether it navigates to homepage"
+        ),
+        "Expected Result": "User is redirected to https://www.zoho.com homepage",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC005",
+        "Title": "Free trial signup flow",
+        "Steps": (
+            "1. Open https://www.zoho.com\n"
+            "2. Click 'Free Sign Up' button\n"
+            "3. Fill in required fields (Name, Email, Password)\n"
+            "4. Submit the form and wait for next screen"
+        ),
+        "Expected Result": "Signup process completes with success or verification prompt",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC006",
+        "Title": "Zoho Mail login flow",
+        "Steps": (
+            "1. Navigate to https://www.zoho.com/mail/\n"
+            "2. Click 'Sign In'\n"
+            "3. Enter valid credentials (test account)\n"
+            "4. Click 'Sign In' and observe redirection"
+        ),
+        "Expected Result": "User is redirected to Zoho Mail dashboard successfully",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC007",
+        "Title": "Product navigation flow (Zoho CRM)",
+        "Steps": (
+            "1. Open https://www.zoho.com\n"
+            "2. Hover over 'Products' in top menu\n"
+            "3. Select 'CRM' from dropdown\n"
+            "4. Verify that the Zoho CRM product page loads correctly"
+        ),
+        "Expected Result": "Zoho CRM product page loads with hero banner and call-to-action visible",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC008",
+        "Title": "Contact form submission",
+        "Steps": (
+            "1. Go to https://www.zoho.com/contact.html\n"
+            "2. Fill Name, Email, and Message fields with valid data\n"
+            "3. Click Submit\n"
+            "4. Observe confirmation or error message"
+        ),
+        "Expected Result": "Form submission returns success message or confirmation email",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC009",
+        "Title": "Responsive design test",
+        "Steps": (
+            "1. Open Zoho homepage\n"
+            "2. Resize browser to desktop (1920x1080), tablet (768x1024), mobile (375x812)\n"
+            "3. Observe header, text, and buttons across viewports"
+        ),
+        "Expected Result": "Layout adjusts seamlessly without text overlap or broken layouts",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC010",
+        "Title": "Footer links validation",
+        "Steps": (
+            "1. Scroll to the footer of homepage\n"
+            "2. Click each link (Privacy Policy, Terms of Service, etc.)\n"
+            "3. Observe if links open correctly in new tab"
+        ),
+        "Expected Result": "Each footer link opens respective policy page without broken links",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC011",
+        "Title": "Homepage banner carousel rotation",
+        "Steps": (
+            "1. Open https://www.zoho.com\n"
+            "2. Wait 10–15 seconds on the homepage\n"
+            "3. Observe the main banner carousel\n"
+            "4. Verify automatic rotation of slides\n"
+            "5. Use navigation arrows or dots to switch manually"
+        ),
+        "Expected Result": "Carousel slides change automatically and manually without lag or layout shifts",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC012",
+        "Title": "Explore All Products button navigation",
+        "Steps": (
+            "1. On the homepage, locate and click 'Explore All Products'\n"
+            "2. Wait for page transition\n"
+            "3. Observe the product list display"
+        ),
+        "Expected Result": "'Explore All Products' button redirects user to the Products page showing all apps",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC013",
+        "Title": "Language selection functionality",
+        "Steps": (
+            "1. Locate language selector in the footer or header (if present)\n"
+            "2. Change language from English to another available language\n"
+            "3. Observe page reload and text updates"
+        ),
+        "Expected Result": "Website content updates to chosen language while layout remains consistent",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC014",
+        "Title": "Search functionality on homepage",
+        "Steps": (
+            "1. Open https://www.zoho.com\n"
+            "2. Locate search bar or icon\n"
+            "3. Enter the keyword 'CRM' and press Enter\n"
+            "4. Wait for results to load"
+        ),
+        "Expected Result": "Search results page lists CRM-related products and articles",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC015",
+        "Title": "Dropdown menu hover behavior",
+        "Steps": (
+            "1. Hover mouse over 'Products' and 'Solutions' in the top menu\n"
+            "2. Observe if submenus expand\n"
+            "3. Move the mouse away and ensure menu collapses"
+        ),
+        "Expected Result": "Dropdown submenus expand and collapse smoothly without freezing",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC016",
+        "Title": "Request a Demo button validation",
+        "Steps": (
+            "1. Go to Zoho.com homepage or a product landing page (e.g., CRM)\n"
+            "2. Click 'Request a Demo'\n"
+            "3. Observe redirection or popup form behavior\n"
+            "4. If a form appears, check required fields and submission behavior"
+        ),
+        "Expected Result": "'Request a Demo' button opens correct form or redirects user to demo booking page",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC017",
+        "Title": "Signup with already registered email",
+        "Steps": (
+            "1. Navigate to Zoho signup page via https://www.zoho.com/signup.html\n"
+            "2. Enter an email that is already registered\n"
+            "3. Fill all fields correctly and submit"
+        ),
+        "Expected Result": "System displays error message like 'Email already exists'",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC018",
+        "Title": "Password strength validation",
+        "Steps": (
+            "1. Go to signup form\n"
+            "2. Try passwords missing lowercase, uppercase, or special characters\n"
+            "3. Submit and observe error messages"
+        ),
+        "Expected Result": "Form displays password policy errors until a strong password is provided",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC019",
+        "Title": "Forgot password flow",
+        "Steps": (
+            "1. Go to Zoho login page\n"
+            "2. Click 'Forgot Password'\n"
+            "3. Enter a valid registered email\n"
+            "4. Submit form and check for confirmation message"
+        ),
+        "Expected Result": "Password reset email is sent with confirmation on screen",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC020",
+        "Title": "Invalid login attempt handling",
+        "Steps": (
+            "1. Navigate to Zoho login page\n"
+            "2. Enter invalid username and password\n"
+            "3. Click 'Sign In'\n"
+            "4. Observe feedback message"
+        ),
+        "Expected Result": "Login fails and user sees appropriate error message without revealing sensitive details",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC021",
+        "Title": "Display username post-login",
+        "Steps": (
+            "1. Log in to Zoho.com with valid credentials\n"
+            "2. Wait for dashboard or homepage to load\n"
+            "3. Observe top navigation bar for the user name or avatar\n"
+            "4. Click the profile icon to verify account menu details"
+        ),
+        "Expected Result": "Logged-in user’s name or email is displayed correctly in the top navigation",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC022",
+        "Title": "Logout functionality",
+        "Steps": (
+            "1. Log in to Zoho.com with valid credentials\n"
+            "2. Click profile icon and select 'Logout'\n"
+            "3. Verify redirection after logout\n"
+            "4. Attempt to use browser back button to access restricted content"
+        ),
+        "Expected Result": "User is logged out and redirected to homepage or login screen; no session retained",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC023",
+        "Title": "Session timeout validation",
+        "Steps": (
+            "1. Log in to Zoho.com\n"
+            "2. Stay idle for configured timeout duration (e.g., 15–30 minutes)\n"
+            "3. Attempt to navigate or refresh the page"
+        ),
+        "Expected Result": "Session expires and user is prompted to re-login",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC024",
+        "Title": "Password reset via email",
+        "Steps": (
+            "1. Initiate 'Forgot Password' on the login screen\n"
+            "2. Open registered email inbox\n"
+            "3. Click the password reset link provided\n"
+            "4. Enter and confirm new password\n"
+            "5. Attempt login with updated credentials"
+        ),
+        "Expected Result": "Password is successfully updated and user can log in with new credentials",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC025",
+        "Title": "Account deletion process",
+        "Steps": (
+            "1. Log in to Zoho.com with a valid test account\n"
+            "2. Navigate to Account Settings > Privacy or Security section\n"
+            "3. Click 'Delete Account' and follow confirmation steps\n"
+            "4. Try logging in again after deletion"
+        ),
+        "Expected Result": "Account is permanently deleted; subsequent logins fail with proper message",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC026",
+        "Title": "Product card navigation on Products page",
+        "Steps": (
+            "1. Visit https://www.zoho.com/products.html or Products menu\n"
+            "2. Click multiple product cards (e.g., CRM, Books, Mail)\n"
+            "3. Observe page redirection and URL consistency"
+        ),
+        "Expected Result": "Each product card links correctly to the corresponding product landing page",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC027",
+        "Title": "Zoho CRM feature tab functionality",
+        "Steps": (
+            "1. Go to https://www.zoho.com/crm/\n"
+            "2. Click on feature tabs such as Overview, Features, and Pricing\n"
+            "3. Verify content area updates with relevant data\n"
+            "4. Scroll through each section"
+        ),
+        "Expected Result": "Each feature tab dynamically loads correct information without page errors",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC028",
+        "Title": "Try Now button navigation",
+        "Steps": (
+            "1. On Zoho CRM product page, click 'Try Now' button\n"
+            "2. Observe navigation or popup form\n"
+            "3. Confirm it leads to signup or trial initiation process"
+        ),
+        "Expected Result": "Clicking 'Try Now' initiates trial or redirects user to signup flow",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC029",
+        "Title": "Embedded product demo video playback",
+        "Steps": (
+            "1. Go to any Zoho product page containing an embedded video\n"
+            "2. Click play on video element\n"
+            "3. Verify playback starts and controls work (pause, mute, fullscreen)\n"
+            "4. Observe buffering or playback quality"
+        ),
+        "Expected Result": "Video plays without lag or error; user controls function correctly",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC030",
+        "Title": "Customer testimonial slider functionality",
+        "Steps": (
+            "1. Navigate to any product page with customer testimonials\n"
+            "2. Click left/right navigation arrows\n"
+            "3. Observe if new testimonials load\n"
+            "4. Wait for automatic rotation if applicable"
+        ),
+        "Expected Result": "Testimonials rotate automatically and manually with no visual glitches",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC031",
+        "Title": "Compare plans table functionality",
+        "Steps": (
+            "1. Open the Pricing page for any Zoho product (e.g., https://www.zoho.com/crm/pricing.html)\n"
+            "2. Scroll down to the 'Compare Plans' or 'Plan Comparison' section\n"
+            "3. Click the button or tab labeled 'Compare Plans'\n"
+            "4. Verify that a table with multiple plan tiers appears\n"
+            "5. Check that scrolling and feature comparison work correctly"
+        ),
+        "Expected Result": "Comparison table loads properly showing clear differences between plans",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC032",
+        "Title": "Learn More links navigation",
+        "Steps": (
+            "1. Visit Zoho homepage or a product features section\n"
+            "2. Click 'Learn More' under multiple feature descriptions\n"
+            "3. Observe redirection and page content"
+        ),
+        "Expected Result": "Each 'Learn More' link navigates to the relevant documentation or product detail page",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC033",
+        "Title": "Product screenshot gallery validation",
+        "Steps": (
+            "1. Visit a product page (e.g., Zoho Projects)\n"
+            "2. Locate the image carousel or screenshot gallery\n"
+            "3. Click or swipe through multiple images\n"
+            "4. Observe transitions and responsiveness"
+        ),
+        "Expected Result": "All screenshots load correctly and carousel navigation works smoothly",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC034",
+        "Title": "Back button navigation behavior",
+        "Steps": (
+            "1. Navigate from Products list to an individual product (e.g., CRM)\n"
+            "2. Click the browser’s back button\n"
+            "3. Observe the navigation behavior and URL change"
+        ),
+        "Expected Result": "User is returned to previous Products page without error or re-login prompt",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC035",
+        "Title": "Contact product team form",
+        "Steps": (
+            "1. Visit a specific Zoho product page (e.g., Books or Campaigns)\n"
+            "2. Scroll to the contact or demo section\n"
+            "3. Click 'Contact Sales' or 'Request Info'\n"
+            "4. Fill in valid details and submit the form"
+        ),
+        "Expected Result": "Contact form submission shows success message or confirmation prompt",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC036",
+        "Title": "Pricing page content validation",
+        "Steps": (
+            "1. Go to a product’s Pricing page (e.g., https://www.zoho.com/crm/pricing.html)\n"
+            "2. Ensure all available plans (Free, Standard, Professional, Enterprise, etc.) are displayed\n"
+            "3. Confirm pricing is visible for each plan tier"
+        ),
+        "Expected Result": "All pricing tiers and details display accurately without missing data",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC037",
+        "Title": "Monthly and yearly billing toggle",
+        "Steps": (
+            "1. On a product Pricing page, locate billing cycle toggle (Monthly/Yearly)\n"
+            "2. Switch between both options\n"
+            "3. Observe price changes for each plan\n"
+            "4. Verify displayed currency consistency"
+        ),
+        "Expected Result": "Plan prices update correctly when toggling billing cycle",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC038",
+        "Title": "Buy Now button redirection",
+        "Steps": (
+            "1. On the Pricing page, click 'Buy Now' for a plan\n"
+            "2. Wait for redirection to checkout or payment gateway\n"
+            "3. Observe URL and SSL certificate\n"
+            "4. Ensure form fields load correctly"
+        ),
+        "Expected Result": "User is redirected securely to the checkout page for selected plan",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC039",
+        "Title": "Promo code field validation",
+        "Steps": (
+            "1. On the checkout page, locate the promo/coupon code input\n"
+            "2. Enter a valid promo code and apply it\n"
+            "3. Verify discount is applied to total price\n"
+            "4. Enter an invalid code and verify error message"
+        ),
+        "Expected Result": "Valid codes apply discounts correctly, and invalid codes display an appropriate error",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC040",
+        "Title": "Currency conversion validation",
+        "Steps": (
+            "1. On Pricing page, select different currencies (USD, EUR, INR)\n"
+            "2. Observe price updates for all plans\n"
+            "3. Check consistency in exchange rate and formatting"
+        ),
+        "Expected Result": "Displayed plan prices update correctly to selected currency with accurate values",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC041",
+        "Title": "Live chat support availability",
+        "Steps": (
+            "1. Open Zoho.com homepage\n"
+            "2. Locate and click on the live chat icon (usually bottom right)\n"
+            "3. Type a simple query and send\n"
+            "4. Observe response time and chat functionality"
+        ),
+        "Expected Result": "Live chat opens correctly and provides a response or automated message promptly",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC042",
+        "Title": "Support ticket submission",
+        "Steps": (
+            "1. Navigate to Zoho Support or Help Center\n"
+            "2. Click 'Submit a Ticket' or 'Contact Support'\n"
+            "3. Fill all required fields with valid data\n"
+            "4. Submit the ticket and note confirmation message"
+        ),
+        "Expected Result": "Support ticket is submitted successfully and confirmation is displayed",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC043",
+        "Title": "Mobile navigation menu functionality",
+        "Steps": (
+            "1. Open Zoho.com on a mobile device or responsive emulator\n"
+            "2. Tap on the hamburger menu icon\n"
+            "3. Expand all menu items and submenus\n"
+            "4. Tap to navigate to selected pages"
+        ),
+        "Expected Result": "Mobile menu opens/closes smoothly and links navigate correctly",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC044",
+        "Title": "Mobile homepage layout validation",
+        "Steps": (
+            "1. Open Zoho.com homepage on mobile device\n"
+            "2. Check header, banner, call-to-action buttons\n"
+            "3. Scroll down and verify text and images adjust properly"
+        ),
+        "Expected Result": "Homepage layout is responsive and user-friendly on mobile",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC045",
+        "Title": "Error messages on invalid contact form inputs",
+        "Steps": (
+            "1. Go to Contact page\n"
+            "2. Enter invalid email format or leave required fields empty\n"
+            "3. Try submitting the form"
+        ),
+        "Expected Result": "Proper error messages are displayed for invalid or missing inputs",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC046",
+        "Title": "Social media links validation",
+        "Steps": (
+            "1. Scroll to footer\n"
+            "2. Click each social media icon (LinkedIn, Twitter, Facebook, etc.)\n"
+            "3. Confirm links open the correct social page in a new tab"
+        ),
+        "Expected Result": "Each social media icon redirects to Zoho’s official pages correctly",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC047",
+        "Title": "Newsletter subscription with valid email",
+        "Steps": (
+            "1. Find newsletter subscription box on homepage or footer\n"
+            "2. Enter a valid email and submit\n"
+            "3. Observe confirmation or thank you message"
+        ),
+        "Expected Result": "Subscription succeeds with confirmation displayed",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC048",
+        "Title": "Newsletter subscription with invalid email",
+        "Steps": (
+            "1. Enter invalid email format in subscription box\n"
+            "2. Submit form\n"
+            "3. Verify error message is displayed"
+        ),
+        "Expected Result": "Proper validation prevents submission and shows error",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC049",
+        "Title": "Browser back and forward navigation test",
+        "Steps": (
+            "1. Navigate between multiple pages (e.g., Homepage → Products → CRM)\n"
+            "2. Use browser back button to return to previous pages\n"
+            "3. Use browser forward button to go ahead again"
+        ),
+        "Expected Result": "Navigation through browser buttons works without errors or reload issues",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC050",
+        "Title": "Check 404 error page for invalid URLs",
+        "Steps": (
+            "1. Manually enter invalid URL (e.g., https://www.zoho.com/invalidpage)\n"
+            "2. Observe error page content\n"
+            "3. Look for link or button to return to homepage"
+        ),
+        "Expected Result": "Custom 404 page loads with user-friendly message and homepage link",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC051",
+        "Title": "HTTPS enforcement and SSL validation",
+        "Steps": (
+            "1. Navigate to https://www.zoho.com\n"
+            "2. Verify the URL begins with HTTPS\n"
+            "3. Click the padlock icon in the browser address bar\n"
+            "4. Check certificate validity and issuer details"
+        ),
+        "Expected Result": "Site uses valid SSL certificate and enforces HTTPS",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC052",
+        "Title": "Cross-site scripting (XSS) prevention on forms",
+        "Steps": (
+            "1. Access various forms (signup, contact, support ticket)\n"
+            "2. Input common XSS payloads like `<script>alert(1)</script>` into text fields\n"
+            "3. Submit forms and monitor page behavior"
+        ),
+        "Expected Result": "Inputs are sanitized and no script execution occurs",
+        "Priority": "High"
+    },
+    {
+        "ID": "TC053",
+        "Title": "Keyboard navigation accessibility",
+        "Steps": (
+            "1. Open Zoho homepage\n"
+            "2. Use Tab key to navigate through interactive elements\n"
+            "3. Use Enter or Space to activate buttons and links\n"
+            "4. Verify focus indicators are visible"
+        ),
+        "Expected Result": "Full site navigation is possible with keyboard alone and focus states are clear",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC054",
+        "Title": "Screen reader compatibility",
+        "Steps": (
+            "1. Enable a screen reader (e.g., NVDA or VoiceOver)\n"
+            "2. Navigate key pages (homepage, product page, signup)\n"
+            "3. Verify page elements have proper ARIA labels and roles\n"
+            "4. Listen for logical reading order"
+        ),
+        "Expected Result": "Site content is accessible and understandable via screen readers",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC055",
+        "Title": "Page load time under 3 seconds",
+        "Steps": (
+            "1. Open Zoho homepage on a standard broadband connection\n"
+            "2. Measure time from request initiation to full page load\n"
+            "3. Repeat for key product pages"
+        ),
+        "Expected Result": "Pages load fully within 3 seconds",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC056",
+        "Title": "Responsive images and lazy loading",
+        "Steps": (
+            "1. Open product pages with many images\n"
+            "2. Scroll through the page slowly\n"
+            "3. Check if images load only as they come into viewport"
+        ),
+        "Expected Result": "Images load on demand improving page performance",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC057",
+        "Title": "Check for SEO meta tags presence",
+        "Steps": (
+            "1. Inspect page source for homepage and product pages\n"
+            "2. Verify presence of title, description, keywords meta tags\n"
+            "3. Confirm usage of canonical tags"
+        ),
+        "Expected Result": "SEO meta tags are present and properly formatted",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC058",
+        "Title": "Cookie consent banner functionality",
+        "Steps": (
+            "1. Visit Zoho.com homepage with cleared cookies\n"
+            "2. Observe if cookie consent banner appears\n"
+            "3. Accept or reject cookies\n"
+            "4. Refresh page and check banner persistence"
+        ),
+        "Expected Result": "Cookie consent banner behaves as expected and stores user preference",
+        "Priority": "Medium"
+    },
+    {
+        "ID": "TC059",
+        "Title": "Check external link security (rel=noreferrer/noopener)",
+        "Steps": (
+            "1. Locate external links on site (social media, partners)\n"
+            "2. Inspect anchor tags for rel='noopener noreferrer'\n"
+            "3. Click links and ensure they open in new tabs securely"
+        ),
+        "Expected Result": "External links open securely preventing potential tabnabbing",
+        "Priority": "Low"
+    },
+    {
+        "ID": "TC060",
+        "Title": "Form input character limits enforcement",
+        "Steps": (
+            "1. On signup and contact forms, input data exceeding field length limits\n"
+            "2. Attempt to submit the form\n"
+            "3. Observe validation messages or input truncation"
+        ),
+        "Expected Result": "Forms enforce character limits and prevent overflow errors",
+        "Priority": "Medium"
+    }
+]
